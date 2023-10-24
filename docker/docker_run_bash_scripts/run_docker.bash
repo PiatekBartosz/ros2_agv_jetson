@@ -1,10 +1,9 @@
-# TODO change it later, not secure
 xhost local:root
 
 XAUTH=/tmp/.docker.xauth
-
+ 
 docker run -it \
-    --name=ROS2_container \
+    --name=ros2_gui_humble \
     --env="DISPLAY=$DISPLAY" \
     --env="QT_X11_NO_MITSHM=1" \
     --volume="/tmp/.X11-unix:/tmp/.X11-unix:rw" \
@@ -12,7 +11,7 @@ docker run -it \
     --volume="$XAUTH:$XAUTH" \
     --net=host \
     --privileged \
-    haiderabbasi333/ros2-pathplanning-course:1 \
+    ros2_gui:humble-desktop-full \
     bash
 
 echo "Done."
