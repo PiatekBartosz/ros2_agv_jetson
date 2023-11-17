@@ -14,5 +14,4 @@ docker run -it \
     --runtime=nvidia \
     ros2_gui:1 \
     bash
-
 echo "Done."
