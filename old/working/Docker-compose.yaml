@@ -1,0 +1,15 @@
+version: '3.4'
+
+services:
+  ros_pointcloud_agv:
+    image: ros_pointcloud_agv_ws
+    network_mode: "host"
+    privileged: true
+    volumes:
+      - ~/ws:/ws
+      - /etc/localtime:/etc/localtime:ro
+      - /etc/timezone:/etc/timezone:ro
+    build:
+      context: .
+      dockerfile: ./ROS2_foxy.Dockerfile
+    command: /bin/sh -c "while sleep 1000; do :; done"

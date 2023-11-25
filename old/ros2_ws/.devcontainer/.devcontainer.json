@@ -2,8 +2,9 @@
     "name": "ROS_PointCloud_AGV", 
     "service": "ROS_PointCloud_AGV",
     "dockerComposeFile": "./Docker-compose.yaml",
-    "extensions": [
+    "customizations/vscode/extensions": [
         "ms-iot.vscode-ros"
+
     ],
     "workspaceFolder": "/ws"
 }
