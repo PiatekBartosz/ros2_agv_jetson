@@ -26,5 +26,3 @@ RUN apt-get update && \
 # download repo
 RUN mkdir ~/ws \
     cd ~/ws
-
-RUN git clone https://github.com/PiatekBartosz/ROS_PointCloud_AGV.git
