@@ -1,5 +1,5 @@
 def main():
-    print('Hi from my_package.')
+    print('Hi from sensor_package.')
 
 
 if __name__ == '__main__':

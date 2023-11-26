@@ -1,6 +1,6 @@
 from setuptools import setup
 
-package_name = 'my_package'
+package_name = 'sensor_package'
 
 setup(
     name=package_name,
@@ -20,7 +20,7 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            'my_node = my_package.my_node:main'
+            'oakd_publisher = sensor_package.oakd_publisher:main'
         ],
     },
 )
