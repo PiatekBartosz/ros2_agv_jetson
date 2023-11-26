@@ -2,9 +2,17 @@
     "name": "agvcore",
     "service": "agvcore",
     "dockerComposeFile": "docker-compose.yml",
-    "extensions": [
-        "ms-iot.vscode-ros"
-    ],
+    {
+        "customizations": {
+            "workspaceFolder": "/ws"
+        }
+    },
+        "vscode": {
+            "extensions": [
+                "ms-iot.vscode-ros"
+            ]
+        }
+    },
     "workspaceFolder": "/ws"
     
 }
