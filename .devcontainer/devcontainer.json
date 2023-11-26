@@ -1,20 +1,49 @@
 {
     "name": "agvcore",
-    "privileged": true,
+    "dockerFile": "./Dockerfile",
+    "remoteUser": "USERNAME",
+
     "build": {
-        "dockerfile": "./Dockerfile",
-        "args": {
-            "USERNAME": "USERNAME"
+        "args": {"BUILD_SEQUENTIAL": "1",
         }
     },
+
+    "runArgs": [
+		"--device=/dev/ttyUSB0",
+		"--privileged",
+		"--network=host",
+		"--cap-add=SYS_PTRACE",
+		"--security-opt=seccomp:unconfined",
+		"--security-opt=apparmor:unconfined",
+		"--volume=/dev:/dev",
+		// "--volume=/tmp/.X11-unix:/tmp/.X11-unix"
+    ],
+
+    // used for GUI programs like RVIZ / QT
+    // "containerEnv": {"DISLAY": "${localEnv:DISPLAY"},
+
     "customizations": {
         "vscode": {
             "extensions":[
                 "ms-vscode.cpptools",
                 "ms-vscode.cpptools-themes",
-                "ms-iot.vscode-ros"
-            ]
+                "ms-iot.vscode-ros",
+                "dotjoshjohnson.xml",
+                "ms-azuretools.vscode-docker",
+                "ms-python.python",
+                "redhat.vscode-yaml",
+                "smilerobotics.urdf",
+                "streetsidesoftware.code-spell-checker",
+                "twxs.cmake",
+                "yzhang.markdown-all-in-one",
+                "augustocdias.tasks-shell-input"
+            ],
+            "settings":{
+                "terminal.integrated.profiles.linux": {
+                    "bash": {
+                        "path": "bash"
+                    }
+            }
         }
-    },
-    "workspaceFolder": "/home/jetson-agv/ws/ROS_PointCloud_AGV"
+    }
 }

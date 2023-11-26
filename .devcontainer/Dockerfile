@@ -1,11 +1,16 @@
 FROM dustynv/ros:foxy-ros-base-l4t-r32.7.1
+# FROM dustynv/ros:humble-pytorch-l4t-r32.7.1
 
-# ENV variables
+ENV ROS_DISTRO=foxy 
 ARG USERNAME=USERNAME
 ARG USER_UID=1000
 ARG USER_GID=$USER_UID
+ARG BUILD_SEQUENTIAL=0
 
-ENV ROS_DISTRO=foxy
+ENV WS=/ws
+RUN mkdir -p ${WS}/src
+COPY ./ .$WS/src/agv-core
+RUN cd .$WS/ && rosdep install --from-paths src --ignore-src  -y
 
 RUN groupadd --gid $USER_GID $USERNAME \
     && useradd --uid $USER_UID --gid $USER_GID -m $USERNAME \
@@ -13,32 +18,20 @@ RUN groupadd --gid $USER_GID $USERNAME \
     && apt-get install -y sudo \
     && echo $USERNAME ALL=\(root\) NOPASSWD:ALL > /etc/sudoers.d/$USERNAME \
     && chmod 0440 /etc/sudoers.d/$USERNAME
+
 RUN apt-get update && apt-get upgrade -y
 RUN apt-get install -y python3-pip
-ENV SHELL /bin/bash
 
-# RUN apt-get update && \
-#     apt dist-upgrade -y && \
-#     apt-get install -y --no-install-recommends \
-#     python-is-python3 \
-# 	libopencv-dev \
-# 	python3-opencv \
-#     libboost-all-dev \
-#     openssl \
-#     git \
-#     gdb \
-# 	i2c-tools \
-#     libcurl4-openssl-dev \
-#     libssl-dev \
-#     curl \ 
-#     ros-foxy-imu-tools \
-#     ros-foxy-teleop-twist-joy \
-#     ros-foxy-rosbridge-server \
-#     libi2c-dev \
-#     ros-foxy-image-transport
-# download repo
-# RUN mkdir ~/ws \
-    # cd ~/ws
+RUN apt-get update \
+   && apt-get -y install --no-install-recommends \
+   software-properties-common git libusb-1.0-0-dev \
+   wget python3-colcon-common-extensions
 
-USER $USERNAME
+# TODO test this 
+RUN echo 'SUBSYSTEM=="usb", ATTRS{idVendor}=="03e7", MODE="0666"' | sudo tee /etc/udev/rules.d/80-movidius.rules
+RUN sudo udevadm control --reload-rules && sudo udevadm trigger
+RUN sudo apt install ros-<distro>-depthai-ros
+
+RUN source /opt/ros/foxy/install/setup.bash
+
 CMD ["/bin/bash"]
