@@ -1,0 +1,20 @@
+{
+    "name": "agvcore",
+    "privileged": true,
+    "build": {
+        "dockerfile": "./Dockerfile",
+        "args": {
+            "USERNAME": "USERNAME"
+        }
+    },
+    "customizations": {
+        "vscode": {
+            "extensions":[
+                "ms-vscode.cpptools",
+                "ms-vscode.cpptools-themes",
+                "ms-iot.vscode-ros"
+            ]
+        }
+    },
+    "workspaceFolder": "/home/jetson-agv/ws/ROS_PointCloud_AGV"
+}
