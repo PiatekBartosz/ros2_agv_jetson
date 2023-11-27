@@ -1,6 +1,14 @@
 # ROS_PointCloud_AGV
 
-# Base docker containers
+## Used ROS2 base containers
+The base container for agv-core (ros2 for Jetson Nano located in the robot chasis)
+```
+    dustynv/ros:foxy-ros-base-l4t-r32.7.1
+```
 
-base container for arm64: https://catalog.ngc.nvidia.com/orgs/nvidia/containers/l4t-jetpack
-base container for amd64: # TODO
+The base container for visualization on PC (RVIZ)
+```
+    osrf/ros:foxy-desktopk 
+```
+
+## System setup

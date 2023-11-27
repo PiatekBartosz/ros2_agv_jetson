@@ -27,10 +27,9 @@ RUN apt-get update \
    software-properties-common git libusb-1.0-0-dev \
    wget python3-colcon-common-extensions
 
-# TODO test this 
-RUN echo 'SUBSYSTEM=="usb", ATTRS{idVendor}=="03e7", MODE="0666"' | sudo tee /etc/udev/rules.d/80-movidius.rules
-RUN sudo udevadm control --reload-rules && sudo udevadm trigger
-RUN sudo apt install ros-<distro>-depthai-ros
+# install this manualy, they are problematic
+# RUN pip install depthai -y
+# RUN apt install python3-opencv
 
 RUN source /opt/ros/foxy/install/setup.bash
 
