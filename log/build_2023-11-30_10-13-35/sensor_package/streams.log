@@ -1,0 +1,41 @@
+[3.642s] Invoking command in '/workspaces/ROS_PointCloud_AGV/src/sensor_package': PYTHONPATH=/workspaces/ROS_PointCloud_AGV/build/sensor_package/prefix_override:/workspaces/ROS_PointCloud_AGV/install/sensor_package/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/sensor_package build --build-base /workspaces/ROS_PointCloud_AGV/build/sensor_package/build install --record /workspaces/ROS_PointCloud_AGV/build/sensor_package/install.log --install-scripts $base/lib/sensor_package --single-version-externally-managed
+[4.739s] /usr/local/lib/python3.6/dist-packages/setuptools/dist.py:726: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[4.740s]   % (opt, underscore_opt)
+[4.898s] running egg_info
+[4.902s] creating ../../build/sensor_package/sensor_package.egg-info
+[4.903s] writing ../../build/sensor_package/sensor_package.egg-info/PKG-INFO
+[4.904s] writing dependency_links to ../../build/sensor_package/sensor_package.egg-info/dependency_links.txt
+[4.904s] writing entry points to ../../build/sensor_package/sensor_package.egg-info/entry_points.txt
+[4.905s] writing requirements to ../../build/sensor_package/sensor_package.egg-info/requires.txt
+[4.905s] writing top-level names to ../../build/sensor_package/sensor_package.egg-info/top_level.txt
+[4.914s] writing manifest file '../../build/sensor_package/sensor_package.egg-info/SOURCES.txt'
+[4.921s] reading manifest file '../../build/sensor_package/sensor_package.egg-info/SOURCES.txt'
+[4.927s] writing manifest file '../../build/sensor_package/sensor_package.egg-info/SOURCES.txt'
+[4.927s] running build
+[4.928s] running build_py
+[4.928s] creating /workspaces/ROS_PointCloud_AGV/build/sensor_package/build
+[4.929s] creating /workspaces/ROS_PointCloud_AGV/build/sensor_package/build/lib
+[4.932s] creating /workspaces/ROS_PointCloud_AGV/build/sensor_package/build/lib/sensor_package
+[4.933s] copying sensor_package/__init__.py -> /workspaces/ROS_PointCloud_AGV/build/sensor_package/build/lib/sensor_package
+[4.933s] copying sensor_package/oakd_publisher.py -> /workspaces/ROS_PointCloud_AGV/build/sensor_package/build/lib/sensor_package
+[4.934s] running install
+[4.935s] /usr/local/lib/python3.6/dist-packages/setuptools/command/install.py:37: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[4.935s]   setuptools.SetuptoolsDeprecationWarning,
+[4.936s] running install_lib
+[4.939s] creating /workspaces/ROS_PointCloud_AGV/install/sensor_package/lib/python3.6/site-packages/sensor_package
+[4.940s] copying /workspaces/ROS_PointCloud_AGV/build/sensor_package/build/lib/sensor_package/__init__.py -> /workspaces/ROS_PointCloud_AGV/install/sensor_package/lib/python3.6/site-packages/sensor_package
+[4.940s] copying /workspaces/ROS_PointCloud_AGV/build/sensor_package/build/lib/sensor_package/oakd_publisher.py -> /workspaces/ROS_PointCloud_AGV/install/sensor_package/lib/python3.6/site-packages/sensor_package
+[4.942s] byte-compiling /workspaces/ROS_PointCloud_AGV/install/sensor_package/lib/python3.6/site-packages/sensor_package/__init__.py to __init__.cpython-36.pyc
+[4.942s] byte-compiling /workspaces/ROS_PointCloud_AGV/install/sensor_package/lib/python3.6/site-packages/sensor_package/oakd_publisher.py to oakd_publisher.cpython-36.pyc
+[4.943s] running install_data
+[4.945s] creating /workspaces/ROS_PointCloud_AGV/install/sensor_package/share/ament_index
+[4.946s] creating /workspaces/ROS_PointCloud_AGV/install/sensor_package/share/ament_index/resource_index
+[4.946s] creating /workspaces/ROS_PointCloud_AGV/install/sensor_package/share/ament_index/resource_index/packages
+[4.947s] copying resource/sensor_package -> /workspaces/ROS_PointCloud_AGV/install/sensor_package/share/ament_index/resource_index/packages
+[4.947s] copying package.xml -> /workspaces/ROS_PointCloud_AGV/install/sensor_package/share/sensor_package
+[4.948s] running install_egg_info
+[4.953s] Copying ../../build/sensor_package/sensor_package.egg-info to /workspaces/ROS_PointCloud_AGV/install/sensor_package/lib/python3.6/site-packages/sensor_package-0.0.0-py3.6.egg-info
+[4.957s] running install_scripts
+[5.040s] Installing oakd_publisher script to /workspaces/ROS_PointCloud_AGV/install/sensor_package/lib/sensor_package
+[5.041s] writing list of installed files to '/workspaces/ROS_PointCloud_AGV/build/sensor_package/install.log'
+[5.152s] Invoked command in '/workspaces/ROS_PointCloud_AGV/src/sensor_package' returned '0': PYTHONPATH=/workspaces/ROS_PointCloud_AGV/build/sensor_package/prefix_override:/workspaces/ROS_PointCloud_AGV/install/sensor_package/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/sensor_package build --build-base /workspaces/ROS_PointCloud_AGV/build/sensor_package/build install --record /workspaces/ROS_PointCloud_AGV/build/sensor_package/install.log --install-scripts $base/lib/sensor_package --single-version-externally-managed

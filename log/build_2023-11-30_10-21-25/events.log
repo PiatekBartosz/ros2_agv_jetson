@@ -1,0 +1,81 @@
+[0.000000] (-) TimerEvent: {}
+[0.001910] (sensor_package) JobQueued: {'identifier': 'sensor_package', 'dependencies': OrderedDict()}
+[0.002535] (sensor_package) JobStarted: {'identifier': 'sensor_package'}
+[0.092251] (-) TimerEvent: {}
+[0.193560] (-) TimerEvent: {}
+[0.295145] (-) TimerEvent: {}
+[0.396164] (-) TimerEvent: {}
+[0.497302] (-) TimerEvent: {}
+[0.598367] (-) TimerEvent: {}
+[0.699405] (-) TimerEvent: {}
+[0.800192] (-) TimerEvent: {}
+[0.900970] (-) TimerEvent: {}
+[1.001736] (-) TimerEvent: {}
+[1.102519] (-) TimerEvent: {}
+[1.203304] (-) TimerEvent: {}
+[1.304026] (-) TimerEvent: {}
+[1.404773] (-) TimerEvent: {}
+[1.505632] (-) TimerEvent: {}
+[1.606806] (-) TimerEvent: {}
+[1.707711] (-) TimerEvent: {}
+[1.808493] (-) TimerEvent: {}
+[1.909277] (-) TimerEvent: {}
+[2.009992] (-) TimerEvent: {}
+[2.110676] (-) TimerEvent: {}
+[2.211446] (-) TimerEvent: {}
+[2.312187] (-) TimerEvent: {}
+[2.412930] (-) TimerEvent: {}
+[2.513643] (-) TimerEvent: {}
+[2.614356] (-) TimerEvent: {}
+[2.715067] (-) TimerEvent: {}
+[2.815816] (-) TimerEvent: {}
+[2.916500] (-) TimerEvent: {}
+[3.020248] (-) TimerEvent: {}
+[3.120999] (-) TimerEvent: {}
+[3.221747] (-) TimerEvent: {}
+[3.322492] (-) TimerEvent: {}
+[3.424985] (-) TimerEvent: {}
+[3.526820] (-) TimerEvent: {}
+[3.579282] (sensor_package) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/sensor_package', 'build', '--build-base', '/workspaces/ROS_PointCloud_AGV/build/sensor_package/build', 'install', '--record', '/workspaces/ROS_PointCloud_AGV/build/sensor_package/install.log', '--install-scripts', '$base/lib/sensor_package', '--single-version-externally-managed'], 'cwd': '/workspaces/ROS_PointCloud_AGV/src/sensor_package', 'env': {'OPENBLAS_CORETYPE': 'ARMV8', 'PYTHONIOENCODING': 'utf-8', 'WS': '/ws', 'HOSTNAME': 'jetsonagv-desktop', 'GIT_ASKPASS': '/vscode/vscode-server/bin/linux-arm64/1a5daa3a0231a0fbba4f14db7ec463cf99d7768e/extensions/git/dist/askpass.sh', 'LD_LIBRARY_PATH': '/opt/ros/foxy/install/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/install/lib:/usr/local/cuda-10.2/targets/aarch64-linux/lib:', 'BROWSER': '/vscode/vscode-server/bin/linux-arm64/1a5daa3a0231a0fbba4f14db7ec463cf99d7768e/bin/helpers/browser.sh', 'SHLVL': '2', 'HOME': '/home/USERNAME', 'TERM_PROGRAM_VERSION': '1.84.2', 'VSCODE_IPC_HOOK_CLI': '/tmp/vscode-ipc-fda292dd-b049-49ce-b1c1-cb64d5d0746f.sock', 'VSCODE_GIT_ASKPASS_MAIN': '/vscode/vscode-server/bin/linux-arm64/1a5daa3a0231a0fbba4f14db7ec463cf99d7768e/extensions/git/dist/askpass-main.js', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_NODE': '/vscode/vscode-server/bin/linux-arm64/1a5daa3a0231a0fbba4f14db7ec463cf99d7768e/node', 'REMOTE_CONTAINERS': 'true', 'COLORTERM': 'truecolor', 'COLCON_PREFIX_PATH': '/opt/ros/foxy/install', 'ROS_DISTRO': 'foxy', 'REMOTE_CONTAINERS_IPC': '/tmp/vscode-remote-containers-ipc-8626a973-a082-4eb2-9c0f-1ef385a833c4.sock', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'NVIDIA_DRIVER_CAPABILITIES': 'all', 'PKG_CONFIG_PATH': '/opt/ros/foxy/install/lib/aarch64-linux-gnu/pkgconfig:/opt/ros/foxy/install/lib/pkgconfig', 'TERM': 'xterm-256color', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/foxy/install/bin:/vscode/vscode-server/bin/linux-arm64/1a5daa3a0231a0fbba4f14db7ec463cf99d7768e/bin/remote-cli:/usr/local/cuda-10.2/bin:/usr/local/cuda/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'DISPLAY': ':2', 'REMOTE_CONTAINERS_SOCKETS': '["/tmp/vscode-ssh-auth-8626a973-a082-4eb2-9c0f-1ef385a833c4.sock","/tmp/.X11-unix/X2","/home/USERNAME/.gnupg/S.gpg-agent"]', 'LANG': 'en_US.UTF-8', 'RMW_IMPLEMENTATION': 'rmw_cyclonedds_cpp', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'TERM_PROGRAM': 'vscode', 'ROS_ROOT': '/opt/ros/foxy', 'VSCODE_GIT_IPC_HANDLE': '/tmp/vscode-git-1db7faff83.sock', 'AMENT_PREFIX_PATH': '/opt/ros/foxy/install', 'SSH_AUTH_SOCK': '/tmp/vscode-ssh-auth-8626a973-a082-4eb2-9c0f-1ef385a833c4.sock', 'REMOTE_CONTAINERS_DISPLAY_SOCK': '/tmp/.X11-unix/X2', 'DEBIAN_FRONTEND': 'noninteractive', 'SHELL': '/bin/bash', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/workspaces/ROS_PointCloud_AGV/build/sensor_package', 'PYTHONPATH': '/workspaces/ROS_PointCloud_AGV/build/sensor_package/prefix_override:/workspaces/ROS_PointCloud_AGV/install/sensor_package/lib/python3.6/site-packages:/opt/ros/foxy/install/lib/python3.6/site-packages', 'NVIDIA_VISIBLE_DEVICES': 'all', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/opt/ros/foxy/install'}, 'shell': False}
+[3.627080] (-) TimerEvent: {}
+[3.727927] (-) TimerEvent: {}
+[3.828689] (-) TimerEvent: {}
+[3.929419] (-) TimerEvent: {}
+[4.030182] (-) TimerEvent: {}
+[4.130953] (-) TimerEvent: {}
+[4.231723] (-) TimerEvent: {}
+[4.332449] (-) TimerEvent: {}
+[4.433247] (-) TimerEvent: {}
+[4.533998] (-) TimerEvent: {}
+[4.634727] (-) TimerEvent: {}
+[4.701461] (sensor_package) StderrLine: {'line': b"/usr/local/lib/python3.6/dist-packages/setuptools/dist.py:726: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead\n"}
+[4.702396] (sensor_package) StderrLine: {'line': b'  % (opt, underscore_opt)\n'}
+[4.734948] (-) TimerEvent: {}
+[4.835703] (-) TimerEvent: {}
+[4.864488] (sensor_package) StdoutLine: {'line': b'running egg_info\n'}
+[4.868328] (sensor_package) StdoutLine: {'line': b'writing ../../build/sensor_package/sensor_package.egg-info/PKG-INFO\n'}
+[4.870654] (sensor_package) StdoutLine: {'line': b'writing dependency_links to ../../build/sensor_package/sensor_package.egg-info/dependency_links.txt\n'}
+[4.871596] (sensor_package) StdoutLine: {'line': b'writing entry points to ../../build/sensor_package/sensor_package.egg-info/entry_points.txt\n'}
+[4.872373] (sensor_package) StdoutLine: {'line': b'writing requirements to ../../build/sensor_package/sensor_package.egg-info/requires.txt\n'}
+[4.873028] (sensor_package) StdoutLine: {'line': b'writing top-level names to ../../build/sensor_package/sensor_package.egg-info/top_level.txt\n'}
+[4.884941] (sensor_package) StdoutLine: {'line': b"reading manifest file '../../build/sensor_package/sensor_package.egg-info/SOURCES.txt'\n"}
+[4.891738] (sensor_package) StdoutLine: {'line': b"writing manifest file '../../build/sensor_package/sensor_package.egg-info/SOURCES.txt'\n"}
+[4.892505] (sensor_package) StdoutLine: {'line': b'running build\n'}
+[4.893128] (sensor_package) StdoutLine: {'line': b'running build_py\n'}
+[4.893762] (sensor_package) StdoutLine: {'line': b'running install\n'}
+[4.894411] (sensor_package) StderrLine: {'line': b'/usr/local/lib/python3.6/dist-packages/setuptools/command/install.py:37: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[4.894899] (sensor_package) StderrLine: {'line': b'  setuptools.SetuptoolsDeprecationWarning,\n'}
+[4.895748] (sensor_package) StdoutLine: {'line': b'running install_lib\n'}
+[4.900079] (sensor_package) StdoutLine: {'line': b'running install_data\n'}
+[4.902027] (sensor_package) StdoutLine: {'line': b'running install_egg_info\n'}
+[4.908609] (sensor_package) StdoutLine: {'line': b"removing '/workspaces/ROS_PointCloud_AGV/install/sensor_package/lib/python3.6/site-packages/sensor_package-0.0.0-py3.6.egg-info' (and everything under it)\n"}
+[4.910016] (sensor_package) StdoutLine: {'line': b'Copying ../../build/sensor_package/sensor_package.egg-info to /workspaces/ROS_PointCloud_AGV/install/sensor_package/lib/python3.6/site-packages/sensor_package-0.0.0-py3.6.egg-info\n'}
+[4.913879] (sensor_package) StdoutLine: {'line': b'running install_scripts\n'}
+[4.935938] (-) TimerEvent: {}
+[4.994177] (sensor_package) StdoutLine: {'line': b'Installing oakd_publisher script to /workspaces/ROS_PointCloud_AGV/install/sensor_package/lib/sensor_package\n'}
+[4.996297] (sensor_package) StdoutLine: {'line': b"writing list of installed files to '/workspaces/ROS_PointCloud_AGV/build/sensor_package/install.log'\n"}
+[5.036210] (-) TimerEvent: {}
+[5.109054] (sensor_package) CommandEnded: {'returncode': 0}
+[5.137994] (-) TimerEvent: {}
+[5.163992] (sensor_package) JobEnded: {'identifier': 'sensor_package', 'rc': 0}
+[5.167968] (-) EventReactorShutdown: {}

@@ -1,0 +1,44 @@
+[0.082s] Invoking command in '/workspaces/ROS_PointCloud_AGV/build/cpp_pub_sub': /usr/local/bin/cmake /workspaces/ROS_PointCloud_AGV/src/cpp_pub_sub -DCMAKE_INSTALL_PREFIX=/workspaces/ROS_PointCloud_AGV/install/cpp_pub_sub
+[0.284s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/install/share/ament_cmake/cmake)
+[0.301s] [33mCMake Warning (dev) at /opt/ros/foxy/install/share/ament_cmake_core/cmake/core/python.cmake:22 (find_package):
+[0.301s]   Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+[0.302s]   are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+[0.302s]   the cmake_policy command to set the policy and suppress this warning.
+[0.303s] 
+[0.304s] Call Stack (most recent call first):
+[0.305s]   /opt/ros/foxy/install/share/ament_cmake_core/cmake/core/all.cmake:53 (include)
+[0.306s]   /opt/ros/foxy/install/share/ament_cmake_core/cmake/ament_cmake_core-extras.cmake:17 (include)
+[0.306s]   /opt/ros/foxy/install/share/ament_cmake_core/cmake/ament_cmake_coreConfig.cmake:41 (include)
+[0.307s]   /opt/ros/foxy/install/share/ament_cmake/cmake/ament_cmake_export_dependencies-extras.cmake:15 (find_package)
+[0.307s]   /opt/ros/foxy/install/share/ament_cmake/cmake/ament_cmakeConfig.cmake:41 (include)
+[0.308s]   CMakeLists.txt:18 (find_package)
+[0.308s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.309s] [0m
+[0.374s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.6.9", minimum required is "3") 
+[0.374s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.497s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/install/share/rclcpp/cmake)
+[1.736s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.780s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/install/share/rosidl_adapter/cmake)
+[2.062s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "1.1.1")  
+[2.152s] -- Found FastRTPS: /opt/ros/foxy/install/include  
+[2.508s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.830s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/install/share/rmw_implementation_cmake/cmake)
+[2.839s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[2.845s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[3.054s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[3.055s] -- Looking for pthread_create in pthreads
+[3.221s] -- Looking for pthread_create in pthreads - not found
+[3.222s] -- Looking for pthread_create in pthread
+[3.425s] -- Looking for pthread_create in pthread - found
+[3.429s] -- Found Threads: TRUE  
+[4.696s] [31mCMake Error at /opt/ros/foxy/install/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:53 (message):
+[4.697s]   ament_package_xml() package name 'cpp_pub_sub' in '/package.xml' does not
+[4.698s]   match current PROJECT_NAME 'cpp_pubsub'.  You must call project() with the
+[4.698s]   same package name before.
+[4.698s] Call Stack (most recent call first):
+[4.699s]   /opt/ros/foxy/install/share/ament_cmake_core/cmake/core/ament_package.cmake:63 (ament_package_xml)
+[4.699s]   CMakeLists.txt:33 (ament_package)
+[4.700s] 
+[4.700s] [0m
+[4.701s] -- Configuring incomplete, errors occurred!
+[4.736s] Invoked command in '/workspaces/ROS_PointCloud_AGV/build/cpp_pub_sub' returned '1': /usr/local/bin/cmake /workspaces/ROS_PointCloud_AGV/src/cpp_pub_sub -DCMAKE_INSTALL_PREFIX=/workspaces/ROS_PointCloud_AGV/install/cpp_pub_sub

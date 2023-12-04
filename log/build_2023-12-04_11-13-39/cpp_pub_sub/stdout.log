@@ -1,0 +1,37 @@
+-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/install/share/ament_cmake/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Found rclcpp: 2.4.3 (/opt/ros/foxy/install/share/rclcpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/install/share/rosidl_adapter/cmake)
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/install/share/rmw_implementation_cmake/cmake)
+-- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+-- Configuring done (3.2s)
+-- Generating done (0.0s)
+-- Build files have been written to: /workspaces/ROS_PointCloud_AGV/build/cpp_pub_sub
+[ 25%] [32mBuilding CXX object CMakeFiles/talker.dir/src/publisher_member_function.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/listener.dir/src/subscriber_member_function.cpp.o[0m
+[ 75%] [32m[1mLinking CXX executable talker[0m
+[ 75%] Built target talker
+[100%] [32m[1mLinking CXX executable listener[0m
+[100%] Built target listener
+-- Install configuration: ""
+-- Installing: /workspaces/ROS_PointCloud_AGV/install/cpp_pub_sub/lib/cpp_pub_sub/talker
+-- Set runtime path of "/workspaces/ROS_PointCloud_AGV/install/cpp_pub_sub/lib/cpp_pub_sub/talker" to ""
+-- Installing: /workspaces/ROS_PointCloud_AGV/install/cpp_pub_sub/lib/cpp_pub_sub/listener
+-- Set runtime path of "/workspaces/ROS_PointCloud_AGV/install/cpp_pub_sub/lib/cpp_pub_sub/listener" to ""
+-- Installing: /workspaces/ROS_PointCloud_AGV/install/cpp_pub_sub/share/ament_index/resource_index/package_run_dependencies/cpp_pub_sub
+-- Installing: /workspaces/ROS_PointCloud_AGV/install/cpp_pub_sub/share/ament_index/resource_index/parent_prefix_path/cpp_pub_sub
+-- Installing: /workspaces/ROS_PointCloud_AGV/install/cpp_pub_sub/share/cpp_pub_sub/environment/ament_prefix_path.sh
+-- Installing: /workspaces/ROS_PointCloud_AGV/install/cpp_pub_sub/share/cpp_pub_sub/environment/ament_prefix_path.dsv
+-- Installing: /workspaces/ROS_PointCloud_AGV/install/cpp_pub_sub/share/cpp_pub_sub/environment/path.sh
+-- Installing: /workspaces/ROS_PointCloud_AGV/install/cpp_pub_sub/share/cpp_pub_sub/environment/path.dsv
+-- Installing: /workspaces/ROS_PointCloud_AGV/install/cpp_pub_sub/share/cpp_pub_sub/local_setup.bash
+-- Installing: /workspaces/ROS_PointCloud_AGV/install/cpp_pub_sub/share/cpp_pub_sub/local_setup.sh
+-- Installing: /workspaces/ROS_PointCloud_AGV/install/cpp_pub_sub/share/cpp_pub_sub/local_setup.zsh
+-- Installing: /workspaces/ROS_PointCloud_AGV/install/cpp_pub_sub/share/cpp_pub_sub/local_setup.dsv
+-- Installing: /workspaces/ROS_PointCloud_AGV/install/cpp_pub_sub/share/cpp_pub_sub/package.dsv
+-- Installing: /workspaces/ROS_PointCloud_AGV/install/cpp_pub_sub/share/ament_index/resource_index/packages/cpp_pub_sub
+-- Installing: /workspaces/ROS_PointCloud_AGV/install/cpp_pub_sub/share/cpp_pub_sub/cmake/cpp_pub_subConfig.cmake
+-- Installing: /workspaces/ROS_PointCloud_AGV/install/cpp_pub_sub/share/cpp_pub_sub/cmake/cpp_pub_subConfig-version.cmake
+-- Installing: /workspaces/ROS_PointCloud_AGV/install/cpp_pub_sub/share/cpp_pub_sub/package.xml

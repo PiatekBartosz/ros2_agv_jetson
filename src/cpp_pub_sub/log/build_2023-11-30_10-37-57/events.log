@@ -1,0 +1,132 @@
+[0.000000] (-) TimerEvent: {}
+[0.000622] (cpp_pub_sub) JobQueued: {'identifier': 'cpp_pub_sub', 'dependencies': OrderedDict()}
+[0.000864] (cpp_pub_sub) JobStarted: {'identifier': 'cpp_pub_sub'}
+[0.078664] (cpp_pub_sub) JobProgress: {'identifier': 'cpp_pub_sub', 'progress': 'cmake'}
+[0.079880] (cpp_pub_sub) Command: {'cmd': ['/usr/local/bin/cmake', '/workspaces/ROS_PointCloud_AGV/src/cpp_pub_sub', '-DCMAKE_INSTALL_PREFIX=/workspaces/ROS_PointCloud_AGV/src/cpp_pub_sub/install/cpp_pub_sub'], 'cwd': '/workspaces/ROS_PointCloud_AGV/src/cpp_pub_sub/build/cpp_pub_sub', 'env': OrderedDict([('OPENBLAS_CORETYPE', 'ARMV8'), ('PYTHONIOENCODING', 'utf-8'), ('WS', '/ws'), ('HOSTNAME', 'jetsonagv-desktop'), ('GIT_ASKPASS', '/vscode/vscode-server/bin/linux-arm64/1a5daa3a0231a0fbba4f14db7ec463cf99d7768e/extensions/git/dist/askpass.sh'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/install/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/install/lib:/usr/local/cuda-10.2/targets/aarch64-linux/lib:'), ('BROWSER', '/vscode/vscode-server/bin/linux-arm64/1a5daa3a0231a0fbba4f14db7ec463cf99d7768e/bin/helpers/browser.sh'), ('SHLVL', '2'), ('HOME', '/home/USERNAME'), ('OLDPWD', '/workspaces/ROS_PointCloud_AGV/src/cpp_pub_sub/src'), ('TERM_PROGRAM_VERSION', '1.84.2'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-fda292dd-b049-49ce-b1c1-cb64d5d0746f.sock'), ('VSCODE_GIT_ASKPASS_MAIN', '/vscode/vscode-server/bin/linux-arm64/1a5daa3a0231a0fbba4f14db7ec463cf99d7768e/extensions/git/dist/askpass-main.js'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_NODE', '/vscode/vscode-server/bin/linux-arm64/1a5daa3a0231a0fbba4f14db7ec463cf99d7768e/node'), ('REMOTE_CONTAINERS', 'true'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/opt/ros/foxy/install'), ('ROS_DISTRO', 'foxy'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-8626a973-a082-4eb2-9c0f-1ef385a833c4.sock'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('PKG_CONFIG_PATH', '/opt/ros/foxy/install/lib/aarch64-linux-gnu/pkgconfig:/opt/ros/foxy/install/lib/pkgconfig'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/install/bin:/vscode/vscode-server/bin/linux-arm64/1a5daa3a0231a0fbba4f14db7ec463cf99d7768e/bin/remote-cli:/usr/local/cuda-10.2/bin:/usr/local/cuda/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':2'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/vscode-ssh-auth-8626a973-a082-4eb2-9c0f-1ef385a833c4.sock","/tmp/.X11-unix/X2","/home/USERNAME/.gnupg/S.gpg-agent"]'), ('LANG', 'en_US.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('TERM_PROGRAM', 'vscode'), ('ROS_ROOT', '/opt/ros/foxy'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/vscode-git-1db7faff83.sock'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy/install'), ('SSH_AUTH_SOCK', '/tmp/vscode-ssh-auth-8626a973-a082-4eb2-9c0f-1ef385a833c4.sock'), ('REMOTE_CONTAINERS_DISPLAY_SOCK', '/tmp/.X11-unix/X2'), ('DEBIAN_FRONTEND', 'noninteractive'), ('SHELL', '/bin/bash'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/workspaces/ROS_PointCloud_AGV/src/cpp_pub_sub/build/cpp_pub_sub'), ('PYTHONPATH', '/opt/ros/foxy/install/lib/python3.6/site-packages'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy/install')]), 'shell': False}
+[0.089359] (-) TimerEvent: {}
+[0.194154] (-) TimerEvent: {}
+[0.294921] (-) TimerEvent: {}
+[0.395844] (-) TimerEvent: {}
+[0.497164] (-) TimerEvent: {}
+[0.600176] (-) TimerEvent: {}
+[0.638625] (cpp_pub_sub) StdoutLine: {'line': b'-- The C compiler identification is GNU 7.5.0\n'}
+[0.700396] (-) TimerEvent: {}
+[0.801355] (-) TimerEvent: {}
+[0.903692] (-) TimerEvent: {}
+[0.925341] (cpp_pub_sub) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 7.5.0\n'}
+[1.003948] (-) TimerEvent: {}
+[1.020584] (cpp_pub_sub) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.104128] (-) TimerEvent: {}
+[1.204911] (-) TimerEvent: {}
+[1.270458] (cpp_pub_sub) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.305090] (-) TimerEvent: {}
+[1.324284] (cpp_pub_sub) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.326444] (cpp_pub_sub) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.329237] (cpp_pub_sub) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.374878] (cpp_pub_sub) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.405269] (-) TimerEvent: {}
+[1.506108] (-) TimerEvent: {}
+[1.606903] (-) TimerEvent: {}
+[1.621561] (cpp_pub_sub) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.675134] (cpp_pub_sub) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[1.676279] (cpp_pub_sub) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.678435] (cpp_pub_sub) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.706157] (cpp_pub_sub) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/install/share/ament_cmake/cmake)\n'}
+[1.706992] (-) TimerEvent: {}
+[1.733692] (cpp_pub_sub) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /opt/ros/foxy/install/share/ament_cmake_core/cmake/core/python.cmake:22 (find_package):\n'}
+[1.734415] (cpp_pub_sub) StderrLine: {'line': b'  Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules\n'}
+[1.734873] (cpp_pub_sub) StderrLine: {'line': b'  are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use\n'}
+[1.735317] (cpp_pub_sub) StderrLine: {'line': b'  the cmake_policy command to set the policy and suppress this warning.\n'}
+[1.735896] (cpp_pub_sub) StderrLine: {'line': b'\n'}
+[1.736328] (cpp_pub_sub) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[1.736726] (cpp_pub_sub) StderrLine: {'line': b'  /opt/ros/foxy/install/share/ament_cmake_core/cmake/core/all.cmake:53 (include)\n'}
+[1.737129] (cpp_pub_sub) StderrLine: {'line': b'  /opt/ros/foxy/install/share/ament_cmake_core/cmake/ament_cmake_core-extras.cmake:17 (include)\n'}
+[1.737525] (cpp_pub_sub) StderrLine: {'line': b'  /opt/ros/foxy/install/share/ament_cmake_core/cmake/ament_cmake_coreConfig.cmake:41 (include)\n'}
+[1.737916] (cpp_pub_sub) StderrLine: {'line': b'  /opt/ros/foxy/install/share/ament_cmake/cmake/ament_cmake_export_dependencies-extras.cmake:15 (find_package)\n'}
+[1.738326] (cpp_pub_sub) StderrLine: {'line': b'  /opt/ros/foxy/install/share/ament_cmake/cmake/ament_cmakeConfig.cmake:41 (include)\n'}
+[1.738717] (cpp_pub_sub) StderrLine: {'line': b'  CMakeLists.txt:19 (find_package)\n'}
+[1.739115] (cpp_pub_sub) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[1.739591] (cpp_pub_sub) StderrLine: {'line': b'\x1b[0m\n'}
+[1.807267] (-) TimerEvent: {}
+[1.822383] (cpp_pub_sub) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.6.9", minimum required is "3") \n'}
+[1.823205] (cpp_pub_sub) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[1.907650] (-) TimerEvent: {}
+[2.008496] (-) TimerEvent: {}
+[2.109267] (-) TimerEvent: {}
+[2.210036] (-) TimerEvent: {}
+[2.310829] (-) TimerEvent: {}
+[2.411614] (-) TimerEvent: {}
+[2.512319] (-) TimerEvent: {}
+[2.613076] (-) TimerEvent: {}
+[2.713772] (-) TimerEvent: {}
+[2.814533] (-) TimerEvent: {}
+[2.915310] (-) TimerEvent: {}
+[2.991326] (cpp_pub_sub) StdoutLine: {'line': b'-- Found rclcpp: 2.4.3 (/opt/ros/foxy/install/share/rclcpp/cmake)\n'}
+[3.015523] (-) TimerEvent: {}
+[3.116276] (-) TimerEvent: {}
+[3.216989] (-) TimerEvent: {}
+[3.247192] (cpp_pub_sub) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[3.291682] (cpp_pub_sub) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/install/share/rosidl_adapter/cmake)\n'}
+[3.317141] (-) TimerEvent: {}
+[3.419083] (-) TimerEvent: {}
+[3.519970] (-) TimerEvent: {}
+[3.577038] (cpp_pub_sub) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "1.1.1")  \n'}
+[3.620195] (-) TimerEvent: {}
+[3.669450] (cpp_pub_sub) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/foxy/install/include  \n'}
+[3.720363] (-) TimerEvent: {}
+[3.821036] (-) TimerEvent: {}
+[3.921741] (-) TimerEvent: {}
+[4.022491] (-) TimerEvent: {}
+[4.027837] (cpp_pub_sub) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[4.122727] (-) TimerEvent: {}
+[4.223424] (-) TimerEvent: {}
+[4.324172] (-) TimerEvent: {}
+[4.334355] (cpp_pub_sub) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/install/share/rmw_implementation_cmake/cmake)\n'}
+[4.342597] (cpp_pub_sub) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_cyclonedds_cpp' as default\n"}
+[4.347814] (cpp_pub_sub) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[4.424376] (-) TimerEvent: {}
+[4.525229] (-) TimerEvent: {}
+[4.570799] (cpp_pub_sub) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed\n'}
+[4.572041] (cpp_pub_sub) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads\n'}
+[4.625409] (-) TimerEvent: {}
+[4.726179] (-) TimerEvent: {}
+[4.769805] (cpp_pub_sub) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads - not found\n'}
+[4.770747] (cpp_pub_sub) StdoutLine: {'line': b'-- Looking for pthread_create in pthread\n'}
+[4.826375] (-) TimerEvent: {}
+[4.927642] (-) TimerEvent: {}
+[5.028899] (-) TimerEvent: {}
+[5.089108] (cpp_pub_sub) StdoutLine: {'line': b'-- Looking for pthread_create in pthread - found\n'}
+[5.095540] (cpp_pub_sub) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[5.129104] (-) TimerEvent: {}
+[5.229847] (-) TimerEvent: {}
+[5.330667] (-) TimerEvent: {}
+[5.431418] (-) TimerEvent: {}
+[5.532227] (-) TimerEvent: {}
+[5.633524] (-) TimerEvent: {}
+[5.734522] (-) TimerEvent: {}
+[5.835251] (-) TimerEvent: {}
+[5.936048] (-) TimerEvent: {}
+[5.969721] (cpp_pub_sub) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:21 (find_package):\n'}
+[5.970429] (cpp_pub_sub) StderrLine: {'line': b'  By not providing "Findstd_msg.cmake" in CMAKE_MODULE_PATH this project has\n'}
+[5.970928] (cpp_pub_sub) StderrLine: {'line': b'  asked CMake to find a package configuration file provided by "std_msg", but\n'}
+[5.971387] (cpp_pub_sub) StderrLine: {'line': b'  CMake did not find one.\n'}
+[5.971936] (cpp_pub_sub) StderrLine: {'line': b'\n'}
+[5.972367] (cpp_pub_sub) StderrLine: {'line': b'  Could not find a package configuration file provided by "std_msg" with any\n'}
+[5.972808] (cpp_pub_sub) StderrLine: {'line': b'  of the following names:\n'}
+[5.973237] (cpp_pub_sub) StderrLine: {'line': b'\n'}
+[5.973694] (cpp_pub_sub) StderrLine: {'line': b'    std_msgConfig.cmake\n'}
+[5.974186] (cpp_pub_sub) StderrLine: {'line': b'    std_msg-config.cmake\n'}
+[5.974662] (cpp_pub_sub) StderrLine: {'line': b'\n'}
+[5.975119] (cpp_pub_sub) StderrLine: {'line': b'  Add the installation prefix of "std_msg" to CMAKE_PREFIX_PATH or set\n'}
+[5.975645] (cpp_pub_sub) StderrLine: {'line': b'  "std_msg_DIR" to a directory containing one of the above files.  If\n'}
+[5.976137] (cpp_pub_sub) StderrLine: {'line': b'  "std_msg" provides a separate development package or SDK, be sure it has\n'}
+[5.976580] (cpp_pub_sub) StderrLine: {'line': b'  been installed.\n'}
+[5.977017] (cpp_pub_sub) StderrLine: {'line': b'\n'}
+[5.977446] (cpp_pub_sub) StderrLine: {'line': b'\x1b[0m\n'}
+[5.977878] (cpp_pub_sub) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[6.016587] (cpp_pub_sub) CommandEnded: {'returncode': 1}
+[6.036285] (-) TimerEvent: {}
+[6.137276] (-) TimerEvent: {}
+[6.240042] (-) TimerEvent: {}
+[6.256832] (cpp_pub_sub) JobEnded: {'identifier': 'cpp_pub_sub', 'rc': 1}
+[6.269206] (-) EventReactorShutdown: {}

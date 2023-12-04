@@ -1,0 +1,32 @@
+[0.071s] Invoking command in '/workspaces/ROS_PointCloud_AGV/build/cpp_pub_sub': /usr/local/bin/cmake /workspaces/ROS_PointCloud_AGV/src/cpp_pub_sub -DCMAKE_INSTALL_PREFIX=/workspaces/ROS_PointCloud_AGV/install/cpp_pub_sub
+[0.491s] -- The C compiler identification is GNU 7.5.0
+[0.719s] -- The CXX compiler identification is GNU 7.5.0
+[0.794s] -- Detecting C compiler ABI info
+[1.043s] -- Detecting C compiler ABI info - done
+[1.096s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.098s] -- Detecting C compile features
+[1.100s] -- Detecting C compile features - done
+[1.142s] -- Detecting CXX compiler ABI info
+[1.420s] -- Detecting CXX compiler ABI info - done
+[1.488s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.489s] -- Detecting CXX compile features
+[1.490s] -- Detecting CXX compile features - done
+[1.532s] [31mCMake Error at CMakeLists.txt:19 (find_package):
+[1.533s]   By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project
+[1.533s]   has asked CMake to find a package configuration file provided by
+[1.534s]   "ament_cmake", but CMake did not find one.
+[1.534s] 
+[1.535s]   Could not find a package configuration file provided by "ament_cmake" with
+[1.535s]   any of the following names:
+[1.536s] 
+[1.536s]     ament_cmakeConfig.cmake
+[1.537s]     ament_cmake-config.cmake
+[1.537s] 
+[1.538s]   Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set
+[1.538s]   "ament_cmake_DIR" to a directory containing one of the above files.  If
+[1.539s]   "ament_cmake" provides a separate development package or SDK, be sure it
+[1.539s]   has been installed.
+[1.553s] 
+[1.553s] [0m
+[1.554s] -- Configuring incomplete, errors occurred!
+[1.564s] Invoked command in '/workspaces/ROS_PointCloud_AGV/build/cpp_pub_sub' returned '1': /usr/local/bin/cmake /workspaces/ROS_PointCloud_AGV/src/cpp_pub_sub -DCMAKE_INSTALL_PREFIX=/workspaces/ROS_PointCloud_AGV/install/cpp_pub_sub

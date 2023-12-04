@@ -1,0 +1,53 @@
+[0.075s] Invoking command in '/workspaces/ROS_PointCloud_AGV/src/cpp_pub_sub/build/cpp_pub_sub': /usr/local/bin/cmake /workspaces/ROS_PointCloud_AGV/src/cpp_pub_sub -DCMAKE_INSTALL_PREFIX=/workspaces/ROS_PointCloud_AGV/src/cpp_pub_sub/install/cpp_pub_sub
+[0.242s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/install/share/ament_cmake/cmake)
+[0.249s] [33mCMake Warning (dev) at /opt/ros/foxy/install/share/ament_cmake_core/cmake/core/python.cmake:22 (find_package):
+[0.250s]   Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+[0.250s]   are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+[0.251s]   the cmake_policy command to set the policy and suppress this warning.
+[0.251s] 
+[0.252s] Call Stack (most recent call first):
+[0.252s]   /opt/ros/foxy/install/share/ament_cmake_core/cmake/core/all.cmake:53 (include)
+[0.253s]   /opt/ros/foxy/install/share/ament_cmake_core/cmake/ament_cmake_core-extras.cmake:17 (include)
+[0.253s]   /opt/ros/foxy/install/share/ament_cmake_core/cmake/ament_cmake_coreConfig.cmake:41 (include)
+[0.254s]   /opt/ros/foxy/install/share/ament_cmake/cmake/ament_cmake_export_dependencies-extras.cmake:15 (find_package)
+[0.254s]   /opt/ros/foxy/install/share/ament_cmake/cmake/ament_cmakeConfig.cmake:41 (include)
+[0.255s]   CMakeLists.txt:19 (find_package)
+[0.255s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.256s] [0m
+[0.326s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.305s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/install/share/rclcpp/cmake)
+[1.443s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.461s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/install/share/rosidl_adapter/cmake)
+[1.920s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.157s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/install/share/rmw_implementation_cmake/cmake)
+[2.164s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[2.876s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/install/share/ament_lint_auto/cmake)
+[3.490s] -- Added test 'copyright' to check source files copyright and LICENSE
+[3.537s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[3.538s] -- Configured cppcheck include dirs: 
+[3.538s] -- Configured cppcheck exclude dirs and/or files: 
+[3.585s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[3.586s] -- Configured cpplint exclude dirs and/or files: 
+[3.594s] -- Added test 'flake8' to check Python code syntax and style conventions
+[3.607s] -- Added test 'lint_cmake' to check CMake code style
+[3.616s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[3.663s] -- Added test 'uncrustify' to check C / C++ code style
+[3.664s] -- Configured uncrustify additional arguments: 
+[3.673s] -- Added test 'xmllint' to check XML markup files
+[3.680s] -- Configuring done (3.5s)
+[3.696s] [31mCMake Error at CMakeLists.txt:23 (add_executable):
+[3.697s]   Cannot find source file:
+[3.697s] 
+[3.698s]     src/pubilsher_member_function.cpp
+[3.698s] 
+[3.699s]   Tried extensions .c .C .c++ .cc .cpp .cxx .cu .mpp .m .M .mm .ixx .cppm
+[3.699s]   .ccm .cxxm .c++m .h .hh .h++ .hm .hpp .hxx .in .txx .f .F .for .f77 .f90
+[3.700s]   .f95 .f03 .hip .ispc
+[3.701s] 
+[3.701s] [0m
+[3.702s] [31mCMake Error at CMakeLists.txt:23 (add_executable):
+[3.702s]   No SOURCES given to target: talker
+[3.703s] 
+[3.703s] [0m
+[3.704s] [0mCMake Generate step failed.  Build files cannot be regenerated correctly.[0m
+[3.743s] Invoked command in '/workspaces/ROS_PointCloud_AGV/src/cpp_pub_sub/build/cpp_pub_sub' returned '1': /usr/local/bin/cmake /workspaces/ROS_PointCloud_AGV/src/cpp_pub_sub -DCMAKE_INSTALL_PREFIX=/workspaces/ROS_PointCloud_AGV/src/cpp_pub_sub/install/cpp_pub_sub

@@ -1,0 +1,40 @@
+[0.077s] Invoking command in '/workspaces/ROS_PointCloud_AGV/build/cpp_pub_sub': /usr/local/bin/cmake /workspaces/ROS_PointCloud_AGV/src/cpp_pub_sub -DCMAKE_INSTALL_PREFIX=/workspaces/ROS_PointCloud_AGV/install/cpp_pub_sub
+[0.248s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/install/share/ament_cmake/cmake)
+[0.255s] [33mCMake Warning (dev) at /opt/ros/foxy/install/share/ament_cmake_core/cmake/core/python.cmake:22 (find_package):
+[0.256s]   Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+[0.258s]   are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+[0.259s]   the cmake_policy command to set the policy and suppress this warning.
+[0.260s] 
+[0.260s] Call Stack (most recent call first):
+[0.261s]   /opt/ros/foxy/install/share/ament_cmake_core/cmake/core/all.cmake:53 (include)
+[0.261s]   /opt/ros/foxy/install/share/ament_cmake_core/cmake/ament_cmake_core-extras.cmake:17 (include)
+[0.262s]   /opt/ros/foxy/install/share/ament_cmake_core/cmake/ament_cmake_coreConfig.cmake:41 (include)
+[0.263s]   /opt/ros/foxy/install/share/ament_cmake/cmake/ament_cmake_export_dependencies-extras.cmake:15 (find_package)
+[0.263s]   /opt/ros/foxy/install/share/ament_cmake/cmake/ament_cmakeConfig.cmake:41 (include)
+[0.264s]   CMakeLists.txt:18 (find_package)
+[0.264s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.265s] [0m
+[0.332s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.339s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/install/share/rclcpp/cmake)
+[1.478s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.497s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/install/share/rosidl_adapter/cmake)
+[1.953s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.189s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/install/share/rmw_implementation_cmake/cmake)
+[2.195s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[3.404s] -- Configuring done (3.2s)
+[3.425s] [31mCMake Error at CMakeLists.txt:25 (add_executable):
+[3.426s]   Cannot find source file:
+[3.427s] 
+[3.428s]     src/subscriber_member_function.cpp
+[3.428s] 
+[3.429s]   Tried extensions .c .C .c++ .cc .cpp .cxx .cu .mpp .m .M .mm .ixx .cppm
+[3.430s]   .ccm .cxxm .c++m .h .hh .h++ .hm .hpp .hxx .in .txx .f .F .for .f77 .f90
+[3.430s]   .f95 .f03 .hip .ispc
+[3.431s] 
+[3.432s] [0m
+[3.432s] [31mCMake Error at CMakeLists.txt:25 (add_executable):
+[3.433s]   No SOURCES given to target: listener
+[3.433s] 
+[3.434s] [0m
+[3.435s] [0mCMake Generate step failed.  Build files cannot be regenerated correctly.[0m
+[3.476s] Invoked command in '/workspaces/ROS_PointCloud_AGV/build/cpp_pub_sub' returned '1': /usr/local/bin/cmake /workspaces/ROS_PointCloud_AGV/src/cpp_pub_sub -DCMAKE_INSTALL_PREFIX=/workspaces/ROS_PointCloud_AGV/install/cpp_pub_sub
