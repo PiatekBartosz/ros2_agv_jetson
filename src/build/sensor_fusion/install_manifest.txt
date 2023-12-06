@@ -1,0 +1,15 @@
+/workspaces/ROS_PointCloud_AGV/src/install/sensor_fusion/share/ament_index/resource_index/package_run_dependencies/sensor_fusion
+/workspaces/ROS_PointCloud_AGV/src/install/sensor_fusion/share/ament_index/resource_index/parent_prefix_path/sensor_fusion
+/workspaces/ROS_PointCloud_AGV/src/install/sensor_fusion/share/sensor_fusion/environment/ament_prefix_path.sh
+/workspaces/ROS_PointCloud_AGV/src/install/sensor_fusion/share/sensor_fusion/environment/ament_prefix_path.dsv
+/workspaces/ROS_PointCloud_AGV/src/install/sensor_fusion/share/sensor_fusion/environment/path.sh
+/workspaces/ROS_PointCloud_AGV/src/install/sensor_fusion/share/sensor_fusion/environment/path.dsv
+/workspaces/ROS_PointCloud_AGV/src/install/sensor_fusion/share/sensor_fusion/local_setup.bash
+/workspaces/ROS_PointCloud_AGV/src/install/sensor_fusion/share/sensor_fusion/local_setup.sh
+/workspaces/ROS_PointCloud_AGV/src/install/sensor_fusion/share/sensor_fusion/local_setup.zsh
+/workspaces/ROS_PointCloud_AGV/src/install/sensor_fusion/share/sensor_fusion/local_setup.dsv
+/workspaces/ROS_PointCloud_AGV/src/install/sensor_fusion/share/sensor_fusion/package.dsv
+/workspaces/ROS_PointCloud_AGV/src/install/sensor_fusion/share/ament_index/resource_index/packages/sensor_fusion
+/workspaces/ROS_PointCloud_AGV/src/install/sensor_fusion/share/sensor_fusion/cmake/sensor_fusionConfig.cmake
+/workspaces/ROS_PointCloud_AGV/src/install/sensor_fusion/share/sensor_fusion/cmake/sensor_fusionConfig-version.cmake
+/workspaces/ROS_PointCloud_AGV/src/install/sensor_fusion/share/sensor_fusion/package.xml

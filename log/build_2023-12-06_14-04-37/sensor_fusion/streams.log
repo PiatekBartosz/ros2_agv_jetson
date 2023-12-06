@@ -1,0 +1,43 @@
+[0.078s] Invoking command in '/workspaces/ROS_PointCloud_AGV/build/sensor_fusion': /usr/local/bin/cmake /workspaces/ROS_PointCloud_AGV/src/sensor_fusion -DCMAKE_INSTALL_PREFIX=/workspaces/ROS_PointCloud_AGV/install/sensor_fusion
+[0.246s] -- Found ament_cmake_auto: 0.9.12 (/opt/ros/foxy/install/share/ament_cmake_auto/cmake)
+[0.254s] [33mCMake Warning (dev) at /opt/ros/foxy/install/share/ament_cmake_core/cmake/core/python.cmake:22 (find_package):
+[0.255s]   Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+[0.255s]   are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+[0.256s]   the cmake_policy command to set the policy and suppress this warning.
+[0.257s] 
+[0.258s] Call Stack (most recent call first):
+[0.258s]   /opt/ros/foxy/install/share/ament_cmake_core/cmake/core/all.cmake:53 (include)
+[0.259s]   /opt/ros/foxy/install/share/ament_cmake_core/cmake/ament_cmake_core-extras.cmake:17 (include)
+[0.259s]   /opt/ros/foxy/install/share/ament_cmake_core/cmake/ament_cmake_coreConfig.cmake:41 (include)
+[0.260s]   /opt/ros/foxy/install/share/ament_cmake/cmake/ament_cmake_export_dependencies-extras.cmake:15 (find_package)
+[0.260s]   /opt/ros/foxy/install/share/ament_cmake/cmake/ament_cmakeConfig.cmake:41 (include)
+[0.261s]   /opt/ros/foxy/install/share/ament_cmake_auto/cmake/ament_cmake_auto-extras.cmake:17 (find_package)
+[0.261s]   /opt/ros/foxy/install/share/ament_cmake_auto/cmake/ament_cmake_autoConfig.cmake:41 (include)
+[0.262s]   CMakeLists.txt:22 (find_package)
+[0.262s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.263s] [0m
+[0.330s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.946s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.963s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/install/share/rosidl_adapter/cmake)
+[2.426s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.666s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/install/share/rmw_implementation_cmake/cmake)
+[2.673s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[3.394s] [31mCMake Error at CMakeLists.txt:25 (find_package):
+[3.394s]   By not providing "Finddepthai.cmake" in CMAKE_MODULE_PATH this project has
+[3.395s]   asked CMake to find a package configuration file provided by "depthai", but
+[3.396s]   CMake did not find one.
+[3.396s] 
+[3.397s]   Could not find a package configuration file provided by "depthai" with any
+[3.398s]   of the following names:
+[3.398s] 
+[3.399s]     depthaiConfig.cmake
+[3.400s]     depthai-config.cmake
+[3.400s] 
+[3.401s]   Add the installation prefix of "depthai" to CMAKE_PREFIX_PATH or set
+[3.401s]   "depthai_DIR" to a directory containing one of the above files.  If
+[3.402s]   "depthai" provides a separate development package or SDK, be sure it has
+[3.402s]   been installed.
+[3.403s] 
+[3.403s] [0m
+[3.404s] -- Configuring incomplete, errors occurred!
+[3.434s] Invoked command in '/workspaces/ROS_PointCloud_AGV/build/sensor_fusion' returned '1': /usr/local/bin/cmake /workspaces/ROS_PointCloud_AGV/src/sensor_fusion -DCMAKE_INSTALL_PREFIX=/workspaces/ROS_PointCloud_AGV/install/sensor_fusion

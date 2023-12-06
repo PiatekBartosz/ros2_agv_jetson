@@ -1,0 +1,980 @@
+[0.000000] (-) TimerEvent: {}
+[0.000788] (cpp_pubsub) JobQueued: {'identifier': 'cpp_pubsub', 'dependencies': OrderedDict()}
+[0.002369] (depthai_descriptions) JobQueued: {'identifier': 'depthai_descriptions', 'dependencies': OrderedDict()}
+[0.003506] (depthai_filters) JobQueued: {'identifier': 'depthai_filters', 'dependencies': OrderedDict()}
+[0.003774] (depthai_ros_msgs) JobQueued: {'identifier': 'depthai_ros_msgs', 'dependencies': OrderedDict()}
+[0.004187] (depthai_bridge) JobQueued: {'identifier': 'depthai_bridge', 'dependencies': OrderedDict([('depthai_ros_msgs', '/workspaces/ROS_PointCloud_AGV/install/depthai_ros_msgs')])}
+[0.004466] (depthai_examples) JobQueued: {'identifier': 'depthai_examples', 'dependencies': OrderedDict([('depthai_descriptions', '/workspaces/ROS_PointCloud_AGV/install/depthai_descriptions'), ('depthai_ros_msgs', '/workspaces/ROS_PointCloud_AGV/install/depthai_ros_msgs'), ('depthai_bridge', '/workspaces/ROS_PointCloud_AGV/install/depthai_bridge')])}
+[0.004697] (depthai_ros_driver) JobQueued: {'identifier': 'depthai_ros_driver', 'dependencies': OrderedDict([('depthai_descriptions', '/workspaces/ROS_PointCloud_AGV/install/depthai_descriptions'), ('depthai_ros_msgs', '/workspaces/ROS_PointCloud_AGV/install/depthai_ros_msgs'), ('depthai_bridge', '/workspaces/ROS_PointCloud_AGV/install/depthai_bridge')])}
+[0.004917] (sensor_fusion) JobQueued: {'identifier': 'sensor_fusion', 'dependencies': OrderedDict([('depthai_descriptions', '/workspaces/ROS_PointCloud_AGV/install/depthai_descriptions'), ('depthai_ros_msgs', '/workspaces/ROS_PointCloud_AGV/install/depthai_ros_msgs'), ('depthai_bridge', '/workspaces/ROS_PointCloud_AGV/install/depthai_bridge')])}
+[0.005121] (depthai-ros) JobQueued: {'identifier': 'depthai-ros', 'dependencies': OrderedDict([('depthai_descriptions', '/workspaces/ROS_PointCloud_AGV/install/depthai_descriptions'), ('depthai_ros_msgs', '/workspaces/ROS_PointCloud_AGV/install/depthai_ros_msgs'), ('depthai_bridge', '/workspaces/ROS_PointCloud_AGV/install/depthai_bridge'), ('depthai_examples', '/workspaces/ROS_PointCloud_AGV/install/depthai_examples'), ('depthai_ros_driver', '/workspaces/ROS_PointCloud_AGV/install/depthai_ros_driver')])}
+[0.005338] (cpp_pubsub) JobStarted: {'identifier': 'cpp_pubsub'}
+[0.083691] (cpp_pubsub) JobProgress: {'identifier': 'cpp_pubsub', 'progress': 'cmake'}
+[0.088049] (cpp_pubsub) Command: {'cmd': ['/usr/local/bin/cmake', '/workspaces/ROS_PointCloud_AGV/src/cpp_pubsub', '-DBUILD_SHARED_LIBS=ON', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/workspaces/ROS_PointCloud_AGV/install/cpp_pubsub'], 'cwd': '/workspaces/ROS_PointCloud_AGV/build/cpp_pubsub', 'env': OrderedDict([('OPENBLAS_CORETYPE', 'ARMV8'), ('PYTHONIOENCODING', 'utf-8'), ('WS', '/ws'), ('HOSTNAME', 'jetsonagv-desktop'), ('GIT_ASKPASS', '/vscode/vscode-server/bin/linux-arm64/1a5daa3a0231a0fbba4f14db7ec463cf99d7768e/extensions/git/dist/askpass.sh'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/install/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/install/lib:/usr/local/cuda-10.2/targets/aarch64-linux/lib:'), ('BROWSER', '/vscode/vscode-server/bin/linux-arm64/1a5daa3a0231a0fbba4f14db7ec463cf99d7768e/bin/helpers/browser.sh'), ('SHLVL', '2'), ('OLDPWD', '/workspaces'), ('HOME', '/home/USERNAME'), ('TERM_PROGRAM_VERSION', '1.84.2'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-4a01e2ed-990a-4728-9d36-3ddf8d7d7467.sock'), ('VSCODE_GIT_ASKPASS_MAIN', '/vscode/vscode-server/bin/linux-arm64/1a5daa3a0231a0fbba4f14db7ec463cf99d7768e/extensions/git/dist/askpass-main.js'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_NODE', '/vscode/vscode-server/bin/linux-arm64/1a5daa3a0231a0fbba4f14db7ec463cf99d7768e/node'), ('MAKEFLAGS', '-j1 -l1'), ('REMOTE_CONTAINERS', 'true'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/opt/ros/foxy/install'), ('ROS_DISTRO', 'foxy'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-40957e95-72ab-42a8-97cb-172fabd7d5d3.sock'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('PKG_CONFIG_PATH', '/opt/ros/foxy/install/lib/aarch64-linux-gnu/pkgconfig:/opt/ros/foxy/install/lib/pkgconfig'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/install/bin:/vscode/vscode-server/bin/linux-arm64/1a5daa3a0231a0fbba4f14db7ec463cf99d7768e/bin/remote-cli:/usr/local/cuda-10.2/bin:/usr/local/cuda/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':1'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/vscode-ssh-auth-40957e95-72ab-42a8-97cb-172fabd7d5d3.sock","/tmp/.X11-unix/X1","/home/USERNAME/.gnupg/S.gpg-agent"]'), ('LANG', 'en_US.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('TERM_PROGRAM', 'vscode'), ('ROS_ROOT', '/opt/ros/foxy'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/vscode-git-29bc7e2fd3.sock'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy/install'), ('SSH_AUTH_SOCK', '/tmp/vscode-ssh-auth-40957e95-72ab-42a8-97cb-172fabd7d5d3.sock'), ('REMOTE_CONTAINERS_DISPLAY_SOCK', '/tmp/.X11-unix/X1'), ('DEBIAN_FRONTEND', 'noninteractive'), ('SHELL', '/bin/bash'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/workspaces/ROS_PointCloud_AGV/build/cpp_pubsub'), ('PYTHONPATH', '/opt/ros/foxy/install/lib/python3.6/site-packages'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy/install')]), 'shell': False}
+[0.099976] (-) TimerEvent: {}
+[0.202426] (-) TimerEvent: {}
+[0.263341] (cpp_pubsub) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/install/share/ament_cmake/cmake)\n'}
+[0.270201] (cpp_pubsub) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /opt/ros/foxy/install/share/ament_cmake_core/cmake/core/python.cmake:22 (find_package):\n'}
+[0.272063] (cpp_pubsub) StderrLine: {'line': b'  Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules\n'}
+[0.272856] (cpp_pubsub) StderrLine: {'line': b'  are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use\n'}
+[0.273465] (cpp_pubsub) StderrLine: {'line': b'  the cmake_policy command to set the policy and suppress this warning.\n'}
+[0.274095] (cpp_pubsub) StderrLine: {'line': b'\n'}
+[0.274712] (cpp_pubsub) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[0.275366] (cpp_pubsub) StderrLine: {'line': b'  /opt/ros/foxy/install/share/ament_cmake_core/cmake/core/all.cmake:53 (include)\n'}
+[0.275975] (cpp_pubsub) StderrLine: {'line': b'  /opt/ros/foxy/install/share/ament_cmake_core/cmake/ament_cmake_core-extras.cmake:17 (include)\n'}
+[0.276531] (cpp_pubsub) StderrLine: {'line': b'  /opt/ros/foxy/install/share/ament_cmake_core/cmake/ament_cmake_coreConfig.cmake:41 (include)\n'}
+[0.277077] (cpp_pubsub) StderrLine: {'line': b'  /opt/ros/foxy/install/share/ament_cmake/cmake/ament_cmake_export_dependencies-extras.cmake:15 (find_package)\n'}
+[0.277730] (cpp_pubsub) StderrLine: {'line': b'  /opt/ros/foxy/install/share/ament_cmake/cmake/ament_cmakeConfig.cmake:41 (include)\n'}
+[0.278316] (cpp_pubsub) StderrLine: {'line': b'  CMakeLists.txt:18 (find_package)\n'}
+[0.278896] (cpp_pubsub) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[0.279564] (cpp_pubsub) StderrLine: {'line': b'\x1b[0m\n'}
+[0.302651] (-) TimerEvent: {}
+[0.338238] (cpp_pubsub) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.402885] (-) TimerEvent: {}
+[0.503948] (-) TimerEvent: {}
+[0.605318] (-) TimerEvent: {}
+[0.706641] (-) TimerEvent: {}
+[0.808004] (-) TimerEvent: {}
+[0.909330] (-) TimerEvent: {}
+[1.010629] (-) TimerEvent: {}
+[1.111957] (-) TimerEvent: {}
+[1.213201] (-) TimerEvent: {}
+[1.302955] (cpp_pubsub) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[1.313364] (-) TimerEvent: {}
+[1.344227] (cpp_pubsub) StdoutLine: {'line': b'-- Found rclcpp: 2.4.3 (/opt/ros/foxy/install/share/rclcpp/cmake)\n'}
+[1.413602] (-) TimerEvent: {}
+[1.489243] (cpp_pubsub) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.507737] (cpp_pubsub) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/install/share/rosidl_adapter/cmake)\n'}
+[1.513773] (-) TimerEvent: {}
+[1.614631] (-) TimerEvent: {}
+[1.716148] (-) TimerEvent: {}
+[1.817684] (-) TimerEvent: {}
+[1.919287] (-) TimerEvent: {}
+[2.020814] (-) TimerEvent: {}
+[2.032465] (cpp_pubsub) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.120991] (-) TimerEvent: {}
+[2.222356] (-) TimerEvent: {}
+[2.276960] (cpp_pubsub) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/install/share/rmw_implementation_cmake/cmake)\n'}
+[2.283241] (cpp_pubsub) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_cyclonedds_cpp' as default\n"}
+[2.322582] (-) TimerEvent: {}
+[2.423968] (-) TimerEvent: {}
+[2.525327] (-) TimerEvent: {}
+[2.626689] (-) TimerEvent: {}
+[2.728057] (-) TimerEvent: {}
+[2.829392] (-) TimerEvent: {}
+[2.930747] (-) TimerEvent: {}
+[3.033839] (-) TimerEvent: {}
+[3.134905] (-) TimerEvent: {}
+[3.236246] (-) TimerEvent: {}
+[3.337024] (-) TimerEvent: {}
+[3.438412] (-) TimerEvent: {}
+[3.512175] (cpp_pubsub) StdoutLine: {'line': b'-- Configuring done (3.3s)\n'}
+[3.538598] (-) TimerEvent: {}
+[3.586070] (cpp_pubsub) StdoutLine: {'line': b'-- Generating done (0.1s)\n'}
+[3.594332] (cpp_pubsub) StdoutLine: {'line': b'-- Build files have been written to: /workspaces/ROS_PointCloud_AGV/build/cpp_pubsub\n'}
+[3.637745] (cpp_pubsub) CommandEnded: {'returncode': 0}
+[3.640775] (-) TimerEvent: {}
+[3.642508] (cpp_pubsub) JobProgress: {'identifier': 'cpp_pubsub', 'progress': 'build'}
+[3.647068] (cpp_pubsub) Command: {'cmd': ['/usr/local/bin/cmake', '--build', '/workspaces/ROS_PointCloud_AGV/build/cpp_pubsub'], 'cwd': '/workspaces/ROS_PointCloud_AGV/build/cpp_pubsub', 'env': OrderedDict([('OPENBLAS_CORETYPE', 'ARMV8'), ('PYTHONIOENCODING', 'utf-8'), ('WS', '/ws'), ('HOSTNAME', 'jetsonagv-desktop'), ('GIT_ASKPASS', '/vscode/vscode-server/bin/linux-arm64/1a5daa3a0231a0fbba4f14db7ec463cf99d7768e/extensions/git/dist/askpass.sh'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/install/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/install/lib:/usr/local/cuda-10.2/targets/aarch64-linux/lib:'), ('BROWSER', '/vscode/vscode-server/bin/linux-arm64/1a5daa3a0231a0fbba4f14db7ec463cf99d7768e/bin/helpers/browser.sh'), ('SHLVL', '2'), ('OLDPWD', '/workspaces'), ('HOME', '/home/USERNAME'), ('TERM_PROGRAM_VERSION', '1.84.2'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-4a01e2ed-990a-4728-9d36-3ddf8d7d7467.sock'), ('VSCODE_GIT_ASKPASS_MAIN', '/vscode/vscode-server/bin/linux-arm64/1a5daa3a0231a0fbba4f14db7ec463cf99d7768e/extensions/git/dist/askpass-main.js'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_NODE', '/vscode/vscode-server/bin/linux-arm64/1a5daa3a0231a0fbba4f14db7ec463cf99d7768e/node'), ('MAKEFLAGS', '-j1 -l1'), ('REMOTE_CONTAINERS', 'true'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/opt/ros/foxy/install'), ('ROS_DISTRO', 'foxy'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-40957e95-72ab-42a8-97cb-172fabd7d5d3.sock'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('PKG_CONFIG_PATH', '/opt/ros/foxy/install/lib/aarch64-linux-gnu/pkgconfig:/opt/ros/foxy/install/lib/pkgconfig'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/install/bin:/vscode/vscode-server/bin/linux-arm64/1a5daa3a0231a0fbba4f14db7ec463cf99d7768e/bin/remote-cli:/usr/local/cuda-10.2/bin:/usr/local/cuda/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':1'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/vscode-ssh-auth-40957e95-72ab-42a8-97cb-172fabd7d5d3.sock","/tmp/.X11-unix/X1","/home/USERNAME/.gnupg/S.gpg-agent"]'), ('LANG', 'en_US.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('TERM_PROGRAM', 'vscode'), ('ROS_ROOT', '/opt/ros/foxy'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/vscode-git-29bc7e2fd3.sock'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy/install'), ('SSH_AUTH_SOCK', '/tmp/vscode-ssh-auth-40957e95-72ab-42a8-97cb-172fabd7d5d3.sock'), ('REMOTE_CONTAINERS_DISPLAY_SOCK', '/tmp/.X11-unix/X1'), ('DEBIAN_FRONTEND', 'noninteractive'), ('SHELL', '/bin/bash'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/workspaces/ROS_PointCloud_AGV/build/cpp_pubsub'), ('PYTHONPATH', '/opt/ros/foxy/install/lib/python3.6/site-packages'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy/install')]), 'shell': False}
+[3.741057] (-) TimerEvent: {}
+[3.841952] (-) TimerEvent: {}
+[3.907316] (cpp_pubsub) StdoutLine: {'line': b'[ 25%] \x1b[32m\x1b[1mLinking CXX executable talker\x1b[0m\n'}
+[3.942126] (-) TimerEvent: {}
+[4.042944] (-) TimerEvent: {}
+[4.144464] (-) TimerEvent: {}
+[4.245317] (-) TimerEvent: {}
+[4.346215] (-) TimerEvent: {}
+[4.447425] (-) TimerEvent: {}
+[4.501965] (cpp_pubsub) StdoutLine: {'line': b'[ 50%] Built target talker\n'}
+[4.547606] (-) TimerEvent: {}
+[4.564758] (cpp_pubsub) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable listener\x1b[0m\n'}
+[4.647931] (-) TimerEvent: {}
+[4.749026] (-) TimerEvent: {}
+[4.850601] (-) TimerEvent: {}
+[4.952179] (-) TimerEvent: {}
+[5.053638] (-) TimerEvent: {}
+[5.154994] (-) TimerEvent: {}
+[5.255955] (-) TimerEvent: {}
+[5.357091] (-) TimerEvent: {}
+[5.457937] (-) TimerEvent: {}
+[5.505695] (cpp_pubsub) StdoutLine: {'line': b'[100%] Built target listener\n'}
+[5.537038] (cpp_pubsub) CommandEnded: {'returncode': 0}
+[5.558229] (-) TimerEvent: {}
+[5.659269] (-) TimerEvent: {}
+[5.749126] (cpp_pubsub) JobProgress: {'identifier': 'cpp_pubsub', 'progress': 'install'}
+[5.759579] (-) TimerEvent: {}
+[5.861174] (-) TimerEvent: {}
+[5.910668] (cpp_pubsub) Command: {'cmd': ['/usr/local/bin/cmake', '--install', '/workspaces/ROS_PointCloud_AGV/build/cpp_pubsub'], 'cwd': '/workspaces/ROS_PointCloud_AGV/build/cpp_pubsub', 'env': OrderedDict([('OPENBLAS_CORETYPE', 'ARMV8'), ('PYTHONIOENCODING', 'utf-8'), ('WS', '/ws'), ('HOSTNAME', 'jetsonagv-desktop'), ('GIT_ASKPASS', '/vscode/vscode-server/bin/linux-arm64/1a5daa3a0231a0fbba4f14db7ec463cf99d7768e/extensions/git/dist/askpass.sh'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/install/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/install/lib:/usr/local/cuda-10.2/targets/aarch64-linux/lib:'), ('BROWSER', '/vscode/vscode-server/bin/linux-arm64/1a5daa3a0231a0fbba4f14db7ec463cf99d7768e/bin/helpers/browser.sh'), ('SHLVL', '2'), ('OLDPWD', '/workspaces'), ('HOME', '/home/USERNAME'), ('TERM_PROGRAM_VERSION', '1.84.2'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-4a01e2ed-990a-4728-9d36-3ddf8d7d7467.sock'), ('VSCODE_GIT_ASKPASS_MAIN', '/vscode/vscode-server/bin/linux-arm64/1a5daa3a0231a0fbba4f14db7ec463cf99d7768e/extensions/git/dist/askpass-main.js'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_NODE', '/vscode/vscode-server/bin/linux-arm64/1a5daa3a0231a0fbba4f14db7ec463cf99d7768e/node'), ('MAKEFLAGS', '-j1 -l1'), ('REMOTE_CONTAINERS', 'true'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/opt/ros/foxy/install'), ('ROS_DISTRO', 'foxy'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-40957e95-72ab-42a8-97cb-172fabd7d5d3.sock'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('PKG_CONFIG_PATH', '/opt/ros/foxy/install/lib/aarch64-linux-gnu/pkgconfig:/opt/ros/foxy/install/lib/pkgconfig'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/install/bin:/vscode/vscode-server/bin/linux-arm64/1a5daa3a0231a0fbba4f14db7ec463cf99d7768e/bin/remote-cli:/usr/local/cuda-10.2/bin:/usr/local/cuda/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':1'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/vscode-ssh-auth-40957e95-72ab-42a8-97cb-172fabd7d5d3.sock","/tmp/.X11-unix/X1","/home/USERNAME/.gnupg/S.gpg-agent"]'), ('LANG', 'en_US.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('TERM_PROGRAM', 'vscode'), ('ROS_ROOT', '/opt/ros/foxy'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/vscode-git-29bc7e2fd3.sock'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy/install'), ('SSH_AUTH_SOCK', '/tmp/vscode-ssh-auth-40957e95-72ab-42a8-97cb-172fabd7d5d3.sock'), ('REMOTE_CONTAINERS_DISPLAY_SOCK', '/tmp/.X11-unix/X1'), ('DEBIAN_FRONTEND', 'noninteractive'), ('SHELL', '/bin/bash'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/workspaces/ROS_PointCloud_AGV/build/cpp_pubsub'), ('PYTHONPATH', '/opt/ros/foxy/install/lib/python3.6/site-packages'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy/install')]), 'shell': False}
+[5.961381] (-) TimerEvent: {}
+[6.046137] (cpp_pubsub) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[6.047742] (cpp_pubsub) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[6.048814] (cpp_pubsub) StdoutLine: {'line': b'-- Symlinking: /workspaces/ROS_PointCloud_AGV/install/cpp_pubsub/lib/cpp_pubsub/talker\n'}
+[6.058357] (cpp_pubsub) StdoutLine: {'line': b'-- Symlinking: /workspaces/ROS_PointCloud_AGV/install/cpp_pubsub/lib/cpp_pubsub/listener\n'}
+[6.061540] (-) TimerEvent: {}
+[6.068641] (cpp_pubsub) StdoutLine: {'line': b'-- Symlinking: /workspaces/ROS_PointCloud_AGV/install/cpp_pubsub/share/ament_index/resource_index/package_run_dependencies/cpp_pubsub\n'}
+[6.077927] (cpp_pubsub) StdoutLine: {'line': b'-- Symlinking: /workspaces/ROS_PointCloud_AGV/install/cpp_pubsub/share/ament_index/resource_index/parent_prefix_path/cpp_pubsub\n'}
+[6.086855] (cpp_pubsub) StdoutLine: {'line': b'-- Symlinking: /workspaces/ROS_PointCloud_AGV/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.sh\n'}
+[6.096952] (cpp_pubsub) StdoutLine: {'line': b'-- Symlinking: /workspaces/ROS_PointCloud_AGV/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.dsv\n'}
+[6.105928] (cpp_pubsub) StdoutLine: {'line': b'-- Symlinking: /workspaces/ROS_PointCloud_AGV/install/cpp_pubsub/share/cpp_pubsub/environment/path.sh\n'}
+[6.114775] (cpp_pubsub) StdoutLine: {'line': b'-- Symlinking: /workspaces/ROS_PointCloud_AGV/install/cpp_pubsub/share/cpp_pubsub/environment/path.dsv\n'}
+[6.124335] (cpp_pubsub) StdoutLine: {'line': b'-- Symlinking: /workspaces/ROS_PointCloud_AGV/install/cpp_pubsub/share/cpp_pubsub/local_setup.bash\n'}
+[6.132846] (cpp_pubsub) StdoutLine: {'line': b'-- Symlinking: /workspaces/ROS_PointCloud_AGV/install/cpp_pubsub/share/cpp_pubsub/local_setup.sh\n'}
+[6.142128] (cpp_pubsub) StdoutLine: {'line': b'-- Symlinking: /workspaces/ROS_PointCloud_AGV/install/cpp_pubsub/share/cpp_pubsub/local_setup.zsh\n'}
+[6.150526] (cpp_pubsub) StdoutLine: {'line': b'-- Symlinking: /workspaces/ROS_PointCloud_AGV/install/cpp_pubsub/share/cpp_pubsub/local_setup.dsv\n'}
+[6.159517] (cpp_pubsub) StdoutLine: {'line': b'-- Symlinking: /workspaces/ROS_PointCloud_AGV/install/cpp_pubsub/share/cpp_pubsub/package.dsv\n'}
+[6.161676] (-) TimerEvent: {}
+[6.168684] (cpp_pubsub) StdoutLine: {'line': b'-- Symlinking: /workspaces/ROS_PointCloud_AGV/install/cpp_pubsub/share/ament_index/resource_index/packages/cpp_pubsub\n'}
+[6.177929] (cpp_pubsub) StdoutLine: {'line': b'-- Symlinking: /workspaces/ROS_PointCloud_AGV/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig.cmake\n'}
+[6.186463] (cpp_pubsub) StdoutLine: {'line': b'-- Symlinking: /workspaces/ROS_PointCloud_AGV/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig-version.cmake\n'}
+[6.196020] (cpp_pubsub) StdoutLine: {'line': b'-- Symlinking: /workspaces/ROS_PointCloud_AGV/install/cpp_pubsub/share/cpp_pubsub/package.xml\n'}
+[6.225856] (cpp_pubsub) CommandEnded: {'returncode': 0}
+[6.262801] (-) TimerEvent: {}
+[6.366367] (-) TimerEvent: {}
+[6.467405] (-) TimerEvent: {}
+[6.548729] (cpp_pubsub) JobEnded: {'identifier': 'cpp_pubsub', 'rc': 0}
+[6.556075] (depthai_descriptions) JobStarted: {'identifier': 'depthai_descriptions'}
+[6.567610] (-) TimerEvent: {}
+[6.605101] (depthai_descriptions) JobProgress: {'identifier': 'depthai_descriptions', 'progress': 'cmake'}
+[6.609715] (depthai_descriptions) Command: {'cmd': ['/usr/local/bin/cmake', '/workspaces/ROS_PointCloud_AGV/dai_ws/src/depthai-ros/depthai_descriptions', '-DBUILD_SHARED_LIBS=ON', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/workspaces/ROS_PointCloud_AGV/install/depthai_descriptions'], 'cwd': '/workspaces/ROS_PointCloud_AGV/build/depthai_descriptions', 'env': OrderedDict([('OPENBLAS_CORETYPE', 'ARMV8'), ('PYTHONIOENCODING', 'utf-8'), ('WS', '/ws'), ('HOSTNAME', 'jetsonagv-desktop'), ('GIT_ASKPASS', '/vscode/vscode-server/bin/linux-arm64/1a5daa3a0231a0fbba4f14db7ec463cf99d7768e/extensions/git/dist/askpass.sh'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/install/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/install/lib:/usr/local/cuda-10.2/targets/aarch64-linux/lib:'), ('BROWSER', '/vscode/vscode-server/bin/linux-arm64/1a5daa3a0231a0fbba4f14db7ec463cf99d7768e/bin/helpers/browser.sh'), ('SHLVL', '2'), ('OLDPWD', '/workspaces'), ('HOME', '/home/USERNAME'), ('TERM_PROGRAM_VERSION', '1.84.2'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-4a01e2ed-990a-4728-9d36-3ddf8d7d7467.sock'), ('VSCODE_GIT_ASKPASS_MAIN', '/vscode/vscode-server/bin/linux-arm64/1a5daa3a0231a0fbba4f14db7ec463cf99d7768e/extensions/git/dist/askpass-main.js'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_NODE', '/vscode/vscode-server/bin/linux-arm64/1a5daa3a0231a0fbba4f14db7ec463cf99d7768e/node'), ('MAKEFLAGS', '-j1 -l1'), ('REMOTE_CONTAINERS', 'true'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/opt/ros/foxy/install'), ('ROS_DISTRO', 'foxy'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-40957e95-72ab-42a8-97cb-172fabd7d5d3.sock'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('PKG_CONFIG_PATH', '/opt/ros/foxy/install/lib/aarch64-linux-gnu/pkgconfig:/opt/ros/foxy/install/lib/pkgconfig'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/install/bin:/vscode/vscode-server/bin/linux-arm64/1a5daa3a0231a0fbba4f14db7ec463cf99d7768e/bin/remote-cli:/usr/local/cuda-10.2/bin:/usr/local/cuda/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':1'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/vscode-ssh-auth-40957e95-72ab-42a8-97cb-172fabd7d5d3.sock","/tmp/.X11-unix/X1","/home/USERNAME/.gnupg/S.gpg-agent"]'), ('LANG', 'en_US.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('TERM_PROGRAM', 'vscode'), ('ROS_ROOT', '/opt/ros/foxy'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/vscode-git-29bc7e2fd3.sock'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy/install'), ('SSH_AUTH_SOCK', '/tmp/vscode-ssh-auth-40957e95-72ab-42a8-97cb-172fabd7d5d3.sock'), ('REMOTE_CONTAINERS_DISPLAY_SOCK', '/tmp/.X11-unix/X1'), ('DEBIAN_FRONTEND', 'noninteractive'), ('SHELL', '/bin/bash'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/workspaces/ROS_PointCloud_AGV/build/depthai_descriptions'), ('PYTHONPATH', '/opt/ros/foxy/install/lib/python3.6/site-packages'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy/install')]), 'shell': False}
+[6.667812] (-) TimerEvent: {}
+[6.768614] (-) TimerEvent: {}
+[6.775604] (depthai_descriptions) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/install/share/ament_cmake/cmake)\n'}
+[6.782149] (depthai_descriptions) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /opt/ros/foxy/install/share/ament_cmake_core/cmake/core/python.cmake:22 (find_package):\n'}
+[6.782976] (depthai_descriptions) StderrLine: {'line': b'  Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules\n'}
+[6.783623] (depthai_descriptions) StderrLine: {'line': b'  are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use\n'}
+[6.784088] (depthai_descriptions) StderrLine: {'line': b'  the cmake_policy command to set the policy and suppress this warning.\n'}
+[6.784518] (depthai_descriptions) StderrLine: {'line': b'\n'}
+[6.784947] (depthai_descriptions) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[6.785369] (depthai_descriptions) StderrLine: {'line': b'  /opt/ros/foxy/install/share/ament_cmake_core/cmake/core/all.cmake:53 (include)\n'}
+[6.785792] (depthai_descriptions) StderrLine: {'line': b'  /opt/ros/foxy/install/share/ament_cmake_core/cmake/ament_cmake_core-extras.cmake:17 (include)\n'}
+[6.786227] (depthai_descriptions) StderrLine: {'line': b'  /opt/ros/foxy/install/share/ament_cmake_core/cmake/ament_cmake_coreConfig.cmake:41 (include)\n'}
+[6.786649] (depthai_descriptions) StderrLine: {'line': b'  /opt/ros/foxy/install/share/ament_cmake/cmake/ament_cmake_export_dependencies-extras.cmake:15 (find_package)\n'}
+[6.787080] (depthai_descriptions) StderrLine: {'line': b'  /opt/ros/foxy/install/share/ament_cmake/cmake/ament_cmakeConfig.cmake:41 (include)\n'}
+[6.787558] (depthai_descriptions) StderrLine: {'line': b'  CMakeLists.txt:9 (find_package)\n'}
+[6.787988] (depthai_descriptions) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[6.788408] (depthai_descriptions) StderrLine: {'line': b'\x1b[0m\n'}
+[6.860739] (depthai_descriptions) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[6.868779] (-) TimerEvent: {}
+[6.969513] (-) TimerEvent: {}
+[7.070771] (-) TimerEvent: {}
+[7.172137] (-) TimerEvent: {}
+[7.273205] (-) TimerEvent: {}
+[7.374262] (-) TimerEvent: {}
+[7.475280] (-) TimerEvent: {}
+[7.576511] (-) TimerEvent: {}
+[7.677753] (-) TimerEvent: {}
+[7.779039] (-) TimerEvent: {}
+[7.820352] (depthai_descriptions) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[7.879328] (-) TimerEvent: {}
+[7.980151] (-) TimerEvent: {}
+[8.081442] (-) TimerEvent: {}
+[8.182727] (-) TimerEvent: {}
+[8.283861] (-) TimerEvent: {}
+[8.384952] (-) TimerEvent: {}
+[8.387400] (depthai_descriptions) StdoutLine: {'line': b'-- Configuring done (1.6s)\n'}
+[8.409393] (depthai_descriptions) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[8.412623] (depthai_descriptions) StderrLine: {'line': b'\x1b[33mCMake Warning:\n'}
+[8.413219] (depthai_descriptions) StderrLine: {'line': b'  Manually-specified variables were not used by the project:\n'}
+[8.413908] (depthai_descriptions) StderrLine: {'line': b'\n'}
+[8.414500] (depthai_descriptions) StderrLine: {'line': b'    BUILD_SHARED_LIBS\n'}
+[8.414984] (depthai_descriptions) StderrLine: {'line': b'\n'}
+[8.415596] (depthai_descriptions) StderrLine: {'line': b'\x1b[0m\n'}
+[8.416167] (depthai_descriptions) StdoutLine: {'line': b'-- Build files have been written to: /workspaces/ROS_PointCloud_AGV/build/depthai_descriptions\n'}
+[8.441316] (depthai_descriptions) CommandEnded: {'returncode': 0}
+[8.443961] (depthai_descriptions) JobProgress: {'identifier': 'depthai_descriptions', 'progress': 'build'}
+[8.449350] (depthai_descriptions) Command: {'cmd': ['/usr/local/bin/cmake', '--build', '/workspaces/ROS_PointCloud_AGV/build/depthai_descriptions'], 'cwd': '/workspaces/ROS_PointCloud_AGV/build/depthai_descriptions', 'env': OrderedDict([('OPENBLAS_CORETYPE', 'ARMV8'), ('PYTHONIOENCODING', 'utf-8'), ('WS', '/ws'), ('HOSTNAME', 'jetsonagv-desktop'), ('GIT_ASKPASS', '/vscode/vscode-server/bin/linux-arm64/1a5daa3a0231a0fbba4f14db7ec463cf99d7768e/extensions/git/dist/askpass.sh'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/install/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/install/lib:/usr/local/cuda-10.2/targets/aarch64-linux/lib:'), ('BROWSER', '/vscode/vscode-server/bin/linux-arm64/1a5daa3a0231a0fbba4f14db7ec463cf99d7768e/bin/helpers/browser.sh'), ('SHLVL', '2'), ('OLDPWD', '/workspaces'), ('HOME', '/home/USERNAME'), ('TERM_PROGRAM_VERSION', '1.84.2'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-4a01e2ed-990a-4728-9d36-3ddf8d7d7467.sock'), ('VSCODE_GIT_ASKPASS_MAIN', '/vscode/vscode-server/bin/linux-arm64/1a5daa3a0231a0fbba4f14db7ec463cf99d7768e/extensions/git/dist/askpass-main.js'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_NODE', '/vscode/vscode-server/bin/linux-arm64/1a5daa3a0231a0fbba4f14db7ec463cf99d7768e/node'), ('MAKEFLAGS', '-j1 -l1'), ('REMOTE_CONTAINERS', 'true'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/opt/ros/foxy/install'), ('ROS_DISTRO', 'foxy'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-40957e95-72ab-42a8-97cb-172fabd7d5d3.sock'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('PKG_CONFIG_PATH', '/opt/ros/foxy/install/lib/aarch64-linux-gnu/pkgconfig:/opt/ros/foxy/install/lib/pkgconfig'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/install/bin:/vscode/vscode-server/bin/linux-arm64/1a5daa3a0231a0fbba4f14db7ec463cf99d7768e/bin/remote-cli:/usr/local/cuda-10.2/bin:/usr/local/cuda/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':1'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/vscode-ssh-auth-40957e95-72ab-42a8-97cb-172fabd7d5d3.sock","/tmp/.X11-unix/X1","/home/USERNAME/.gnupg/S.gpg-agent"]'), ('LANG', 'en_US.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('TERM_PROGRAM', 'vscode'), ('ROS_ROOT', '/opt/ros/foxy'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/vscode-git-29bc7e2fd3.sock'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy/install'), ('SSH_AUTH_SOCK', '/tmp/vscode-ssh-auth-40957e95-72ab-42a8-97cb-172fabd7d5d3.sock'), ('REMOTE_CONTAINERS_DISPLAY_SOCK', '/tmp/.X11-unix/X1'), ('DEBIAN_FRONTEND', 'noninteractive'), ('SHELL', '/bin/bash'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/workspaces/ROS_PointCloud_AGV/build/depthai_descriptions'), ('PYTHONPATH', '/opt/ros/foxy/install/lib/python3.6/site-packages'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy/install')]), 'shell': False}
+[8.485184] (-) TimerEvent: {}
+[8.586105] (-) TimerEvent: {}
+[8.641509] (depthai_descriptions) CommandEnded: {'returncode': 0}
+[8.686426] (-) TimerEvent: {}
+[8.787670] (-) TimerEvent: {}
+[8.836142] (depthai_descriptions) JobProgress: {'identifier': 'depthai_descriptions', 'progress': 'install'}
+[8.837514] (depthai_descriptions) Command: {'cmd': ['/usr/local/bin/cmake', '--install', '/workspaces/ROS_PointCloud_AGV/build/depthai_descriptions'], 'cwd': '/workspaces/ROS_PointCloud_AGV/build/depthai_descriptions', 'env': OrderedDict([('OPENBLAS_CORETYPE', 'ARMV8'), ('PYTHONIOENCODING', 'utf-8'), ('WS', '/ws'), ('HOSTNAME', 'jetsonagv-desktop'), ('GIT_ASKPASS', '/vscode/vscode-server/bin/linux-arm64/1a5daa3a0231a0fbba4f14db7ec463cf99d7768e/extensions/git/dist/askpass.sh'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/install/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/install/lib:/usr/local/cuda-10.2/targets/aarch64-linux/lib:'), ('BROWSER', '/vscode/vscode-server/bin/linux-arm64/1a5daa3a0231a0fbba4f14db7ec463cf99d7768e/bin/helpers/browser.sh'), ('SHLVL', '2'), ('OLDPWD', '/workspaces'), ('HOME', '/home/USERNAME'), ('TERM_PROGRAM_VERSION', '1.84.2'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-4a01e2ed-990a-4728-9d36-3ddf8d7d7467.sock'), ('VSCODE_GIT_ASKPASS_MAIN', '/vscode/vscode-server/bin/linux-arm64/1a5daa3a0231a0fbba4f14db7ec463cf99d7768e/extensions/git/dist/askpass-main.js'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_NODE', '/vscode/vscode-server/bin/linux-arm64/1a5daa3a0231a0fbba4f14db7ec463cf99d7768e/node'), ('MAKEFLAGS', '-j1 -l1'), ('REMOTE_CONTAINERS', 'true'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/opt/ros/foxy/install'), ('ROS_DISTRO', 'foxy'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-40957e95-72ab-42a8-97cb-172fabd7d5d3.sock'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('PKG_CONFIG_PATH', '/opt/ros/foxy/install/lib/aarch64-linux-gnu/pkgconfig:/opt/ros/foxy/install/lib/pkgconfig'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/install/bin:/vscode/vscode-server/bin/linux-arm64/1a5daa3a0231a0fbba4f14db7ec463cf99d7768e/bin/remote-cli:/usr/local/cuda-10.2/bin:/usr/local/cuda/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':1'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/vscode-ssh-auth-40957e95-72ab-42a8-97cb-172fabd7d5d3.sock","/tmp/.X11-unix/X1","/home/USERNAME/.gnupg/S.gpg-agent"]'), ('LANG', 'en_US.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('TERM_PROGRAM', 'vscode'), ('ROS_ROOT', '/opt/ros/foxy'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/vscode-git-29bc7e2fd3.sock'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy/install'), ('SSH_AUTH_SOCK', '/tmp/vscode-ssh-auth-40957e95-72ab-42a8-97cb-172fabd7d5d3.sock'), ('REMOTE_CONTAINERS_DISPLAY_SOCK', '/tmp/.X11-unix/X1'), ('DEBIAN_FRONTEND', 'noninteractive'), ('SHELL', '/bin/bash'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/workspaces/ROS_PointCloud_AGV/build/depthai_descriptions'), ('PYTHONPATH', '/opt/ros/foxy/install/lib/python3.6/site-packages'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy/install')]), 'shell': False}
+[8.887886] (-) TimerEvent: {}
+[8.981183] (depthai_descriptions) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[8.982700] (depthai_descriptions) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[8.984850] (depthai_descriptions) StdoutLine: {'line': b'-- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_descriptions/share/depthai_descriptions/urdf/depthai_descr.urdf.xacro\n'}
+[8.988013] (-) TimerEvent: {}
+[8.993830] (depthai_descriptions) StdoutLine: {'line': b'-- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_descriptions/share/depthai_descriptions/urdf/include/depthai_macro.urdf.xacro\n'}
+[9.002810] (depthai_descriptions) StdoutLine: {'line': b'-- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_descriptions/share/depthai_descriptions/urdf/models/OAK-D-CM4-POE.stl\n'}
+[9.012824] (depthai_descriptions) StdoutLine: {'line': b'-- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_descriptions/share/depthai_descriptions/urdf/models/OAK-D-IOT-75.stl\n'}
+[9.024053] (depthai_descriptions) StdoutLine: {'line': b'-- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_descriptions/share/depthai_descriptions/urdf/models/OAK-D-LITE.stl\n'}
+[9.032836] (depthai_descriptions) StdoutLine: {'line': b'-- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_descriptions/share/depthai_descriptions/urdf/models/OAK-D-POE.stl\n'}
+[9.041459] (depthai_descriptions) StdoutLine: {'line': b'-- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_descriptions/share/depthai_descriptions/urdf/models/OAK-D-PRO.stl\n'}
+[9.050000] (depthai_descriptions) StdoutLine: {'line': b'-- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_descriptions/share/depthai_descriptions/urdf/models/OAK-D-S2.stl\n'}
+[9.058623] (depthai_descriptions) StdoutLine: {'line': b'-- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_descriptions/share/depthai_descriptions/urdf/models/OAK-D.stl\n'}
+[9.067526] (depthai_descriptions) StdoutLine: {'line': b'-- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_descriptions/share/ament_index/resource_index/package_run_dependencies/depthai_descriptions\n'}
+[9.077127] (depthai_descriptions) StdoutLine: {'line': b'-- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_descriptions/share/ament_index/resource_index/parent_prefix_path/depthai_descriptions\n'}
+[9.086335] (depthai_descriptions) StdoutLine: {'line': b'-- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_descriptions/share/depthai_descriptions/environment/ament_prefix_path.sh\n'}
+[9.088144] (-) TimerEvent: {}
+[9.095923] (depthai_descriptions) StdoutLine: {'line': b'-- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_descriptions/share/depthai_descriptions/environment/ament_prefix_path.dsv\n'}
+[9.105988] (depthai_descriptions) StdoutLine: {'line': b'-- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_descriptions/share/depthai_descriptions/environment/path.sh\n'}
+[9.115770] (depthai_descriptions) StdoutLine: {'line': b'-- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_descriptions/share/depthai_descriptions/environment/path.dsv\n'}
+[9.125391] (depthai_descriptions) StdoutLine: {'line': b'-- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_descriptions/share/depthai_descriptions/local_setup.bash\n'}
+[9.134851] (depthai_descriptions) StdoutLine: {'line': b'-- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_descriptions/share/depthai_descriptions/local_setup.sh\n'}
+[9.146903] (depthai_descriptions) StdoutLine: {'line': b'-- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_descriptions/share/depthai_descriptions/local_setup.zsh\n'}
+[9.156205] (depthai_descriptions) StdoutLine: {'line': b'-- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_descriptions/share/depthai_descriptions/local_setup.dsv\n'}
+[9.165346] (depthai_descriptions) StdoutLine: {'line': b'-- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_descriptions/share/depthai_descriptions/package.dsv\n'}
+[9.174586] (depthai_descriptions) StdoutLine: {'line': b'-- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_descriptions/share/ament_index/resource_index/packages/depthai_descriptions\n'}
+[9.183596] (depthai_descriptions) StdoutLine: {'line': b'-- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_descriptions/share/depthai_descriptions/cmake/depthai_descriptionsConfig.cmake\n'}
+[9.188304] (-) TimerEvent: {}
+[9.192640] (depthai_descriptions) StdoutLine: {'line': b'-- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_descriptions/share/depthai_descriptions/cmake/depthai_descriptionsConfig-version.cmake\n'}
+[9.202369] (depthai_descriptions) StdoutLine: {'line': b'-- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_descriptions/share/depthai_descriptions/package.xml\n'}
+[9.211109] (depthai_descriptions) StdoutLine: {'line': b'-- Up-to-date: /workspaces/ROS_PointCloud_AGV/install/depthai_descriptions/share/depthai_descriptions/launch\n'}
+[9.212093] (depthai_descriptions) StdoutLine: {'line': b'-- Up-to-date: /workspaces/ROS_PointCloud_AGV/install/depthai_descriptions/share/depthai_descriptions/launch/urdf_launch.py\n'}
+[9.235604] (depthai_descriptions) CommandEnded: {'returncode': 0}
+[9.288629] (-) TimerEvent: {}
+[9.389695] (-) TimerEvent: {}
+[9.490840] (-) TimerEvent: {}
+[9.493439] (depthai_descriptions) JobEnded: {'identifier': 'depthai_descriptions', 'rc': 0}
+[9.501445] (depthai_filters) JobStarted: {'identifier': 'depthai_filters'}
+[9.552965] (depthai_filters) JobProgress: {'identifier': 'depthai_filters', 'progress': 'cmake'}
+[9.557537] (depthai_filters) Command: {'cmd': ['/usr/local/bin/cmake', '/workspaces/ROS_PointCloud_AGV/dai_ws/src/depthai-ros/depthai_filters', '-DBUILD_SHARED_LIBS=ON', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/workspaces/ROS_PointCloud_AGV/install/depthai_filters'], 'cwd': '/workspaces/ROS_PointCloud_AGV/build/depthai_filters', 'env': OrderedDict([('OPENBLAS_CORETYPE', 'ARMV8'), ('PYTHONIOENCODING', 'utf-8'), ('WS', '/ws'), ('HOSTNAME', 'jetsonagv-desktop'), ('GIT_ASKPASS', '/vscode/vscode-server/bin/linux-arm64/1a5daa3a0231a0fbba4f14db7ec463cf99d7768e/extensions/git/dist/askpass.sh'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/install/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/install/lib:/usr/local/cuda-10.2/targets/aarch64-linux/lib:'), ('BROWSER', '/vscode/vscode-server/bin/linux-arm64/1a5daa3a0231a0fbba4f14db7ec463cf99d7768e/bin/helpers/browser.sh'), ('SHLVL', '2'), ('OLDPWD', '/workspaces'), ('HOME', '/home/USERNAME'), ('TERM_PROGRAM_VERSION', '1.84.2'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-4a01e2ed-990a-4728-9d36-3ddf8d7d7467.sock'), ('VSCODE_GIT_ASKPASS_MAIN', '/vscode/vscode-server/bin/linux-arm64/1a5daa3a0231a0fbba4f14db7ec463cf99d7768e/extensions/git/dist/askpass-main.js'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_NODE', '/vscode/vscode-server/bin/linux-arm64/1a5daa3a0231a0fbba4f14db7ec463cf99d7768e/node'), ('MAKEFLAGS', '-j1 -l1'), ('REMOTE_CONTAINERS', 'true'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/opt/ros/foxy/install'), ('ROS_DISTRO', 'foxy'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-40957e95-72ab-42a8-97cb-172fabd7d5d3.sock'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('PKG_CONFIG_PATH', '/opt/ros/foxy/install/lib/aarch64-linux-gnu/pkgconfig:/opt/ros/foxy/install/lib/pkgconfig'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/install/bin:/vscode/vscode-server/bin/linux-arm64/1a5daa3a0231a0fbba4f14db7ec463cf99d7768e/bin/remote-cli:/usr/local/cuda-10.2/bin:/usr/local/cuda/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':1'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/vscode-ssh-auth-40957e95-72ab-42a8-97cb-172fabd7d5d3.sock","/tmp/.X11-unix/X1","/home/USERNAME/.gnupg/S.gpg-agent"]'), ('LANG', 'en_US.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('TERM_PROGRAM', 'vscode'), ('ROS_ROOT', '/opt/ros/foxy'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/vscode-git-29bc7e2fd3.sock'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy/install'), ('SSH_AUTH_SOCK', '/tmp/vscode-ssh-auth-40957e95-72ab-42a8-97cb-172fabd7d5d3.sock'), ('REMOTE_CONTAINERS_DISPLAY_SOCK', '/tmp/.X11-unix/X1'), ('DEBIAN_FRONTEND', 'noninteractive'), ('SHELL', '/bin/bash'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/workspaces/ROS_PointCloud_AGV/build/depthai_filters'), ('PYTHONPATH', '/opt/ros/foxy/install/lib/python3.6/site-packages'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy/install')]), 'shell': False}
+[9.591086] (-) TimerEvent: {}
+[9.691972] (-) TimerEvent: {}
+[9.730954] (depthai_filters) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /usr/lib/cmake/opencv4/OpenCVConfig.cmake:86 (find_package):\n'}
+[9.731934] (depthai_filters) StderrLine: {'line': b'  Policy CMP0146 is not set: The FindCUDA module is removed.  Run "cmake\n'}
+[9.732567] (depthai_filters) StderrLine: {'line': b'  --help-policy CMP0146" for policy details.  Use the cmake_policy command to\n'}
+[9.733178] (depthai_filters) StderrLine: {'line': b'  set the policy and suppress this warning.\n'}
+[9.733712] (depthai_filters) StderrLine: {'line': b'\n'}
+[9.734277] (depthai_filters) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[9.734845] (depthai_filters) StderrLine: {'line': b'  /usr/lib/cmake/opencv4/OpenCVConfig.cmake:108 (find_host_package)\n'}
+[9.746052] (depthai_filters) StderrLine: {'line': b'  CMakeLists.txt:8 (find_package)\n'}
+[9.746679] (depthai_filters) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[9.747186] (depthai_filters) StderrLine: {'line': b'\x1b[0m\n'}
+[9.792204] (-) TimerEvent: {}
+[9.862843] (depthai_filters) StdoutLine: {'line': b'-- Found ament_cmake_auto: 0.9.12 (/opt/ros/foxy/install/share/ament_cmake_auto/cmake)\n'}
+[9.870827] (depthai_filters) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /opt/ros/foxy/install/share/ament_cmake_core/cmake/core/python.cmake:22 (find_package):\n'}
+[9.871580] (depthai_filters) StderrLine: {'line': b'  Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules\n'}
+[9.872102] (depthai_filters) StderrLine: {'line': b'  are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use\n'}
+[9.872565] (depthai_filters) StderrLine: {'line': b'  the cmake_policy command to set the policy and suppress this warning.\n'}
+[9.873162] (depthai_filters) StderrLine: {'line': b'\n'}
+[9.873745] (depthai_filters) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[9.874445] (depthai_filters) StderrLine: {'line': b'  /opt/ros/foxy/install/share/ament_cmake_core/cmake/core/all.cmake:53 (include)\n'}
+[9.875200] (depthai_filters) StderrLine: {'line': b'  /opt/ros/foxy/install/share/ament_cmake_core/cmake/ament_cmake_core-extras.cmake:17 (include)\n'}
+[9.875760] (depthai_filters) StderrLine: {'line': b'  /opt/ros/foxy/install/share/ament_cmake_core/cmake/ament_cmake_coreConfig.cmake:41 (include)\n'}
+[9.876298] (depthai_filters) StderrLine: {'line': b'  /opt/ros/foxy/install/share/ament_cmake/cmake/ament_cmake_export_dependencies-extras.cmake:15 (find_package)\n'}
+[9.876780] (depthai_filters) StderrLine: {'line': b'  /opt/ros/foxy/install/share/ament_cmake/cmake/ament_cmakeConfig.cmake:41 (include)\n'}
+[9.877233] (depthai_filters) StderrLine: {'line': b'  /opt/ros/foxy/install/share/ament_cmake_auto/cmake/ament_cmake_auto-extras.cmake:17 (find_package)\n'}
+[9.877682] (depthai_filters) StderrLine: {'line': b'  /opt/ros/foxy/install/share/ament_cmake_auto/cmake/ament_cmake_autoConfig.cmake:41 (include)\n'}
+[9.878130] (depthai_filters) StderrLine: {'line': b'  CMakeLists.txt:15 (find_package)\n'}
+[9.878581] (depthai_filters) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[9.879056] (depthai_filters) StderrLine: {'line': b'\x1b[0m\n'}
+[9.895771] (-) TimerEvent: {}
+[9.943723] (depthai_filters) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[9.995993] (-) TimerEvent: {}
+[10.096788] (-) TimerEvent: {}
+[10.197574] (-) TimerEvent: {}
+[10.298910] (-) TimerEvent: {}
+[10.400282] (-) TimerEvent: {}
+[10.501636] (-) TimerEvent: {}
+[10.602954] (-) TimerEvent: {}
+[10.704292] (-) TimerEvent: {}
+[10.805607] (-) TimerEvent: {}
+[10.899290] (depthai_filters) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[10.905835] (-) TimerEvent: {}
+[11.006549] (-) TimerEvent: {}
+[11.107363] (-) TimerEvent: {}
+[11.208088] (-) TimerEvent: {}
+[11.308793] (-) TimerEvent: {}
+[11.410163] (-) TimerEvent: {}
+[11.498026] (depthai_filters) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[11.510371] (-) TimerEvent: {}
+[11.516151] (depthai_filters) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/install/share/rosidl_adapter/cmake)\n'}
+[11.610613] (-) TimerEvent: {}
+[11.712053] (-) TimerEvent: {}
+[11.813420] (-) TimerEvent: {}
+[11.914826] (-) TimerEvent: {}
+[12.016387] (-) TimerEvent: {}
+[12.048108] (depthai_filters) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[12.116600] (-) TimerEvent: {}
+[12.217906] (-) TimerEvent: {}
+[12.319314] (-) TimerEvent: {}
+[12.420668] (-) TimerEvent: {}
+[12.522033] (-) TimerEvent: {}
+[12.622907] (-) TimerEvent: {}
+[12.726070] (-) TimerEvent: {}
+[12.826922] (-) TimerEvent: {}
+[12.927828] (-) TimerEvent: {}
+[12.984242] (depthai_filters) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/install/share/rmw_implementation_cmake/cmake)\n'}
+[12.990513] (depthai_filters) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_cyclonedds_cpp' as default\n"}
+[13.028004] (-) TimerEvent: {}
+[13.129052] (-) TimerEvent: {}
+[13.230101] (-) TimerEvent: {}
+[13.331134] (-) TimerEvent: {}
+[13.435026] (-) TimerEvent: {}
+[13.536123] (-) TimerEvent: {}
+[13.636946] (-) TimerEvent: {}
+[13.739788] (-) TimerEvent: {}
+[13.840615] (-) TimerEvent: {}
+[13.941420] (-) TimerEvent: {}
+[14.042217] (-) TimerEvent: {}
+[14.143011] (-) TimerEvent: {}
+[14.243808] (-) TimerEvent: {}
+[14.344603] (-) TimerEvent: {}
+[14.445416] (-) TimerEvent: {}
+[14.546274] (-) TimerEvent: {}
+[14.647193] (-) TimerEvent: {}
+[14.748318] (-) TimerEvent: {}
+[14.830688] (depthai_filters) StdoutLine: {'line': b'-- Configuring done (5.1s)\n'}
+[14.848478] (-) TimerEvent: {}
+[14.920206] (depthai_filters) StdoutLine: {'line': b'-- Generating done (0.1s)\n'}
+[14.928724] (depthai_filters) StdoutLine: {'line': b'-- Build files have been written to: /workspaces/ROS_PointCloud_AGV/build/depthai_filters\n'}
+[14.948673] (-) TimerEvent: {}
+[14.973948] (depthai_filters) CommandEnded: {'returncode': 0}
+[14.976940] (depthai_filters) JobProgress: {'identifier': 'depthai_filters', 'progress': 'build'}
+[14.978306] (depthai_filters) Command: {'cmd': ['/usr/local/bin/cmake', '--build', '/workspaces/ROS_PointCloud_AGV/build/depthai_filters'], 'cwd': '/workspaces/ROS_PointCloud_AGV/build/depthai_filters', 'env': OrderedDict([('OPENBLAS_CORETYPE', 'ARMV8'), ('PYTHONIOENCODING', 'utf-8'), ('WS', '/ws'), ('HOSTNAME', 'jetsonagv-desktop'), ('GIT_ASKPASS', '/vscode/vscode-server/bin/linux-arm64/1a5daa3a0231a0fbba4f14db7ec463cf99d7768e/extensions/git/dist/askpass.sh'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/install/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/install/lib:/usr/local/cuda-10.2/targets/aarch64-linux/lib:'), ('BROWSER', '/vscode/vscode-server/bin/linux-arm64/1a5daa3a0231a0fbba4f14db7ec463cf99d7768e/bin/helpers/browser.sh'), ('SHLVL', '2'), ('OLDPWD', '/workspaces'), ('HOME', '/home/USERNAME'), ('TERM_PROGRAM_VERSION', '1.84.2'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-4a01e2ed-990a-4728-9d36-3ddf8d7d7467.sock'), ('VSCODE_GIT_ASKPASS_MAIN', '/vscode/vscode-server/bin/linux-arm64/1a5daa3a0231a0fbba4f14db7ec463cf99d7768e/extensions/git/dist/askpass-main.js'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_NODE', '/vscode/vscode-server/bin/linux-arm64/1a5daa3a0231a0fbba4f14db7ec463cf99d7768e/node'), ('MAKEFLAGS', '-j1 -l1'), ('REMOTE_CONTAINERS', 'true'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/opt/ros/foxy/install'), ('ROS_DISTRO', 'foxy'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-40957e95-72ab-42a8-97cb-172fabd7d5d3.sock'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('PKG_CONFIG_PATH', '/opt/ros/foxy/install/lib/aarch64-linux-gnu/pkgconfig:/opt/ros/foxy/install/lib/pkgconfig'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/install/bin:/vscode/vscode-server/bin/linux-arm64/1a5daa3a0231a0fbba4f14db7ec463cf99d7768e/bin/remote-cli:/usr/local/cuda-10.2/bin:/usr/local/cuda/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':1'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/vscode-ssh-auth-40957e95-72ab-42a8-97cb-172fabd7d5d3.sock","/tmp/.X11-unix/X1","/home/USERNAME/.gnupg/S.gpg-agent"]'), ('LANG', 'en_US.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('TERM_PROGRAM', 'vscode'), ('ROS_ROOT', '/opt/ros/foxy'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/vscode-git-29bc7e2fd3.sock'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy/install'), ('SSH_AUTH_SOCK', '/tmp/vscode-ssh-auth-40957e95-72ab-42a8-97cb-172fabd7d5d3.sock'), ('REMOTE_CONTAINERS_DISPLAY_SOCK', '/tmp/.X11-unix/X1'), ('DEBIAN_FRONTEND', 'noninteractive'), ('SHELL', '/bin/bash'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/workspaces/ROS_PointCloud_AGV/build/depthai_filters'), ('PYTHONPATH', '/opt/ros/foxy/install/lib/python3.6/site-packages'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy/install')]), 'shell': False}
+[15.048969] (-) TimerEvent: {}
+[15.150385] (-) TimerEvent: {}
+[15.252156] (-) TimerEvent: {}
+[15.285511] (depthai_filters) StdoutLine: {'line': b'[ 20%] \x1b[32m\x1b[1mLinking CXX shared library libdepthai_filters.so\x1b[0m\n'}
+[15.352400] (-) TimerEvent: {}
+[15.453333] (-) TimerEvent: {}
+[15.554211] (-) TimerEvent: {}
+[15.655735] (-) TimerEvent: {}
+[15.757315] (-) TimerEvent: {}
+[15.858860] (-) TimerEvent: {}
+[15.960656] (-) TimerEvent: {}
+[16.062392] (-) TimerEvent: {}
+[16.164239] (-) TimerEvent: {}
+[16.265794] (-) TimerEvent: {}
+[16.366832] (-) TimerEvent: {}
+[16.468617] (-) TimerEvent: {}
+[16.570115] (-) TimerEvent: {}
+[16.671045] (-) TimerEvent: {}
+[16.771973] (-) TimerEvent: {}
+[16.872764] (-) TimerEvent: {}
+[16.973579] (-) TimerEvent: {}
+[17.074378] (-) TimerEvent: {}
+[17.175243] (-) TimerEvent: {}
+[17.275991] (-) TimerEvent: {}
+[17.377326] (-) TimerEvent: {}
+[17.478150] (-) TimerEvent: {}
+[17.578964] (-) TimerEvent: {}
+[17.681551] (-) TimerEvent: {}
+[17.782368] (-) TimerEvent: {}
+[17.883254] (-) TimerEvent: {}
+[17.984024] (-) TimerEvent: {}
+[18.084818] (-) TimerEvent: {}
+[18.185598] (-) TimerEvent: {}
+[18.286394] (-) TimerEvent: {}
+[18.387309] (-) TimerEvent: {}
+[18.488202] (-) TimerEvent: {}
+[18.589035] (-) TimerEvent: {}
+[18.689776] (-) TimerEvent: {}
+[18.790501] (-) TimerEvent: {}
+[18.891305] (-) TimerEvent: {}
+[18.992212] (-) TimerEvent: {}
+[19.057952] (depthai_filters) StdoutLine: {'line': b'[100%] Built target depthai_filters\n'}
+[19.090314] (depthai_filters) CommandEnded: {'returncode': 0}
+[19.092820] (-) TimerEvent: {}
+[19.195227] (-) TimerEvent: {}
+[19.296150] (-) TimerEvent: {}
+[19.324635] (depthai_filters) JobProgress: {'identifier': 'depthai_filters', 'progress': 'install'}
+[19.326210] (depthai_filters) Command: {'cmd': ['/usr/local/bin/cmake', '--install', '/workspaces/ROS_PointCloud_AGV/build/depthai_filters'], 'cwd': '/workspaces/ROS_PointCloud_AGV/build/depthai_filters', 'env': OrderedDict([('OPENBLAS_CORETYPE', 'ARMV8'), ('PYTHONIOENCODING', 'utf-8'), ('WS', '/ws'), ('HOSTNAME', 'jetsonagv-desktop'), ('GIT_ASKPASS', '/vscode/vscode-server/bin/linux-arm64/1a5daa3a0231a0fbba4f14db7ec463cf99d7768e/extensions/git/dist/askpass.sh'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/install/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/install/lib:/usr/local/cuda-10.2/targets/aarch64-linux/lib:'), ('BROWSER', '/vscode/vscode-server/bin/linux-arm64/1a5daa3a0231a0fbba4f14db7ec463cf99d7768e/bin/helpers/browser.sh'), ('SHLVL', '2'), ('OLDPWD', '/workspaces'), ('HOME', '/home/USERNAME'), ('TERM_PROGRAM_VERSION', '1.84.2'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-4a01e2ed-990a-4728-9d36-3ddf8d7d7467.sock'), ('VSCODE_GIT_ASKPASS_MAIN', '/vscode/vscode-server/bin/linux-arm64/1a5daa3a0231a0fbba4f14db7ec463cf99d7768e/extensions/git/dist/askpass-main.js'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_NODE', '/vscode/vscode-server/bin/linux-arm64/1a5daa3a0231a0fbba4f14db7ec463cf99d7768e/node'), ('MAKEFLAGS', '-j1 -l1'), ('REMOTE_CONTAINERS', 'true'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/opt/ros/foxy/install'), ('ROS_DISTRO', 'foxy'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-40957e95-72ab-42a8-97cb-172fabd7d5d3.sock'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('PKG_CONFIG_PATH', '/opt/ros/foxy/install/lib/aarch64-linux-gnu/pkgconfig:/opt/ros/foxy/install/lib/pkgconfig'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/install/bin:/vscode/vscode-server/bin/linux-arm64/1a5daa3a0231a0fbba4f14db7ec463cf99d7768e/bin/remote-cli:/usr/local/cuda-10.2/bin:/usr/local/cuda/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':1'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/vscode-ssh-auth-40957e95-72ab-42a8-97cb-172fabd7d5d3.sock","/tmp/.X11-unix/X1","/home/USERNAME/.gnupg/S.gpg-agent"]'), ('LANG', 'en_US.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('TERM_PROGRAM', 'vscode'), ('ROS_ROOT', '/opt/ros/foxy'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/vscode-git-29bc7e2fd3.sock'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy/install'), ('SSH_AUTH_SOCK', '/tmp/vscode-ssh-auth-40957e95-72ab-42a8-97cb-172fabd7d5d3.sock'), ('REMOTE_CONTAINERS_DISPLAY_SOCK', '/tmp/.X11-unix/X1'), ('DEBIAN_FRONTEND', 'noninteractive'), ('SHELL', '/bin/bash'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/workspaces/ROS_PointCloud_AGV/build/depthai_filters'), ('PYTHONPATH', '/opt/ros/foxy/install/lib/python3.6/site-packages'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy/install')]), 'shell': False}
+[19.396442] (-) TimerEvent: {}
+[19.468317] (depthai_filters) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[19.469978] (depthai_filters) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[19.471623] (depthai_filters) StdoutLine: {'line': b'-- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_filters/share/depthai_filters/launch/det2d_usb_cam_overlay.launch.py\n'}
+[19.480825] (depthai_filters) StdoutLine: {'line': b'-- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_filters/share/depthai_filters/launch/example_det2d_overlay.launch.py\n'}
+[19.489576] (depthai_filters) StdoutLine: {'line': b'-- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_filters/share/depthai_filters/launch/example_seg_overlay.launch.py\n'}
+[19.496659] (-) TimerEvent: {}
+[19.498195] (depthai_filters) StdoutLine: {'line': b'-- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_filters/share/depthai_filters/launch/example_wls_filter.launch.py\n'}
+[19.508201] (depthai_filters) StdoutLine: {'line': b'-- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_filters/share/depthai_filters/config/detection.yaml\n'}
+[19.516956] (depthai_filters) StdoutLine: {'line': b'-- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_filters/share/depthai_filters/config/usb_cam_overlay.yaml\n'}
+[19.525741] (depthai_filters) StdoutLine: {'line': b'-- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_filters/share/depthai_filters/config/wls.yaml\n'}
+[19.535748] (depthai_filters) StdoutLine: {'line': b'-- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_filters/lib/libdepthai_filters.so\n'}
+[19.550649] (depthai_filters) StdoutLine: {'line': b'-- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_filters/include/depthai_filters/detection2d_overlay.hpp\n'}
+[19.559515] (depthai_filters) StdoutLine: {'line': b'-- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_filters/include/depthai_filters/segmentation_overlay.hpp\n'}
+[19.567945] (depthai_filters) StdoutLine: {'line': b'-- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_filters/include/depthai_filters/utils.hpp\n'}
+[19.576850] (depthai_filters) StdoutLine: {'line': b'-- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_filters/include/depthai_filters/wls_filter.hpp\n'}
+[19.586175] (depthai_filters) StdoutLine: {'line': b'-- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_filters/share/ament_index/resource_index/package_run_dependencies/depthai_filters\n'}
+[19.595799] (depthai_filters) StdoutLine: {'line': b'-- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_filters/share/ament_index/resource_index/parent_prefix_path/depthai_filters\n'}
+[19.596775] (-) TimerEvent: {}
+[19.604899] (depthai_filters) StdoutLine: {'line': b'-- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_filters/share/depthai_filters/environment/ament_prefix_path.sh\n'}
+[19.614570] (depthai_filters) StdoutLine: {'line': b'-- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_filters/share/depthai_filters/environment/ament_prefix_path.dsv\n'}
+[19.624639] (depthai_filters) StdoutLine: {'line': b'-- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_filters/share/depthai_filters/environment/path.sh\n'}
+[19.633831] (depthai_filters) StdoutLine: {'line': b'-- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_filters/share/depthai_filters/environment/path.dsv\n'}
+[19.642609] (depthai_filters) StdoutLine: {'line': b'-- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_filters/share/depthai_filters/local_setup.bash\n'}
+[19.651759] (depthai_filters) StdoutLine: {'line': b'-- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_filters/share/depthai_filters/local_setup.sh\n'}
+[19.660665] (depthai_filters) StdoutLine: {'line': b'-- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_filters/share/depthai_filters/local_setup.zsh\n'}
+[19.669832] (depthai_filters) StdoutLine: {'line': b'-- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_filters/share/depthai_filters/local_setup.dsv\n'}
+[19.679411] (depthai_filters) StdoutLine: {'line': b'-- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_filters/share/depthai_filters/package.dsv\n'}
+[19.688534] (depthai_filters) StdoutLine: {'line': b'-- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_filters/share/ament_index/resource_index/packages/depthai_filters\n'}
+[19.697007] (-) TimerEvent: {}
+[19.698932] (depthai_filters) StdoutLine: {'line': b'-- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_filters/share/ament_index/resource_index/rclcpp_components/depthai_filters\n'}
+[19.708251] (depthai_filters) StdoutLine: {'line': b'-- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_filters/share/depthai_filters/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[19.717764] (depthai_filters) StdoutLine: {'line': b'-- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_filters/share/depthai_filters/cmake/depthai_filtersConfig.cmake\n'}
+[19.726586] (depthai_filters) StdoutLine: {'line': b'-- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_filters/share/depthai_filters/cmake/depthai_filtersConfig-version.cmake\n'}
+[19.735732] (depthai_filters) StdoutLine: {'line': b'-- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_filters/share/depthai_filters/package.xml\n'}
+[19.769185] (depthai_filters) CommandEnded: {'returncode': 0}
+[19.797346] (-) TimerEvent: {}
+[19.899478] (-) TimerEvent: {}
+[20.000415] (-) TimerEvent: {}
+[20.074090] (depthai_filters) JobEnded: {'identifier': 'depthai_filters', 'rc': 0}
+[20.081336] (depthai_ros_msgs) JobStarted: {'identifier': 'depthai_ros_msgs'}
+[20.101635] (-) TimerEvent: {}
+[20.133300] (depthai_ros_msgs) JobProgress: {'identifier': 'depthai_ros_msgs', 'progress': 'cmake'}
+[20.137602] (depthai_ros_msgs) Command: {'cmd': ['/usr/local/bin/cmake', '/workspaces/ROS_PointCloud_AGV/dai_ws/src/depthai-ros/depthai_ros_msgs', '-DBUILD_SHARED_LIBS=ON', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/workspaces/ROS_PointCloud_AGV/install/depthai_ros_msgs'], 'cwd': '/workspaces/ROS_PointCloud_AGV/build/depthai_ros_msgs', 'env': OrderedDict([('OPENBLAS_CORETYPE', 'ARMV8'), ('PYTHONIOENCODING', 'utf-8'), ('WS', '/ws'), ('HOSTNAME', 'jetsonagv-desktop'), ('GIT_ASKPASS', '/vscode/vscode-server/bin/linux-arm64/1a5daa3a0231a0fbba4f14db7ec463cf99d7768e/extensions/git/dist/askpass.sh'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/install/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/install/lib:/usr/local/cuda-10.2/targets/aarch64-linux/lib:'), ('BROWSER', '/vscode/vscode-server/bin/linux-arm64/1a5daa3a0231a0fbba4f14db7ec463cf99d7768e/bin/helpers/browser.sh'), ('SHLVL', '2'), ('OLDPWD', '/workspaces'), ('HOME', '/home/USERNAME'), ('TERM_PROGRAM_VERSION', '1.84.2'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-4a01e2ed-990a-4728-9d36-3ddf8d7d7467.sock'), ('VSCODE_GIT_ASKPASS_MAIN', '/vscode/vscode-server/bin/linux-arm64/1a5daa3a0231a0fbba4f14db7ec463cf99d7768e/extensions/git/dist/askpass-main.js'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_NODE', '/vscode/vscode-server/bin/linux-arm64/1a5daa3a0231a0fbba4f14db7ec463cf99d7768e/node'), ('MAKEFLAGS', '-j1 -l1'), ('REMOTE_CONTAINERS', 'true'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/opt/ros/foxy/install'), ('ROS_DISTRO', 'foxy'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-40957e95-72ab-42a8-97cb-172fabd7d5d3.sock'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('PKG_CONFIG_PATH', '/opt/ros/foxy/install/lib/aarch64-linux-gnu/pkgconfig:/opt/ros/foxy/install/lib/pkgconfig'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/install/bin:/vscode/vscode-server/bin/linux-arm64/1a5daa3a0231a0fbba4f14db7ec463cf99d7768e/bin/remote-cli:/usr/local/cuda-10.2/bin:/usr/local/cuda/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':1'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/vscode-ssh-auth-40957e95-72ab-42a8-97cb-172fabd7d5d3.sock","/tmp/.X11-unix/X1","/home/USERNAME/.gnupg/S.gpg-agent"]'), ('LANG', 'en_US.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('TERM_PROGRAM', 'vscode'), ('ROS_ROOT', '/opt/ros/foxy'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/vscode-git-29bc7e2fd3.sock'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy/install'), ('SSH_AUTH_SOCK', '/tmp/vscode-ssh-auth-40957e95-72ab-42a8-97cb-172fabd7d5d3.sock'), ('REMOTE_CONTAINERS_DISPLAY_SOCK', '/tmp/.X11-unix/X1'), ('DEBIAN_FRONTEND', 'noninteractive'), ('SHELL', '/bin/bash'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/workspaces/ROS_PointCloud_AGV/build/depthai_ros_msgs'), ('PYTHONPATH', '/opt/ros/foxy/install/lib/python3.6/site-packages'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy/install')]), 'shell': False}
+[20.202769] (-) TimerEvent: {}
+[20.304025] (-) TimerEvent: {}
+[20.320987] (depthai_ros_msgs) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/install/share/ament_cmake/cmake)\n'}
+[20.328510] (depthai_ros_msgs) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /opt/ros/foxy/install/share/ament_cmake_core/cmake/core/python.cmake:22 (find_package):\n'}
+[20.329515] (depthai_ros_msgs) StderrLine: {'line': b'  Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules\n'}
+[20.330211] (depthai_ros_msgs) StderrLine: {'line': b'  are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use\n'}
+[20.330757] (depthai_ros_msgs) StderrLine: {'line': b'  the cmake_policy command to set the policy and suppress this warning.\n'}
+[20.334612] (depthai_ros_msgs) StderrLine: {'line': b'\n'}
+[20.336536] (depthai_ros_msgs) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[20.337604] (depthai_ros_msgs) StderrLine: {'line': b'  /opt/ros/foxy/install/share/ament_cmake_core/cmake/core/all.cmake:53 (include)\n'}
+[20.338435] (depthai_ros_msgs) StderrLine: {'line': b'  /opt/ros/foxy/install/share/ament_cmake_core/cmake/ament_cmake_core-extras.cmake:17 (include)\n'}
+[20.338958] (depthai_ros_msgs) StderrLine: {'line': b'  /opt/ros/foxy/install/share/ament_cmake_core/cmake/ament_cmake_coreConfig.cmake:41 (include)\n'}
+[20.342589] (depthai_ros_msgs) StderrLine: {'line': b'  /opt/ros/foxy/install/share/ament_cmake/cmake/ament_cmake_export_dependencies-extras.cmake:15 (find_package)\n'}
+[20.343123] (depthai_ros_msgs) StderrLine: {'line': b'  /opt/ros/foxy/install/share/ament_cmake/cmake/ament_cmakeConfig.cmake:41 (include)\n'}
+[20.343709] (depthai_ros_msgs) StderrLine: {'line': b'  CMakeLists.txt:9 (find_package)\n'}
+[20.344184] (depthai_ros_msgs) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[20.344654] (depthai_ros_msgs) StderrLine: {'line': b'\x1b[0m\n'}
+[20.404205] (-) TimerEvent: {}
+[20.406685] (depthai_ros_msgs) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.6.9", minimum required is "3") \n'}
+[20.407558] (depthai_ros_msgs) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[20.504363] (-) TimerEvent: {}
+[20.605218] (-) TimerEvent: {}
+[20.706571] (-) TimerEvent: {}
+[20.807944] (-) TimerEvent: {}
+[20.909253] (-) TimerEvent: {}
+[21.010588] (-) TimerEvent: {}
+[21.111913] (-) TimerEvent: {}
+[21.213206] (-) TimerEvent: {}
+[21.314560] (-) TimerEvent: {}
+[21.370706] (depthai_ros_msgs) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[21.404120] (depthai_ros_msgs) StdoutLine: {'line': b'-- ------------------------------------------\n'}
+[21.404998] (depthai_ros_msgs) StdoutLine: {'line': b'-- Depthai ROS MSGS/INTERFACES is being built using AMENT.\n'}
+[21.405518] (depthai_ros_msgs) StdoutLine: {'line': b'-- ------------------------------------------\n'}
+[21.405999] (depthai_ros_msgs) StdoutLine: {'line': b'-- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/install/share/geometry_msgs/cmake)\n'}
+[21.414749] (-) TimerEvent: {}
+[21.497075] (depthai_ros_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[21.514367] (depthai_ros_msgs) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/install/share/rosidl_adapter/cmake)\n'}
+[21.515060] (-) TimerEvent: {}
+[21.615988] (-) TimerEvent: {}
+[21.716848] (-) TimerEvent: {}
+[21.818199] (-) TimerEvent: {}
+[21.918961] (-) TimerEvent: {}
+[22.020423] (-) TimerEvent: {}
+[22.045439] (depthai_ros_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[22.121447] (-) TimerEvent: {}
+[22.223362] (-) TimerEvent: {}
+[22.324183] (-) TimerEvent: {}
+[22.425550] (-) TimerEvent: {}
+[22.457306] (depthai_ros_msgs) StdoutLine: {'line': b'-- Found vision_msgs: 2.0.0 (/opt/ros/foxy/install/share/vision_msgs/cmake)\n'}
+[22.525724] (-) TimerEvent: {}
+[22.627027] (-) TimerEvent: {}
+[22.728384] (-) TimerEvent: {}
+[22.829694] (-) TimerEvent: {}
+[22.931037] (-) TimerEvent: {}
+[23.032354] (-) TimerEvent: {}
+[23.133667] (-) TimerEvent: {}
+[23.234980] (-) TimerEvent: {}
+[23.336354] (-) TimerEvent: {}
+[23.429540] (depthai_ros_msgs) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/install/share/rosidl_default_generators/cmake)\n'}
+[23.436496] (-) TimerEvent: {}
+[23.489193] (depthai_ros_msgs) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /opt/ros/foxy/install/share/rosidl_adapter/cmake/rosidl_adapt_interfaces.cmake:40 (find_package):\n'}
+[23.489962] (depthai_ros_msgs) StderrLine: {'line': b'  Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules\n'}
+[23.490482] (depthai_ros_msgs) StderrLine: {'line': b'  are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use\n'}
+[23.490922] (depthai_ros_msgs) StderrLine: {'line': b'  the cmake_policy command to set the policy and suppress this warning.\n'}
+[23.491422] (depthai_ros_msgs) StderrLine: {'line': b'\n'}
+[23.491893] (depthai_ros_msgs) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[23.492346] (depthai_ros_msgs) StderrLine: {'line': b'  /opt/ros/foxy/install/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:130 (rosidl_adapt_interfaces)\n'}
+[23.492770] (depthai_ros_msgs) StderrLine: {'line': b'  CMakeLists.txt:22 (rosidl_generate_interfaces)\n'}
+[23.493194] (depthai_ros_msgs) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[23.493616] (depthai_ros_msgs) StderrLine: {'line': b'\x1b[0m\n'}
+[23.536661] (-) TimerEvent: {}
+[23.565786] (depthai_ros_msgs) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found version "3.6.9") \n'}
+[23.636886] (-) TimerEvent: {}
+[23.737641] (-) TimerEvent: {}
+[23.838991] (-) TimerEvent: {}
+[23.940325] (-) TimerEvent: {}
+[24.041625] (-) TimerEvent: {}
+[24.142938] (-) TimerEvent: {}
+[24.243777] (-) TimerEvent: {}
+[24.345124] (-) TimerEvent: {}
+[24.446553] (-) TimerEvent: {}
+[24.548234] (-) TimerEvent: {}
+[24.649585] (-) TimerEvent: {}
+[24.750372] (-) TimerEvent: {}
+[24.851258] (-) TimerEvent: {}
+[24.952087] (-) TimerEvent: {}
+[25.052878] (-) TimerEvent: {}
+[25.153899] (-) TimerEvent: {}
+[25.246615] (depthai_ros_msgs) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/install/share/ament_cmake_ros/cmake)\n'}
+[25.254097] (-) TimerEvent: {}
+[25.354878] (-) TimerEvent: {}
+[25.455731] (-) TimerEvent: {}
+[25.556855] (-) TimerEvent: {}
+[25.657968] (-) TimerEvent: {}
+[25.759046] (-) TimerEvent: {}
+[25.860138] (-) TimerEvent: {}
+[25.960945] (-) TimerEvent: {}
+[26.061770] (-) TimerEvent: {}
+[26.162575] (-) TimerEvent: {}
+[26.263346] (-) TimerEvent: {}
+[26.364153] (-) TimerEvent: {}
+[26.465273] (-) TimerEvent: {}
+[26.566076] (-) TimerEvent: {}
+[26.666878] (-) TimerEvent: {}
+[26.767678] (-) TimerEvent: {}
+[26.868457] (-) TimerEvent: {}
+[26.969170] (-) TimerEvent: {}
+[27.069930] (-) TimerEvent: {}
+[27.085050] (depthai_ros_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[27.170107] (-) TimerEvent: {}
+[27.270908] (-) TimerEvent: {}
+[27.372665] (-) TimerEvent: {}
+[27.473485] (-) TimerEvent: {}
+[27.574287] (-) TimerEvent: {}
+[27.675096] (-) TimerEvent: {}
+[27.775867] (-) TimerEvent: {}
+[27.876631] (-) TimerEvent: {}
+[27.977418] (-) TimerEvent: {}
+[28.078171] (-) TimerEvent: {}
+[28.133689] (depthai_ros_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[28.161626] (depthai_ros_msgs) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /opt/ros/foxy/install/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:20 (find_package):\n'}
+[28.162340] (depthai_ros_msgs) StderrLine: {'line': b'  Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules\n'}
+[28.162854] (depthai_ros_msgs) StderrLine: {'line': b'  are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use\n'}
+[28.163460] (depthai_ros_msgs) StderrLine: {'line': b'  the cmake_policy command to set the policy and suppress this warning.\n'}
+[28.163950] (depthai_ros_msgs) StderrLine: {'line': b'\n'}
+[28.164457] (depthai_ros_msgs) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[28.164952] (depthai_ros_msgs) StderrLine: {'line': b'  /opt/ros/foxy/install/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)\n'}
+[28.165426] (depthai_ros_msgs) StderrLine: {'line': b'  /opt/ros/foxy/install/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)\n'}
+[28.165889] (depthai_ros_msgs) StderrLine: {'line': b'  CMakeLists.txt:22 (rosidl_generate_interfaces)\n'}
+[28.166387] (depthai_ros_msgs) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[28.166912] (depthai_ros_msgs) StderrLine: {'line': b'\x1b[0m\n'}
+[28.178528] (-) TimerEvent: {}
+[28.233508] (depthai_ros_msgs) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.6.9", minimum required is "3.5") \n'}
+[28.235090] (depthai_ros_msgs) StdoutLine: {'line': b'-- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/install/share/python_cmake_module/cmake)\n'}
+[28.255006] (depthai_ros_msgs) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /opt/ros/foxy/install/share/python_cmake_module/cmake/Modules/FindPythonExtra.cmake:45 (find_package):\n'}
+[28.255700] (depthai_ros_msgs) StderrLine: {'line': b'  Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules\n'}
+[28.256226] (depthai_ros_msgs) StderrLine: {'line': b'  are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use\n'}
+[28.256707] (depthai_ros_msgs) StderrLine: {'line': b'  the cmake_policy command to set the policy and suppress this warning.\n'}
+[28.257203] (depthai_ros_msgs) StderrLine: {'line': b'\n'}
+[28.257724] (depthai_ros_msgs) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[28.258200] (depthai_ros_msgs) StderrLine: {'line': b'  /opt/ros/foxy/install/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:23 (find_package)\n'}
+[28.258711] (depthai_ros_msgs) StderrLine: {'line': b'  /opt/ros/foxy/install/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)\n'}
+[28.259245] (depthai_ros_msgs) StderrLine: {'line': b'  /opt/ros/foxy/install/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)\n'}
+[28.259703] (depthai_ros_msgs) StderrLine: {'line': b'  CMakeLists.txt:22 (rosidl_generate_interfaces)\n'}
+[28.260145] (depthai_ros_msgs) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[28.260641] (depthai_ros_msgs) StderrLine: {'line': b'\x1b[0m\n'}
+[28.278605] (-) TimerEvent: {}
+[28.328496] (depthai_ros_msgs) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /opt/ros/foxy/install/share/python_cmake_module/cmake/Modules/FindPythonExtra.cmake:133 (find_package):\n'}
+[28.329296] (depthai_ros_msgs) StderrLine: {'line': b'  Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules\n'}
+[28.329836] (depthai_ros_msgs) StderrLine: {'line': b'  are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use\n'}
+[28.330275] (depthai_ros_msgs) StderrLine: {'line': b'  the cmake_policy command to set the policy and suppress this warning.\n'}
+[28.330700] (depthai_ros_msgs) StderrLine: {'line': b'\n'}
+[28.331289] (depthai_ros_msgs) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[28.331741] (depthai_ros_msgs) StderrLine: {'line': b'  /opt/ros/foxy/install/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:23 (find_package)\n'}
+[28.332175] (depthai_ros_msgs) StderrLine: {'line': b'  /opt/ros/foxy/install/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)\n'}
+[28.332654] (depthai_ros_msgs) StderrLine: {'line': b'  /opt/ros/foxy/install/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)\n'}
+[28.333109] (depthai_ros_msgs) StderrLine: {'line': b'  CMakeLists.txt:22 (rosidl_generate_interfaces)\n'}
+[28.333547] (depthai_ros_msgs) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[28.333982] (depthai_ros_msgs) StderrLine: {'line': b'\x1b[0m\n'}
+[28.365906] (depthai_ros_msgs) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[28.366709] (depthai_ros_msgs) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.6m\n'}
+[28.367321] (depthai_ros_msgs) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.6m.so\n'}
+[28.383343] (-) TimerEvent: {}
+[28.484330] (-) TimerEvent: {}
+[28.585328] (-) TimerEvent: {}
+[28.686564] (-) TimerEvent: {}
+[28.787902] (-) TimerEvent: {}
+[28.888659] (-) TimerEvent: {}
+[28.989368] (-) TimerEvent: {}
+[29.090661] (-) TimerEvent: {}
+[29.192099] (-) TimerEvent: {}
+[29.293442] (-) TimerEvent: {}
+[29.347677] (depthai_ros_msgs) StdoutLine: {'line': b'-- Using numpy include directory: /usr/local/lib/python3.6/dist-packages/numpy/core/include\n'}
+[29.393665] (-) TimerEvent: {}
+[29.484958] (depthai_ros_msgs) StdoutLine: {'line': b'-- Configuring done (9.2s)\n'}
+[29.493815] (-) TimerEvent: {}
+[29.594579] (-) TimerEvent: {}
+[29.695807] (-) TimerEvent: {}
+[29.796718] (-) TimerEvent: {}
+[29.896862] (depthai_ros_msgs) StdoutLine: {'line': b'-- Generating done (0.3s)\n'}
+[29.897619] (-) TimerEvent: {}
+[29.913813] (depthai_ros_msgs) StdoutLine: {'line': b'-- Build files have been written to: /workspaces/ROS_PointCloud_AGV/build/depthai_ros_msgs\n'}
+[29.956669] (depthai_ros_msgs) CommandEnded: {'returncode': 0}
+[29.959550] (depthai_ros_msgs) JobProgress: {'identifier': 'depthai_ros_msgs', 'progress': 'build'}
+[29.960788] (depthai_ros_msgs) Command: {'cmd': ['/usr/local/bin/cmake', '--build', '/workspaces/ROS_PointCloud_AGV/build/depthai_ros_msgs'], 'cwd': '/workspaces/ROS_PointCloud_AGV/build/depthai_ros_msgs', 'env': OrderedDict([('OPENBLAS_CORETYPE', 'ARMV8'), ('PYTHONIOENCODING', 'utf-8'), ('WS', '/ws'), ('HOSTNAME', 'jetsonagv-desktop'), ('GIT_ASKPASS', '/vscode/vscode-server/bin/linux-arm64/1a5daa3a0231a0fbba4f14db7ec463cf99d7768e/extensions/git/dist/askpass.sh'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/install/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/install/lib:/usr/local/cuda-10.2/targets/aarch64-linux/lib:'), ('BROWSER', '/vscode/vscode-server/bin/linux-arm64/1a5daa3a0231a0fbba4f14db7ec463cf99d7768e/bin/helpers/browser.sh'), ('SHLVL', '2'), ('OLDPWD', '/workspaces'), ('HOME', '/home/USERNAME'), ('TERM_PROGRAM_VERSION', '1.84.2'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-4a01e2ed-990a-4728-9d36-3ddf8d7d7467.sock'), ('VSCODE_GIT_ASKPASS_MAIN', '/vscode/vscode-server/bin/linux-arm64/1a5daa3a0231a0fbba4f14db7ec463cf99d7768e/extensions/git/dist/askpass-main.js'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_NODE', '/vscode/vscode-server/bin/linux-arm64/1a5daa3a0231a0fbba4f14db7ec463cf99d7768e/node'), ('MAKEFLAGS', '-j1 -l1'), ('REMOTE_CONTAINERS', 'true'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/opt/ros/foxy/install'), ('ROS_DISTRO', 'foxy'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-40957e95-72ab-42a8-97cb-172fabd7d5d3.sock'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('PKG_CONFIG_PATH', '/opt/ros/foxy/install/lib/aarch64-linux-gnu/pkgconfig:/opt/ros/foxy/install/lib/pkgconfig'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/install/bin:/vscode/vscode-server/bin/linux-arm64/1a5daa3a0231a0fbba4f14db7ec463cf99d7768e/bin/remote-cli:/usr/local/cuda-10.2/bin:/usr/local/cuda/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':1'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/vscode-ssh-auth-40957e95-72ab-42a8-97cb-172fabd7d5d3.sock","/tmp/.X11-unix/X1","/home/USERNAME/.gnupg/S.gpg-agent"]'), ('LANG', 'en_US.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('TERM_PROGRAM', 'vscode'), ('ROS_ROOT', '/opt/ros/foxy'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/vscode-git-29bc7e2fd3.sock'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy/install'), ('SSH_AUTH_SOCK', '/tmp/vscode-ssh-auth-40957e95-72ab-42a8-97cb-172fabd7d5d3.sock'), ('REMOTE_CONTAINERS_DISPLAY_SOCK', '/tmp/.X11-unix/X1'), ('DEBIAN_FRONTEND', 'noninteractive'), ('SHELL', '/bin/bash'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/workspaces/ROS_PointCloud_AGV/build/depthai_ros_msgs'), ('PYTHONPATH', '/opt/ros/foxy/install/lib/python3.6/site-packages'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy/install')]), 'shell': False}
+[29.997932] (-) TimerEvent: {}
+[30.098801] (-) TimerEvent: {}
+[30.199657] (-) TimerEvent: {}
+[30.202060] (depthai_ros_msgs) StdoutLine: {'line': b'[  1%] Built target depthai_ros_msgs__cpp\n'}
+[30.284489] (depthai_ros_msgs) StdoutLine: {'line': b'[ 12%] Built target depthai_ros_msgs__rosidl_typesupport_cpp\n'}
+[30.299838] (-) TimerEvent: {}
+[30.347683] (depthai_ros_msgs) StdoutLine: {'line': b'[ 24%] Built target depthai_ros_msgs__rosidl_generator_c\n'}
+[30.400063] (-) TimerEvent: {}
+[30.433744] (depthai_ros_msgs) StdoutLine: {'line': b'[ 25%] \x1b[32m\x1b[1mLinking CXX shared library libdepthai_ros_msgs__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[30.500291] (-) TimerEvent: {}
+[30.601193] (-) TimerEvent: {}
+[30.702098] (-) TimerEvent: {}
+[30.726179] (depthai_ros_msgs) StdoutLine: {'line': b'[ 35%] Built target depthai_ros_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[30.802342] (-) TimerEvent: {}
+[30.811684] (depthai_ros_msgs) StdoutLine: {'line': b'[ 36%] \x1b[32m\x1b[1mLinking CXX shared library libdepthai_ros_msgs__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[30.902603] (-) TimerEvent: {}
+[31.003610] (-) TimerEvent: {}
+[31.079456] (depthai_ros_msgs) StdoutLine: {'line': b'[ 46%] Built target depthai_ros_msgs__rosidl_typesupport_fastrtps_c\n'}
+[31.103788] (-) TimerEvent: {}
+[31.141601] (depthai_ros_msgs) StdoutLine: {'line': b'[ 58%] Built target depthai_ros_msgs__rosidl_typesupport_introspection_c\n'}
+[31.188528] (depthai_ros_msgs) StdoutLine: {'line': b'[ 69%] Built target depthai_ros_msgs__rosidl_typesupport_c\n'}
+[31.203975] (-) TimerEvent: {}
+[31.270012] (depthai_ros_msgs) StdoutLine: {'line': b'[ 81%] Built target depthai_ros_msgs__rosidl_typesupport_introspection_cpp\n'}
+[31.299795] (depthai_ros_msgs) StdoutLine: {'line': b'[ 81%] Built target depthai_ros_msgs\n'}
+[31.304131] (-) TimerEvent: {}
+[31.335670] (depthai_ros_msgs) StdoutLine: {'line': b'[ 82%] Built target depthai_ros_msgs__py\n'}
+[31.404052] (depthai_ros_msgs) StdoutLine: {'line': b'[ 83%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/depthai_ros_msgs/libdepthai_ros_msgs__python.so\x1b[0m\n'}
+[31.404842] (-) TimerEvent: {}
+[31.505523] (-) TimerEvent: {}
+[31.550600] (depthai_ros_msgs) StdoutLine: {'line': b'[ 92%] Built target depthai_ros_msgs__python\n'}
+[31.595947] (depthai_ros_msgs) StdoutLine: {'line': b'[ 93%] \x1b[32m\x1b[1mLinking CXX shared library rosidl_generator_py/depthai_ros_msgs/depthai_ros_msgs_s__rosidl_typesupport_fastrtps_c.cpython-36m-aarch64-linux-gnu.so\x1b[0m\n'}
+[31.605975] (-) TimerEvent: {}
+[31.707735] (-) TimerEvent: {}
+[31.808672] (-) TimerEvent: {}
+[31.826923] (depthai_ros_msgs) StdoutLine: {'line': b'[ 94%] Built target depthai_ros_msgs__rosidl_typesupport_fastrtps_c__pyext\n'}
+[31.872302] (depthai_ros_msgs) StdoutLine: {'line': b'[ 96%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/depthai_ros_msgs/depthai_ros_msgs_s__rosidl_typesupport_introspection_c.cpython-36m-aarch64-linux-gnu.so\x1b[0m\n'}
+[31.908898] (-) TimerEvent: {}
+[31.983730] (depthai_ros_msgs) StdoutLine: {'line': b'[ 97%] Built target depthai_ros_msgs__rosidl_typesupport_introspection_c__pyext\n'}
+[32.009124] (-) TimerEvent: {}
+[32.026289] (depthai_ros_msgs) StdoutLine: {'line': b'[ 98%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/depthai_ros_msgs/depthai_ros_msgs_s__rosidl_typesupport_c.cpython-36m-aarch64-linux-gnu.so\x1b[0m\n'}
+[32.109373] (-) TimerEvent: {}
+[32.139533] (depthai_ros_msgs) StdoutLine: {'line': b'[100%] Built target depthai_ros_msgs__rosidl_typesupport_c__pyext\n'}
+[32.175796] (depthai_ros_msgs) CommandEnded: {'returncode': 0}
+[32.209658] (-) TimerEvent: {}
+[32.310639] (-) TimerEvent: {}
+[32.411578] (-) TimerEvent: {}
+[32.512295] (-) TimerEvent: {}
+[32.613181] (-) TimerEvent: {}
+[32.714391] (-) TimerEvent: {}
+[32.815201] (-) TimerEvent: {}
+[32.863887] (depthai_ros_msgs) JobProgress: {'identifier': 'depthai_ros_msgs', 'progress': 'install'}
+[32.865075] (depthai_ros_msgs) Command: {'cmd': ['/usr/local/bin/cmake', '--install', '/workspaces/ROS_PointCloud_AGV/build/depthai_ros_msgs'], 'cwd': '/workspaces/ROS_PointCloud_AGV/build/depthai_ros_msgs', 'env': OrderedDict([('OPENBLAS_CORETYPE', 'ARMV8'), ('PYTHONIOENCODING', 'utf-8'), ('WS', '/ws'), ('HOSTNAME', 'jetsonagv-desktop'), ('GIT_ASKPASS', '/vscode/vscode-server/bin/linux-arm64/1a5daa3a0231a0fbba4f14db7ec463cf99d7768e/extensions/git/dist/askpass.sh'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/install/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/install/lib:/usr/local/cuda-10.2/targets/aarch64-linux/lib:'), ('BROWSER', '/vscode/vscode-server/bin/linux-arm64/1a5daa3a0231a0fbba4f14db7ec463cf99d7768e/bin/helpers/browser.sh'), ('SHLVL', '2'), ('OLDPWD', '/workspaces'), ('HOME', '/home/USERNAME'), ('TERM_PROGRAM_VERSION', '1.84.2'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-4a01e2ed-990a-4728-9d36-3ddf8d7d7467.sock'), ('VSCODE_GIT_ASKPASS_MAIN', '/vscode/vscode-server/bin/linux-arm64/1a5daa3a0231a0fbba4f14db7ec463cf99d7768e/extensions/git/dist/askpass-main.js'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_NODE', '/vscode/vscode-server/bin/linux-arm64/1a5daa3a0231a0fbba4f14db7ec463cf99d7768e/node'), ('MAKEFLAGS', '-j1 -l1'), ('REMOTE_CONTAINERS', 'true'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/opt/ros/foxy/install'), ('ROS_DISTRO', 'foxy'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-40957e95-72ab-42a8-97cb-172fabd7d5d3.sock'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('PKG_CONFIG_PATH', '/opt/ros/foxy/install/lib/aarch64-linux-gnu/pkgconfig:/opt/ros/foxy/install/lib/pkgconfig'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/install/bin:/vscode/vscode-server/bin/linux-arm64/1a5daa3a0231a0fbba4f14db7ec463cf99d7768e/bin/remote-cli:/usr/local/cuda-10.2/bin:/usr/local/cuda/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':1'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/vscode-ssh-auth-40957e95-72ab-42a8-97cb-172fabd7d5d3.sock","/tmp/.X11-unix/X1","/home/USERNAME/.gnupg/S.gpg-agent"]'), ('LANG', 'en_US.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('TERM_PROGRAM', 'vscode'), ('ROS_ROOT', '/opt/ros/foxy'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/vscode-git-29bc7e2fd3.sock'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy/install'), ('SSH_AUTH_SOCK', '/tmp/vscode-ssh-auth-40957e95-72ab-42a8-97cb-172fabd7d5d3.sock'), ('REMOTE_CONTAINERS_DISPLAY_SOCK', '/tmp/.X11-unix/X1'), ('DEBIAN_FRONTEND', 'noninteractive'), ('SHELL', '/bin/bash'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/workspaces/ROS_PointCloud_AGV/build/depthai_ros_msgs'), ('PYTHONPATH', '/opt/ros/foxy/install/lib/python3.6/site-packages'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy/install')]), 'shell': False}
+[32.915391] (-) TimerEvent: {}
+[33.005233] (depthai_ros_msgs) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[33.007848] (depthai_ros_msgs) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[33.008671] (depthai_ros_msgs) StdoutLine: {'line': b'-- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_ros_msgs/share/ament_index/resource_index/rosidl_interfaces/depthai_ros_msgs\n'}
+[33.015548] (-) TimerEvent: {}
+[33.021476] (depthai_ros_msgs) StdoutLine: {'line': b'-- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_ros_msgs/include/depthai_ros_msgs/msg/auto_focus_ctrl.h\n'}
+[33.030552] (depthai_ros_msgs) StdoutLine: {'line': b'-- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_ros_msgs/include/depthai_ros_msgs/msg/detail/auto_focus_ctrl__functions.h\n'}
+[33.039251] (depthai_ros_msgs) StdoutLine: {'line': b'-- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_ros_msgs/include/depthai_ros_msgs/msg/detail/auto_focus_ctrl__struct.h\n'}
+[33.050712] (depthai_ros_msgs) StdoutLine: {'line': b'-- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_ros_msgs/include/depthai_ros_msgs/msg/detail/auto_focus_ctrl__type_support.h\n'}
+[33.057509] (depthai_ros_msgs) StdoutLine: {'line': b'-- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_ros_msgs/include/depthai_ros_msgs/msg/detail/hand_landmark__functions.h\n'}
+[33.066201] (depthai_ros_msgs) StdoutLine: {'line': b'-- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_ros_msgs/include/depthai_ros_msgs/msg/detail/hand_landmark__struct.h\n'}
+[33.075359] (depthai_ros_msgs) StdoutLine: {'line': b'-- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_ros_msgs/include/depthai_ros_msgs/msg/detail/hand_landmark__type_support.h\n'}
+[33.084003] (depthai_ros_msgs) StdoutLine: {'line': b'-- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_ros_msgs/include/depthai_ros_msgs/msg/detail/hand_landmark_array__functions.h\n'}
+[33.092873] (depthai_ros_msgs) StdoutLine: {'line': b'-- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_ros_msgs/include/depthai_ros_msgs/msg/detail/hand_landmark_array__struct.h\n'}
+[33.101503] (depthai_ros_msgs) StdoutLine: {'line': b'-- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_ros_msgs/include/depthai_ros_msgs/msg/detail/hand_landmark_array__type_support.h\n'}
+[33.110203] (depthai_ros_msgs) StdoutLine: {'line': b'-- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_ros_msgs/include/depthai_ros_msgs/msg/detail/spatial_detection__functions.h\n'}
+[33.115700] (-) TimerEvent: {}
+[33.119642] (depthai_ros_msgs) StdoutLine: {'line': b'-- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_ros_msgs/include/depthai_ros_msgs/msg/detail/spatial_detection__struct.h\n'}
+[33.129075] (depthai_ros_msgs) StdoutLine: {'line': b'-- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_ros_msgs/include/depthai_ros_msgs/msg/detail/spatial_detection__type_support.h\n'}
+[33.138020] (depthai_ros_msgs) StdoutLine: {'line': b'-- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_ros_msgs/include/depthai_ros_msgs/msg/detail/spatial_detection_array__functions.h\n'}
+[33.146698] (depthai_ros_msgs) StdoutLine: {'line': b'-- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_ros_msgs/include/depthai_ros_msgs/msg/detail/spatial_detection_array__struct.h\n'}
+[33.155463] (depthai_ros_msgs) StdoutLine: {'line': b'-- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_ros_msgs/include/depthai_ros_msgs/msg/detail/spatial_detection_array__type_support.h\n'}
+[33.164378] (depthai_ros_msgs) StdoutLine: {'line': b'-- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_ros_msgs/include/depthai_ros_msgs/msg/hand_landmark.h\n'}
+[33.172965] (depthai_ros_msgs) StdoutLine: {'line': b'-- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_ros_msgs/include/depthai_ros_msgs/msg/hand_landmark_array.h\n'}
+[33.181886] (depthai_ros_msgs) StdoutLine: {'line': b'-- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_ros_msgs/include/depthai_ros_msgs/msg/rosidl_generator_c__visibility_control.h\n'}
+[33.190481] (depthai_ros_msgs) StdoutLine: {'line': b'-- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_ros_msgs/include/depthai_ros_msgs/msg/spatial_detection.h\n'}
+[33.199040] (depthai_ros_msgs) StdoutLine: {'line': b'-- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_ros_msgs/include/depthai_ros_msgs/msg/spatial_detection_array.h\n'}
+[33.207931] (depthai_ros_msgs) StdoutLine: {'line': b'-- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_ros_msgs/include/depthai_ros_msgs/srv/detail/normalized_image_crop__functions.h\n'}
+[33.215882] (-) TimerEvent: {}
+[33.216831] (depthai_ros_msgs) StdoutLine: {'line': b'-- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_ros_msgs/include/depthai_ros_msgs/srv/detail/normalized_image_crop__struct.h\n'}
+[33.225567] (depthai_ros_msgs) StdoutLine: {'line': b'-- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_ros_msgs/include/depthai_ros_msgs/srv/detail/normalized_image_crop__type_support.h\n'}
+[33.234339] (depthai_ros_msgs) StdoutLine: {'line': b'-- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_ros_msgs/include/depthai_ros_msgs/srv/detail/trigger_named__functions.h\n'}
+[33.242946] (depthai_ros_msgs) StdoutLine: {'line': b'-- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_ros_msgs/include/depthai_ros_msgs/srv/detail/trigger_named__struct.h\n'}
+[33.251828] (depthai_ros_msgs) StdoutLine: {'line': b'-- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_ros_msgs/include/depthai_ros_msgs/srv/detail/trigger_named__type_support.h\n'}
+[33.260561] (depthai_ros_msgs) StdoutLine: {'line': b'-- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_ros_msgs/include/depthai_ros_msgs/srv/normalized_image_crop.h\n'}
+[33.269305] (depthai_ros_msgs) StdoutLine: {'line': b'-- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_ros_msgs/include/depthai_ros_msgs/srv/trigger_named.h\n'}
+[33.278404] (depthai_ros_msgs) StdoutLine: {'line': b'-- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_ros_msgs/share/depthai_ros_msgs/environment/library_path.sh\n'}
+[33.287552] (depthai_ros_msgs) StdoutLine: {'line': b'-- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_ros_msgs/share/depthai_ros_msgs/environment/library_path.dsv\n'}
+[33.299304] (depthai_ros_msgs) StdoutLine: {'line': b'-- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_ros_msgs/include/depthai_ros_msgs/msg/detail/auto_focus_ctrl__rosidl_typesupport_fastrtps_c.h\n'}
+[33.308447] (depthai_ros_msgs) StdoutLine: {'line': b'-- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_ros_msgs/include/depthai_ros_msgs/msg/detail/hand_landmark__rosidl_typesupport_fastrtps_c.h\n'}
+[33.316063] (-) TimerEvent: {}
+[33.317318] (depthai_ros_msgs) StdoutLine: {'line': b'-- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_ros_msgs/include/depthai_ros_msgs/msg/detail/hand_landmark_array__rosidl_typesupport_fastrtps_c.h\n'}
+[33.326340] (depthai_ros_msgs) StdoutLine: {'line': b'-- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_ros_msgs/include/depthai_ros_msgs/msg/detail/spatial_detection__rosidl_typesupport_fastrtps_c.h\n'}
+[33.335175] (depthai_ros_msgs) StdoutLine: {'line': b'-- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_ros_msgs/include/depthai_ros_msgs/msg/detail/spatial_detection_array__rosidl_typesupport_fastrtps_c.h\n'}
+[33.343838] (depthai_ros_msgs) StdoutLine: {'line': b'-- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_ros_msgs/include/depthai_ros_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[33.353089] (depthai_ros_msgs) StdoutLine: {'line': b'-- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_ros_msgs/include/depthai_ros_msgs/srv/detail/normalized_image_crop__rosidl_typesupport_fastrtps_c.h\n'}
+[33.362274] (depthai_ros_msgs) StdoutLine: {'line': b'-- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_ros_msgs/include/depthai_ros_msgs/srv/detail/trigger_named__rosidl_typesupport_fastrtps_c.h\n'}
+[33.371707] (depthai_ros_msgs) StdoutLine: {'line': b'-- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_ros_msgs/lib/libdepthai_ros_msgs__rosidl_typesupport_fastrtps_c.so\n'}
+[33.383966] (depthai_ros_msgs) StdoutLine: {'line': b'-- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_ros_msgs/include/depthai_ros_msgs/msg/detail/auto_focus_ctrl__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[33.393182] (depthai_ros_msgs) StdoutLine: {'line': b'-- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_ros_msgs/include/depthai_ros_msgs/msg/detail/hand_landmark__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[33.401860] (depthai_ros_msgs) StdoutLine: {'line': b'-- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_ros_msgs/include/depthai_ros_msgs/msg/detail/hand_landmark_array__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[33.410392] (depthai_ros_msgs) StdoutLine: {'line': b'-- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_ros_msgs/include/depthai_ros_msgs/msg/detail/spatial_detection__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[33.416230] (-) TimerEvent: {}
+[33.419285] (depthai_ros_msgs) StdoutLine: {'line': b'-- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_ros_msgs/include/depthai_ros_msgs/msg/detail/spatial_detection_array__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[33.428498] (depthai_ros_msgs) StdoutLine: {'line': b'-- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_ros_msgs/include/depthai_ros_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[33.437291] (depthai_ros_msgs) StdoutLine: {'line': b'-- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_ros_msgs/include/depthai_ros_msgs/srv/detail/normalized_image_crop__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[33.446412] (depthai_ros_msgs) StdoutLine: {'line': b'-- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_ros_msgs/include/depthai_ros_msgs/srv/detail/trigger_named__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[33.455364] (depthai_ros_msgs) StdoutLine: {'line': b'-- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_ros_msgs/lib/libdepthai_ros_msgs__rosidl_typesupport_fastrtps_cpp.so\n'}
+[33.466084] (depthai_ros_msgs) StdoutLine: {'line': b'-- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_ros_msgs/include/depthai_ros_msgs/msg/detail/auto_focus_ctrl__rosidl_typesupport_introspection_c.h\n'}
+[33.474926] (depthai_ros_msgs) StdoutLine: {'line': b'-- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_ros_msgs/include/depthai_ros_msgs/msg/detail/hand_landmark__rosidl_typesupport_introspection_c.h\n'}
+[33.484011] (depthai_ros_msgs) StdoutLine: {'line': b'-- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_ros_msgs/include/depthai_ros_msgs/msg/detail/hand_landmark_array__rosidl_typesupport_introspection_c.h\n'}
+[33.492938] (depthai_ros_msgs) StdoutLine: {'line': b'-- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_ros_msgs/include/depthai_ros_msgs/msg/detail/spatial_detection__rosidl_typesupport_introspection_c.h\n'}
+[33.501539] (depthai_ros_msgs) StdoutLine: {'line': b'-- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_ros_msgs/include/depthai_ros_msgs/msg/detail/spatial_detection_array__rosidl_typesupport_introspection_c.h\n'}
+[33.510413] (depthai_ros_msgs) StdoutLine: {'line': b'-- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_ros_msgs/include/depthai_ros_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[33.516410] (-) TimerEvent: {}
+[33.519699] (depthai_ros_msgs) StdoutLine: {'line': b'-- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_ros_msgs/include/depthai_ros_msgs/srv/detail/normalized_image_crop__rosidl_typesupport_introspection_c.h\n'}
+[33.528698] (depthai_ros_msgs) StdoutLine: {'line': b'-- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_ros_msgs/include/depthai_ros_msgs/srv/detail/trigger_named__rosidl_typesupport_introspection_c.h\n'}
+[33.540557] (depthai_ros_msgs) StdoutLine: {'line': b'-- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_ros_msgs/include/depthai_ros_msgs/msg/auto_focus_ctrl.hpp\n'}
+[33.550276] (depthai_ros_msgs) StdoutLine: {'line': b'-- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_ros_msgs/include/depthai_ros_msgs/msg/detail/auto_focus_ctrl__builder.hpp\n'}
+[33.560238] (depthai_ros_msgs) StdoutLine: {'line': b'-- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_ros_msgs/include/depthai_ros_msgs/msg/detail/auto_focus_ctrl__struct.hpp\n'}
+[33.568909] (depthai_ros_msgs) StdoutLine: {'line': b'-- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_ros_msgs/include/depthai_ros_msgs/msg/detail/auto_focus_ctrl__traits.hpp\n'}
+[33.577888] (depthai_ros_msgs) StdoutLine: {'line': b'-- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_ros_msgs/include/depthai_ros_msgs/msg/detail/auto_focus_ctrl__type_support.hpp\n'}
+[33.586489] (depthai_ros_msgs) StdoutLine: {'line': b'-- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_ros_msgs/include/depthai_ros_msgs/msg/detail/hand_landmark__builder.hpp\n'}
+[33.595247] (depthai_ros_msgs) StdoutLine: {'line': b'-- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_ros_msgs/include/depthai_ros_msgs/msg/detail/hand_landmark__struct.hpp\n'}
+[33.604029] (depthai_ros_msgs) StdoutLine: {'line': b'-- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_ros_msgs/include/depthai_ros_msgs/msg/detail/hand_landmark__traits.hpp\n'}
+[33.612554] (depthai_ros_msgs) StdoutLine: {'line': b'-- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_ros_msgs/include/depthai_ros_msgs/msg/detail/hand_landmark__type_support.hpp\n'}
+[33.616564] (-) TimerEvent: {}
+[33.621420] (depthai_ros_msgs) StdoutLine: {'line': b'-- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_ros_msgs/include/depthai_ros_msgs/msg/detail/hand_landmark_array__builder.hpp\n'}
+[33.631215] (depthai_ros_msgs) StdoutLine: {'line': b'-- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_ros_msgs/include/depthai_ros_msgs/msg/detail/hand_landmark_array__struct.hpp\n'}
+[33.639781] (depthai_ros_msgs) StdoutLine: {'line': b'-- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_ros_msgs/include/depthai_ros_msgs/msg/detail/hand_landmark_array__traits.hpp\n'}
+[33.648487] (depthai_ros_msgs) StdoutLine: {'line': b'-- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_ros_msgs/include/depthai_ros_msgs/msg/detail/hand_landmark_array__type_support.hpp\n'}
+[33.657141] (depthai_ros_msgs) StdoutLine: {'line': b'-- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_ros_msgs/include/depthai_ros_msgs/msg/detail/spatial_detection__builder.hpp\n'}
+[33.665771] (depthai_ros_msgs) StdoutLine: {'line': b'-- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_ros_msgs/include/depthai_ros_msgs/msg/detail/spatial_detection__struct.hpp\n'}
+[33.674472] (depthai_ros_msgs) StdoutLine: {'line': b'-- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_ros_msgs/include/depthai_ros_msgs/msg/detail/spatial_detection__traits.hpp\n'}
+[33.683295] (depthai_ros_msgs) StdoutLine: {'line': b'-- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_ros_msgs/include/depthai_ros_msgs/msg/detail/spatial_detection__type_support.hpp\n'}
+[33.691982] (depthai_ros_msgs) StdoutLine: {'line': b'-- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_ros_msgs/include/depthai_ros_msgs/msg/detail/spatial_detection_array__builder.hpp\n'}
+[33.700622] (depthai_ros_msgs) StdoutLine: {'line': b'-- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_ros_msgs/include/depthai_ros_msgs/msg/detail/spatial_detection_array__struct.hpp\n'}
+[33.709297] (depthai_ros_msgs) StdoutLine: {'line': b'-- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_ros_msgs/include/depthai_ros_msgs/msg/detail/spatial_detection_array__traits.hpp\n'}
+[33.716801] (-) TimerEvent: {}
+[33.719019] (depthai_ros_msgs) StdoutLine: {'line': b'-- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_ros_msgs/include/depthai_ros_msgs/msg/detail/spatial_detection_array__type_support.hpp\n'}
+[33.728253] (depthai_ros_msgs) StdoutLine: {'line': b'-- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_ros_msgs/include/depthai_ros_msgs/msg/hand_landmark.hpp\n'}
+[33.737025] (depthai_ros_msgs) StdoutLine: {'line': b'-- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_ros_msgs/include/depthai_ros_msgs/msg/hand_landmark_array.hpp\n'}
+[33.745578] (depthai_ros_msgs) StdoutLine: {'line': b'-- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_ros_msgs/include/depthai_ros_msgs/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[33.754367] (depthai_ros_msgs) StdoutLine: {'line': b'-- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_ros_msgs/include/depthai_ros_msgs/msg/spatial_detection.hpp\n'}
+[33.763354] (depthai_ros_msgs) StdoutLine: {'line': b'-- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_ros_msgs/include/depthai_ros_msgs/msg/spatial_detection_array.hpp\n'}
+[33.772637] (depthai_ros_msgs) StdoutLine: {'line': b'-- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_ros_msgs/include/depthai_ros_msgs/srv/detail/normalized_image_crop__builder.hpp\n'}
+[33.781465] (depthai_ros_msgs) StdoutLine: {'line': b'-- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_ros_msgs/include/depthai_ros_msgs/srv/detail/normalized_image_crop__struct.hpp\n'}
+[33.789966] (depthai_ros_msgs) StdoutLine: {'line': b'-- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_ros_msgs/include/depthai_ros_msgs/srv/detail/normalized_image_crop__traits.hpp\n'}
+[33.798580] (depthai_ros_msgs) StdoutLine: {'line': b'-- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_ros_msgs/include/depthai_ros_msgs/srv/detail/normalized_image_crop__type_support.hpp\n'}
+[33.807257] (depthai_ros_msgs) StdoutLine: {'line': b'-- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_ros_msgs/include/depthai_ros_msgs/srv/detail/trigger_named__builder.hpp\n'}
+[33.816095] (depthai_ros_msgs) StdoutLine: {'line': b'-- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_ros_msgs/include/depthai_ros_msgs/srv/detail/trigger_named__struct.hpp\n'}
+[33.816886] (-) TimerEvent: {}
+[33.824814] (depthai_ros_msgs) StdoutLine: {'line': b'-- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_ros_msgs/include/depthai_ros_msgs/srv/detail/trigger_named__traits.hpp\n'}
+[33.833736] (depthai_ros_msgs) StdoutLine: {'line': b'-- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_ros_msgs/include/depthai_ros_msgs/srv/detail/trigger_named__type_support.hpp\n'}
+[33.842495] (depthai_ros_msgs) StdoutLine: {'line': b'-- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_ros_msgs/include/depthai_ros_msgs/srv/normalized_image_crop.hpp\n'}
+[33.851106] (depthai_ros_msgs) StdoutLine: {'line': b'-- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_ros_msgs/include/depthai_ros_msgs/srv/trigger_named.hpp\n'}
+[33.862554] (depthai_ros_msgs) StdoutLine: {'line': b'-- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_ros_msgs/include/depthai_ros_msgs/msg/detail/auto_focus_ctrl__rosidl_typesupport_introspection_cpp.hpp\n'}
+[33.871505] (depthai_ros_msgs) StdoutLine: {'line': b'-- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_ros_msgs/include/depthai_ros_msgs/msg/detail/hand_landmark__rosidl_typesupport_introspection_cpp.hpp\n'}
+[33.880673] (depthai_ros_msgs) StdoutLine: {'line': b'-- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_ros_msgs/include/depthai_ros_msgs/msg/detail/hand_landmark_array__rosidl_typesupport_introspection_cpp.hpp\n'}
+[33.889572] (depthai_ros_msgs) StdoutLine: {'line': b'-- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_ros_msgs/include/depthai_ros_msgs/msg/detail/spatial_detection__rosidl_typesupport_introspection_cpp.hpp\n'}
+[33.899078] (depthai_ros_msgs) StdoutLine: {'line': b'-- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_ros_msgs/include/depthai_ros_msgs/msg/detail/spatial_detection_array__rosidl_typesupport_introspection_cpp.hpp\n'}
+[33.907904] (depthai_ros_msgs) StdoutLine: {'line': b'-- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_ros_msgs/include/depthai_ros_msgs/srv/detail/normalized_image_crop__rosidl_typesupport_introspection_cpp.hpp\n'}
+[33.916823] (depthai_ros_msgs) StdoutLine: {'line': b'-- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_ros_msgs/include/depthai_ros_msgs/srv/detail/trigger_named__rosidl_typesupport_introspection_cpp.hpp\n'}
+[33.917565] (-) TimerEvent: {}
+[33.926129] (depthai_ros_msgs) StdoutLine: {'line': b'-- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_ros_msgs/share/depthai_ros_msgs/environment/pythonpath.sh\n'}
+[33.935412] (depthai_ros_msgs) StdoutLine: {'line': b'-- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_ros_msgs/share/depthai_ros_msgs/environment/pythonpath.dsv\n'}
+[33.944557] (depthai_ros_msgs) StdoutLine: {'line': b'-- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_ros_msgs/lib/python3.6/site-packages/depthai_ros_msgs/__init__.py\n'}
+[33.954746] (depthai_ros_msgs) StdoutLine: {'line': b'-- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_ros_msgs/lib/python3.6/site-packages/depthai_ros_msgs/msg/__init__.py\n'}
+[33.963419] (depthai_ros_msgs) StdoutLine: {'line': b'-- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_ros_msgs/lib/python3.6/site-packages/depthai_ros_msgs/msg/_auto_focus_ctrl.py\n'}
+[33.972731] (depthai_ros_msgs) StdoutLine: {'line': b'-- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_ros_msgs/lib/python3.6/site-packages/depthai_ros_msgs/msg/_hand_landmark.py\n'}
+[33.981554] (depthai_ros_msgs) StdoutLine: {'line': b'-- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_ros_msgs/lib/python3.6/site-packages/depthai_ros_msgs/msg/_hand_landmark_array.py\n'}
+[33.990234] (depthai_ros_msgs) StdoutLine: {'line': b'-- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_ros_msgs/lib/python3.6/site-packages/depthai_ros_msgs/msg/_spatial_detection.py\n'}
+[33.999400] (depthai_ros_msgs) StdoutLine: {'line': b'-- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_ros_msgs/lib/python3.6/site-packages/depthai_ros_msgs/msg/_spatial_detection_array.py\n'}
+[34.009455] (depthai_ros_msgs) StdoutLine: {'line': b'-- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_ros_msgs/lib/python3.6/site-packages/depthai_ros_msgs/srv/__init__.py\n'}
+[34.017841] (-) TimerEvent: {}
+[34.018598] (depthai_ros_msgs) StdoutLine: {'line': b'-- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_ros_msgs/lib/python3.6/site-packages/depthai_ros_msgs/srv/_normalized_image_crop.py\n'}
+[34.027336] (depthai_ros_msgs) StdoutLine: {'line': b'-- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_ros_msgs/lib/python3.6/site-packages/depthai_ros_msgs/srv/_trigger_named.py\n'}
+[34.037420] (depthai_ros_msgs) StdoutLine: {'line': b'-- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_ros_msgs/lib/python3.6/site-packages/depthai_ros_msgs/depthai_ros_msgs_s__rosidl_typesupport_fastrtps_c.cpython-36m-aarch64-linux-gnu.so\n'}
+[34.046575] (depthai_ros_msgs) StdoutLine: {'line': b'-- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_ros_msgs/lib/python3.6/site-packages/depthai_ros_msgs/depthai_ros_msgs_s__rosidl_typesupport_introspection_c.cpython-36m-aarch64-linux-gnu.so\n'}
+[34.056879] (depthai_ros_msgs) StdoutLine: {'line': b'-- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_ros_msgs/lib/python3.6/site-packages/depthai_ros_msgs/depthai_ros_msgs_s__rosidl_typesupport_c.cpython-36m-aarch64-linux-gnu.so\n'}
+[34.066691] (depthai_ros_msgs) StdoutLine: {'line': b'-- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_ros_msgs/lib/libdepthai_ros_msgs__python.so\n'}
+[34.075810] (depthai_ros_msgs) StdoutLine: {'line': b'-- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_ros_msgs/share/depthai_ros_msgs/msg/AutoFocusCtrl.idl\n'}
+[34.084973] (depthai_ros_msgs) StdoutLine: {'line': b'-- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_ros_msgs/share/depthai_ros_msgs/msg/HandLandmark.idl\n'}
+[34.094538] (depthai_ros_msgs) StdoutLine: {'line': b'-- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_ros_msgs/share/depthai_ros_msgs/msg/HandLandmarkArray.idl\n'}
+[34.105256] (depthai_ros_msgs) StdoutLine: {'line': b'-- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_ros_msgs/share/depthai_ros_msgs/msg/SpatialDetection.idl\n'}
+[34.114717] (depthai_ros_msgs) StdoutLine: {'line': b'-- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_ros_msgs/share/depthai_ros_msgs/msg/SpatialDetectionArray.idl\n'}
+[34.117988] (-) TimerEvent: {}
+[34.125575] (depthai_ros_msgs) StdoutLine: {'line': b'-- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_ros_msgs/share/depthai_ros_msgs/srv/TriggerNamed.idl\n'}
+[34.135030] (depthai_ros_msgs) StdoutLine: {'line': b'-- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_ros_msgs/share/depthai_ros_msgs/srv/NormalizedImageCrop.idl\n'}
+[34.144575] (depthai_ros_msgs) StdoutLine: {'line': b'-- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_ros_msgs/share/depthai_ros_msgs/msg/AutoFocusCtrl.msg\n'}
+[34.153662] (depthai_ros_msgs) StdoutLine: {'line': b'-- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_ros_msgs/share/depthai_ros_msgs/msg/HandLandmark.msg\n'}
+[34.162801] (depthai_ros_msgs) StdoutLine: {'line': b'-- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_ros_msgs/share/depthai_ros_msgs/msg/HandLandmarkArray.msg\n'}
+[34.171763] (depthai_ros_msgs) StdoutLine: {'line': b'-- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_ros_msgs/share/depthai_ros_msgs/msg/SpatialDetection.msg\n'}
+[34.180750] (depthai_ros_msgs) StdoutLine: {'line': b'-- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_ros_msgs/share/depthai_ros_msgs/msg/SpatialDetectionArray.msg\n'}
+[34.189651] (depthai_ros_msgs) StdoutLine: {'line': b'-- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_ros_msgs/share/depthai_ros_msgs/srv/TriggerNamed.srv\n'}
+[34.198738] (depthai_ros_msgs) StdoutLine: {'line': b'-- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_ros_msgs/share/depthai_ros_msgs/srv/TriggerNamed_Request.msg\n'}
+[34.207837] (depthai_ros_msgs) StdoutLine: {'line': b'-- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_ros_msgs/share/depthai_ros_msgs/srv/TriggerNamed_Response.msg\n'}
+[34.216855] (depthai_ros_msgs) StdoutLine: {'line': b'-- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_ros_msgs/share/depthai_ros_msgs/srv/NormalizedImageCrop.srv\n'}
+[34.218097] (-) TimerEvent: {}
+[34.225994] (depthai_ros_msgs) StdoutLine: {'line': b'-- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_ros_msgs/share/depthai_ros_msgs/srv/NormalizedImageCrop_Request.msg\n'}
+[34.235082] (depthai_ros_msgs) StdoutLine: {'line': b'-- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_ros_msgs/share/depthai_ros_msgs/srv/NormalizedImageCrop_Response.msg\n'}
+[34.244054] (depthai_ros_msgs) StdoutLine: {'line': b'-- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_ros_msgs/share/ament_index/resource_index/package_run_dependencies/depthai_ros_msgs\n'}
+[34.253313] (depthai_ros_msgs) StdoutLine: {'line': b'-- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_ros_msgs/share/ament_index/resource_index/parent_prefix_path/depthai_ros_msgs\n'}
+[34.262837] (depthai_ros_msgs) StdoutLine: {'line': b'-- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_ros_msgs/share/depthai_ros_msgs/environment/ament_prefix_path.sh\n'}
+[34.272145] (depthai_ros_msgs) StdoutLine: {'line': b'-- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_ros_msgs/share/depthai_ros_msgs/environment/ament_prefix_path.dsv\n'}
+[34.281638] (depthai_ros_msgs) StdoutLine: {'line': b'-- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_ros_msgs/share/depthai_ros_msgs/environment/path.sh\n'}
+[34.290572] (depthai_ros_msgs) StdoutLine: {'line': b'-- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_ros_msgs/share/depthai_ros_msgs/environment/path.dsv\n'}
+[34.299746] (depthai_ros_msgs) StdoutLine: {'line': b'-- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_ros_msgs/share/depthai_ros_msgs/local_setup.bash\n'}
+[34.311523] (depthai_ros_msgs) StdoutLine: {'line': b'-- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_ros_msgs/share/depthai_ros_msgs/local_setup.sh\n'}
+[34.317948] (depthai_ros_msgs) StdoutLine: {'line': b'-- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_ros_msgs/share/depthai_ros_msgs/local_setup.zsh\n'}
+[34.318677] (-) TimerEvent: {}
+[34.327499] (depthai_ros_msgs) StdoutLine: {'line': b'-- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_ros_msgs/share/depthai_ros_msgs/local_setup.dsv\n'}
+[34.336387] (depthai_ros_msgs) StdoutLine: {'line': b'-- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_ros_msgs/share/depthai_ros_msgs/package.dsv\n'}
+[34.345465] (depthai_ros_msgs) StdoutLine: {'line': b'-- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_ros_msgs/share/ament_index/resource_index/packages/depthai_ros_msgs\n'}
+[34.354425] (depthai_ros_msgs) StdoutLine: {'line': b'-- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_ros_msgs/share/depthai_ros_msgs/cmake/rosidl_cmake-extras.cmake\n'}
+[34.363661] (depthai_ros_msgs) StdoutLine: {'line': b'-- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_ros_msgs/share/depthai_ros_msgs/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[34.372748] (depthai_ros_msgs) StdoutLine: {'line': b'-- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_ros_msgs/share/depthai_ros_msgs/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[34.381906] (depthai_ros_msgs) StdoutLine: {'line': b'-- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_ros_msgs/share/depthai_ros_msgs/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[34.390964] (depthai_ros_msgs) StdoutLine: {'line': b'-- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_ros_msgs/share/depthai_ros_msgs/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[34.399937] (depthai_ros_msgs) StdoutLine: {'line': b'-- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_ros_msgs/share/depthai_ros_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[34.408902] (depthai_ros_msgs) StdoutLine: {'line': b'-- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_ros_msgs/share/depthai_ros_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[34.417914] (depthai_ros_msgs) StdoutLine: {'line': b'-- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_ros_msgs/share/depthai_ros_msgs/cmake/depthai_ros_msgsConfig.cmake\n'}
+[34.419290] (-) TimerEvent: {}
+[34.426586] (depthai_ros_msgs) StdoutLine: {'line': b'-- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_ros_msgs/share/depthai_ros_msgs/cmake/depthai_ros_msgsConfig-version.cmake\n'}
+[34.435796] (depthai_ros_msgs) StdoutLine: {'line': b'-- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_ros_msgs/share/depthai_ros_msgs/package.xml\n'}
+[34.445354] (depthai_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /workspaces/ROS_PointCloud_AGV/install/depthai_ros_msgs/lib/libdepthai_ros_msgs__rosidl_generator_c.so\n'}
+[34.446516] (depthai_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /workspaces/ROS_PointCloud_AGV/install/depthai_ros_msgs/lib/libdepthai_ros_msgs__rosidl_typesupport_introspection_c.so\n'}
+[34.447818] (depthai_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /workspaces/ROS_PointCloud_AGV/install/depthai_ros_msgs/lib/libdepthai_ros_msgs__rosidl_typesupport_c.so\n'}
+[34.448941] (depthai_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /workspaces/ROS_PointCloud_AGV/install/depthai_ros_msgs/lib/libdepthai_ros_msgs__rosidl_typesupport_introspection_cpp.so\n'}
+[34.450111] (depthai_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /workspaces/ROS_PointCloud_AGV/install/depthai_ros_msgs/lib/libdepthai_ros_msgs__rosidl_typesupport_cpp.so\n'}
+[34.519459] (-) TimerEvent: {}
+[34.591733] (depthai_ros_msgs) StdoutLine: {'line': b"Compiling '/workspaces/ROS_PointCloud_AGV/install/depthai_ros_msgs/lib/python3.6/site-packages/depthai_ros_msgs/__init__.py'...\n"}
+[34.612986] (depthai_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /workspaces/ROS_PointCloud_AGV/install/depthai_ros_msgs/share/depthai_ros_msgs/cmake/depthai_ros_msgs__rosidl_generator_cExport.cmake\n'}
+[34.613846] (depthai_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /workspaces/ROS_PointCloud_AGV/install/depthai_ros_msgs/share/depthai_ros_msgs/cmake/depthai_ros_msgs__rosidl_generator_cExport-noconfig.cmake\n'}
+[34.614588] (depthai_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /workspaces/ROS_PointCloud_AGV/install/depthai_ros_msgs/share/depthai_ros_msgs/cmake/depthai_ros_msgs__rosidl_typesupport_introspection_cExport.cmake\n'}
+[34.615128] (depthai_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /workspaces/ROS_PointCloud_AGV/install/depthai_ros_msgs/share/depthai_ros_msgs/cmake/depthai_ros_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[34.615766] (depthai_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /workspaces/ROS_PointCloud_AGV/install/depthai_ros_msgs/share/depthai_ros_msgs/cmake/depthai_ros_msgs__rosidl_typesupport_cExport.cmake\n'}
+[34.616521] (depthai_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /workspaces/ROS_PointCloud_AGV/install/depthai_ros_msgs/share/depthai_ros_msgs/cmake/depthai_ros_msgs__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[34.617037] (depthai_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /workspaces/ROS_PointCloud_AGV/install/depthai_ros_msgs/share/depthai_ros_msgs/cmake/depthai_ros_msgs__rosidl_generator_cppExport.cmake\n'}
+[34.617540] (depthai_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /workspaces/ROS_PointCloud_AGV/install/depthai_ros_msgs/share/depthai_ros_msgs/cmake/depthai_ros_msgs__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[34.618098] (depthai_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /workspaces/ROS_PointCloud_AGV/install/depthai_ros_msgs/share/depthai_ros_msgs/cmake/depthai_ros_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[34.618655] (depthai_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /workspaces/ROS_PointCloud_AGV/install/depthai_ros_msgs/share/depthai_ros_msgs/cmake/depthai_ros_msgs__rosidl_typesupport_cppExport.cmake\n'}
+[34.619400] (depthai_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /workspaces/ROS_PointCloud_AGV/install/depthai_ros_msgs/share/depthai_ros_msgs/cmake/depthai_ros_msgs__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[34.619969] (-) TimerEvent: {}
+[34.641580] (depthai_ros_msgs) CommandEnded: {'returncode': 0}
+[34.720295] (-) TimerEvent: {}
+[34.821583] (-) TimerEvent: {}
+[34.922752] (-) TimerEvent: {}
+[35.023520] (-) TimerEvent: {}
+[35.124873] (-) TimerEvent: {}
+[35.226435] (-) TimerEvent: {}
+[35.327816] (-) TimerEvent: {}
+[35.428627] (-) TimerEvent: {}
+[35.430324] (depthai_ros_msgs) JobEnded: {'identifier': 'depthai_ros_msgs', 'rc': 0}
+[35.438243] (depthai_bridge) JobStarted: {'identifier': 'depthai_bridge'}
+[35.497425] (depthai_bridge) JobProgress: {'identifier': 'depthai_bridge', 'progress': 'cmake'}
+[35.501377] (depthai_bridge) Command: {'cmd': ['/usr/local/bin/cmake', '/workspaces/ROS_PointCloud_AGV/dai_ws/src/depthai-ros/depthai_bridge', '-DBUILD_SHARED_LIBS=ON', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/workspaces/ROS_PointCloud_AGV/install/depthai_bridge'], 'cwd': '/workspaces/ROS_PointCloud_AGV/build/depthai_bridge', 'env': OrderedDict([('OPENBLAS_CORETYPE', 'ARMV8'), ('PYTHONIOENCODING', 'utf-8'), ('WS', '/ws'), ('HOSTNAME', 'jetsonagv-desktop'), ('GIT_ASKPASS', '/vscode/vscode-server/bin/linux-arm64/1a5daa3a0231a0fbba4f14db7ec463cf99d7768e/extensions/git/dist/askpass.sh'), ('LD_LIBRARY_PATH', '/workspaces/ROS_PointCloud_AGV/install/depthai_ros_msgs/lib:/opt/ros/foxy/install/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/install/lib:/usr/local/cuda-10.2/targets/aarch64-linux/lib'), ('BROWSER', '/vscode/vscode-server/bin/linux-arm64/1a5daa3a0231a0fbba4f14db7ec463cf99d7768e/bin/helpers/browser.sh'), ('SHLVL', '2'), ('OLDPWD', '/workspaces'), ('HOME', '/home/USERNAME'), ('TERM_PROGRAM_VERSION', '1.84.2'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-4a01e2ed-990a-4728-9d36-3ddf8d7d7467.sock'), ('VSCODE_GIT_ASKPASS_MAIN', '/vscode/vscode-server/bin/linux-arm64/1a5daa3a0231a0fbba4f14db7ec463cf99d7768e/extensions/git/dist/askpass-main.js'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_NODE', '/vscode/vscode-server/bin/linux-arm64/1a5daa3a0231a0fbba4f14db7ec463cf99d7768e/node'), ('MAKEFLAGS', '-j1 -l1'), ('REMOTE_CONTAINERS', 'true'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/opt/ros/foxy/install'), ('ROS_DISTRO', 'foxy'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-40957e95-72ab-42a8-97cb-172fabd7d5d3.sock'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('PKG_CONFIG_PATH', '/opt/ros/foxy/install/lib/aarch64-linux-gnu/pkgconfig:/opt/ros/foxy/install/lib/pkgconfig'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/install/bin:/vscode/vscode-server/bin/linux-arm64/1a5daa3a0231a0fbba4f14db7ec463cf99d7768e/bin/remote-cli:/usr/local/cuda-10.2/bin:/usr/local/cuda/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':1'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/vscode-ssh-auth-40957e95-72ab-42a8-97cb-172fabd7d5d3.sock","/tmp/.X11-unix/X1","/home/USERNAME/.gnupg/S.gpg-agent"]'), ('LANG', 'en_US.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('TERM_PROGRAM', 'vscode'), ('ROS_ROOT', '/opt/ros/foxy'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/vscode-git-29bc7e2fd3.sock'), ('AMENT_PREFIX_PATH', '/workspaces/ROS_PointCloud_AGV/install/depthai_ros_msgs:/opt/ros/foxy/install'), ('SSH_AUTH_SOCK', '/tmp/vscode-ssh-auth-40957e95-72ab-42a8-97cb-172fabd7d5d3.sock'), ('REMOTE_CONTAINERS_DISPLAY_SOCK', '/tmp/.X11-unix/X1'), ('DEBIAN_FRONTEND', 'noninteractive'), ('SHELL', '/bin/bash'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/workspaces/ROS_PointCloud_AGV/build/depthai_bridge'), ('PYTHONPATH', '/workspaces/ROS_PointCloud_AGV/install/depthai_ros_msgs/lib/python3.6/site-packages:/opt/ros/foxy/install/lib/python3.6/site-packages'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/workspaces/ROS_PointCloud_AGV/install/depthai_ros_msgs:/opt/ros/foxy/install')]), 'shell': False}
+[35.528833] (-) TimerEvent: {}
+[35.629958] (-) TimerEvent: {}
+[35.677625] (depthai_bridge) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /usr/lib/cmake/opencv4/OpenCVConfig.cmake:86 (find_package):\n'}
+[35.678532] (depthai_bridge) StderrLine: {'line': b'  Policy CMP0146 is not set: The FindCUDA module is removed.  Run "cmake\n'}
+[35.679051] (depthai_bridge) StderrLine: {'line': b'  --help-policy CMP0146" for policy details.  Use the cmake_policy command to\n'}
+[35.679607] (depthai_bridge) StderrLine: {'line': b'  set the policy and suppress this warning.\n'}
+[35.680067] (depthai_bridge) StderrLine: {'line': b'\n'}
+[35.680518] (depthai_bridge) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[35.680963] (depthai_bridge) StderrLine: {'line': b'  /usr/lib/cmake/opencv4/OpenCVConfig.cmake:108 (find_host_package)\n'}
+[35.681414] (depthai_bridge) StderrLine: {'line': b'  CMakeLists.txt:16 (find_package)\n'}
+[35.681853] (depthai_bridge) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[35.682292] (depthai_bridge) StderrLine: {'line': b'\x1b[0m\n'}
+[35.730194] (-) TimerEvent: {}
+[35.809706] (depthai_bridge) StdoutLine: {'line': b'-- ------------------------------------------\n'}
+[35.810502] (depthai_bridge) StdoutLine: {'line': b'-- Depthai Bridge is being built using AMENT.\n'}
+[35.813096] (depthai_bridge) StdoutLine: {'line': b'-- ------------------------------------------\n'}
+[35.813759] (depthai_bridge) StdoutLine: {'line': b'-- Found camera_info_manager: 2.4.0 (/opt/ros/foxy/install/share/camera_info_manager/cmake)\n'}
+[35.815615] (depthai_bridge) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /opt/ros/foxy/install/share/ament_cmake_core/cmake/core/python.cmake:22 (find_package):\n'}
+[35.816195] (depthai_bridge) StderrLine: {'line': b'  Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules\n'}
+[35.816743] (depthai_bridge) StderrLine: {'line': b'  are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use\n'}
+[35.817230] (depthai_bridge) StderrLine: {'line': b'  the cmake_policy command to set the policy and suppress this warning.\n'}
+[35.817702] (depthai_bridge) StderrLine: {'line': b'\n'}
+[35.818178] (depthai_bridge) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[35.818634] (depthai_bridge) StderrLine: {'line': b'  /opt/ros/foxy/install/share/ament_cmake_core/cmake/core/all.cmake:53 (include)\n'}
+[35.819089] (depthai_bridge) StderrLine: {'line': b'  /opt/ros/foxy/install/share/ament_cmake_core/cmake/ament_cmake_core-extras.cmake:17 (include)\n'}
+[35.819684] (depthai_bridge) StderrLine: {'line': b'  /opt/ros/foxy/install/share/ament_cmake_core/cmake/ament_cmake_coreConfig.cmake:41 (include)\n'}
+[35.820198] (depthai_bridge) StderrLine: {'line': b'  /opt/ros/foxy/install/share/camera_info_manager/cmake/ament_cmake_export_include_directories-extras.cmake:8 (find_package)\n'}
+[35.820689] (depthai_bridge) StderrLine: {'line': b'  /opt/ros/foxy/install/share/camera_info_manager/cmake/camera_info_managerConfig.cmake:41 (include)\n'}
+[35.821147] (depthai_bridge) StderrLine: {'line': b'  CMakeLists.txt:30 (find_package)\n'}
+[35.821599] (depthai_bridge) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[35.822047] (depthai_bridge) StderrLine: {'line': b'\x1b[0m\n'}
+[35.830329] (-) TimerEvent: {}
+[35.888503] (depthai_bridge) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[35.930490] (-) TimerEvent: {}
+[36.031299] (-) TimerEvent: {}
+[36.132700] (-) TimerEvent: {}
+[36.234341] (-) TimerEvent: {}
+[36.335949] (-) TimerEvent: {}
+[36.437368] (-) TimerEvent: {}
+[36.538710] (-) TimerEvent: {}
+[36.640052] (-) TimerEvent: {}
+[36.741501] (-) TimerEvent: {}
+[36.843090] (-) TimerEvent: {}
+[36.890890] (depthai_bridge) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[36.943314] (-) TimerEvent: {}
+[37.044131] (-) TimerEvent: {}
+[37.069315] (depthai_bridge) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[37.088951] (depthai_bridge) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/install/share/rosidl_adapter/cmake)\n'}
+[37.144363] (-) TimerEvent: {}
+[37.245215] (-) TimerEvent: {}
+[37.346638] (-) TimerEvent: {}
+[37.448096] (-) TimerEvent: {}
+[37.549520] (-) TimerEvent: {}
+[37.605591] (depthai_bridge) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[37.649740] (-) TimerEvent: {}
+[37.751101] (-) TimerEvent: {}
+[37.842371] (depthai_bridge) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/install/share/rmw_implementation_cmake/cmake)\n'}
+[37.848792] (depthai_bridge) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_cyclonedds_cpp' as default\n"}
+[37.851257] (-) TimerEvent: {}
+[37.951951] (-) TimerEvent: {}
+[38.053362] (-) TimerEvent: {}
+[38.154748] (-) TimerEvent: {}
+[38.256182] (-) TimerEvent: {}
+[38.357541] (-) TimerEvent: {}
+[38.458935] (-) TimerEvent: {}
+[38.560351] (-) TimerEvent: {}
+[38.661729] (-) TimerEvent: {}
+[38.763116] (-) TimerEvent: {}
+[38.866774] (-) TimerEvent: {}
+[38.967935] (-) TimerEvent: {}
+[39.069052] (-) TimerEvent: {}
+[39.167079] (depthai_bridge) StdoutLine: {'line': b"-- Setting yaml-cpp_DIR to: '/opt/ros/foxy/install/share/yaml_cpp_vendor/cmake/../../../opt/yaml_cpp_vendor/lib/cmake/yaml-cpp'\n"}
+[39.169206] (-) TimerEvent: {}
+[39.269958] (-) TimerEvent: {}
+[39.370701] (-) TimerEvent: {}
+[39.468150] (depthai_bridge) StdoutLine: {'line': b'-- Found cv_bridge: 3.0.7 (/opt/ros/foxy/install/share/cv_bridge/cmake)\n'}
+[39.470861] (-) TimerEvent: {}
+[39.513820] (depthai_bridge) StdoutLine: {'line': b'-- Found depthai_ros_msgs: 2.7.1 (/workspaces/ROS_PointCloud_AGV/install/depthai_ros_msgs/share/depthai_ros_msgs/cmake)\n'}
+[39.571105] (-) TimerEvent: {}
+[39.672531] (-) TimerEvent: {}
+[39.773904] (-) TimerEvent: {}
+[39.875258] (-) TimerEvent: {}
+[39.976404] (-) TimerEvent: {}
+[40.077532] (-) TimerEvent: {}
+[40.178642] (-) TimerEvent: {}
+[40.279800] (-) TimerEvent: {}
+[40.380875] (-) TimerEvent: {}
+[40.482023] (-) TimerEvent: {}
+[40.583202] (-) TimerEvent: {}
+[40.684332] (-) TimerEvent: {}
+[40.785128] (-) TimerEvent: {}
+[40.885934] (-) TimerEvent: {}
+[40.987089] (-) TimerEvent: {}
+[41.088469] (-) TimerEvent: {}
+[41.146085] (depthai_bridge) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:33 (find_package):\n'}
+[41.146869] (depthai_bridge) StderrLine: {'line': b'  Could not find a package configuration file provided by "depthai" with any\n'}
+[41.147657] (depthai_bridge) StderrLine: {'line': b'  of the following names:\n'}
+[41.148167] (depthai_bridge) StderrLine: {'line': b'\n'}
+[41.148616] (depthai_bridge) StderrLine: {'line': b'    depthaiConfig.cmake\n'}
+[41.149042] (depthai_bridge) StderrLine: {'line': b'    depthai-config.cmake\n'}
+[41.149534] (depthai_bridge) StderrLine: {'line': b'\n'}
+[41.150032] (depthai_bridge) StderrLine: {'line': b'  Add the installation prefix of "depthai" to CMAKE_PREFIX_PATH or set\n'}
+[41.150578] (depthai_bridge) StderrLine: {'line': b'  "depthai_DIR" to a directory containing one of the above files.  If\n'}
+[41.151099] (depthai_bridge) StderrLine: {'line': b'  "depthai" provides a separate development package or SDK, be sure it has\n'}
+[41.151693] (depthai_bridge) StderrLine: {'line': b'  been installed.\n'}
+[41.152181] (depthai_bridge) StderrLine: {'line': b'\n'}
+[41.152673] (depthai_bridge) StderrLine: {'line': b'\x1b[0m\n'}
+[41.153361] (depthai_bridge) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[41.188648] (-) TimerEvent: {}
+[41.191506] (depthai_bridge) CommandEnded: {'returncode': 1}
+[41.288950] (-) TimerEvent: {}
+[41.390146] (-) TimerEvent: {}
+[41.394346] (depthai_bridge) JobEnded: {'identifier': 'depthai_bridge', 'rc': 1}
+[41.402777] (depthai_examples) JobSkipped: {'identifier': 'depthai_examples'}
+[41.403499] (depthai_ros_driver) JobSkipped: {'identifier': 'depthai_ros_driver'}
+[41.403710] (sensor_fusion) JobSkipped: {'identifier': 'sensor_fusion'}
+[41.403872] (depthai-ros) JobSkipped: {'identifier': 'depthai-ros'}
+[41.404019] (-) EventReactorShutdown: {}

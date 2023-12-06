@@ -1,0 +1,2 @@
+Invoking command in '/workspaces/ROS_PointCloud_AGV/build/depthai_descriptions': /usr/local/bin/cmake /workspaces/ROS_PointCloud_AGV/depthai-ros/depthai_descriptions -DCMAKE_INSTALL_PREFIX=/workspaces/ROS_PointCloud_AGV/install/depthai_descriptions
+Invoked command in '/workspaces/ROS_PointCloud_AGV/build/depthai_descriptions' returned '1': /usr/local/bin/cmake /workspaces/ROS_PointCloud_AGV/depthai-ros/depthai_descriptions -DCMAKE_INSTALL_PREFIX=/workspaces/ROS_PointCloud_AGV/install/depthai_descriptions

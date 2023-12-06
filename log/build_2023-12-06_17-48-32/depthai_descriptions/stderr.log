@@ -1,0 +1,1 @@
+[0mCMake Error: The source "/workspaces/ROS_PointCloud_AGV/depthai-ros/depthai_descriptions/CMakeLists.txt" does not match the source "/workspaces/ROS_PointCloud_AGV/dai_ws/src/depthai-ros/depthai_descriptions/CMakeLists.txt" used to generate cache.  Re-run cmake with a different source directory.[0m

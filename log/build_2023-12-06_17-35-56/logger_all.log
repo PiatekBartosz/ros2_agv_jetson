@@ -1,0 +1,289 @@
+[1.689s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[1.690s] DEBUG:colcon:Parsed command line arguments: Namespace(ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7fa82a0860>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=4, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7fa82a0860>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7fa8188278>)
+[1.791s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[1.792s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[1.792s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[1.792s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[1.792s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[1.794s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[1.794s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/workspaces/ROS_PointCloud_AGV'
+[1.794s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[1.795s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[1.795s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[1.796s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[1.796s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[1.796s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[1.796s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[1.797s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[1.797s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[1.986s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[1.987s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[1.987s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[1.987s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[1.988s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[1.988s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[1.989s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[1.989s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[1.991s] Level 1:colcon.colcon_core.package_identification:_identify(cache) by extensions ['ignore', 'ignore_ament_install']
+[1.991s] Level 1:colcon.colcon_core.package_identification:_identify(cache) by extension 'ignore'
+[1.992s] Level 1:colcon.colcon_core.package_identification:_identify(cache) by extension 'ignore_ament_install'
+[1.992s] Level 1:colcon.colcon_core.package_identification:_identify(cache) by extensions ['colcon_pkg']
+[1.992s] Level 1:colcon.colcon_core.package_identification:_identify(cache) by extension 'colcon_pkg'
+[1.993s] Level 1:colcon.colcon_core.package_identification:_identify(cache) by extensions ['colcon_meta']
+[1.993s] Level 1:colcon.colcon_core.package_identification:_identify(cache) by extension 'colcon_meta'
+[1.993s] Level 1:colcon.colcon_core.package_identification:_identify(cache) by extensions ['ros']
+[1.993s] Level 1:colcon.colcon_core.package_identification:_identify(cache) by extension 'ros'
+[1.994s] Level 1:colcon.colcon_core.package_identification:_identify(cache) by extensions ['cmake', 'python']
+[1.994s] Level 1:colcon.colcon_core.package_identification:_identify(cache) by extension 'cmake'
+[1.994s] Level 1:colcon.colcon_core.package_identification:_identify(cache) by extension 'python'
+[1.994s] Level 1:colcon.colcon_core.package_identification:_identify(cache) by extensions ['python_setup_py']
+[1.995s] Level 1:colcon.colcon_core.package_identification:_identify(cache) by extension 'python_setup_py'
+[1.995s] Level 1:colcon.colcon_core.package_identification:_identify(dai_ws) by extensions ['ignore', 'ignore_ament_install']
+[1.995s] Level 1:colcon.colcon_core.package_identification:_identify(dai_ws) by extension 'ignore'
+[1.996s] Level 1:colcon.colcon_core.package_identification:_identify(dai_ws) by extension 'ignore_ament_install'
+[1.996s] Level 1:colcon.colcon_core.package_identification:_identify(dai_ws) by extensions ['colcon_pkg']
+[1.996s] Level 1:colcon.colcon_core.package_identification:_identify(dai_ws) by extension 'colcon_pkg'
+[1.997s] Level 1:colcon.colcon_core.package_identification:_identify(dai_ws) by extensions ['colcon_meta']
+[1.997s] Level 1:colcon.colcon_core.package_identification:_identify(dai_ws) by extension 'colcon_meta'
+[1.997s] Level 1:colcon.colcon_core.package_identification:_identify(dai_ws) by extensions ['ros']
+[1.997s] Level 1:colcon.colcon_core.package_identification:_identify(dai_ws) by extension 'ros'
+[1.998s] Level 1:colcon.colcon_core.package_identification:_identify(dai_ws) by extensions ['cmake', 'python']
+[1.998s] Level 1:colcon.colcon_core.package_identification:_identify(dai_ws) by extension 'cmake'
+[1.998s] Level 1:colcon.colcon_core.package_identification:_identify(dai_ws) by extension 'python'
+[1.998s] Level 1:colcon.colcon_core.package_identification:_identify(dai_ws) by extensions ['python_setup_py']
+[1.999s] Level 1:colcon.colcon_core.package_identification:_identify(dai_ws) by extension 'python_setup_py'
+[1.999s] Level 1:colcon.colcon_core.package_identification:_identify(dai_ws/src) by extensions ['ignore', 'ignore_ament_install']
+[1.999s] Level 1:colcon.colcon_core.package_identification:_identify(dai_ws/src) by extension 'ignore'
+[2.000s] Level 1:colcon.colcon_core.package_identification:_identify(dai_ws/src) by extension 'ignore_ament_install'
+[2.000s] Level 1:colcon.colcon_core.package_identification:_identify(dai_ws/src) by extensions ['colcon_pkg']
+[2.000s] Level 1:colcon.colcon_core.package_identification:_identify(dai_ws/src) by extension 'colcon_pkg'
+[2.001s] Level 1:colcon.colcon_core.package_identification:_identify(dai_ws/src) by extensions ['colcon_meta']
+[2.001s] Level 1:colcon.colcon_core.package_identification:_identify(dai_ws/src) by extension 'colcon_meta'
+[2.001s] Level 1:colcon.colcon_core.package_identification:_identify(dai_ws/src) by extensions ['ros']
+[2.001s] Level 1:colcon.colcon_core.package_identification:_identify(dai_ws/src) by extension 'ros'
+[2.002s] Level 1:colcon.colcon_core.package_identification:_identify(dai_ws/src) by extensions ['cmake', 'python']
+[2.002s] Level 1:colcon.colcon_core.package_identification:_identify(dai_ws/src) by extension 'cmake'
+[2.002s] Level 1:colcon.colcon_core.package_identification:_identify(dai_ws/src) by extension 'python'
+[2.002s] Level 1:colcon.colcon_core.package_identification:_identify(dai_ws/src) by extensions ['python_setup_py']
+[2.003s] Level 1:colcon.colcon_core.package_identification:_identify(dai_ws/src) by extension 'python_setup_py'
+[2.003s] Level 1:colcon.colcon_core.package_identification:_identify(dai_ws/src/depthai-ros) by extensions ['ignore', 'ignore_ament_install']
+[2.004s] Level 1:colcon.colcon_core.package_identification:_identify(dai_ws/src/depthai-ros) by extension 'ignore'
+[2.004s] Level 1:colcon.colcon_core.package_identification:_identify(dai_ws/src/depthai-ros) by extension 'ignore_ament_install'
+[2.004s] Level 1:colcon.colcon_core.package_identification:_identify(dai_ws/src/depthai-ros) by extensions ['colcon_pkg']
+[2.005s] Level 1:colcon.colcon_core.package_identification:_identify(dai_ws/src/depthai-ros) by extension 'colcon_pkg'
+[2.005s] Level 1:colcon.colcon_core.package_identification:_identify(dai_ws/src/depthai-ros) by extensions ['colcon_meta']
+[2.005s] Level 1:colcon.colcon_core.package_identification:_identify(dai_ws/src/depthai-ros) by extension 'colcon_meta'
+[2.005s] Level 1:colcon.colcon_core.package_identification:_identify(dai_ws/src/depthai-ros) by extensions ['ros']
+[2.005s] Level 1:colcon.colcon_core.package_identification:_identify(dai_ws/src/depthai-ros) by extension 'ros'
+[2.006s] Level 1:colcon.colcon_core.package_identification:_identify(dai_ws/src/depthai-ros) by extensions ['cmake', 'python']
+[2.006s] Level 1:colcon.colcon_core.package_identification:_identify(dai_ws/src/depthai-ros) by extension 'cmake'
+[2.006s] Level 1:colcon.colcon_core.package_identification:_identify(dai_ws/src/depthai-ros) by extension 'python'
+[2.007s] Level 1:colcon.colcon_core.package_identification:_identify(dai_ws/src/depthai-ros) by extensions ['python_setup_py']
+[2.007s] Level 1:colcon.colcon_core.package_identification:_identify(dai_ws/src/depthai-ros) by extension 'python_setup_py'
+[2.007s] Level 1:colcon.colcon_core.package_identification:_identify(dai_ws/src/depthai-ros/depthai-ros) by extensions ['ignore', 'ignore_ament_install']
+[2.008s] Level 1:colcon.colcon_core.package_identification:_identify(dai_ws/src/depthai-ros/depthai-ros) by extension 'ignore'
+[2.008s] Level 1:colcon.colcon_core.package_identification:_identify(dai_ws/src/depthai-ros/depthai-ros) by extension 'ignore_ament_install'
+[2.008s] Level 1:colcon.colcon_core.package_identification:_identify(dai_ws/src/depthai-ros/depthai-ros) by extensions ['colcon_pkg']
+[2.009s] Level 1:colcon.colcon_core.package_identification:_identify(dai_ws/src/depthai-ros/depthai-ros) by extension 'colcon_pkg'
+[2.009s] Level 1:colcon.colcon_core.package_identification:_identify(dai_ws/src/depthai-ros/depthai-ros) by extensions ['colcon_meta']
+[2.009s] Level 1:colcon.colcon_core.package_identification:_identify(dai_ws/src/depthai-ros/depthai-ros) by extension 'colcon_meta'
+[2.009s] Level 1:colcon.colcon_core.package_identification:_identify(dai_ws/src/depthai-ros/depthai-ros) by extensions ['ros']
+[2.010s] Level 1:colcon.colcon_core.package_identification:_identify(dai_ws/src/depthai-ros/depthai-ros) by extension 'ros'
+[2.022s] DEBUG:colcon.colcon_core.package_identification:Package 'dai_ws/src/depthai-ros/depthai-ros' with type 'ros.ament_cmake' and name 'depthai-ros'
+[2.023s] Level 1:colcon.colcon_core.package_identification:_identify(dai_ws/src/depthai-ros/depthai_bridge) by extensions ['ignore', 'ignore_ament_install']
+[2.023s] Level 1:colcon.colcon_core.package_identification:_identify(dai_ws/src/depthai-ros/depthai_bridge) by extension 'ignore'
+[2.023s] Level 1:colcon.colcon_core.package_identification:_identify(dai_ws/src/depthai-ros/depthai_bridge) by extension 'ignore_ament_install'
+[2.024s] Level 1:colcon.colcon_core.package_identification:_identify(dai_ws/src/depthai-ros/depthai_bridge) by extensions ['colcon_pkg']
+[2.024s] Level 1:colcon.colcon_core.package_identification:_identify(dai_ws/src/depthai-ros/depthai_bridge) by extension 'colcon_pkg'
+[2.024s] Level 1:colcon.colcon_core.package_identification:_identify(dai_ws/src/depthai-ros/depthai_bridge) by extensions ['colcon_meta']
+[2.025s] Level 1:colcon.colcon_core.package_identification:_identify(dai_ws/src/depthai-ros/depthai_bridge) by extension 'colcon_meta'
+[2.025s] Level 1:colcon.colcon_core.package_identification:_identify(dai_ws/src/depthai-ros/depthai_bridge) by extensions ['ros']
+[2.025s] Level 1:colcon.colcon_core.package_identification:_identify(dai_ws/src/depthai-ros/depthai_bridge) by extension 'ros'
+[2.035s] DEBUG:colcon.colcon_core.package_identification:Package 'dai_ws/src/depthai-ros/depthai_bridge' with type 'ros.ament_cmake' and name 'depthai_bridge'
+[2.036s] Level 1:colcon.colcon_core.package_identification:_identify(dai_ws/src/depthai-ros/depthai_descriptions) by extensions ['ignore', 'ignore_ament_install']
+[2.036s] Level 1:colcon.colcon_core.package_identification:_identify(dai_ws/src/depthai-ros/depthai_descriptions) by extension 'ignore'
+[2.036s] Level 1:colcon.colcon_core.package_identification:_identify(dai_ws/src/depthai-ros/depthai_descriptions) by extension 'ignore_ament_install'
+[2.037s] Level 1:colcon.colcon_core.package_identification:_identify(dai_ws/src/depthai-ros/depthai_descriptions) by extensions ['colcon_pkg']
+[2.037s] Level 1:colcon.colcon_core.package_identification:_identify(dai_ws/src/depthai-ros/depthai_descriptions) by extension 'colcon_pkg'
+[2.037s] Level 1:colcon.colcon_core.package_identification:_identify(dai_ws/src/depthai-ros/depthai_descriptions) by extensions ['colcon_meta']
+[2.037s] Level 1:colcon.colcon_core.package_identification:_identify(dai_ws/src/depthai-ros/depthai_descriptions) by extension 'colcon_meta'
+[2.038s] Level 1:colcon.colcon_core.package_identification:_identify(dai_ws/src/depthai-ros/depthai_descriptions) by extensions ['ros']
+[2.038s] Level 1:colcon.colcon_core.package_identification:_identify(dai_ws/src/depthai-ros/depthai_descriptions) by extension 'ros'
+[2.040s] DEBUG:colcon.colcon_core.package_identification:Package 'dai_ws/src/depthai-ros/depthai_descriptions' with type 'ros.ament_cmake' and name 'depthai_descriptions'
+[2.041s] Level 1:colcon.colcon_core.package_identification:_identify(dai_ws/src/depthai-ros/depthai_examples) by extensions ['ignore', 'ignore_ament_install']
+[2.041s] Level 1:colcon.colcon_core.package_identification:_identify(dai_ws/src/depthai-ros/depthai_examples) by extension 'ignore'
+[2.042s] Level 1:colcon.colcon_core.package_identification:_identify(dai_ws/src/depthai-ros/depthai_examples) by extension 'ignore_ament_install'
+[2.042s] Level 1:colcon.colcon_core.package_identification:_identify(dai_ws/src/depthai-ros/depthai_examples) by extensions ['colcon_pkg']
+[2.042s] Level 1:colcon.colcon_core.package_identification:_identify(dai_ws/src/depthai-ros/depthai_examples) by extension 'colcon_pkg'
+[2.042s] Level 1:colcon.colcon_core.package_identification:_identify(dai_ws/src/depthai-ros/depthai_examples) by extensions ['colcon_meta']
+[2.043s] Level 1:colcon.colcon_core.package_identification:_identify(dai_ws/src/depthai-ros/depthai_examples) by extension 'colcon_meta'
+[2.043s] Level 1:colcon.colcon_core.package_identification:_identify(dai_ws/src/depthai-ros/depthai_examples) by extensions ['ros']
+[2.043s] Level 1:colcon.colcon_core.package_identification:_identify(dai_ws/src/depthai-ros/depthai_examples) by extension 'ros'
+[2.055s] DEBUG:colcon.colcon_core.package_identification:Package 'dai_ws/src/depthai-ros/depthai_examples' with type 'ros.ament_cmake' and name 'depthai_examples'
+[2.055s] Level 1:colcon.colcon_core.package_identification:_identify(dai_ws/src/depthai-ros/depthai_filters) by extensions ['ignore', 'ignore_ament_install']
+[2.056s] Level 1:colcon.colcon_core.package_identification:_identify(dai_ws/src/depthai-ros/depthai_filters) by extension 'ignore'
+[2.056s] Level 1:colcon.colcon_core.package_identification:_identify(dai_ws/src/depthai-ros/depthai_filters) by extension 'ignore_ament_install'
+[2.057s] Level 1:colcon.colcon_core.package_identification:_identify(dai_ws/src/depthai-ros/depthai_filters) by extensions ['colcon_pkg']
+[2.057s] Level 1:colcon.colcon_core.package_identification:_identify(dai_ws/src/depthai-ros/depthai_filters) by extension 'colcon_pkg'
+[2.057s] Level 1:colcon.colcon_core.package_identification:_identify(dai_ws/src/depthai-ros/depthai_filters) by extensions ['colcon_meta']
+[2.057s] Level 1:colcon.colcon_core.package_identification:_identify(dai_ws/src/depthai-ros/depthai_filters) by extension 'colcon_meta'
+[2.058s] Level 1:colcon.colcon_core.package_identification:_identify(dai_ws/src/depthai-ros/depthai_filters) by extensions ['ros']
+[2.058s] Level 1:colcon.colcon_core.package_identification:_identify(dai_ws/src/depthai-ros/depthai_filters) by extension 'ros'
+[2.064s] DEBUG:colcon.colcon_core.package_identification:Package 'dai_ws/src/depthai-ros/depthai_filters' with type 'ros.ament_cmake' and name 'depthai_filters'
+[2.065s] Level 1:colcon.colcon_core.package_identification:_identify(dai_ws/src/depthai-ros/depthai_ros_driver) by extensions ['ignore', 'ignore_ament_install']
+[2.065s] Level 1:colcon.colcon_core.package_identification:_identify(dai_ws/src/depthai-ros/depthai_ros_driver) by extension 'ignore'
+[2.065s] Level 1:colcon.colcon_core.package_identification:_identify(dai_ws/src/depthai-ros/depthai_ros_driver) by extension 'ignore_ament_install'
+[2.066s] Level 1:colcon.colcon_core.package_identification:_identify(dai_ws/src/depthai-ros/depthai_ros_driver) by extensions ['colcon_pkg']
+[2.066s] Level 1:colcon.colcon_core.package_identification:_identify(dai_ws/src/depthai-ros/depthai_ros_driver) by extension 'colcon_pkg'
+[2.066s] Level 1:colcon.colcon_core.package_identification:_identify(dai_ws/src/depthai-ros/depthai_ros_driver) by extensions ['colcon_meta']
+[2.066s] Level 1:colcon.colcon_core.package_identification:_identify(dai_ws/src/depthai-ros/depthai_ros_driver) by extension 'colcon_meta'
+[2.067s] Level 1:colcon.colcon_core.package_identification:_identify(dai_ws/src/depthai-ros/depthai_ros_driver) by extensions ['ros']
+[2.067s] Level 1:colcon.colcon_core.package_identification:_identify(dai_ws/src/depthai-ros/depthai_ros_driver) by extension 'ros'
+[2.078s] DEBUG:colcon.colcon_core.package_identification:Package 'dai_ws/src/depthai-ros/depthai_ros_driver' with type 'ros.ament_cmake' and name 'depthai_ros_driver'
+[2.079s] Level 1:colcon.colcon_core.package_identification:_identify(dai_ws/src/depthai-ros/depthai_ros_msgs) by extensions ['ignore', 'ignore_ament_install']
+[2.080s] Level 1:colcon.colcon_core.package_identification:_identify(dai_ws/src/depthai-ros/depthai_ros_msgs) by extension 'ignore'
+[2.080s] Level 1:colcon.colcon_core.package_identification:_identify(dai_ws/src/depthai-ros/depthai_ros_msgs) by extension 'ignore_ament_install'
+[2.080s] Level 1:colcon.colcon_core.package_identification:_identify(dai_ws/src/depthai-ros/depthai_ros_msgs) by extensions ['colcon_pkg']
+[2.080s] Level 1:colcon.colcon_core.package_identification:_identify(dai_ws/src/depthai-ros/depthai_ros_msgs) by extension 'colcon_pkg'
+[2.081s] Level 1:colcon.colcon_core.package_identification:_identify(dai_ws/src/depthai-ros/depthai_ros_msgs) by extensions ['colcon_meta']
+[2.081s] Level 1:colcon.colcon_core.package_identification:_identify(dai_ws/src/depthai-ros/depthai_ros_msgs) by extension 'colcon_meta'
+[2.081s] Level 1:colcon.colcon_core.package_identification:_identify(dai_ws/src/depthai-ros/depthai_ros_msgs) by extensions ['ros']
+[2.081s] Level 1:colcon.colcon_core.package_identification:_identify(dai_ws/src/depthai-ros/depthai_ros_msgs) by extension 'ros'
+[2.087s] DEBUG:colcon.colcon_core.package_identification:Package 'dai_ws/src/depthai-ros/depthai_ros_msgs' with type 'ros.ament_cmake' and name 'depthai_ros_msgs'
+[2.088s] Level 1:colcon.colcon_core.package_identification:_identify(dai_ws/src/depthai-ros/docs) by extensions ['ignore', 'ignore_ament_install']
+[2.088s] Level 1:colcon.colcon_core.package_identification:_identify(dai_ws/src/depthai-ros/docs) by extension 'ignore'
+[2.088s] Level 1:colcon.colcon_core.package_identification:_identify(dai_ws/src/depthai-ros/docs) by extension 'ignore_ament_install'
+[2.089s] Level 1:colcon.colcon_core.package_identification:_identify(dai_ws/src/depthai-ros/docs) by extensions ['colcon_pkg']
+[2.089s] Level 1:colcon.colcon_core.package_identification:_identify(dai_ws/src/depthai-ros/docs) by extension 'colcon_pkg'
+[2.089s] Level 1:colcon.colcon_core.package_identification:_identify(dai_ws/src/depthai-ros/docs) by extensions ['colcon_meta']
+[2.089s] Level 1:colcon.colcon_core.package_identification:_identify(dai_ws/src/depthai-ros/docs) by extension 'colcon_meta'
+[2.090s] Level 1:colcon.colcon_core.package_identification:_identify(dai_ws/src/depthai-ros/docs) by extensions ['ros']
+[2.090s] Level 1:colcon.colcon_core.package_identification:_identify(dai_ws/src/depthai-ros/docs) by extension 'ros'
+[2.090s] Level 1:colcon.colcon_core.package_identification:_identify(dai_ws/src/depthai-ros/docs) by extensions ['cmake', 'python']
+[2.091s] Level 1:colcon.colcon_core.package_identification:_identify(dai_ws/src/depthai-ros/docs) by extension 'cmake'
+[2.091s] Level 1:colcon.colcon_core.package_identification:_identify(dai_ws/src/depthai-ros/docs) by extension 'python'
+[2.091s] Level 1:colcon.colcon_core.package_identification:_identify(dai_ws/src/depthai-ros/docs) by extensions ['python_setup_py']
+[2.091s] Level 1:colcon.colcon_core.package_identification:_identify(dai_ws/src/depthai-ros/docs) by extension 'python_setup_py'
+[2.092s] Level 1:colcon.colcon_core.package_identification:_identify(depthai_ros_driver) by extensions ['ignore', 'ignore_ament_install']
+[2.092s] Level 1:colcon.colcon_core.package_identification:_identify(depthai_ros_driver) by extension 'ignore'
+[2.093s] Level 1:colcon.colcon_core.package_identification:_identify(depthai_ros_driver) by extension 'ignore_ament_install'
+[2.093s] Level 1:colcon.colcon_core.package_identification:_identify(depthai_ros_driver) by extensions ['colcon_pkg']
+[2.093s] Level 1:colcon.colcon_core.package_identification:_identify(depthai_ros_driver) by extension 'colcon_pkg'
+[2.093s] Level 1:colcon.colcon_core.package_identification:_identify(depthai_ros_driver) by extensions ['colcon_meta']
+[2.094s] Level 1:colcon.colcon_core.package_identification:_identify(depthai_ros_driver) by extension 'colcon_meta'
+[2.094s] Level 1:colcon.colcon_core.package_identification:_identify(depthai_ros_driver) by extensions ['ros']
+[2.094s] Level 1:colcon.colcon_core.package_identification:_identify(depthai_ros_driver) by extension 'ros'
+[2.094s] Level 1:colcon.colcon_core.package_identification:_identify(depthai_ros_driver) by extensions ['cmake', 'python']
+[2.095s] Level 1:colcon.colcon_core.package_identification:_identify(depthai_ros_driver) by extension 'cmake'
+[2.095s] Level 1:colcon.colcon_core.package_identification:_identify(depthai_ros_driver) by extension 'python'
+[2.095s] Level 1:colcon.colcon_core.package_identification:_identify(depthai_ros_driver) by extensions ['python_setup_py']
+[2.095s] Level 1:colcon.colcon_core.package_identification:_identify(depthai_ros_driver) by extension 'python_setup_py'
+[2.096s] Level 1:colcon.colcon_core.package_identification:_identify(depthai_ros_driver/depthai-core) by extensions ['ignore', 'ignore_ament_install']
+[2.097s] Level 1:colcon.colcon_core.package_identification:_identify(depthai_ros_driver/depthai-core) by extension 'ignore'
+[2.097s] Level 1:colcon.colcon_core.package_identification:_identify(depthai_ros_driver/depthai-core) by extension 'ignore_ament_install'
+[2.097s] Level 1:colcon.colcon_core.package_identification:_identify(depthai_ros_driver/depthai-core) by extensions ['colcon_pkg']
+[2.097s] Level 1:colcon.colcon_core.package_identification:_identify(depthai_ros_driver/depthai-core) by extension 'colcon_pkg'
+[2.098s] Level 1:colcon.colcon_core.package_identification:_identify(depthai_ros_driver/depthai-core) by extensions ['colcon_meta']
+[2.098s] Level 1:colcon.colcon_core.package_identification:_identify(depthai_ros_driver/depthai-core) by extension 'colcon_meta'
+[2.098s] Level 1:colcon.colcon_core.package_identification:_identify(depthai_ros_driver/depthai-core) by extensions ['ros']
+[2.098s] Level 1:colcon.colcon_core.package_identification:_identify(depthai_ros_driver/depthai-core) by extension 'ros'
+[2.099s] Level 1:colcon.colcon_core.package_identification:_identify(depthai_ros_driver/depthai-core) by extensions ['cmake', 'python']
+[2.099s] Level 1:colcon.colcon_core.package_identification:_identify(depthai_ros_driver/depthai-core) by extension 'cmake'
+[2.194s] Level 1:colcon.colcon_core.package_identification:_identify(depthai_ros_driver/depthai-core) by extension 'python'
+[2.195s] DEBUG:colcon.colcon_core.package_identification:Package 'depthai_ros_driver/depthai-core' with type 'cmake' and name 'depthai'
+[2.196s] Level 1:colcon.colcon_core.package_identification:_identify(depthai_ros_driver/docs) by extensions ['ignore', 'ignore_ament_install']
+[2.196s] Level 1:colcon.colcon_core.package_identification:_identify(depthai_ros_driver/docs) by extension 'ignore'
+[2.196s] Level 1:colcon.colcon_core.package_identification:_identify(depthai_ros_driver/docs) by extension 'ignore_ament_install'
+[2.197s] Level 1:colcon.colcon_core.package_identification:_identify(depthai_ros_driver/docs) by extensions ['colcon_pkg']
+[2.197s] Level 1:colcon.colcon_core.package_identification:_identify(depthai_ros_driver/docs) by extension 'colcon_pkg'
+[2.197s] Level 1:colcon.colcon_core.package_identification:_identify(depthai_ros_driver/docs) by extensions ['colcon_meta']
+[2.197s] Level 1:colcon.colcon_core.package_identification:_identify(depthai_ros_driver/docs) by extension 'colcon_meta'
+[2.198s] Level 1:colcon.colcon_core.package_identification:_identify(depthai_ros_driver/docs) by extensions ['ros']
+[2.198s] Level 1:colcon.colcon_core.package_identification:_identify(depthai_ros_driver/docs) by extension 'ros'
+[2.198s] Level 1:colcon.colcon_core.package_identification:_identify(depthai_ros_driver/docs) by extensions ['cmake', 'python']
+[2.199s] Level 1:colcon.colcon_core.package_identification:_identify(depthai_ros_driver/docs) by extension 'cmake'
+[2.199s] Level 1:colcon.colcon_core.package_identification:_identify(depthai_ros_driver/docs) by extension 'python'
+[2.199s] Level 1:colcon.colcon_core.package_identification:_identify(depthai_ros_driver/docs) by extensions ['python_setup_py']
+[2.199s] Level 1:colcon.colcon_core.package_identification:_identify(depthai_ros_driver/docs) by extension 'python_setup_py'
+[2.200s] Level 1:colcon.colcon_core.package_identification:_identify(depthai_ros_driver/src) by extensions ['ignore', 'ignore_ament_install']
+[2.200s] Level 1:colcon.colcon_core.package_identification:_identify(depthai_ros_driver/src) by extension 'ignore'
+[2.201s] Level 1:colcon.colcon_core.package_identification:_identify(depthai_ros_driver/src) by extension 'ignore_ament_install'
+[2.201s] Level 1:colcon.colcon_core.package_identification:_identify(depthai_ros_driver/src) by extensions ['colcon_pkg']
+[2.201s] Level 1:colcon.colcon_core.package_identification:_identify(depthai_ros_driver/src) by extension 'colcon_pkg'
+[2.201s] Level 1:colcon.colcon_core.package_identification:_identify(depthai_ros_driver/src) by extensions ['colcon_meta']
+[2.202s] Level 1:colcon.colcon_core.package_identification:_identify(depthai_ros_driver/src) by extension 'colcon_meta'
+[2.202s] Level 1:colcon.colcon_core.package_identification:_identify(depthai_ros_driver/src) by extensions ['ros']
+[2.202s] Level 1:colcon.colcon_core.package_identification:_identify(depthai_ros_driver/src) by extension 'ros'
+[2.202s] Level 1:colcon.colcon_core.package_identification:_identify(depthai_ros_driver/src) by extensions ['cmake', 'python']
+[2.203s] Level 1:colcon.colcon_core.package_identification:_identify(depthai_ros_driver/src) by extension 'cmake'
+[2.203s] Level 1:colcon.colcon_core.package_identification:_identify(depthai_ros_driver/src) by extension 'python'
+[2.203s] Level 1:colcon.colcon_core.package_identification:_identify(depthai_ros_driver/src) by extensions ['python_setup_py']
+[2.203s] Level 1:colcon.colcon_core.package_identification:_identify(depthai_ros_driver/src) by extension 'python_setup_py'
+[2.204s] Level 1:colcon.colcon_core.package_identification:_identify(depthai_ros_driver/src/depthai_ros_driver) by extensions ['ignore', 'ignore_ament_install']
+[2.204s] Level 1:colcon.colcon_core.package_identification:_identify(depthai_ros_driver/src/depthai_ros_driver) by extension 'ignore'
+[2.205s] Level 1:colcon.colcon_core.package_identification:_identify(depthai_ros_driver/src/depthai_ros_driver) by extension 'ignore_ament_install'
+[2.205s] Level 1:colcon.colcon_core.package_identification:_identify(depthai_ros_driver/src/depthai_ros_driver) by extensions ['colcon_pkg']
+[2.205s] Level 1:colcon.colcon_core.package_identification:_identify(depthai_ros_driver/src/depthai_ros_driver) by extension 'colcon_pkg'
+[2.206s] Level 1:colcon.colcon_core.package_identification:_identify(depthai_ros_driver/src/depthai_ros_driver) by extensions ['colcon_meta']
+[2.206s] Level 1:colcon.colcon_core.package_identification:_identify(depthai_ros_driver/src/depthai_ros_driver) by extension 'colcon_meta'
+[2.206s] Level 1:colcon.colcon_core.package_identification:_identify(depthai_ros_driver/src/depthai_ros_driver) by extensions ['ros']
+[2.206s] Level 1:colcon.colcon_core.package_identification:_identify(depthai_ros_driver/src/depthai_ros_driver) by extension 'ros'
+[2.214s] DEBUG:colcon.colcon_core.package_identification:Package 'depthai_ros_driver/src/depthai_ros_driver' with type 'ros.ament_cmake' and name 'depthai_ros_driver'
+[2.215s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[2.216s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[2.216s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[2.217s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[2.217s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[2.218s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[2.218s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[2.218s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[2.219s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[2.219s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[2.219s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[2.219s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[2.220s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[2.220s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[2.220s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[2.221s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[2.221s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[2.221s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[2.221s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[2.222s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[2.222s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) by extensions ['ignore', 'ignore_ament_install']
+[2.222s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) by extension 'ignore'
+[2.223s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) ignored
+[2.223s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_pubsub) by extensions ['ignore', 'ignore_ament_install']
+[2.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_pubsub) by extension 'ignore'
+[2.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_pubsub) by extension 'ignore_ament_install'
+[2.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_pubsub) by extensions ['colcon_pkg']
+[2.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_pubsub) by extension 'colcon_pkg'
+[2.225s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_pubsub) by extensions ['colcon_meta']
+[2.225s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_pubsub) by extension 'colcon_meta'
+[2.225s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_pubsub) by extensions ['ros']
+[2.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_pubsub) by extension 'ros'
+[2.230s] DEBUG:colcon.colcon_core.package_identification:Package 'src/cpp_pubsub' with type 'ros.ament_cmake' and name 'cpp_pubsub'
+[2.230s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) by extensions ['ignore', 'ignore_ament_install']
+[2.231s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) by extension 'ignore'
+[2.231s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) ignored
+[2.232s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) by extensions ['ignore', 'ignore_ament_install']
+[2.233s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) by extension 'ignore'
+[2.233s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) ignored
+[2.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensor_fusion) by extensions ['ignore', 'ignore_ament_install']
+[2.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensor_fusion) by extension 'ignore'
+[2.235s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensor_fusion) by extension 'ignore_ament_install'
+[2.235s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensor_fusion) by extensions ['colcon_pkg']
+[2.235s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensor_fusion) by extension 'colcon_pkg'
+[2.236s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensor_fusion) by extensions ['colcon_meta']
+[2.236s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensor_fusion) by extension 'colcon_meta'
+[2.236s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensor_fusion) by extensions ['ros']
+[2.236s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensor_fusion) by extension 'ros'
+[2.248s] DEBUG:colcon.colcon_core.package_identification:Package 'src/sensor_fusion' with type 'ros.ament_cmake' and name 'sensor_fusion'
+[2.249s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[2.250s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[2.250s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[2.250s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[2.250s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[2.376s] ERROR:colcon:colcon build: Duplicate package names not supported:
+- depthai_ros_driver:
+  - dai_ws/src/depthai-ros/depthai_ros_driver
+  - depthai_ros_driver/src/depthai_ros_driver

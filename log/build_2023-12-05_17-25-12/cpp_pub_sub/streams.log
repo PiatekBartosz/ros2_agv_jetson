@@ -1,0 +1,37 @@
+[0.097s] Invoking command in '/workspaces/ROS_PointCloud_AGV/build/cpp_pub_sub': /usr/local/bin/cmake --build /workspaces/ROS_PointCloud_AGV/build/cpp_pub_sub -- -j4 -l4
+[1.092s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/install/share/ament_cmake/cmake)
+[1.111s] [33mCMake Warning (dev) at /opt/ros/foxy/install/share/ament_cmake_core/cmake/core/python.cmake:22 (find_package):
+[1.111s]   Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+[1.112s]   are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+[1.113s]   the cmake_policy command to set the policy and suppress this warning.
+[1.113s] 
+[1.114s] Call Stack (most recent call first):
+[1.115s]   /opt/ros/foxy/install/share/ament_cmake_core/cmake/core/all.cmake:53 (include)
+[1.116s]   /opt/ros/foxy/install/share/ament_cmake_core/cmake/ament_cmake_core-extras.cmake:17 (include)
+[1.116s]   /opt/ros/foxy/install/share/ament_cmake_core/cmake/ament_cmake_coreConfig.cmake:41 (include)
+[1.130s]   /opt/ros/foxy/install/share/ament_cmake/cmake/ament_cmake_export_dependencies-extras.cmake:15 (find_package)
+[1.131s]   /opt/ros/foxy/install/share/ament_cmake/cmake/ament_cmakeConfig.cmake:41 (include)
+[1.131s]   CMakeLists.txt:18 (find_package)
+[1.132s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[1.133s] [0m
+[1.192s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.315s] Traceback (most recent call last):
+[1.316s]   File "/opt/ros/foxy/install/share/ament_cmake_core/cmake/package_templates/templates_2_cmake.py", line 21, in <module>
+[1.316s]     from ament_package.templates import get_environment_hook_template_path
+[1.317s] ModuleNotFoundError: No module named 'ament_package'
+[1.331s] [31mCMake Error at /opt/ros/foxy/install/share/ament_cmake_core/cmake/ament_cmake_package_templates-extras.cmake:41 (message):
+[1.332s]   execute_process(/usr/bin/python3
+[1.333s]   /opt/ros/foxy/install/share/ament_cmake_core/cmake/package_templates/templates_2_cmake.py
+[1.333s]   /workspaces/ROS_PointCloud_AGV/build/cpp_pub_sub/ament_cmake_package_templates/templates.cmake)
+[1.334s]   returned error code 1
+[1.334s] Call Stack (most recent call first):
+[1.335s]   /opt/ros/foxy/install/share/ament_cmake_core/cmake/ament_cmake_coreConfig.cmake:41 (include)
+[1.336s]   /opt/ros/foxy/install/share/ament_cmake/cmake/ament_cmake_export_dependencies-extras.cmake:15 (find_package)
+[1.337s]   /opt/ros/foxy/install/share/ament_cmake/cmake/ament_cmakeConfig.cmake:41 (include)
+[1.340s]   CMakeLists.txt:18 (find_package)
+[1.341s] 
+[1.342s] [0m
+[1.342s] -- Configuring incomplete, errors occurred!
+[1.347s] make: *** [cmake_check_build_system] Error 1
+[1.349s] Makefile:308: recipe for target 'cmake_check_build_system' failed
+[1.370s] Invoked command in '/workspaces/ROS_PointCloud_AGV/build/cpp_pub_sub' returned '2': /usr/local/bin/cmake --build /workspaces/ROS_PointCloud_AGV/build/cpp_pub_sub -- -j4 -l4

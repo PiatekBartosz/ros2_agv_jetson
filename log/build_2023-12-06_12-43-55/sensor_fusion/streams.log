@@ -1,0 +1,36 @@
+[0.077s] Invoking command in '/workspaces/ROS_PointCloud_AGV/build/sensor_fusion': /usr/local/bin/cmake /workspaces/ROS_PointCloud_AGV/src/sensor_fusion -DCMAKE_INSTALL_PREFIX=/workspaces/ROS_PointCloud_AGV/install/sensor_fusion
+[0.246s] -- Found ament_cmake_auto: 0.9.12 (/opt/ros/foxy/install/share/ament_cmake_auto/cmake)
+[0.254s] [33mCMake Warning (dev) at /opt/ros/foxy/install/share/ament_cmake_core/cmake/core/python.cmake:22 (find_package):
+[0.254s]   Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+[0.255s]   are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+[0.255s]   the cmake_policy command to set the policy and suppress this warning.
+[0.256s] 
+[0.256s] Call Stack (most recent call first):
+[0.256s]   /opt/ros/foxy/install/share/ament_cmake_core/cmake/core/all.cmake:53 (include)
+[0.257s]   /opt/ros/foxy/install/share/ament_cmake_core/cmake/ament_cmake_core-extras.cmake:17 (include)
+[0.258s]   /opt/ros/foxy/install/share/ament_cmake_core/cmake/ament_cmake_coreConfig.cmake:41 (include)
+[0.258s]   /opt/ros/foxy/install/share/ament_cmake/cmake/ament_cmake_export_dependencies-extras.cmake:15 (find_package)
+[0.259s]   /opt/ros/foxy/install/share/ament_cmake/cmake/ament_cmakeConfig.cmake:41 (include)
+[0.259s]   /opt/ros/foxy/install/share/ament_cmake_auto/cmake/ament_cmake_auto-extras.cmake:17 (find_package)
+[0.259s]   /opt/ros/foxy/install/share/ament_cmake_auto/cmake/ament_cmake_autoConfig.cmake:41 (include)
+[0.260s]   CMakeLists.txt:22 (find_package)
+[0.260s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.261s] [0m
+[0.322s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.812s] [31mCMake Error at CMakeLists.txt:36 (target_link_directories):
+[1.812s]   target_link_directories called with incorrect number of arguments
+[1.813s] 
+[1.813s] [0m
+[1.821s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/install/share/ament_lint_auto/cmake)
+[1.934s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.952s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.952s] -- Configured cppcheck include dirs: /workspaces/ROS_PointCloud_AGV/src/sensor_fusion/include
+[1.953s] -- Configured cppcheck exclude dirs and/or files: 
+[1.953s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.954s] -- Configured cpplint exclude dirs and/or files: 
+[1.954s] -- Added test 'lint_cmake' to check CMake code style
+[1.956s] -- Added test 'uncrustify' to check C / C++ code style
+[1.957s] -- Configured uncrustify additional arguments: 
+[1.959s] -- Added test 'xmllint' to check XML markup files
+[1.966s] -- Configuring incomplete, errors occurred!
+[1.995s] Invoked command in '/workspaces/ROS_PointCloud_AGV/build/sensor_fusion' returned '1': /usr/local/bin/cmake /workspaces/ROS_PointCloud_AGV/src/sensor_fusion -DCMAKE_INSTALL_PREFIX=/workspaces/ROS_PointCloud_AGV/install/sensor_fusion

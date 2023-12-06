@@ -1,0 +1,18 @@
+[0.000000] (-) TimerEvent: {}
+[0.001923] (-) JobUnselected: {'identifier': 'cpp_pubsub'}
+[0.002163] (-) JobUnselected: {'identifier': 'depthai'}
+[0.002442] (-) JobUnselected: {'identifier': 'depthai'}
+[0.002818] (-) JobUnselected: {'identifier': 'depthai-ros'}
+[0.003007] (-) JobUnselected: {'identifier': 'depthai_bridge'}
+[0.003176] (-) JobUnselected: {'identifier': 'depthai_descriptions'}
+[0.003397] (-) JobUnselected: {'identifier': 'depthai_examples'}
+[0.003595] (-) JobUnselected: {'identifier': 'depthai_filters'}
+[0.003802] (-) JobUnselected: {'identifier': 'depthai_ros_driver'}
+[0.004901] (-) JobUnselected: {'identifier': 'depthai_ros_driver'}
+[0.005076] (-) JobUnselected: {'identifier': 'depthai_ros_msgs'}
+[0.005226] (sensor_fusion) JobQueued: {'identifier': 'sensor_fusion', 'dependencies': OrderedDict([('depthai', '/workspaces/ROS_PointCloud_AGV/install/depthai'), ('depthai_descriptions', '/workspaces/ROS_PointCloud_AGV/install/depthai_descriptions'), ('depthai_ros_msgs', '/workspaces/ROS_PointCloud_AGV/install/depthai_ros_msgs'), ('depthai_bridge', '/workspaces/ROS_PointCloud_AGV/install/depthai_bridge')])}
+[0.005407] (sensor_fusion) JobStarted: {'identifier': 'sensor_fusion'}
+[0.097570] (-) TimerEvent: {}
+[0.198998] (-) TimerEvent: {}
+[0.282147] (sensor_fusion) JobEnded: {'identifier': 'sensor_fusion', 'rc': 1}
+[0.295794] (-) EventReactorShutdown: {}

@@ -1,0 +1,54 @@
+[0.098s] Invoking command in '/workspaces/ROS_PointCloud_AGV/build/sensor_fusion': /usr/local/bin/cmake /workspaces/ROS_PointCloud_AGV/src/sensor_fusion -DCMAKE_INSTALL_PREFIX=/workspaces/ROS_PointCloud_AGV/install/sensor_fusion
+[0.293s] [33mCMake Warning (dev) at /usr/lib/cmake/opencv4/OpenCVConfig.cmake:86 (find_package):
+[0.294s]   Policy CMP0146 is not set: The FindCUDA module is removed.  Run "cmake
+[0.294s]   --help-policy CMP0146" for policy details.  Use the cmake_policy command to
+[0.295s]   set the policy and suppress this warning.
+[0.296s] 
+[0.296s] Call Stack (most recent call first):
+[0.297s]   /usr/lib/cmake/opencv4/OpenCVConfig.cmake:108 (find_host_package)
+[0.297s]   CMakeLists.txt:15 (find_package)
+[0.298s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.298s] [0m
+[0.444s] -- Found CUDA: /usr/local/cuda-10.2 (found suitable exact version "10.2") 
+[0.486s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/install/share/ament_cmake/cmake)
+[0.493s] [33mCMake Warning (dev) at /opt/ros/foxy/install/share/ament_cmake_core/cmake/core/python.cmake:22 (find_package):
+[0.494s]   Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+[0.494s]   are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+[0.495s]   the cmake_policy command to set the policy and suppress this warning.
+[0.496s] 
+[0.496s] Call Stack (most recent call first):
+[0.497s]   /opt/ros/foxy/install/share/ament_cmake_core/cmake/core/all.cmake:53 (include)
+[0.497s]   /opt/ros/foxy/install/share/ament_cmake_core/cmake/ament_cmake_core-extras.cmake:17 (include)
+[0.498s]   /opt/ros/foxy/install/share/ament_cmake_core/cmake/ament_cmake_coreConfig.cmake:41 (include)
+[0.498s]   /opt/ros/foxy/install/share/ament_cmake/cmake/ament_cmake_export_dependencies-extras.cmake:15 (find_package)
+[0.515s]   /opt/ros/foxy/install/share/ament_cmake/cmake/ament_cmakeConfig.cmake:41 (include)
+[0.516s]   CMakeLists.txt:48 (find_package)
+[0.517s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.517s] [0m
+[0.568s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.601s] -- ------------------------------------------
+[1.602s] -- Depthai Bridge is being built using AMENT.
+[1.602s] -- ------------------------------------------
+[1.609s] -- Found camera_info_manager: 2.4.0 (/opt/ros/foxy/install/share/camera_info_manager/cmake)
+[1.769s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.788s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/install/share/rosidl_adapter/cmake)
+[2.305s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.543s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/install/share/rmw_implementation_cmake/cmake)
+[2.549s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[3.905s] -- Setting yaml-cpp_DIR to: '/opt/ros/foxy/install/share/yaml_cpp_vendor/cmake/../../../opt/yaml_cpp_vendor/lib/cmake/yaml-cpp'
+[4.227s] -- Found cv_bridge: 3.0.7 (/opt/ros/foxy/install/share/cv_bridge/cmake)
+[4.324s] [31mCMake Error at CMakeLists.txt:56 (find_package):
+[4.325s]   Could not find a package configuration file provided by "depthai" with any
+[4.325s]   of the following names:
+[4.326s] 
+[4.326s]     depthaiConfig.cmake
+[4.327s]     depthai-config.cmake
+[4.327s] 
+[4.328s]   Add the installation prefix of "depthai" to CMAKE_PREFIX_PATH or set
+[4.329s]   "depthai_DIR" to a directory containing one of the above files.  If
+[4.329s]   "depthai" provides a separate development package or SDK, be sure it has
+[4.330s]   been installed.
+[4.330s] 
+[4.331s] [0m
+[4.331s] -- Configuring incomplete, errors occurred!
+[4.409s] Invoked command in '/workspaces/ROS_PointCloud_AGV/build/sensor_fusion' returned '1': /usr/local/bin/cmake /workspaces/ROS_PointCloud_AGV/src/sensor_fusion -DCMAKE_INSTALL_PREFIX=/workspaces/ROS_PointCloud_AGV/install/sensor_fusion

@@ -1,0 +1,68 @@
+[0.194s] Invoking command in '/workspaces/ROS_PointCloud_AGV/build/depthai_descriptions': /usr/local/bin/cmake /workspaces/ROS_PointCloud_AGV/dai_ws/src/depthai-ros/depthai_descriptions -DCMAKE_INSTALL_PREFIX=/workspaces/ROS_PointCloud_AGV/install/depthai_descriptions
+[0.574s] -- The C compiler identification is GNU 7.5.0
+[0.842s] -- The CXX compiler identification is GNU 7.5.0
+[1.026s] -- Detecting C compiler ABI info
+[1.391s] -- Detecting C compiler ABI info - done
+[1.464s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.465s] -- Detecting C compile features
+[1.467s] -- Detecting C compile features - done
+[1.547s] -- Detecting CXX compiler ABI info
+[1.976s] -- Detecting CXX compiler ABI info - done
+[2.054s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.061s] -- Detecting CXX compile features
+[2.063s] -- Detecting CXX compile features - done
+[2.098s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/install/share/ament_cmake/cmake)
+[2.126s] [33mCMake Warning (dev) at /opt/ros/foxy/install/share/ament_cmake_core/cmake/core/python.cmake:22 (find_package):
+[2.127s]   Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+[2.128s]   are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+[2.128s]   the cmake_policy command to set the policy and suppress this warning.
+[2.129s] 
+[2.129s] Call Stack (most recent call first):
+[2.130s]   /opt/ros/foxy/install/share/ament_cmake_core/cmake/core/all.cmake:53 (include)
+[2.130s]   /opt/ros/foxy/install/share/ament_cmake_core/cmake/ament_cmake_core-extras.cmake:17 (include)
+[2.131s]   /opt/ros/foxy/install/share/ament_cmake_core/cmake/ament_cmake_coreConfig.cmake:41 (include)
+[2.131s]   /opt/ros/foxy/install/share/ament_cmake/cmake/ament_cmake_export_dependencies-extras.cmake:15 (find_package)
+[2.132s]   /opt/ros/foxy/install/share/ament_cmake/cmake/ament_cmakeConfig.cmake:41 (include)
+[2.133s]   CMakeLists.txt:9 (find_package)
+[2.136s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[2.136s] [0m
+[2.249s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.6.9", minimum required is "3") 
+[2.250s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[4.124s] -- Configuring done (3.8s)
+[4.139s] -- Generating done (0.0s)
+[4.144s] -- Build files have been written to: /workspaces/ROS_PointCloud_AGV/build/depthai_descriptions
+[4.181s] Invoked command in '/workspaces/ROS_PointCloud_AGV/build/depthai_descriptions' returned '0': /usr/local/bin/cmake /workspaces/ROS_PointCloud_AGV/dai_ws/src/depthai-ros/depthai_descriptions -DCMAKE_INSTALL_PREFIX=/workspaces/ROS_PointCloud_AGV/install/depthai_descriptions
+[4.193s] Invoking command in '/workspaces/ROS_PointCloud_AGV/build/depthai_descriptions': /usr/local/bin/cmake --build /workspaces/ROS_PointCloud_AGV/build/depthai_descriptions -- -j4 -l4
+[4.420s] Invoked command in '/workspaces/ROS_PointCloud_AGV/build/depthai_descriptions' returned '0': /usr/local/bin/cmake --build /workspaces/ROS_PointCloud_AGV/build/depthai_descriptions -- -j4 -l4
+[4.651s] Invoking command in '/workspaces/ROS_PointCloud_AGV/build/depthai_descriptions': /usr/local/bin/cmake --install /workspaces/ROS_PointCloud_AGV/build/depthai_descriptions
+[4.794s] -- Install configuration: ""
+[4.798s] -- Installing: /workspaces/ROS_PointCloud_AGV/install/depthai_descriptions/share/depthai_descriptions/launch
+[4.799s] -- Installing: /workspaces/ROS_PointCloud_AGV/install/depthai_descriptions/share/depthai_descriptions/launch/urdf_launch.py
+[4.799s] -- Installing: /workspaces/ROS_PointCloud_AGV/install/depthai_descriptions/share/depthai_descriptions/urdf
+[4.800s] -- Installing: /workspaces/ROS_PointCloud_AGV/install/depthai_descriptions/share/depthai_descriptions/urdf/depthai_descr.urdf.xacro
+[4.808s] -- Installing: /workspaces/ROS_PointCloud_AGV/install/depthai_descriptions/share/depthai_descriptions/urdf/models
+[4.809s] -- Installing: /workspaces/ROS_PointCloud_AGV/install/depthai_descriptions/share/depthai_descriptions/urdf/models/OAK-D-S2.stl
+[4.832s] -- Installing: /workspaces/ROS_PointCloud_AGV/install/depthai_descriptions/share/depthai_descriptions/urdf/models/OAK-D-PRO.stl
+[4.868s] -- Installing: /workspaces/ROS_PointCloud_AGV/install/depthai_descriptions/share/depthai_descriptions/urdf/models/OAK-D-IOT-75.stl
+[4.928s] -- Installing: /workspaces/ROS_PointCloud_AGV/install/depthai_descriptions/share/depthai_descriptions/urdf/models/OAK-D-LITE.stl
+[4.959s] -- Installing: /workspaces/ROS_PointCloud_AGV/install/depthai_descriptions/share/depthai_descriptions/urdf/models/OAK-D-POE.stl
+[5.001s] -- Installing: /workspaces/ROS_PointCloud_AGV/install/depthai_descriptions/share/depthai_descriptions/urdf/models/OAK-D-CM4-POE.stl
+[5.086s] -- Installing: /workspaces/ROS_PointCloud_AGV/install/depthai_descriptions/share/depthai_descriptions/urdf/models/OAK-D.stl
+[5.113s] -- Installing: /workspaces/ROS_PointCloud_AGV/install/depthai_descriptions/share/depthai_descriptions/urdf/include
+[5.117s] -- Installing: /workspaces/ROS_PointCloud_AGV/install/depthai_descriptions/share/depthai_descriptions/urdf/include/depthai_macro.urdf.xacro
+[5.122s] -- Installing: /workspaces/ROS_PointCloud_AGV/install/depthai_descriptions/share/ament_index/resource_index/package_run_dependencies/depthai_descriptions
+[5.127s] -- Installing: /workspaces/ROS_PointCloud_AGV/install/depthai_descriptions/share/ament_index/resource_index/parent_prefix_path/depthai_descriptions
+[5.136s] -- Installing: /workspaces/ROS_PointCloud_AGV/install/depthai_descriptions/share/depthai_descriptions/environment/ament_prefix_path.sh
+[5.138s] -- Installing: /workspaces/ROS_PointCloud_AGV/install/depthai_descriptions/share/depthai_descriptions/environment/ament_prefix_path.dsv
+[5.139s] -- Installing: /workspaces/ROS_PointCloud_AGV/install/depthai_descriptions/share/depthai_descriptions/environment/path.sh
+[5.144s] -- Installing: /workspaces/ROS_PointCloud_AGV/install/depthai_descriptions/share/depthai_descriptions/environment/path.dsv
+[5.145s] -- Installing: /workspaces/ROS_PointCloud_AGV/install/depthai_descriptions/share/depthai_descriptions/local_setup.bash
+[5.153s] -- Installing: /workspaces/ROS_PointCloud_AGV/install/depthai_descriptions/share/depthai_descriptions/local_setup.sh
+[5.154s] -- Installing: /workspaces/ROS_PointCloud_AGV/install/depthai_descriptions/share/depthai_descriptions/local_setup.zsh
+[5.154s] -- Installing: /workspaces/ROS_PointCloud_AGV/install/depthai_descriptions/share/depthai_descriptions/local_setup.dsv
+[5.155s] -- Installing: /workspaces/ROS_PointCloud_AGV/install/depthai_descriptions/share/depthai_descriptions/package.dsv
+[5.155s] -- Installing: /workspaces/ROS_PointCloud_AGV/install/depthai_descriptions/share/ament_index/resource_index/packages/depthai_descriptions
+[5.161s] -- Installing: /workspaces/ROS_PointCloud_AGV/install/depthai_descriptions/share/depthai_descriptions/cmake/depthai_descriptionsConfig.cmake
+[5.169s] -- Installing: /workspaces/ROS_PointCloud_AGV/install/depthai_descriptions/share/depthai_descriptions/cmake/depthai_descriptionsConfig-version.cmake
+[5.170s] -- Installing: /workspaces/ROS_PointCloud_AGV/install/depthai_descriptions/share/depthai_descriptions/package.xml
+[5.193s] Invoked command in '/workspaces/ROS_PointCloud_AGV/build/depthai_descriptions' returned '0': /usr/local/bin/cmake --install /workspaces/ROS_PointCloud_AGV/build/depthai_descriptions

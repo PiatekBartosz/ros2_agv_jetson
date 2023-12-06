@@ -1,0 +1,24 @@
+[0.157s] Invoking command in '/workspaces/ROS_PointCloud_AGV/build/cpp_pubsub': /usr/local/bin/cmake --build /workspaces/ROS_PointCloud_AGV/build/cpp_pubsub -- -j4 -l4
+[0.594s] [ 50%] Built target talker
+[0.599s] [100%] Built target listener
+[0.703s] Invoked command in '/workspaces/ROS_PointCloud_AGV/build/cpp_pubsub' returned '0': /usr/local/bin/cmake --build /workspaces/ROS_PointCloud_AGV/build/cpp_pubsub -- -j4 -l4
+[1.350s] Invoking command in '/workspaces/ROS_PointCloud_AGV/build/cpp_pubsub': /usr/local/bin/cmake --install /workspaces/ROS_PointCloud_AGV/build/cpp_pubsub
+[1.559s] -- Install configuration: ""
+[1.564s] -- Up-to-date: /workspaces/ROS_PointCloud_AGV/install/cpp_pubsub/lib/cpp_pubsub/talker
+[1.571s] -- Up-to-date: /workspaces/ROS_PointCloud_AGV/install/cpp_pubsub/lib/cpp_pubsub/listener
+[1.574s] -- Up-to-date: /workspaces/ROS_PointCloud_AGV/install/cpp_pubsub/share/ament_index/resource_index/package_run_dependencies/cpp_pubsub
+[1.575s] -- Up-to-date: /workspaces/ROS_PointCloud_AGV/install/cpp_pubsub/share/ament_index/resource_index/parent_prefix_path/cpp_pubsub
+[1.576s] -- Up-to-date: /workspaces/ROS_PointCloud_AGV/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.sh
+[1.576s] -- Up-to-date: /workspaces/ROS_PointCloud_AGV/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.dsv
+[1.577s] -- Up-to-date: /workspaces/ROS_PointCloud_AGV/install/cpp_pubsub/share/cpp_pubsub/environment/path.sh
+[1.577s] -- Up-to-date: /workspaces/ROS_PointCloud_AGV/install/cpp_pubsub/share/cpp_pubsub/environment/path.dsv
+[1.578s] -- Up-to-date: /workspaces/ROS_PointCloud_AGV/install/cpp_pubsub/share/cpp_pubsub/local_setup.bash
+[1.578s] -- Up-to-date: /workspaces/ROS_PointCloud_AGV/install/cpp_pubsub/share/cpp_pubsub/local_setup.sh
+[1.579s] -- Up-to-date: /workspaces/ROS_PointCloud_AGV/install/cpp_pubsub/share/cpp_pubsub/local_setup.zsh
+[1.580s] -- Up-to-date: /workspaces/ROS_PointCloud_AGV/install/cpp_pubsub/share/cpp_pubsub/local_setup.dsv
+[1.580s] -- Installing: /workspaces/ROS_PointCloud_AGV/install/cpp_pubsub/share/cpp_pubsub/package.dsv
+[1.581s] -- Up-to-date: /workspaces/ROS_PointCloud_AGV/install/cpp_pubsub/share/ament_index/resource_index/packages/cpp_pubsub
+[1.581s] -- Up-to-date: /workspaces/ROS_PointCloud_AGV/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig.cmake
+[1.582s] -- Up-to-date: /workspaces/ROS_PointCloud_AGV/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig-version.cmake
+[1.582s] -- Up-to-date: /workspaces/ROS_PointCloud_AGV/install/cpp_pubsub/share/cpp_pubsub/package.xml
+[1.619s] Invoked command in '/workspaces/ROS_PointCloud_AGV/build/cpp_pubsub' returned '0': /usr/local/bin/cmake --install /workspaces/ROS_PointCloud_AGV/build/cpp_pubsub

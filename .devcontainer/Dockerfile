@@ -31,6 +31,10 @@ RUN apt-get update \
 # RUN pip install depthai -y
 # RUN apt install python3-opencv
 
-RUN source /opt/ros/foxy/install/setup.bash
+RUN apt install libopencv-dev -y
+
+# depthai install
+# RUN  echo 'SUBSYSTEM=="usb", ATTRS{idVendor}=="03e7", MODE="0666"' | sudo tee /etc/udev/rules.d/80-movidius.rules
+# RUN sudo udevadm control --reload-rules && sudo udevadm trigger
 
 CMD ["/bin/bash"]

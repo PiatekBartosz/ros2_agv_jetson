@@ -1,0 +1,31 @@
+[0.092s] Invoking command in '/workspaces/ROS_PointCloud_AGV/build/sensor_fusion': /usr/local/bin/cmake /workspaces/ROS_PointCloud_AGV/src/sensor_fusion -DCMAKE_INSTALL_PREFIX=/workspaces/ROS_PointCloud_AGV/install/sensor_fusion
+[1.104s] -- The C compiler identification is GNU 7.5.0
+[1.545s] -- The CXX compiler identification is GNU 7.5.0
+[1.625s] -- Detecting C compiler ABI info
+[2.027s] -- Detecting C compiler ABI info - done
+[2.091s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.096s] -- Detecting C compile features
+[2.097s] -- Detecting C compile features - done
+[2.148s] -- Detecting CXX compiler ABI info
+[2.423s] -- Detecting CXX compiler ABI info - done
+[2.476s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.477s] -- Detecting CXX compile features
+[2.479s] -- Detecting CXX compile features - done
+[2.520s] [31mCMake Error at CMakeLists.txt:22 (find_package):
+[2.520s]   By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project
+[2.521s]   has asked CMake to find a package configuration file provided by
+[2.521s]   "ament_cmake", but CMake did not find one.
+[2.522s] 
+[2.522s]   Could not find a package configuration file provided by "ament_cmake" with
+[2.523s]   any of the following names:
+[2.523s] 
+[2.524s]     ament_cmakeConfig.cmake
+[2.525s]     ament_cmake-config.cmake
+[2.525s] 
+[2.526s]   Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set
+[2.527s]   "ament_cmake_DIR" to a directory containing one of the above files.  If
+[2.527s]   "ament_cmake" provides a separate development package or SDK, be sure it
+[2.528s]   has been installed.
+[2.528s] 
+[2.529s] -- Configuring incomplete, errors occurred!
+[2.530s] [0m

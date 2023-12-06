@@ -1,0 +1,73 @@
+[0.085s] Invoking command in '/workspaces/ROS_PointCloud_AGV/build/cpp_pubsub': /usr/local/bin/cmake /workspaces/ROS_PointCloud_AGV/src/cpp_pubsub -DCMAKE_INSTALL_PREFIX=/workspaces/ROS_PointCloud_AGV/install/cpp_pubsub
+[0.284s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/install/share/ament_cmake/cmake)
+[0.310s] [33mCMake Warning (dev) at /opt/ros/foxy/install/share/ament_cmake_core/cmake/core/python.cmake:22 (find_package):
+[0.313s]   Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+[0.315s]   are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+[0.317s]   the cmake_policy command to set the policy and suppress this warning.
+[0.318s] 
+[0.320s] Call Stack (most recent call first):
+[0.322s]   /opt/ros/foxy/install/share/ament_cmake_core/cmake/core/all.cmake:53 (include)
+[0.323s]   /opt/ros/foxy/install/share/ament_cmake_core/cmake/ament_cmake_core-extras.cmake:17 (include)
+[0.325s]   /opt/ros/foxy/install/share/ament_cmake_core/cmake/ament_cmake_coreConfig.cmake:41 (include)
+[0.326s]   /opt/ros/foxy/install/share/ament_cmake/cmake/ament_cmake_export_dependencies-extras.cmake:15 (find_package)
+[0.328s]   /opt/ros/foxy/install/share/ament_cmake/cmake/ament_cmakeConfig.cmake:41 (include)
+[0.330s]   CMakeLists.txt:18 (find_package)
+[0.331s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.333s] [0m
+[0.384s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.6.9", minimum required is "3") 
+[0.386s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.494s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/install/share/rclcpp/cmake)
+[1.730s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.775s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/install/share/rosidl_adapter/cmake)
+[2.058s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "1.1.1")  
+[2.150s] -- Found FastRTPS: /opt/ros/foxy/install/include  
+[2.512s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.823s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/install/share/rmw_implementation_cmake/cmake)
+[2.832s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[2.837s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[3.048s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[3.049s] -- Looking for pthread_create in pthreads
+[3.232s] -- Looking for pthread_create in pthreads - not found
+[3.232s] -- Looking for pthread_create in pthread
+[3.434s] -- Looking for pthread_create in pthread - found
+[3.439s] -- Found Threads: TRUE  
+[4.641s] Error parsing '/workspaces/ROS_PointCloud_AGV/src/cpp_pubsub/package.xml':
+[4.650s] Traceback (most recent call last):
+[4.651s]   File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 610, in parse_package_string
+[4.652s]     root = dom.parseString(data)
+[4.652s]   File "/usr/lib/python3.6/xml/dom/minidom.py", line 1968, in parseString
+[4.653s]     return expatbuilder.parseString(string)
+[4.653s]   File "/usr/lib/python3.6/xml/dom/expatbuilder.py", line 925, in parseString
+[4.654s]     return builder.parseString(string)
+[4.655s]   File "/usr/lib/python3.6/xml/dom/expatbuilder.py", line 223, in parseString
+[4.655s]     parser.Parse(string, True)
+[4.656s] xml.parsers.expat.ExpatError: XML or text declaration not at start of entity: line 3, column 0
+[4.656s] 
+[4.657s] During handling of the above exception, another exception occurred:
+[4.658s] 
+[4.658s] Traceback (most recent call last):
+[4.659s]   File "/opt/ros/foxy/install/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 143, in <module>
+[4.659s]     main()
+[4.660s]   File "/opt/ros/foxy/install/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 52, in main
+[4.661s]     raise e
+[4.661s]   File "/opt/ros/foxy/install/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 49, in main
+[4.662s]     args.package_xml.read(), filename=args.package_xml.name)
+[4.662s]   File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 612, in parse_package_string
+[4.663s]     raise InvalidPackage('The manifest contains invalid XML:\n%s' % ex, filename)
+[4.664s] catkin_pkg.package.InvalidPackage: Error(s) in package '/workspaces/ROS_PointCloud_AGV/src/cpp_pubsub/package.xml':
+[4.664s] The manifest contains invalid XML:
+[4.665s] XML or text declaration not at start of entity: line 3, column 0
+[4.708s] [31mCMake Error at /opt/ros/foxy/install/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:94 (message):
+[4.709s]   execute_process(/usr/bin/python3
+[4.710s]   /opt/ros/foxy/install/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py
+[4.710s]   /workspaces/ROS_PointCloud_AGV/src/cpp_pubsub/package.xml
+[4.711s]   /workspaces/ROS_PointCloud_AGV/build/cpp_pubsub/ament_cmake_core/package.cmake)
+[4.711s]   returned error code 1
+[4.712s] Call Stack (most recent call first):
+[4.712s]   /opt/ros/foxy/install/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:49 (_ament_package_xml)
+[4.713s]   /opt/ros/foxy/install/share/ament_cmake_core/cmake/core/ament_package.cmake:63 (ament_package_xml)
+[4.713s]   CMakeLists.txt:33 (ament_package)
+[4.714s] 
+[4.714s] [0m
+[4.715s] -- Configuring incomplete, errors occurred!
+[4.753s] Invoked command in '/workspaces/ROS_PointCloud_AGV/build/cpp_pubsub' returned '1': /usr/local/bin/cmake /workspaces/ROS_PointCloud_AGV/src/cpp_pubsub -DCMAKE_INSTALL_PREFIX=/workspaces/ROS_PointCloud_AGV/install/cpp_pubsub

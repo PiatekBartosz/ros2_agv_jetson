@@ -1,0 +1,13 @@
+[31mCMake Error at CMakeLists.txt:10 (find_package):
+  Could not find a package configuration file provided by "depthai" with any
+  of the following names:
+
+    depthaiConfig.cmake
+    depthai-config.cmake
+
+  Add the installation prefix of "depthai" to CMAKE_PREFIX_PATH or set
+  "depthai_DIR" to a directory containing one of the above files.  If
+  "depthai" provides a separate development package or SDK, be sure it has
+  been installed.
+
+[0m

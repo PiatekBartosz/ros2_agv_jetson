@@ -1,0 +1,3 @@
+source;share/depthai_descriptions/hook/cmake_prefix_path.ps1
+source;share/depthai_descriptions/hook/cmake_prefix_path.dsv
+source;share/depthai_descriptions/hook/cmake_prefix_path.sh

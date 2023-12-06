@@ -1,0 +1,16 @@
+-- Using existing generated toolchain
+-- Using toolchain file: /workspaces/ROS_PointCloud_AGV/build/depthai/generated/toolchain.cmake
+-- [hunter] Calculating Toolchain-SHA1
+-- [hunter] Calculating Config-SHA1
+-- [hunter] HUNTER_ROOT: /home/USERNAME/.hunter
+-- [hunter] [ Hunter-ID: cb0ea1f | Toolchain-ID: 08f9145 | Config-ID: 15c0458 ]
+-- [hunter] NLOHMANN_JSON_ROOT: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Install (ver.: 3.9.1)
+-- [hunter] XLINK_ROOT: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Install (ver.: luxonis-2021.4.2-develop)
+-- [hunter] BZIP2_ROOT: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Install (ver.: 1.0.8-p0)
+-- [hunter] FP16_ROOT: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Install (ver.: luxonis-0.0.0)
+-- [hunter] LIBARCHIVE-LUXONIS_ROOT: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Install (ver.: hunter-3.5.2)
+-- [hunter] SPDLOG_ROOT: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Install (ver.: 1.8.2)
+-- [hunter] ZLIB_ROOT: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Install (ver.: 1.2.11-p2)
+-- [hunter] BACKWARD_ROOT: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Install (ver.: 1.6)
+-- [hunter] LIBNOP_ROOT: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Install (ver.: 1.0-ec8f75a)
+-- Configuring incomplete, errors occurred!

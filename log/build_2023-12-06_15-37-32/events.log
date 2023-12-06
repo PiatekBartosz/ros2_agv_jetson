@@ -1,0 +1,9 @@
+[0.000000] (-) TimerEvent: {}
+[0.001662] (-) JobUnselected: {'identifier': 'cpp_pubsub'}
+[0.002540] (-) JobUnselected: {'identifier': 'depthai'}
+[0.003204] (sensor_fusion) JobQueued: {'identifier': 'sensor_fusion', 'dependencies': OrderedDict([('depthai', '/workspaces/ROS_PointCloud_AGV/install/depthai')])}
+[0.004650] (sensor_fusion) JobStarted: {'identifier': 'sensor_fusion'}
+[0.098406] (-) TimerEvent: {}
+[0.199327] (-) TimerEvent: {}
+[0.281908] (sensor_fusion) JobEnded: {'identifier': 'sensor_fusion', 'rc': 1}
+[0.293534] (-) EventReactorShutdown: {}

@@ -1,0 +1,54 @@
+[0.071s] Invoking command in '/workspaces/ROS_PointCloud_AGV/build/depthai_bridge': AMENT_PREFIX_PATH=/workspaces/ROS_PointCloud_AGV/install/depthai_ros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspaces/ROS_PointCloud_AGV/install/depthai_ros_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/workspaces/ROS_PointCloud_AGV/install/depthai_ros_msgs/lib:/opt/ros/foxy/install/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/install/lib:/usr/local/cuda-10.2/targets/aarch64-linux/lib PYTHONPATH=/workspaces/ROS_PointCloud_AGV/install/depthai_ros_msgs/lib/python3.6/site-packages:${PYTHONPATH} /usr/local/bin/cmake /workspaces/ROS_PointCloud_AGV/dai_ws/src/depthai-ros/depthai_bridge -DBUILD_SHARED_LIBS=ON -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/workspaces/ROS_PointCloud_AGV/install/depthai_bridge
+[0.240s] [33mCMake Warning (dev) at /usr/lib/cmake/opencv4/OpenCVConfig.cmake:86 (find_package):
+[0.241s]   Policy CMP0146 is not set: The FindCUDA module is removed.  Run "cmake
+[0.241s]   --help-policy CMP0146" for policy details.  Use the cmake_policy command to
+[0.242s]   set the policy and suppress this warning.
+[0.242s] 
+[0.243s] Call Stack (most recent call first):
+[0.243s]   /usr/lib/cmake/opencv4/OpenCVConfig.cmake:108 (find_host_package)
+[0.243s]   CMakeLists.txt:16 (find_package)
+[0.244s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.244s] [0m
+[0.372s] -- ------------------------------------------
+[0.375s] -- Depthai Bridge is being built using AMENT.
+[0.375s] -- ------------------------------------------
+[0.376s] -- Found camera_info_manager: 2.4.0 (/opt/ros/foxy/install/share/camera_info_manager/cmake)
+[0.378s] [33mCMake Warning (dev) at /opt/ros/foxy/install/share/ament_cmake_core/cmake/core/python.cmake:22 (find_package):
+[0.378s]   Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+[0.379s]   are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+[0.379s]   the cmake_policy command to set the policy and suppress this warning.
+[0.380s] 
+[0.380s] Call Stack (most recent call first):
+[0.381s]   /opt/ros/foxy/install/share/ament_cmake_core/cmake/core/all.cmake:53 (include)
+[0.381s]   /opt/ros/foxy/install/share/ament_cmake_core/cmake/ament_cmake_core-extras.cmake:17 (include)
+[0.382s]   /opt/ros/foxy/install/share/ament_cmake_core/cmake/ament_cmake_coreConfig.cmake:41 (include)
+[0.382s]   /opt/ros/foxy/install/share/camera_info_manager/cmake/ament_cmake_export_include_directories-extras.cmake:8 (find_package)
+[0.383s]   /opt/ros/foxy/install/share/camera_info_manager/cmake/camera_info_managerConfig.cmake:41 (include)
+[0.383s]   CMakeLists.txt:30 (find_package)
+[0.384s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.384s] [0m
+[0.451s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.453s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.632s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.651s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/install/share/rosidl_adapter/cmake)
+[2.168s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.405s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/install/share/rmw_implementation_cmake/cmake)
+[2.411s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[3.729s] -- Setting yaml-cpp_DIR to: '/opt/ros/foxy/install/share/yaml_cpp_vendor/cmake/../../../opt/yaml_cpp_vendor/lib/cmake/yaml-cpp'
+[4.030s] -- Found cv_bridge: 3.0.7 (/opt/ros/foxy/install/share/cv_bridge/cmake)
+[4.076s] -- Found depthai_ros_msgs: 2.7.1 (/workspaces/ROS_PointCloud_AGV/install/depthai_ros_msgs/share/depthai_ros_msgs/cmake)
+[5.708s] [31mCMake Error at CMakeLists.txt:33 (find_package):
+[5.709s]   Could not find a package configuration file provided by "depthai" with any
+[5.710s]   of the following names:
+[5.710s] 
+[5.711s]     depthaiConfig.cmake
+[5.711s]     depthai-config.cmake
+[5.712s] 
+[5.712s]   Add the installation prefix of "depthai" to CMAKE_PREFIX_PATH or set
+[5.713s]   "depthai_DIR" to a directory containing one of the above files.  If
+[5.713s]   "depthai" provides a separate development package or SDK, be sure it has
+[5.714s]   been installed.
+[5.714s] 
+[5.715s] [0m
+[5.715s] -- Configuring incomplete, errors occurred!
+[5.754s] Invoked command in '/workspaces/ROS_PointCloud_AGV/build/depthai_bridge' returned '1': AMENT_PREFIX_PATH=/workspaces/ROS_PointCloud_AGV/install/depthai_ros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspaces/ROS_PointCloud_AGV/install/depthai_ros_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/workspaces/ROS_PointCloud_AGV/install/depthai_ros_msgs/lib:/opt/ros/foxy/install/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/install/lib:/usr/local/cuda-10.2/targets/aarch64-linux/lib PYTHONPATH=/workspaces/ROS_PointCloud_AGV/install/depthai_ros_msgs/lib/python3.6/site-packages:${PYTHONPATH} /usr/local/bin/cmake /workspaces/ROS_PointCloud_AGV/dai_ws/src/depthai-ros/depthai_bridge -DBUILD_SHARED_LIBS=ON -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/workspaces/ROS_PointCloud_AGV/install/depthai_bridge

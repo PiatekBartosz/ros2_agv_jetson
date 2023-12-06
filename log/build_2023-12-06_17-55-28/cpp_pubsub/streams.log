@@ -1,0 +1,4 @@
+[0.134s] Invoking command in '/workspaces/ROS_PointCloud_AGV/build/cpp_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspaces/ROS_PointCloud_AGV/install/sensor_package /usr/local/bin/cmake --build /workspaces/ROS_PointCloud_AGV/build/cpp_pubsub -- -j4 -l4
+[0.573s] [ 50%] Built target talker
+[0.578s] [100%] Built target listener
+[0.649s] Invoked command in '/workspaces/ROS_PointCloud_AGV/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspaces/ROS_PointCloud_AGV/install/sensor_package /usr/local/bin/cmake --build /workspaces/ROS_PointCloud_AGV/build/cpp_pubsub -- -j4 -l4

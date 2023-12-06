@@ -1,0 +1,6 @@
+Invoking command in '/workspaces/ROS_PointCloud_AGV/build/depthai_ros_msgs': /usr/local/bin/cmake /workspaces/ROS_PointCloud_AGV/dai_ws/src/depthai-ros/depthai_ros_msgs -DBUILD_SHARED_LIBS=ON -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/workspaces/ROS_PointCloud_AGV/install/depthai_ros_msgs
+Invoked command in '/workspaces/ROS_PointCloud_AGV/build/depthai_ros_msgs' returned '0': /usr/local/bin/cmake /workspaces/ROS_PointCloud_AGV/dai_ws/src/depthai-ros/depthai_ros_msgs -DBUILD_SHARED_LIBS=ON -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/workspaces/ROS_PointCloud_AGV/install/depthai_ros_msgs
+Invoking command in '/workspaces/ROS_PointCloud_AGV/build/depthai_ros_msgs': /usr/local/bin/cmake --build /workspaces/ROS_PointCloud_AGV/build/depthai_ros_msgs
+Invoked command in '/workspaces/ROS_PointCloud_AGV/build/depthai_ros_msgs' returned '0': /usr/local/bin/cmake --build /workspaces/ROS_PointCloud_AGV/build/depthai_ros_msgs
+Invoking command in '/workspaces/ROS_PointCloud_AGV/build/depthai_ros_msgs': /usr/local/bin/cmake --install /workspaces/ROS_PointCloud_AGV/build/depthai_ros_msgs
+Invoked command in '/workspaces/ROS_PointCloud_AGV/build/depthai_ros_msgs' returned '0': /usr/local/bin/cmake --install /workspaces/ROS_PointCloud_AGV/build/depthai_ros_msgs

@@ -1,0 +1,106 @@
+[0.125s] Invoking command in '/workspaces/ROS_PointCloud_AGV/build/depthai_filters': /usr/local/bin/cmake /workspaces/ROS_PointCloud_AGV/dai_ws/src/depthai-ros/depthai_filters -DCMAKE_INSTALL_PREFIX=/workspaces/ROS_PointCloud_AGV/install/depthai_filters
+[0.583s] -- The CXX compiler identification is GNU 7.5.0
+[0.874s] -- The C compiler identification is GNU 7.5.0
+[1.093s] -- Detecting CXX compiler ABI info
+[1.503s] -- Detecting CXX compiler ABI info - done
+[1.594s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.594s] -- Detecting CXX compile features
+[1.601s] -- Detecting CXX compile features - done
+[1.646s] -- Detecting C compiler ABI info
+[2.045s] -- Detecting C compiler ABI info - done
+[2.159s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.161s] -- Detecting C compile features
+[2.171s] -- Detecting C compile features - done
+[2.200s] [33mCMake Warning (dev) at /usr/lib/cmake/opencv4/OpenCVConfig.cmake:86 (find_package):
+[2.203s]   Policy CMP0146 is not set: The FindCUDA module is removed.  Run "cmake
+[2.204s]   --help-policy CMP0146" for policy details.  Use the cmake_policy command to
+[2.204s]   set the policy and suppress this warning.
+[2.205s] 
+[2.210s] Call Stack (most recent call first):
+[2.210s]   /usr/lib/cmake/opencv4/OpenCVConfig.cmake:108 (find_host_package)
+[2.211s]   CMakeLists.txt:8 (find_package)
+[2.211s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[2.212s] [0m
+[2.294s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.627s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[2.630s] -- Looking for pthread_create in pthreads
+[2.848s] -- Looking for pthread_create in pthreads - not found
+[2.851s] -- Looking for pthread_create in pthread
+[3.109s] -- Looking for pthread_create in pthread - found
+[3.115s] -- Found Threads: TRUE  
+[3.183s] -- Found CUDA: /usr/local/cuda-10.2 (found suitable exact version "10.2") 
+[3.240s] -- Found ament_cmake_auto: 0.9.12 (/opt/ros/foxy/install/share/ament_cmake_auto/cmake)
+[3.280s] [33mCMake Warning (dev) at /opt/ros/foxy/install/share/ament_cmake_core/cmake/core/python.cmake:22 (find_package):
+[3.280s]   Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+[3.281s]   are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+[3.281s]   the cmake_policy command to set the policy and suppress this warning.
+[3.285s] 
+[3.286s] Call Stack (most recent call first):
+[3.287s]   /opt/ros/foxy/install/share/ament_cmake_core/cmake/core/all.cmake:53 (include)
+[3.287s]   /opt/ros/foxy/install/share/ament_cmake_core/cmake/ament_cmake_core-extras.cmake:17 (include)
+[3.288s]   /opt/ros/foxy/install/share/ament_cmake_core/cmake/ament_cmake_coreConfig.cmake:41 (include)
+[3.288s]   /opt/ros/foxy/install/share/ament_cmake/cmake/ament_cmake_export_dependencies-extras.cmake:15 (find_package)
+[3.289s]   /opt/ros/foxy/install/share/ament_cmake/cmake/ament_cmakeConfig.cmake:41 (include)
+[3.310s]   /opt/ros/foxy/install/share/ament_cmake_auto/cmake/ament_cmake_auto-extras.cmake:17 (find_package)
+[3.311s]   /opt/ros/foxy/install/share/ament_cmake_auto/cmake/ament_cmake_autoConfig.cmake:41 (include)
+[3.311s]   CMakeLists.txt:15 (find_package)
+[3.312s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[3.312s] [0m
+[3.356s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.6.9", minimum required is "3") 
+[3.358s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[5.385s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[5.479s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/install/share/rosidl_adapter/cmake)
+[5.833s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "1.1.1")  
+[5.944s] -- Found FastRTPS: /opt/ros/foxy/install/include  
+[6.299s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[7.397s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/install/share/rmw_implementation_cmake/cmake)
+[7.406s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[9.493s] -- Configuring done (9.2s)
+[9.607s] -- Generating done (0.1s)
+[9.618s] -- Build files have been written to: /workspaces/ROS_PointCloud_AGV/build/depthai_filters
+[9.678s] Invoked command in '/workspaces/ROS_PointCloud_AGV/build/depthai_filters' returned '0': /usr/local/bin/cmake /workspaces/ROS_PointCloud_AGV/dai_ws/src/depthai-ros/depthai_filters -DCMAKE_INSTALL_PREFIX=/workspaces/ROS_PointCloud_AGV/install/depthai_filters
+[9.691s] Invoking command in '/workspaces/ROS_PointCloud_AGV/build/depthai_filters': /usr/local/bin/cmake --build /workspaces/ROS_PointCloud_AGV/build/depthai_filters -- -j4 -l4
+[9.931s] [ 40%] [32mBuilding CXX object CMakeFiles/depthai_filters.dir/src/segmentation_overlay.cpp.o[0m
+[9.934s] [ 60%] [32mBuilding CXX object CMakeFiles/depthai_filters.dir/src/wls_filter.cpp.o[0m
+[9.936s] [ 80%] [32mBuilding CXX object CMakeFiles/depthai_filters.dir/src/utils.cpp.o[0m
+[9.944s] [ 80%] [32mBuilding CXX object CMakeFiles/depthai_filters.dir/src/detection2d_overlay.cpp.o[0m
+[69.147s] [100%] [32m[1mLinking CXX shared library libdepthai_filters.so[0m
+[73.271s] [100%] Built target depthai_filters
+[73.310s] Invoked command in '/workspaces/ROS_PointCloud_AGV/build/depthai_filters' returned '0': /usr/local/bin/cmake --build /workspaces/ROS_PointCloud_AGV/build/depthai_filters -- -j4 -l4
+[73.594s] Invoking command in '/workspaces/ROS_PointCloud_AGV/build/depthai_filters': /usr/local/bin/cmake --install /workspaces/ROS_PointCloud_AGV/build/depthai_filters
+[73.738s] -- Install configuration: ""
+[73.745s] -- Installing: /workspaces/ROS_PointCloud_AGV/install/depthai_filters/share/depthai_filters/launch
+[73.750s] -- Installing: /workspaces/ROS_PointCloud_AGV/install/depthai_filters/share/depthai_filters/launch/det2d_usb_cam_overlay.launch.py
+[73.758s] -- Installing: /workspaces/ROS_PointCloud_AGV/install/depthai_filters/share/depthai_filters/launch/example_det2d_overlay.launch.py
+[73.762s] -- Installing: /workspaces/ROS_PointCloud_AGV/install/depthai_filters/share/depthai_filters/launch/example_wls_filter.launch.py
+[73.763s] -- Installing: /workspaces/ROS_PointCloud_AGV/install/depthai_filters/share/depthai_filters/launch/example_seg_overlay.launch.py
+[73.764s] -- Installing: /workspaces/ROS_PointCloud_AGV/install/depthai_filters/share/depthai_filters/config
+[73.774s] -- Installing: /workspaces/ROS_PointCloud_AGV/install/depthai_filters/share/depthai_filters/config/detection.yaml
+[73.775s] -- Installing: /workspaces/ROS_PointCloud_AGV/install/depthai_filters/share/depthai_filters/config/wls.yaml
+[73.776s] -- Installing: /workspaces/ROS_PointCloud_AGV/install/depthai_filters/share/depthai_filters/config/usb_cam_overlay.yaml
+[73.776s] -- Installing: /workspaces/ROS_PointCloud_AGV/install/depthai_filters/lib/libdepthai_filters.so
+[73.815s] -- Set runtime path of "/workspaces/ROS_PointCloud_AGV/install/depthai_filters/lib/libdepthai_filters.so" to ""
+[73.816s] -- Installing: /workspaces/ROS_PointCloud_AGV/install/depthai_filters/include
+[73.817s] -- Installing: /workspaces/ROS_PointCloud_AGV/install/depthai_filters/include/depthai_filters
+[73.818s] -- Installing: /workspaces/ROS_PointCloud_AGV/install/depthai_filters/include/depthai_filters/utils.hpp
+[73.818s] -- Installing: /workspaces/ROS_PointCloud_AGV/install/depthai_filters/include/depthai_filters/detection2d_overlay.hpp
+[73.819s] -- Installing: /workspaces/ROS_PointCloud_AGV/install/depthai_filters/include/depthai_filters/segmentation_overlay.hpp
+[73.820s] -- Installing: /workspaces/ROS_PointCloud_AGV/install/depthai_filters/include/depthai_filters/wls_filter.hpp
+[73.821s] -- Installing: /workspaces/ROS_PointCloud_AGV/install/depthai_filters/share/ament_index/resource_index/package_run_dependencies/depthai_filters
+[73.822s] -- Installing: /workspaces/ROS_PointCloud_AGV/install/depthai_filters/share/ament_index/resource_index/parent_prefix_path/depthai_filters
+[73.824s] -- Installing: /workspaces/ROS_PointCloud_AGV/install/depthai_filters/share/depthai_filters/environment/ament_prefix_path.sh
+[73.824s] -- Installing: /workspaces/ROS_PointCloud_AGV/install/depthai_filters/share/depthai_filters/environment/ament_prefix_path.dsv
+[73.826s] -- Installing: /workspaces/ROS_PointCloud_AGV/install/depthai_filters/share/depthai_filters/environment/path.sh
+[73.826s] -- Installing: /workspaces/ROS_PointCloud_AGV/install/depthai_filters/share/depthai_filters/environment/path.dsv
+[73.827s] -- Installing: /workspaces/ROS_PointCloud_AGV/install/depthai_filters/share/depthai_filters/local_setup.bash
+[73.829s] -- Installing: /workspaces/ROS_PointCloud_AGV/install/depthai_filters/share/depthai_filters/local_setup.sh
+[73.830s] -- Installing: /workspaces/ROS_PointCloud_AGV/install/depthai_filters/share/depthai_filters/local_setup.zsh
+[73.835s] -- Installing: /workspaces/ROS_PointCloud_AGV/install/depthai_filters/share/depthai_filters/local_setup.dsv
+[73.836s] -- Installing: /workspaces/ROS_PointCloud_AGV/install/depthai_filters/share/depthai_filters/package.dsv
+[73.836s] -- Installing: /workspaces/ROS_PointCloud_AGV/install/depthai_filters/share/ament_index/resource_index/packages/depthai_filters
+[73.837s] -- Installing: /workspaces/ROS_PointCloud_AGV/install/depthai_filters/share/ament_index/resource_index/rclcpp_components/depthai_filters
+[73.847s] -- Installing: /workspaces/ROS_PointCloud_AGV/install/depthai_filters/share/depthai_filters/cmake/ament_cmake_export_include_directories-extras.cmake
+[73.847s] -- Installing: /workspaces/ROS_PointCloud_AGV/install/depthai_filters/share/depthai_filters/cmake/depthai_filtersConfig.cmake
+[73.848s] -- Installing: /workspaces/ROS_PointCloud_AGV/install/depthai_filters/share/depthai_filters/cmake/depthai_filtersConfig-version.cmake
+[73.849s] -- Installing: /workspaces/ROS_PointCloud_AGV/install/depthai_filters/share/depthai_filters/package.xml
+[73.870s] Invoked command in '/workspaces/ROS_PointCloud_AGV/build/depthai_filters' returned '0': /usr/local/bin/cmake --install /workspaces/ROS_PointCloud_AGV/build/depthai_filters

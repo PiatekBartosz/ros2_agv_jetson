@@ -1,0 +1,4 @@
+{
+  "ros.rosSetupScript": "source /opt/ros/foxy/install/setup.bash",
+  "ros.distro": ""
+}

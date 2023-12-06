@@ -1,0 +1,44 @@
+-- Found ament_cmake_auto: 0.9.12 (/opt/ros/foxy/install/share/ament_cmake_auto/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/install/share/rosidl_adapter/cmake)
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/install/share/rmw_implementation_cmake/cmake)
+-- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+-- Configuring done (5.1s)
+-- Generating done (0.1s)
+-- Build files have been written to: /workspaces/ROS_PointCloud_AGV/build/depthai_filters
+[ 20%] [32m[1mLinking CXX shared library libdepthai_filters.so[0m
+[100%] Built target depthai_filters
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_filters/share/depthai_filters/launch/det2d_usb_cam_overlay.launch.py
+-- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_filters/share/depthai_filters/launch/example_det2d_overlay.launch.py
+-- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_filters/share/depthai_filters/launch/example_seg_overlay.launch.py
+-- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_filters/share/depthai_filters/launch/example_wls_filter.launch.py
+-- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_filters/share/depthai_filters/config/detection.yaml
+-- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_filters/share/depthai_filters/config/usb_cam_overlay.yaml
+-- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_filters/share/depthai_filters/config/wls.yaml
+-- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_filters/lib/libdepthai_filters.so
+-- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_filters/include/depthai_filters/detection2d_overlay.hpp
+-- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_filters/include/depthai_filters/segmentation_overlay.hpp
+-- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_filters/include/depthai_filters/utils.hpp
+-- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_filters/include/depthai_filters/wls_filter.hpp
+-- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_filters/share/ament_index/resource_index/package_run_dependencies/depthai_filters
+-- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_filters/share/ament_index/resource_index/parent_prefix_path/depthai_filters
+-- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_filters/share/depthai_filters/environment/ament_prefix_path.sh
+-- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_filters/share/depthai_filters/environment/ament_prefix_path.dsv
+-- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_filters/share/depthai_filters/environment/path.sh
+-- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_filters/share/depthai_filters/environment/path.dsv
+-- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_filters/share/depthai_filters/local_setup.bash
+-- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_filters/share/depthai_filters/local_setup.sh
+-- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_filters/share/depthai_filters/local_setup.zsh
+-- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_filters/share/depthai_filters/local_setup.dsv
+-- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_filters/share/depthai_filters/package.dsv
+-- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_filters/share/ament_index/resource_index/packages/depthai_filters
+-- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_filters/share/ament_index/resource_index/rclcpp_components/depthai_filters
+-- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_filters/share/depthai_filters/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_filters/share/depthai_filters/cmake/depthai_filtersConfig.cmake
+-- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_filters/share/depthai_filters/cmake/depthai_filtersConfig-version.cmake
+-- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_filters/share/depthai_filters/package.xml

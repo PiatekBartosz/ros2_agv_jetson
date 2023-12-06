@@ -1,0 +1,25 @@
+[0.077s] Invoking command in '/workspaces/ROS_PointCloud_AGV/build/sensor_fusion': /usr/local/bin/cmake /workspaces/ROS_PointCloud_AGV/src/sensor_fusion -DCMAKE_INSTALL_PREFIX=/workspaces/ROS_PointCloud_AGV/install/sensor_fusion
+[0.245s] -- Found ament_cmake_auto: 0.9.12 (/opt/ros/foxy/install/share/ament_cmake_auto/cmake)
+[0.253s] [33mCMake Warning (dev) at /opt/ros/foxy/install/share/ament_cmake_core/cmake/core/python.cmake:22 (find_package):
+[0.253s]   Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+[0.254s]   are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+[0.254s]   the cmake_policy command to set the policy and suppress this warning.
+[0.255s] 
+[0.255s] Call Stack (most recent call first):
+[0.256s]   /opt/ros/foxy/install/share/ament_cmake_core/cmake/core/all.cmake:53 (include)
+[0.256s]   /opt/ros/foxy/install/share/ament_cmake_core/cmake/ament_cmake_core-extras.cmake:17 (include)
+[0.257s]   /opt/ros/foxy/install/share/ament_cmake_core/cmake/ament_cmake_coreConfig.cmake:41 (include)
+[0.257s]   /opt/ros/foxy/install/share/ament_cmake/cmake/ament_cmake_export_dependencies-extras.cmake:15 (find_package)
+[0.258s]   /opt/ros/foxy/install/share/ament_cmake/cmake/ament_cmakeConfig.cmake:41 (include)
+[0.258s]   /opt/ros/foxy/install/share/ament_cmake_auto/cmake/ament_cmake_auto-extras.cmake:17 (find_package)
+[0.258s]   /opt/ros/foxy/install/share/ament_cmake_auto/cmake/ament_cmake_autoConfig.cmake:41 (include)
+[0.259s]   CMakeLists.txt:22 (find_package)
+[0.259s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.260s] [0m
+[0.320s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.811s] [31mCMake Error at CMakeLists.txt:30 (amend_auto_add_library):
+[1.815s]   Unknown CMake command "amend_auto_add_library".
+[1.815s] 
+[1.816s] [0m
+[1.816s] -- Configuring incomplete, errors occurred!
+[1.839s] Invoked command in '/workspaces/ROS_PointCloud_AGV/build/sensor_fusion' returned '1': /usr/local/bin/cmake /workspaces/ROS_PointCloud_AGV/src/sensor_fusion -DCMAKE_INSTALL_PREFIX=/workspaces/ROS_PointCloud_AGV/install/sensor_fusion

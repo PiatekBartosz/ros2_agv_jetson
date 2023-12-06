@@ -1,0 +1,38 @@
+-- The C compiler identification is GNU 7.5.0
+-- The CXX compiler identification is GNU 7.5.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/install/share/ament_cmake/cmake)
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.6.9", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/install/share/ament_lint_auto/cmake)
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done (3.2s)
+-- Generating done (0.0s)
+-- Build files have been written to: /workspaces/ROS_PointCloud_AGV/src/build/sensor_fusion
+-- Install configuration: ""
+-- Installing: /workspaces/ROS_PointCloud_AGV/src/install/sensor_fusion/share/ament_index/resource_index/package_run_dependencies/sensor_fusion
+-- Installing: /workspaces/ROS_PointCloud_AGV/src/install/sensor_fusion/share/ament_index/resource_index/parent_prefix_path/sensor_fusion
+-- Installing: /workspaces/ROS_PointCloud_AGV/src/install/sensor_fusion/share/sensor_fusion/environment/ament_prefix_path.sh
+-- Installing: /workspaces/ROS_PointCloud_AGV/src/install/sensor_fusion/share/sensor_fusion/environment/ament_prefix_path.dsv
+-- Installing: /workspaces/ROS_PointCloud_AGV/src/install/sensor_fusion/share/sensor_fusion/environment/path.sh
+-- Installing: /workspaces/ROS_PointCloud_AGV/src/install/sensor_fusion/share/sensor_fusion/environment/path.dsv
+-- Installing: /workspaces/ROS_PointCloud_AGV/src/install/sensor_fusion/share/sensor_fusion/local_setup.bash
+-- Installing: /workspaces/ROS_PointCloud_AGV/src/install/sensor_fusion/share/sensor_fusion/local_setup.sh
+-- Installing: /workspaces/ROS_PointCloud_AGV/src/install/sensor_fusion/share/sensor_fusion/local_setup.zsh
+-- Installing: /workspaces/ROS_PointCloud_AGV/src/install/sensor_fusion/share/sensor_fusion/local_setup.dsv
+-- Installing: /workspaces/ROS_PointCloud_AGV/src/install/sensor_fusion/share/sensor_fusion/package.dsv
+-- Installing: /workspaces/ROS_PointCloud_AGV/src/install/sensor_fusion/share/ament_index/resource_index/packages/sensor_fusion
+-- Installing: /workspaces/ROS_PointCloud_AGV/src/install/sensor_fusion/share/sensor_fusion/cmake/sensor_fusionConfig.cmake
+-- Installing: /workspaces/ROS_PointCloud_AGV/src/install/sensor_fusion/share/sensor_fusion/cmake/sensor_fusionConfig-version.cmake
+-- Installing: /workspaces/ROS_PointCloud_AGV/src/install/sensor_fusion/share/sensor_fusion/package.xml

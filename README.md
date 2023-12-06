@@ -12,3 +12,5 @@ The base container for visualization on PC (RVIZ)
 ```
 
 ## System setup
+download git submodule -> depthai-ros 
+run commands from setup_workspace.sh

@@ -1,0 +1,16 @@
+[0.081s] Invoking command in '/workspaces/ROS_PointCloud_AGV/build/sensor_fusion': /usr/local/bin/cmake /workspaces/ROS_PointCloud_AGV/src/sensor_fusion -DCMAKE_INSTALL_PREFIX=/workspaces/ROS_PointCloud_AGV/install/sensor_fusion
+[0.300s] [31mCMake Error at CMakeLists.txt:12 (find_package):
+[0.301s]   Could not find a package configuration file provided by "depthai" with any
+[0.302s]   of the following names:
+[0.302s] 
+[0.303s]     depthaiConfig.cmake
+[0.303s]     depthai-config.cmake
+[0.304s] 
+[0.304s]   Add the installation prefix of "depthai" to CMAKE_PREFIX_PATH or set
+[0.305s]   "depthai_DIR" to a directory containing one of the above files.  If
+[0.305s]   "depthai" provides a separate development package or SDK, be sure it has
+[0.306s]   been installed.
+[0.307s] 
+[0.307s] [0m
+[0.308s] -- Configuring incomplete, errors occurred!
+[0.326s] Invoked command in '/workspaces/ROS_PointCloud_AGV/build/sensor_fusion' returned '1': /usr/local/bin/cmake /workspaces/ROS_PointCloud_AGV/src/sensor_fusion -DCMAKE_INSTALL_PREFIX=/workspaces/ROS_PointCloud_AGV/install/sensor_fusion

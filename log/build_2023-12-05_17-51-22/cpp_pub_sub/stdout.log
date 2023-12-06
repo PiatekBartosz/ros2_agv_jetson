@@ -1,0 +1,4 @@
+-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/install/share/ament_cmake/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Configuring incomplete, errors occurred!
+Makefile:308: recipe for target 'cmake_check_build_system' failed

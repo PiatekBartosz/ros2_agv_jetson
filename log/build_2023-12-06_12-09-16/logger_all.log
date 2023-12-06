@@ -1,0 +1,188 @@
+[1.664s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--packages-select', 'cpp_pubsub']
+[1.665s] DEBUG:colcon:Parsed command line arguments: Namespace(ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f8f916518>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=['cpp_pubsub'], packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=4, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f8f916518>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f8f7f2f28>)
+[1.771s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[1.771s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[1.772s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[1.772s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[1.772s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[1.774s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[1.774s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/workspaces/ROS_PointCloud_AGV'
+[1.775s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[1.776s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[1.776s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[1.777s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[1.777s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[1.777s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[1.777s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[1.778s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[1.778s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[1.980s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[1.981s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[1.981s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[1.982s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[1.982s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[1.983s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[1.984s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[1.984s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[1.986s] Level 1:colcon.colcon_core.package_identification:_identify(cache) by extensions ['ignore', 'ignore_ament_install']
+[1.987s] Level 1:colcon.colcon_core.package_identification:_identify(cache) by extension 'ignore'
+[1.987s] Level 1:colcon.colcon_core.package_identification:_identify(cache) by extension 'ignore_ament_install'
+[1.987s] Level 1:colcon.colcon_core.package_identification:_identify(cache) by extensions ['colcon_pkg']
+[1.988s] Level 1:colcon.colcon_core.package_identification:_identify(cache) by extension 'colcon_pkg'
+[1.988s] Level 1:colcon.colcon_core.package_identification:_identify(cache) by extensions ['colcon_meta']
+[1.988s] Level 1:colcon.colcon_core.package_identification:_identify(cache) by extension 'colcon_meta'
+[1.989s] Level 1:colcon.colcon_core.package_identification:_identify(cache) by extensions ['ros']
+[1.989s] Level 1:colcon.colcon_core.package_identification:_identify(cache) by extension 'ros'
+[1.990s] Level 1:colcon.colcon_core.package_identification:_identify(cache) by extensions ['cmake', 'python']
+[1.990s] Level 1:colcon.colcon_core.package_identification:_identify(cache) by extension 'cmake'
+[1.990s] Level 1:colcon.colcon_core.package_identification:_identify(cache) by extension 'python'
+[1.990s] Level 1:colcon.colcon_core.package_identification:_identify(cache) by extensions ['python_setup_py']
+[1.991s] Level 1:colcon.colcon_core.package_identification:_identify(cache) by extension 'python_setup_py'
+[1.992s] Level 1:colcon.colcon_core.package_identification:_identify(depthai-core) by extensions ['ignore', 'ignore_ament_install']
+[1.992s] Level 1:colcon.colcon_core.package_identification:_identify(depthai-core) by extension 'ignore'
+[1.993s] Level 1:colcon.colcon_core.package_identification:_identify(depthai-core) by extension 'ignore_ament_install'
+[1.993s] Level 1:colcon.colcon_core.package_identification:_identify(depthai-core) by extensions ['colcon_pkg']
+[1.994s] Level 1:colcon.colcon_core.package_identification:_identify(depthai-core) by extension 'colcon_pkg'
+[1.994s] Level 1:colcon.colcon_core.package_identification:_identify(depthai-core) by extensions ['colcon_meta']
+[1.994s] Level 1:colcon.colcon_core.package_identification:_identify(depthai-core) by extension 'colcon_meta'
+[1.995s] Level 1:colcon.colcon_core.package_identification:_identify(depthai-core) by extensions ['ros']
+[1.995s] Level 1:colcon.colcon_core.package_identification:_identify(depthai-core) by extension 'ros'
+[1.996s] Level 1:colcon.colcon_core.package_identification:_identify(depthai-core) by extensions ['cmake', 'python']
+[1.996s] Level 1:colcon.colcon_core.package_identification:_identify(depthai-core) by extension 'cmake'
+[2.096s] Level 1:colcon.colcon_core.package_identification:_identify(depthai-core) by extension 'python'
+[2.097s] DEBUG:colcon.colcon_core.package_identification:Package 'depthai-core' with type 'cmake' and name 'depthai'
+[2.097s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[2.098s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[2.098s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[2.099s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[2.100s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[2.100s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[2.101s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[2.101s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[2.102s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[2.102s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[2.102s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[2.103s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[2.103s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[2.103s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[2.103s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[2.104s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[2.104s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[2.105s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[2.105s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[2.105s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[2.106s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) by extensions ['ignore', 'ignore_ament_install']
+[2.106s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) by extension 'ignore'
+[2.107s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) ignored
+[2.107s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_pubsub) by extensions ['ignore', 'ignore_ament_install']
+[2.108s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_pubsub) by extension 'ignore'
+[2.108s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_pubsub) by extension 'ignore_ament_install'
+[2.109s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_pubsub) by extensions ['colcon_pkg']
+[2.109s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_pubsub) by extension 'colcon_pkg'
+[2.109s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_pubsub) by extensions ['colcon_meta']
+[2.109s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_pubsub) by extension 'colcon_meta'
+[2.110s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_pubsub) by extensions ['ros']
+[2.110s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_pubsub) by extension 'ros'
+[2.123s] DEBUG:colcon.colcon_core.package_identification:Package 'src/cpp_pubsub' with type 'ros.ament_cmake' and name 'cpp_pubsub'
+[2.124s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) by extensions ['ignore', 'ignore_ament_install']
+[2.125s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) by extension 'ignore'
+[2.125s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) ignored
+[2.126s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) by extensions ['ignore', 'ignore_ament_install']
+[2.126s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) by extension 'ignore'
+[2.127s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) ignored
+[2.127s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensor_fusion) by extensions ['ignore', 'ignore_ament_install']
+[2.128s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensor_fusion) by extension 'ignore'
+[2.128s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensor_fusion) by extension 'ignore_ament_install'
+[2.129s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensor_fusion) by extensions ['colcon_pkg']
+[2.129s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensor_fusion) by extension 'colcon_pkg'
+[2.129s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensor_fusion) by extensions ['colcon_meta']
+[2.130s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensor_fusion) by extension 'colcon_meta'
+[2.130s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensor_fusion) by extensions ['ros']
+[2.130s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensor_fusion) by extension 'ros'
+[2.135s] DEBUG:colcon.colcon_core.package_identification:Package 'src/sensor_fusion' with type 'ros.ament_cmake' and name 'sensor_fusion'
+[2.135s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[2.136s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[2.137s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[2.137s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[2.137s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[2.241s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'depthai' in 'depthai-core'
+[2.242s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'sensor_fusion' in 'src/sensor_fusion'
+[2.245s] Level 5:colcon.colcon_core.verb:set package 'cpp_pubsub' build argument 'cmake_args' from command line to 'None'
+[2.245s] Level 5:colcon.colcon_core.verb:set package 'cpp_pubsub' build argument 'cmake_target' from command line to 'None'
+[2.245s] Level 5:colcon.colcon_core.verb:set package 'cpp_pubsub' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.246s] Level 5:colcon.colcon_core.verb:set package 'cpp_pubsub' build argument 'cmake_clean_cache' from command line to 'False'
+[2.246s] Level 5:colcon.colcon_core.verb:set package 'cpp_pubsub' build argument 'cmake_clean_first' from command line to 'False'
+[2.246s] Level 5:colcon.colcon_core.verb:set package 'cpp_pubsub' build argument 'cmake_force_configure' from command line to 'False'
+[2.246s] Level 5:colcon.colcon_core.verb:set package 'cpp_pubsub' build argument 'ament_cmake_args' from command line to 'None'
+[2.246s] Level 5:colcon.colcon_core.verb:set package 'cpp_pubsub' build argument 'catkin_cmake_args' from command line to 'None'
+[2.247s] Level 5:colcon.colcon_core.verb:set package 'cpp_pubsub' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.247s] DEBUG:colcon.colcon_core.verb:Building package 'cpp_pubsub' with the following arguments: {'ament_cmake_args': None, 'build_base': '/workspaces/ROS_PointCloud_AGV/build/cpp_pubsub', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/workspaces/ROS_PointCloud_AGV/install/cpp_pubsub', 'merge_install': False, 'path': '/workspaces/ROS_PointCloud_AGV/src/cpp_pubsub', 'symlink_install': False, 'test_result_base': None}
+[2.248s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[2.254s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[2.256s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/workspaces/ROS_PointCloud_AGV/src/cpp_pubsub' with build type 'ament_cmake'
+[2.258s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/workspaces/ROS_PointCloud_AGV/src/cpp_pubsub'
+[2.271s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[2.273s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.274s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.376s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/workspaces/ROS_PointCloud_AGV/build/cpp_pubsub': /usr/local/bin/cmake /workspaces/ROS_PointCloud_AGV/src/cpp_pubsub -DCMAKE_INSTALL_PREFIX=/workspaces/ROS_PointCloud_AGV/install/cpp_pubsub
+[6.036s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/workspaces/ROS_PointCloud_AGV/build/cpp_pubsub' returned '0': /usr/local/bin/cmake /workspaces/ROS_PointCloud_AGV/src/cpp_pubsub -DCMAKE_INSTALL_PREFIX=/workspaces/ROS_PointCloud_AGV/install/cpp_pubsub
+[6.051s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/workspaces/ROS_PointCloud_AGV/build/cpp_pubsub': /usr/local/bin/cmake --build /workspaces/ROS_PointCloud_AGV/build/cpp_pubsub -- -j4 -l4
+[27.766s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/workspaces/ROS_PointCloud_AGV/build/cpp_pubsub' returned '0': /usr/local/bin/cmake --build /workspaces/ROS_PointCloud_AGV/build/cpp_pubsub -- -j4 -l4
+[28.151s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/workspaces/ROS_PointCloud_AGV/build/cpp_pubsub': /usr/local/bin/cmake --install /workspaces/ROS_PointCloud_AGV/build/cpp_pubsub
+[28.353s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cpp_pubsub)
+[28.364s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/workspaces/ROS_PointCloud_AGV/build/cpp_pubsub' returned '0': /usr/local/bin/cmake --install /workspaces/ROS_PointCloud_AGV/build/cpp_pubsub
+[28.378s] Level 1:colcon.colcon_core.environment:checking '/workspaces/ROS_PointCloud_AGV/install/cpp_pubsub' for CMake module files
+[28.383s] Level 1:colcon.colcon_core.environment:checking '/workspaces/ROS_PointCloud_AGV/install/cpp_pubsub' for CMake config files
+[28.386s] Level 1:colcon.colcon_core.shell:create_environment_hook('cpp_pubsub', 'cmake_prefix_path')
+[28.388s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspaces/ROS_PointCloud_AGV/install/cpp_pubsub/share/cpp_pubsub/hook/cmake_prefix_path.ps1'
+[28.392s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/workspaces/ROS_PointCloud_AGV/install/cpp_pubsub/share/cpp_pubsub/hook/cmake_prefix_path.dsv'
+[28.396s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspaces/ROS_PointCloud_AGV/install/cpp_pubsub/share/cpp_pubsub/hook/cmake_prefix_path.sh'
+[28.404s] Level 1:colcon.colcon_core.environment:checking '/workspaces/ROS_PointCloud_AGV/install/cpp_pubsub/lib'
+[28.406s] Level 1:colcon.colcon_core.environment:checking '/workspaces/ROS_PointCloud_AGV/install/cpp_pubsub/bin'
+[28.407s] Level 1:colcon.colcon_core.environment:checking '/workspaces/ROS_PointCloud_AGV/install/cpp_pubsub/lib/pkgconfig/cpp_pubsub.pc'
+[28.409s] Level 1:colcon.colcon_core.environment:checking '/workspaces/ROS_PointCloud_AGV/install/cpp_pubsub/lib/python3.6/site-packages'
+[28.410s] Level 1:colcon.colcon_core.environment:checking '/workspaces/ROS_PointCloud_AGV/install/cpp_pubsub/bin'
+[28.413s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/ROS_PointCloud_AGV/install/cpp_pubsub/share/cpp_pubsub/package.ps1'
+[28.422s] INFO:colcon.colcon_core.shell:Creating package descriptor '/workspaces/ROS_PointCloud_AGV/install/cpp_pubsub/share/cpp_pubsub/package.dsv'
+[28.426s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/ROS_PointCloud_AGV/install/cpp_pubsub/share/cpp_pubsub/package.sh'
+[28.433s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/ROS_PointCloud_AGV/install/cpp_pubsub/share/cpp_pubsub/package.bash'
+[28.440s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/ROS_PointCloud_AGV/install/cpp_pubsub/share/cpp_pubsub/package.zsh'
+[28.445s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/workspaces/ROS_PointCloud_AGV/install/cpp_pubsub/share/colcon-core/packages/cpp_pubsub)
+[28.842s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cpp_pubsub)
+[28.845s] Level 1:colcon.colcon_core.environment:checking '/workspaces/ROS_PointCloud_AGV/install/cpp_pubsub' for CMake module files
+[28.851s] Level 1:colcon.colcon_core.environment:checking '/workspaces/ROS_PointCloud_AGV/install/cpp_pubsub' for CMake config files
+[28.854s] Level 1:colcon.colcon_core.shell:create_environment_hook('cpp_pubsub', 'cmake_prefix_path')
+[28.857s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspaces/ROS_PointCloud_AGV/install/cpp_pubsub/share/cpp_pubsub/hook/cmake_prefix_path.ps1'
+[28.861s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/workspaces/ROS_PointCloud_AGV/install/cpp_pubsub/share/cpp_pubsub/hook/cmake_prefix_path.dsv'
+[28.864s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspaces/ROS_PointCloud_AGV/install/cpp_pubsub/share/cpp_pubsub/hook/cmake_prefix_path.sh'
+[28.870s] Level 1:colcon.colcon_core.environment:checking '/workspaces/ROS_PointCloud_AGV/install/cpp_pubsub/lib'
+[28.871s] Level 1:colcon.colcon_core.environment:checking '/workspaces/ROS_PointCloud_AGV/install/cpp_pubsub/bin'
+[28.872s] Level 1:colcon.colcon_core.environment:checking '/workspaces/ROS_PointCloud_AGV/install/cpp_pubsub/lib/pkgconfig/cpp_pubsub.pc'
+[28.873s] Level 1:colcon.colcon_core.environment:checking '/workspaces/ROS_PointCloud_AGV/install/cpp_pubsub/lib/python3.6/site-packages'
+[28.875s] Level 1:colcon.colcon_core.environment:checking '/workspaces/ROS_PointCloud_AGV/install/cpp_pubsub/bin'
+[28.877s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/ROS_PointCloud_AGV/install/cpp_pubsub/share/cpp_pubsub/package.ps1'
+[28.881s] INFO:colcon.colcon_core.shell:Creating package descriptor '/workspaces/ROS_PointCloud_AGV/install/cpp_pubsub/share/cpp_pubsub/package.dsv'
+[28.886s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/ROS_PointCloud_AGV/install/cpp_pubsub/share/cpp_pubsub/package.sh'
+[28.890s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/ROS_PointCloud_AGV/install/cpp_pubsub/share/cpp_pubsub/package.bash'
+[28.892s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/ROS_PointCloud_AGV/install/cpp_pubsub/share/cpp_pubsub/package.zsh'
+[28.896s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/workspaces/ROS_PointCloud_AGV/install/cpp_pubsub/share/colcon-core/packages/cpp_pubsub)
+[28.904s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[28.909s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[28.910s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[28.913s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[28.955s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[28.956s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[28.956s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[28.957s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[28.957s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.InvalidFileContent: D-Bus library appears to be incorrectly set up: see the manual page for dbus-uuidgen to correct this issue. (Failed to open "/var/lib/dbus/machine-id": No such file or directory; UUID file '/etc/machine-id' should contain a hex string of length 32, not length 0, with no other text)
+[28.958s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[28.959s] INFO:colcon.colcon_core.shell:Creating prefix script '/workspaces/ROS_PointCloud_AGV/install/local_setup.ps1'
+[28.966s] INFO:colcon.colcon_core.shell:Creating prefix util module '/workspaces/ROS_PointCloud_AGV/install/_local_setup_util_ps1.py'
+[28.976s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/workspaces/ROS_PointCloud_AGV/install/setup.ps1'
+[28.984s] INFO:colcon.colcon_core.shell:Creating prefix script '/workspaces/ROS_PointCloud_AGV/install/local_setup.sh'
+[28.990s] INFO:colcon.colcon_core.shell:Creating prefix util module '/workspaces/ROS_PointCloud_AGV/install/_local_setup_util_sh.py'
+[28.996s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/workspaces/ROS_PointCloud_AGV/install/setup.sh'
+[29.004s] INFO:colcon.colcon_core.shell:Creating prefix script '/workspaces/ROS_PointCloud_AGV/install/local_setup.bash'
+[29.009s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/workspaces/ROS_PointCloud_AGV/install/setup.bash'
+[29.016s] INFO:colcon.colcon_core.shell:Creating prefix script '/workspaces/ROS_PointCloud_AGV/install/local_setup.zsh'
+[29.020s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/workspaces/ROS_PointCloud_AGV/install/setup.zsh'

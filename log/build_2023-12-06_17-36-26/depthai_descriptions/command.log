@@ -1,0 +1,6 @@
+Invoking command in '/workspaces/ROS_PointCloud_AGV/build/depthai_descriptions': /usr/local/bin/cmake /workspaces/ROS_PointCloud_AGV/dai_ws/src/depthai-ros/depthai_descriptions -DCMAKE_INSTALL_PREFIX=/workspaces/ROS_PointCloud_AGV/install/depthai_descriptions
+Invoked command in '/workspaces/ROS_PointCloud_AGV/build/depthai_descriptions' returned '0': /usr/local/bin/cmake /workspaces/ROS_PointCloud_AGV/dai_ws/src/depthai-ros/depthai_descriptions -DCMAKE_INSTALL_PREFIX=/workspaces/ROS_PointCloud_AGV/install/depthai_descriptions
+Invoking command in '/workspaces/ROS_PointCloud_AGV/build/depthai_descriptions': /usr/local/bin/cmake --build /workspaces/ROS_PointCloud_AGV/build/depthai_descriptions -- -j4 -l4
+Invoked command in '/workspaces/ROS_PointCloud_AGV/build/depthai_descriptions' returned '0': /usr/local/bin/cmake --build /workspaces/ROS_PointCloud_AGV/build/depthai_descriptions -- -j4 -l4
+Invoking command in '/workspaces/ROS_PointCloud_AGV/build/depthai_descriptions': /usr/local/bin/cmake --install /workspaces/ROS_PointCloud_AGV/build/depthai_descriptions
+Invoked command in '/workspaces/ROS_PointCloud_AGV/build/depthai_descriptions' returned '0': /usr/local/bin/cmake --install /workspaces/ROS_PointCloud_AGV/build/depthai_descriptions

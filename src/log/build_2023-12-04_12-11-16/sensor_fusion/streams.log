@@ -1,0 +1,58 @@
+[0.080s] Invoking command in '/workspaces/ROS_PointCloud_AGV/src/build/sensor_fusion': /usr/local/bin/cmake /workspaces/ROS_PointCloud_AGV/src/sensor_fusion -DCMAKE_INSTALL_PREFIX=/workspaces/ROS_PointCloud_AGV/src/install/sensor_fusion
+[0.422s] -- The C compiler identification is GNU 7.5.0
+[0.644s] -- The CXX compiler identification is GNU 7.5.0
+[0.711s] -- Detecting C compiler ABI info
+[0.987s] -- Detecting C compiler ABI info - done
+[1.044s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.045s] -- Detecting C compile features
+[1.046s] -- Detecting C compile features - done
+[1.087s] -- Detecting CXX compiler ABI info
+[1.361s] -- Detecting CXX compiler ABI info - done
+[1.415s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.416s] -- Detecting CXX compile features
+[1.418s] -- Detecting CXX compile features - done
+[1.437s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/install/share/ament_cmake/cmake)
+[1.463s] [33mCMake Warning (dev) at /opt/ros/foxy/install/share/ament_cmake_core/cmake/core/python.cmake:22 (find_package):
+[1.464s]   Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+[1.464s]   are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+[1.465s]   the cmake_policy command to set the policy and suppress this warning.
+[1.466s] 
+[1.466s] Call Stack (most recent call first):
+[1.467s]   /opt/ros/foxy/install/share/ament_cmake_core/cmake/core/all.cmake:53 (include)
+[1.467s]   /opt/ros/foxy/install/share/ament_cmake_core/cmake/ament_cmake_core-extras.cmake:17 (include)
+[1.467s]   /opt/ros/foxy/install/share/ament_cmake_core/cmake/ament_cmake_coreConfig.cmake:41 (include)
+[1.468s]   /opt/ros/foxy/install/share/ament_cmake/cmake/ament_cmake_export_dependencies-extras.cmake:15 (find_package)
+[1.468s]   /opt/ros/foxy/install/share/ament_cmake/cmake/ament_cmakeConfig.cmake:41 (include)
+[1.469s]   CMakeLists.txt:19 (find_package)
+[1.469s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[1.470s] [0m
+[1.546s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.6.9", minimum required is "3") 
+[1.548s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.730s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/install/share/ament_lint_auto/cmake)
+[3.364s] -- Added test 'copyright' to check source files copyright and LICENSE
+[3.375s] -- Added test 'lint_cmake' to check CMake code style
+[3.382s] -- Added test 'xmllint' to check XML markup files
+[3.388s] -- Configuring done (3.2s)
+[3.404s] -- Generating done (0.0s)
+[3.409s] -- Build files have been written to: /workspaces/ROS_PointCloud_AGV/src/build/sensor_fusion
+[3.445s] Invoked command in '/workspaces/ROS_PointCloud_AGV/src/build/sensor_fusion' returned '0': /usr/local/bin/cmake /workspaces/ROS_PointCloud_AGV/src/sensor_fusion -DCMAKE_INSTALL_PREFIX=/workspaces/ROS_PointCloud_AGV/src/install/sensor_fusion
+[3.458s] Invoking command in '/workspaces/ROS_PointCloud_AGV/src/build/sensor_fusion': /usr/local/bin/cmake --build /workspaces/ROS_PointCloud_AGV/src/build/sensor_fusion -- -j4 -l4
+[3.704s] Invoked command in '/workspaces/ROS_PointCloud_AGV/src/build/sensor_fusion' returned '0': /usr/local/bin/cmake --build /workspaces/ROS_PointCloud_AGV/src/build/sensor_fusion -- -j4 -l4
+[4.115s] Invoking command in '/workspaces/ROS_PointCloud_AGV/src/build/sensor_fusion': /usr/local/bin/cmake --install /workspaces/ROS_PointCloud_AGV/src/build/sensor_fusion
+[4.258s] -- Install configuration: ""
+[4.259s] -- Installing: /workspaces/ROS_PointCloud_AGV/src/install/sensor_fusion/share/ament_index/resource_index/package_run_dependencies/sensor_fusion
+[4.262s] -- Installing: /workspaces/ROS_PointCloud_AGV/src/install/sensor_fusion/share/ament_index/resource_index/parent_prefix_path/sensor_fusion
+[4.264s] -- Installing: /workspaces/ROS_PointCloud_AGV/src/install/sensor_fusion/share/sensor_fusion/environment/ament_prefix_path.sh
+[4.267s] -- Installing: /workspaces/ROS_PointCloud_AGV/src/install/sensor_fusion/share/sensor_fusion/environment/ament_prefix_path.dsv
+[4.269s] -- Installing: /workspaces/ROS_PointCloud_AGV/src/install/sensor_fusion/share/sensor_fusion/environment/path.sh
+[4.271s] -- Installing: /workspaces/ROS_PointCloud_AGV/src/install/sensor_fusion/share/sensor_fusion/environment/path.dsv
+[4.272s] -- Installing: /workspaces/ROS_PointCloud_AGV/src/install/sensor_fusion/share/sensor_fusion/local_setup.bash
+[4.273s] -- Installing: /workspaces/ROS_PointCloud_AGV/src/install/sensor_fusion/share/sensor_fusion/local_setup.sh
+[4.273s] -- Installing: /workspaces/ROS_PointCloud_AGV/src/install/sensor_fusion/share/sensor_fusion/local_setup.zsh
+[4.274s] -- Installing: /workspaces/ROS_PointCloud_AGV/src/install/sensor_fusion/share/sensor_fusion/local_setup.dsv
+[4.275s] -- Installing: /workspaces/ROS_PointCloud_AGV/src/install/sensor_fusion/share/sensor_fusion/package.dsv
+[4.275s] -- Installing: /workspaces/ROS_PointCloud_AGV/src/install/sensor_fusion/share/ament_index/resource_index/packages/sensor_fusion
+[4.276s] -- Installing: /workspaces/ROS_PointCloud_AGV/src/install/sensor_fusion/share/sensor_fusion/cmake/sensor_fusionConfig.cmake
+[4.277s] -- Installing: /workspaces/ROS_PointCloud_AGV/src/install/sensor_fusion/share/sensor_fusion/cmake/sensor_fusionConfig-version.cmake
+[4.277s] -- Installing: /workspaces/ROS_PointCloud_AGV/src/install/sensor_fusion/share/sensor_fusion/package.xml
+[4.299s] Invoked command in '/workspaces/ROS_PointCloud_AGV/src/build/sensor_fusion' returned '0': /usr/local/bin/cmake --install /workspaces/ROS_PointCloud_AGV/src/build/sensor_fusion

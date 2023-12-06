@@ -1,0 +1,110 @@
+[0.000000] (-) TimerEvent: {}
+[0.000705] (-) JobUnselected: {'identifier': 'depthai'}
+[0.001328] (-) JobUnselected: {'identifier': 'sensor_fusion'}
+[0.001619] (cpp_pub_sub) JobQueued: {'identifier': 'cpp_pub_sub', 'dependencies': OrderedDict()}
+[0.002568] (cpp_pub_sub) JobStarted: {'identifier': 'cpp_pub_sub'}
+[0.083942] (cpp_pub_sub) JobProgress: {'identifier': 'cpp_pub_sub', 'progress': 'cmake'}
+[0.087319] (cpp_pub_sub) JobProgress: {'identifier': 'cpp_pub_sub', 'progress': 'build'}
+[0.091121] (cpp_pub_sub) Command: {'cmd': ['/usr/local/bin/cmake', '--build', '/workspaces/ROS_PointCloud_AGV/build/cpp_pub_sub', '--', '-j4', '-l4'], 'cwd': '/workspaces/ROS_PointCloud_AGV/build/cpp_pub_sub', 'env': OrderedDict([('OPENBLAS_CORETYPE', 'ARMV8'), ('PYTHONIOENCODING', 'utf-8'), ('WS', '/ws'), ('HOSTNAME', 'jetsonagv-desktop'), ('GIT_ASKPASS', '/vscode/vscode-server/bin/linux-arm64/1a5daa3a0231a0fbba4f14db7ec463cf99d7768e/extensions/git/dist/askpass.sh'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/install/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/install/lib:/usr/local/cuda-10.2/targets/aarch64-linux/lib:'), ('BROWSER', '/vscode/vscode-server/bin/linux-arm64/1a5daa3a0231a0fbba4f14db7ec463cf99d7768e/bin/helpers/browser.sh'), ('SHLVL', '2'), ('HOME', '/home/USERNAME'), ('TERM_PROGRAM_VERSION', '1.84.2'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-4adf1a59-3392-415e-bdd1-97e54c0ee75d.sock'), ('VSCODE_GIT_ASKPASS_MAIN', '/vscode/vscode-server/bin/linux-arm64/1a5daa3a0231a0fbba4f14db7ec463cf99d7768e/extensions/git/dist/askpass-main.js'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_NODE', '/vscode/vscode-server/bin/linux-arm64/1a5daa3a0231a0fbba4f14db7ec463cf99d7768e/node'), ('REMOTE_CONTAINERS', 'true'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/opt/ros/foxy/install:/workspaces/ROS_PointCloud_AGV/install'), ('ROS_DISTRO', 'foxy'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-128ebf41-49a4-4130-9a67-49ebe4282daa.sock'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('PKG_CONFIG_PATH', '/opt/ros/foxy/install/lib/aarch64-linux-gnu/pkgconfig:/opt/ros/foxy/install/lib/pkgconfig'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/install/bin:/vscode/vscode-server/bin/linux-arm64/1a5daa3a0231a0fbba4f14db7ec463cf99d7768e/bin/remote-cli:/usr/local/cuda-10.2/bin:/usr/local/cuda/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':8'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/vscode-ssh-auth-128ebf41-49a4-4130-9a67-49ebe4282daa.sock","/tmp/.X11-unix/X8","/home/USERNAME/.gnupg/S.gpg-agent"]'), ('LANG', 'en_US.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('TERM_PROGRAM', 'vscode'), ('ROS_ROOT', '/opt/ros/foxy'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/vscode-git-29bc7e2fd3.sock'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy/install:/workspaces/ROS_PointCloud_AGV/install/sensor_package:/workspaces/ROS_PointCloud_AGV/install/cpp_pub_sub'), ('SSH_AUTH_SOCK', '/tmp/vscode-ssh-auth-128ebf41-49a4-4130-9a67-49ebe4282daa.sock'), ('REMOTE_CONTAINERS_DISPLAY_SOCK', '/tmp/.X11-unix/X8'), ('DEBIAN_FRONTEND', 'noninteractive'), ('SHELL', '/bin/bash'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/workspaces/ROS_PointCloud_AGV/build/cpp_pub_sub'), ('PYTHONPATH', '/opt/ros/foxy/install/lib/python3.6/site-packages:/workspaces/ROS_PointCloud_AGV/install/sensor_package/lib/python3.6/site-packages'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy/install:/workspaces/ROS_PointCloud_AGV/install/cpp_pub_sub')]), 'shell': False}
+[0.106735] (-) TimerEvent: {}
+[0.209010] (-) TimerEvent: {}
+[0.307945] (cpp_pub_sub) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/install/share/ament_cmake/cmake)\n'}
+[0.309844] (-) TimerEvent: {}
+[0.317257] (cpp_pub_sub) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /opt/ros/foxy/install/share/ament_cmake_core/cmake/core/python.cmake:22 (find_package):\n'}
+[0.318195] (cpp_pub_sub) StderrLine: {'line': b'  Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules\n'}
+[0.319248] (cpp_pub_sub) StderrLine: {'line': b'  are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use\n'}
+[0.323080] (cpp_pub_sub) StderrLine: {'line': b'  the cmake_policy command to set the policy and suppress this warning.\n'}
+[0.323862] (cpp_pub_sub) StderrLine: {'line': b'\n'}
+[0.324407] (cpp_pub_sub) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[0.324890] (cpp_pub_sub) StderrLine: {'line': b'  /opt/ros/foxy/install/share/ament_cmake_core/cmake/core/all.cmake:53 (include)\n'}
+[0.325354] (cpp_pub_sub) StderrLine: {'line': b'  /opt/ros/foxy/install/share/ament_cmake_core/cmake/ament_cmake_core-extras.cmake:17 (include)\n'}
+[0.325827] (cpp_pub_sub) StderrLine: {'line': b'  /opt/ros/foxy/install/share/ament_cmake_core/cmake/ament_cmake_coreConfig.cmake:41 (include)\n'}
+[0.326384] (cpp_pub_sub) StderrLine: {'line': b'  /opt/ros/foxy/install/share/ament_cmake/cmake/ament_cmake_export_dependencies-extras.cmake:15 (find_package)\n'}
+[0.326852] (cpp_pub_sub) StderrLine: {'line': b'  /opt/ros/foxy/install/share/ament_cmake/cmake/ament_cmakeConfig.cmake:41 (include)\n'}
+[0.327301] (cpp_pub_sub) StderrLine: {'line': b'  CMakeLists.txt:18 (find_package)\n'}
+[0.327757] (cpp_pub_sub) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[0.328219] (cpp_pub_sub) StderrLine: {'line': b'\x1b[0m\n'}
+[0.399624] (cpp_pub_sub) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.410058] (-) TimerEvent: {}
+[0.510793] (-) TimerEvent: {}
+[0.611653] (-) TimerEvent: {}
+[0.712696] (-) TimerEvent: {}
+[0.813804] (-) TimerEvent: {}
+[0.914936] (-) TimerEvent: {}
+[1.016023] (-) TimerEvent: {}
+[1.117089] (-) TimerEvent: {}
+[1.218148] (-) TimerEvent: {}
+[1.318927] (-) TimerEvent: {}
+[1.416354] (cpp_pub_sub) StdoutLine: {'line': b'-- Found rclcpp: 2.4.3 (/opt/ros/foxy/install/share/rclcpp/cmake)\n'}
+[1.419048] (-) TimerEvent: {}
+[1.519741] (-) TimerEvent: {}
+[1.581684] (cpp_pub_sub) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.603301] (cpp_pub_sub) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/install/share/rosidl_adapter/cmake)\n'}
+[1.619909] (-) TimerEvent: {}
+[1.720689] (-) TimerEvent: {}
+[1.821505] (-) TimerEvent: {}
+[1.922332] (-) TimerEvent: {}
+[2.023154] (-) TimerEvent: {}
+[2.110257] (cpp_pub_sub) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.123278] (-) TimerEvent: {}
+[2.223982] (-) TimerEvent: {}
+[2.324766] (-) TimerEvent: {}
+[2.378939] (cpp_pub_sub) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/install/share/rmw_implementation_cmake/cmake)\n'}
+[2.387785] (cpp_pub_sub) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_cyclonedds_cpp' as default\n"}
+[2.424963] (-) TimerEvent: {}
+[2.525799] (-) TimerEvent: {}
+[2.626676] (-) TimerEvent: {}
+[2.727500] (-) TimerEvent: {}
+[2.828320] (-) TimerEvent: {}
+[2.929449] (-) TimerEvent: {}
+[3.030277] (-) TimerEvent: {}
+[3.131102] (-) TimerEvent: {}
+[3.231819] (-) TimerEvent: {}
+[3.332607] (-) TimerEvent: {}
+[3.433408] (-) TimerEvent: {}
+[3.534191] (-) TimerEvent: {}
+[3.550213] (cpp_pub_sub) StderrLine: {'line': b"Error parsing '/workspaces/ROS_PointCloud_AGV/src/cpp_pub_sub/package.xml':\n"}
+[3.560567] (cpp_pub_sub) StderrLine: {'line': b'Traceback (most recent call last):\n'}
+[3.561362] (cpp_pub_sub) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 610, in parse_package_string\n'}
+[3.562081] (cpp_pub_sub) StderrLine: {'line': b'    root = dom.parseString(data)\n'}
+[3.562729] (cpp_pub_sub) StderrLine: {'line': b'  File "/usr/lib/python3.6/xml/dom/minidom.py", line 1968, in parseString\n'}
+[3.563348] (cpp_pub_sub) StderrLine: {'line': b'    return expatbuilder.parseString(string)\n'}
+[3.563904] (cpp_pub_sub) StderrLine: {'line': b'  File "/usr/lib/python3.6/xml/dom/expatbuilder.py", line 925, in parseString\n'}
+[3.564484] (cpp_pub_sub) StderrLine: {'line': b'    return builder.parseString(string)\n'}
+[3.565046] (cpp_pub_sub) StderrLine: {'line': b'  File "/usr/lib/python3.6/xml/dom/expatbuilder.py", line 223, in parseString\n'}
+[3.565619] (cpp_pub_sub) StderrLine: {'line': b'    parser.Parse(string, True)\n'}
+[3.566479] (cpp_pub_sub) StderrLine: {'line': b'xml.parsers.expat.ExpatError: XML or text declaration not at start of entity: line 3, column 0\n'}
+[3.567245] (cpp_pub_sub) StderrLine: {'line': b'\n'}
+[3.567938] (cpp_pub_sub) StderrLine: {'line': b'During handling of the above exception, another exception occurred:\n'}
+[3.568533] (cpp_pub_sub) StderrLine: {'line': b'\n'}
+[3.569451] (cpp_pub_sub) StderrLine: {'line': b'Traceback (most recent call last):\n'}
+[3.570494] (cpp_pub_sub) StderrLine: {'line': b'  File "/opt/ros/foxy/install/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 143, in <module>\n'}
+[3.571230] (cpp_pub_sub) StderrLine: {'line': b'    main()\n'}
+[3.571868] (cpp_pub_sub) StderrLine: {'line': b'  File "/opt/ros/foxy/install/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 52, in main\n'}
+[3.572459] (cpp_pub_sub) StderrLine: {'line': b'    raise e\n'}
+[3.573166] (cpp_pub_sub) StderrLine: {'line': b'  File "/opt/ros/foxy/install/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 49, in main\n'}
+[3.574242] (cpp_pub_sub) StderrLine: {'line': b'    args.package_xml.read(), filename=args.package_xml.name)\n'}
+[3.574876] (cpp_pub_sub) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 612, in parse_package_string\n'}
+[3.575418] (cpp_pub_sub) StderrLine: {'line': b"    raise InvalidPackage('The manifest contains invalid XML:\\n%s' % ex, filename)\n"}
+[3.575927] (cpp_pub_sub) StderrLine: {'line': b"catkin_pkg.package.InvalidPackage: Error(s) in package '/workspaces/ROS_PointCloud_AGV/src/cpp_pub_sub/package.xml':\n"}
+[3.576546] (cpp_pub_sub) StderrLine: {'line': b'The manifest contains invalid XML:\n'}
+[3.577089] (cpp_pub_sub) StderrLine: {'line': b'XML or text declaration not at start of entity: line 3, column 0\n'}
+[3.616848] (cpp_pub_sub) StderrLine: {'line': b'\x1b[31mCMake Error at /opt/ros/foxy/install/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:94 (message):\n'}
+[3.618094] (cpp_pub_sub) StderrLine: {'line': b'  execute_process(/usr/bin/python3\n'}
+[3.618579] (cpp_pub_sub) StderrLine: {'line': b'  /opt/ros/foxy/install/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py\n'}
+[3.619040] (cpp_pub_sub) StderrLine: {'line': b'  /workspaces/ROS_PointCloud_AGV/src/cpp_pub_sub/package.xml\n'}
+[3.619596] (cpp_pub_sub) StderrLine: {'line': b'  /workspaces/ROS_PointCloud_AGV/build/cpp_pub_sub/ament_cmake_core/package.cmake)\n'}
+[3.620084] (cpp_pub_sub) StderrLine: {'line': b'  returned error code 1\n'}
+[3.620576] (cpp_pub_sub) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[3.621075] (cpp_pub_sub) StderrLine: {'line': b'  /opt/ros/foxy/install/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:49 (_ament_package_xml)\n'}
+[3.621548] (cpp_pub_sub) StderrLine: {'line': b'  /opt/ros/foxy/install/share/ament_cmake_core/cmake/core/ament_package.cmake:63 (ament_package_xml)\n'}
+[3.622045] (cpp_pub_sub) StderrLine: {'line': b'  CMakeLists.txt:33 (ament_package)\n'}
+[3.622564] (cpp_pub_sub) StderrLine: {'line': b'\n'}
+[3.623047] (cpp_pub_sub) StderrLine: {'line': b'\x1b[0m\n'}
+[3.623532] (cpp_pub_sub) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[3.634378] (-) TimerEvent: {}
+[3.635458] (cpp_pub_sub) StdoutLine: {'line': b"Makefile:308: recipe for target 'cmake_check_build_system' failed\n"}
+[3.636403] (cpp_pub_sub) StderrLine: {'line': b'make: *** [cmake_check_build_system] Error 1\n'}
+[3.658406] (cpp_pub_sub) CommandEnded: {'returncode': 2}
+[3.660280] (cpp_pub_sub) JobEnded: {'identifier': 'cpp_pub_sub', 'rc': 2}
+[3.672225] (-) EventReactorShutdown: {}

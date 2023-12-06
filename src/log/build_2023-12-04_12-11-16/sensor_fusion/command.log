@@ -1,0 +1,6 @@
+Invoking command in '/workspaces/ROS_PointCloud_AGV/src/build/sensor_fusion': /usr/local/bin/cmake /workspaces/ROS_PointCloud_AGV/src/sensor_fusion -DCMAKE_INSTALL_PREFIX=/workspaces/ROS_PointCloud_AGV/src/install/sensor_fusion
+Invoked command in '/workspaces/ROS_PointCloud_AGV/src/build/sensor_fusion' returned '0': /usr/local/bin/cmake /workspaces/ROS_PointCloud_AGV/src/sensor_fusion -DCMAKE_INSTALL_PREFIX=/workspaces/ROS_PointCloud_AGV/src/install/sensor_fusion
+Invoking command in '/workspaces/ROS_PointCloud_AGV/src/build/sensor_fusion': /usr/local/bin/cmake --build /workspaces/ROS_PointCloud_AGV/src/build/sensor_fusion -- -j4 -l4
+Invoked command in '/workspaces/ROS_PointCloud_AGV/src/build/sensor_fusion' returned '0': /usr/local/bin/cmake --build /workspaces/ROS_PointCloud_AGV/src/build/sensor_fusion -- -j4 -l4
+Invoking command in '/workspaces/ROS_PointCloud_AGV/src/build/sensor_fusion': /usr/local/bin/cmake --install /workspaces/ROS_PointCloud_AGV/src/build/sensor_fusion
+Invoked command in '/workspaces/ROS_PointCloud_AGV/src/build/sensor_fusion' returned '0': /usr/local/bin/cmake --install /workspaces/ROS_PointCloud_AGV/src/build/sensor_fusion

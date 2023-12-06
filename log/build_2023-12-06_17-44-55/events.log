@@ -1,0 +1,164 @@
+[0.000000] (-) TimerEvent: {}
+[0.001107] (cpp_pubsub) JobQueued: {'identifier': 'cpp_pubsub', 'dependencies': OrderedDict()}
+[0.002269] (sensor_fusion) JobQueued: {'identifier': 'sensor_fusion', 'dependencies': OrderedDict()}
+[0.002938] (cpp_pubsub) JobStarted: {'identifier': 'cpp_pubsub'}
+[0.066199] (sensor_fusion) JobStarted: {'identifier': 'sensor_fusion'}
+[0.099114] (-) TimerEvent: {}
+[0.127706] (cpp_pubsub) JobProgress: {'identifier': 'cpp_pubsub', 'progress': 'cmake'}
+[0.131681] (cpp_pubsub) Command: {'cmd': ['/usr/local/bin/cmake', '/workspaces/ROS_PointCloud_AGV/src/cpp_pubsub', '-DCMAKE_INSTALL_PREFIX=/workspaces/ROS_PointCloud_AGV/install/cpp_pubsub'], 'cwd': '/workspaces/ROS_PointCloud_AGV/build/cpp_pubsub', 'env': OrderedDict([('OPENBLAS_CORETYPE', 'ARMV8'), ('PYTHONIOENCODING', 'utf-8'), ('WS', '/ws'), ('HOSTNAME', 'jetsonagv-desktop'), ('GIT_ASKPASS', '/vscode/vscode-server/bin/linux-arm64/1a5daa3a0231a0fbba4f14db7ec463cf99d7768e/extensions/git/dist/askpass.sh'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/install/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/install/lib:/usr/local/cuda-10.2/targets/aarch64-linux/lib:'), ('BROWSER', '/vscode/vscode-server/bin/linux-arm64/1a5daa3a0231a0fbba4f14db7ec463cf99d7768e/bin/helpers/browser.sh'), ('SHLVL', '2'), ('OLDPWD', '/workspaces'), ('HOME', '/home/USERNAME'), ('TERM_PROGRAM_VERSION', '1.84.2'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-4a01e2ed-990a-4728-9d36-3ddf8d7d7467.sock'), ('VSCODE_GIT_ASKPASS_MAIN', '/vscode/vscode-server/bin/linux-arm64/1a5daa3a0231a0fbba4f14db7ec463cf99d7768e/extensions/git/dist/askpass-main.js'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_NODE', '/vscode/vscode-server/bin/linux-arm64/1a5daa3a0231a0fbba4f14db7ec463cf99d7768e/node'), ('REMOTE_CONTAINERS', 'true'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/opt/ros/foxy/install'), ('ROS_DISTRO', 'foxy'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-40957e95-72ab-42a8-97cb-172fabd7d5d3.sock'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('PKG_CONFIG_PATH', '/opt/ros/foxy/install/lib/aarch64-linux-gnu/pkgconfig:/opt/ros/foxy/install/lib/pkgconfig'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/install/bin:/vscode/vscode-server/bin/linux-arm64/1a5daa3a0231a0fbba4f14db7ec463cf99d7768e/bin/remote-cli:/usr/local/cuda-10.2/bin:/usr/local/cuda/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':1'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/vscode-ssh-auth-40957e95-72ab-42a8-97cb-172fabd7d5d3.sock","/tmp/.X11-unix/X1","/home/USERNAME/.gnupg/S.gpg-agent"]'), ('LANG', 'en_US.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('TERM_PROGRAM', 'vscode'), ('ROS_ROOT', '/opt/ros/foxy'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/vscode-git-29bc7e2fd3.sock'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy/install'), ('SSH_AUTH_SOCK', '/tmp/vscode-ssh-auth-40957e95-72ab-42a8-97cb-172fabd7d5d3.sock'), ('REMOTE_CONTAINERS_DISPLAY_SOCK', '/tmp/.X11-unix/X1'), ('DEBIAN_FRONTEND', 'noninteractive'), ('SHELL', '/bin/bash'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/workspaces/ROS_PointCloud_AGV/build/cpp_pubsub'), ('PYTHONPATH', '/opt/ros/foxy/install/lib/python3.6/site-packages'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy/install')]), 'shell': False}
+[0.152447] (sensor_fusion) JobProgress: {'identifier': 'sensor_fusion', 'progress': 'cmake'}
+[0.157110] (sensor_fusion) Command: {'cmd': ['/usr/local/bin/cmake', '/workspaces/ROS_PointCloud_AGV/src/sensor_fusion', '-DCMAKE_INSTALL_PREFIX=/workspaces/ROS_PointCloud_AGV/install/sensor_fusion'], 'cwd': '/workspaces/ROS_PointCloud_AGV/build/sensor_fusion', 'env': OrderedDict([('OPENBLAS_CORETYPE', 'ARMV8'), ('PYTHONIOENCODING', 'utf-8'), ('WS', '/ws'), ('HOSTNAME', 'jetsonagv-desktop'), ('GIT_ASKPASS', '/vscode/vscode-server/bin/linux-arm64/1a5daa3a0231a0fbba4f14db7ec463cf99d7768e/extensions/git/dist/askpass.sh'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/install/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/install/lib:/usr/local/cuda-10.2/targets/aarch64-linux/lib:'), ('BROWSER', '/vscode/vscode-server/bin/linux-arm64/1a5daa3a0231a0fbba4f14db7ec463cf99d7768e/bin/helpers/browser.sh'), ('SHLVL', '2'), ('OLDPWD', '/workspaces'), ('HOME', '/home/USERNAME'), ('TERM_PROGRAM_VERSION', '1.84.2'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-4a01e2ed-990a-4728-9d36-3ddf8d7d7467.sock'), ('VSCODE_GIT_ASKPASS_MAIN', '/vscode/vscode-server/bin/linux-arm64/1a5daa3a0231a0fbba4f14db7ec463cf99d7768e/extensions/git/dist/askpass-main.js'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_NODE', '/vscode/vscode-server/bin/linux-arm64/1a5daa3a0231a0fbba4f14db7ec463cf99d7768e/node'), ('REMOTE_CONTAINERS', 'true'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/opt/ros/foxy/install'), ('ROS_DISTRO', 'foxy'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-40957e95-72ab-42a8-97cb-172fabd7d5d3.sock'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('PKG_CONFIG_PATH', '/opt/ros/foxy/install/lib/aarch64-linux-gnu/pkgconfig:/opt/ros/foxy/install/lib/pkgconfig'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/install/bin:/vscode/vscode-server/bin/linux-arm64/1a5daa3a0231a0fbba4f14db7ec463cf99d7768e/bin/remote-cli:/usr/local/cuda-10.2/bin:/usr/local/cuda/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':1'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/vscode-ssh-auth-40957e95-72ab-42a8-97cb-172fabd7d5d3.sock","/tmp/.X11-unix/X1","/home/USERNAME/.gnupg/S.gpg-agent"]'), ('LANG', 'en_US.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('TERM_PROGRAM', 'vscode'), ('ROS_ROOT', '/opt/ros/foxy'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/vscode-git-29bc7e2fd3.sock'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy/install'), ('SSH_AUTH_SOCK', '/tmp/vscode-ssh-auth-40957e95-72ab-42a8-97cb-172fabd7d5d3.sock'), ('REMOTE_CONTAINERS_DISPLAY_SOCK', '/tmp/.X11-unix/X1'), ('DEBIAN_FRONTEND', 'noninteractive'), ('SHELL', '/bin/bash'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/workspaces/ROS_PointCloud_AGV/build/sensor_fusion'), ('PYTHONPATH', '/opt/ros/foxy/install/lib/python3.6/site-packages'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy/install')]), 'shell': False}
+[0.199377] (-) TimerEvent: {}
+[0.300553] (-) TimerEvent: {}
+[0.313822] (cpp_pubsub) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/install/share/ament_cmake/cmake)\n'}
+[0.320827] (cpp_pubsub) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /opt/ros/foxy/install/share/ament_cmake_core/cmake/core/python.cmake:22 (find_package):\n'}
+[0.321706] (cpp_pubsub) StderrLine: {'line': b'  Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules\n'}
+[0.322247] (cpp_pubsub) StderrLine: {'line': b'  are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use\n'}
+[0.322727] (cpp_pubsub) StderrLine: {'line': b'  the cmake_policy command to set the policy and suppress this warning.\n'}
+[0.323166] (cpp_pubsub) StderrLine: {'line': b'\n'}
+[0.323603] (cpp_pubsub) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[0.324044] (cpp_pubsub) StderrLine: {'line': b'  /opt/ros/foxy/install/share/ament_cmake_core/cmake/core/all.cmake:53 (include)\n'}
+[0.324485] (cpp_pubsub) StderrLine: {'line': b'  /opt/ros/foxy/install/share/ament_cmake_core/cmake/ament_cmake_core-extras.cmake:17 (include)\n'}
+[0.324922] (cpp_pubsub) StderrLine: {'line': b'  /opt/ros/foxy/install/share/ament_cmake_core/cmake/ament_cmake_coreConfig.cmake:41 (include)\n'}
+[0.325493] (cpp_pubsub) StderrLine: {'line': b'  /opt/ros/foxy/install/share/ament_cmake/cmake/ament_cmake_export_dependencies-extras.cmake:15 (find_package)\n'}
+[0.326070] (cpp_pubsub) StderrLine: {'line': b'  /opt/ros/foxy/install/share/ament_cmake/cmake/ament_cmakeConfig.cmake:41 (include)\n'}
+[0.326639] (cpp_pubsub) StderrLine: {'line': b'  CMakeLists.txt:18 (find_package)\n'}
+[0.327247] (cpp_pubsub) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[0.327861] (cpp_pubsub) StderrLine: {'line': b'\x1b[0m\n'}
+[0.358720] (sensor_fusion) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /usr/lib/cmake/opencv4/OpenCVConfig.cmake:86 (find_package):\n'}
+[0.359596] (sensor_fusion) StderrLine: {'line': b'  Policy CMP0146 is not set: The FindCUDA module is removed.  Run "cmake\n'}
+[0.360186] (sensor_fusion) StderrLine: {'line': b'  --help-policy CMP0146" for policy details.  Use the cmake_policy command to\n'}
+[0.360736] (sensor_fusion) StderrLine: {'line': b'  set the policy and suppress this warning.\n'}
+[0.361417] (sensor_fusion) StderrLine: {'line': b'\n'}
+[0.362049] (sensor_fusion) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[0.362640] (sensor_fusion) StderrLine: {'line': b'  /usr/lib/cmake/opencv4/OpenCVConfig.cmake:108 (find_host_package)\n'}
+[0.363192] (sensor_fusion) StderrLine: {'line': b'  CMakeLists.txt:15 (find_package)\n'}
+[0.363742] (sensor_fusion) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[0.364316] (sensor_fusion) StderrLine: {'line': b'\x1b[0m\n'}
+[0.400762] (-) TimerEvent: {}
+[0.407566] (cpp_pubsub) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.500973] (-) TimerEvent: {}
+[0.509921] (sensor_fusion) StdoutLine: {'line': b'-- Found CUDA: /usr/local/cuda-10.2 (found suitable exact version "10.2") \n'}
+[0.551303] (sensor_fusion) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/install/share/ament_cmake/cmake)\n'}
+[0.558909] (sensor_fusion) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /opt/ros/foxy/install/share/ament_cmake_core/cmake/core/python.cmake:22 (find_package):\n'}
+[0.559644] (sensor_fusion) StderrLine: {'line': b'  Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules\n'}
+[0.560245] (sensor_fusion) StderrLine: {'line': b'  are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use\n'}
+[0.560853] (sensor_fusion) StderrLine: {'line': b'  the cmake_policy command to set the policy and suppress this warning.\n'}
+[0.561575] (sensor_fusion) StderrLine: {'line': b'\n'}
+[0.562169] (sensor_fusion) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[0.562740] (sensor_fusion) StderrLine: {'line': b'  /opt/ros/foxy/install/share/ament_cmake_core/cmake/core/all.cmake:53 (include)\n'}
+[0.563289] (sensor_fusion) StderrLine: {'line': b'  /opt/ros/foxy/install/share/ament_cmake_core/cmake/ament_cmake_core-extras.cmake:17 (include)\n'}
+[0.563832] (sensor_fusion) StderrLine: {'line': b'  /opt/ros/foxy/install/share/ament_cmake_core/cmake/ament_cmake_coreConfig.cmake:41 (include)\n'}
+[0.564345] (sensor_fusion) StderrLine: {'line': b'  /opt/ros/foxy/install/share/ament_cmake/cmake/ament_cmake_export_dependencies-extras.cmake:15 (find_package)\n'}
+[0.564853] (sensor_fusion) StderrLine: {'line': b'  /opt/ros/foxy/install/share/ament_cmake/cmake/ament_cmakeConfig.cmake:41 (include)\n'}
+[0.581936] (sensor_fusion) StderrLine: {'line': b'  CMakeLists.txt:48 (find_package)\n'}
+[0.582497] (sensor_fusion) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[0.582987] (sensor_fusion) StderrLine: {'line': b'\x1b[0m\n'}
+[0.601141] (-) TimerEvent: {}
+[0.633613] (sensor_fusion) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.701312] (-) TimerEvent: {}
+[0.802092] (-) TimerEvent: {}
+[0.902907] (-) TimerEvent: {}
+[1.003739] (-) TimerEvent: {}
+[1.104568] (-) TimerEvent: {}
+[1.205462] (-) TimerEvent: {}
+[1.306239] (-) TimerEvent: {}
+[1.407075] (-) TimerEvent: {}
+[1.408031] (cpp_pubsub) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[1.440460] (cpp_pubsub) StdoutLine: {'line': b'-- Found rclcpp: 2.4.3 (/opt/ros/foxy/install/share/rclcpp/cmake)\n'}
+[1.507292] (-) TimerEvent: {}
+[1.592762] (cpp_pubsub) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.607564] (-) TimerEvent: {}
+[1.612181] (cpp_pubsub) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/install/share/rosidl_adapter/cmake)\n'}
+[1.667140] (sensor_fusion) StdoutLine: {'line': b'-- ------------------------------------------\n'}
+[1.667910] (sensor_fusion) StdoutLine: {'line': b'-- Depthai Bridge is being built using AMENT.\n'}
+[1.668400] (sensor_fusion) StdoutLine: {'line': b'-- ------------------------------------------\n'}
+[1.674632] (sensor_fusion) StdoutLine: {'line': b'-- Found camera_info_manager: 2.4.0 (/opt/ros/foxy/install/share/camera_info_manager/cmake)\n'}
+[1.707799] (-) TimerEvent: {}
+[1.809177] (-) TimerEvent: {}
+[1.835141] (sensor_fusion) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.854185] (sensor_fusion) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/install/share/rosidl_adapter/cmake)\n'}
+[1.909364] (-) TimerEvent: {}
+[2.010878] (-) TimerEvent: {}
+[2.111721] (-) TimerEvent: {}
+[2.146474] (cpp_pubsub) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.211968] (-) TimerEvent: {}
+[2.313461] (-) TimerEvent: {}
+[2.370476] (sensor_fusion) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.392516] (cpp_pubsub) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/install/share/rmw_implementation_cmake/cmake)\n'}
+[2.399035] (cpp_pubsub) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_cyclonedds_cpp' as default\n"}
+[2.413637] (-) TimerEvent: {}
+[2.515463] (-) TimerEvent: {}
+[2.608414] (sensor_fusion) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/install/share/rmw_implementation_cmake/cmake)\n'}
+[2.614602] (sensor_fusion) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_cyclonedds_cpp' as default\n"}
+[2.616261] (-) TimerEvent: {}
+[2.717293] (-) TimerEvent: {}
+[2.818433] (-) TimerEvent: {}
+[2.919286] (-) TimerEvent: {}
+[3.020499] (-) TimerEvent: {}
+[3.121658] (-) TimerEvent: {}
+[3.222826] (-) TimerEvent: {}
+[3.323988] (-) TimerEvent: {}
+[3.425169] (-) TimerEvent: {}
+[3.526340] (-) TimerEvent: {}
+[3.627480] (-) TimerEvent: {}
+[3.634258] (cpp_pubsub) StdoutLine: {'line': b'-- Configuring done (3.3s)\n'}
+[3.693249] (cpp_pubsub) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[3.701642] (cpp_pubsub) StdoutLine: {'line': b'-- Build files have been written to: /workspaces/ROS_PointCloud_AGV/build/cpp_pubsub\n'}
+[3.727687] (-) TimerEvent: {}
+[3.760148] (cpp_pubsub) CommandEnded: {'returncode': 0}
+[3.763040] (cpp_pubsub) JobProgress: {'identifier': 'cpp_pubsub', 'progress': 'build'}
+[3.767381] (cpp_pubsub) Command: {'cmd': ['/usr/local/bin/cmake', '--build', '/workspaces/ROS_PointCloud_AGV/build/cpp_pubsub', '--', '-j4', '-l4'], 'cwd': '/workspaces/ROS_PointCloud_AGV/build/cpp_pubsub', 'env': OrderedDict([('OPENBLAS_CORETYPE', 'ARMV8'), ('PYTHONIOENCODING', 'utf-8'), ('WS', '/ws'), ('HOSTNAME', 'jetsonagv-desktop'), ('GIT_ASKPASS', '/vscode/vscode-server/bin/linux-arm64/1a5daa3a0231a0fbba4f14db7ec463cf99d7768e/extensions/git/dist/askpass.sh'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/install/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/install/lib:/usr/local/cuda-10.2/targets/aarch64-linux/lib:'), ('BROWSER', '/vscode/vscode-server/bin/linux-arm64/1a5daa3a0231a0fbba4f14db7ec463cf99d7768e/bin/helpers/browser.sh'), ('SHLVL', '2'), ('OLDPWD', '/workspaces'), ('HOME', '/home/USERNAME'), ('TERM_PROGRAM_VERSION', '1.84.2'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-4a01e2ed-990a-4728-9d36-3ddf8d7d7467.sock'), ('VSCODE_GIT_ASKPASS_MAIN', '/vscode/vscode-server/bin/linux-arm64/1a5daa3a0231a0fbba4f14db7ec463cf99d7768e/extensions/git/dist/askpass-main.js'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_NODE', '/vscode/vscode-server/bin/linux-arm64/1a5daa3a0231a0fbba4f14db7ec463cf99d7768e/node'), ('REMOTE_CONTAINERS', 'true'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/opt/ros/foxy/install'), ('ROS_DISTRO', 'foxy'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-40957e95-72ab-42a8-97cb-172fabd7d5d3.sock'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('PKG_CONFIG_PATH', '/opt/ros/foxy/install/lib/aarch64-linux-gnu/pkgconfig:/opt/ros/foxy/install/lib/pkgconfig'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/install/bin:/vscode/vscode-server/bin/linux-arm64/1a5daa3a0231a0fbba4f14db7ec463cf99d7768e/bin/remote-cli:/usr/local/cuda-10.2/bin:/usr/local/cuda/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':1'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/vscode-ssh-auth-40957e95-72ab-42a8-97cb-172fabd7d5d3.sock","/tmp/.X11-unix/X1","/home/USERNAME/.gnupg/S.gpg-agent"]'), ('LANG', 'en_US.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('TERM_PROGRAM', 'vscode'), ('ROS_ROOT', '/opt/ros/foxy'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/vscode-git-29bc7e2fd3.sock'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy/install'), ('SSH_AUTH_SOCK', '/tmp/vscode-ssh-auth-40957e95-72ab-42a8-97cb-172fabd7d5d3.sock'), ('REMOTE_CONTAINERS_DISPLAY_SOCK', '/tmp/.X11-unix/X1'), ('DEBIAN_FRONTEND', 'noninteractive'), ('SHELL', '/bin/bash'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/workspaces/ROS_PointCloud_AGV/build/cpp_pubsub'), ('PYTHONPATH', '/opt/ros/foxy/install/lib/python3.6/site-packages'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy/install')]), 'shell': False}
+[3.827897] (-) TimerEvent: {}
+[3.929394] (-) TimerEvent: {}
+[3.970365] (sensor_fusion) StdoutLine: {'line': b"-- Setting yaml-cpp_DIR to: '/opt/ros/foxy/install/share/yaml_cpp_vendor/cmake/../../../opt/yaml_cpp_vendor/lib/cmake/yaml-cpp'\n"}
+[4.029666] (-) TimerEvent: {}
+[4.033867] (cpp_pubsub) StdoutLine: {'line': b'[ 50%] Built target listener\n'}
+[4.036601] (cpp_pubsub) StdoutLine: {'line': b'[100%] Built target talker\n'}
+[4.068686] (cpp_pubsub) CommandEnded: {'returncode': 0}
+[4.130014] (-) TimerEvent: {}
+[4.230900] (-) TimerEvent: {}
+[4.292729] (sensor_fusion) StdoutLine: {'line': b'-- Found cv_bridge: 3.0.7 (/opt/ros/foxy/install/share/cv_bridge/cmake)\n'}
+[4.295665] (cpp_pubsub) JobProgress: {'identifier': 'cpp_pubsub', 'progress': 'install'}
+[4.331267] (-) TimerEvent: {}
+[4.389732] (sensor_fusion) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:56 (find_package):\n'}
+[4.390713] (sensor_fusion) StderrLine: {'line': b'  Could not find a package configuration file provided by "depthai" with any\n'}
+[4.391273] (sensor_fusion) StderrLine: {'line': b'  of the following names:\n'}
+[4.391717] (sensor_fusion) StderrLine: {'line': b'\n'}
+[4.392166] (sensor_fusion) StderrLine: {'line': b'    depthaiConfig.cmake\n'}
+[4.392621] (sensor_fusion) StderrLine: {'line': b'    depthai-config.cmake\n'}
+[4.393259] (sensor_fusion) StderrLine: {'line': b'\n'}
+[4.393838] (sensor_fusion) StderrLine: {'line': b'  Add the installation prefix of "depthai" to CMAKE_PREFIX_PATH or set\n'}
+[4.394440] (sensor_fusion) StderrLine: {'line': b'  "depthai_DIR" to a directory containing one of the above files.  If\n'}
+[4.394987] (sensor_fusion) StderrLine: {'line': b'  "depthai" provides a separate development package or SDK, be sure it has\n'}
+[4.395491] (sensor_fusion) StderrLine: {'line': b'  been installed.\n'}
+[4.395976] (sensor_fusion) StderrLine: {'line': b'\n'}
+[4.396469] (sensor_fusion) StderrLine: {'line': b'\x1b[0m\n'}
+[4.396948] (sensor_fusion) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[4.431452] (-) TimerEvent: {}
+[4.460309] (cpp_pubsub) Command: {'cmd': ['/usr/local/bin/cmake', '--install', '/workspaces/ROS_PointCloud_AGV/build/cpp_pubsub'], 'cwd': '/workspaces/ROS_PointCloud_AGV/build/cpp_pubsub', 'env': OrderedDict([('OPENBLAS_CORETYPE', 'ARMV8'), ('PYTHONIOENCODING', 'utf-8'), ('WS', '/ws'), ('HOSTNAME', 'jetsonagv-desktop'), ('GIT_ASKPASS', '/vscode/vscode-server/bin/linux-arm64/1a5daa3a0231a0fbba4f14db7ec463cf99d7768e/extensions/git/dist/askpass.sh'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/install/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/install/lib:/usr/local/cuda-10.2/targets/aarch64-linux/lib:'), ('BROWSER', '/vscode/vscode-server/bin/linux-arm64/1a5daa3a0231a0fbba4f14db7ec463cf99d7768e/bin/helpers/browser.sh'), ('SHLVL', '2'), ('OLDPWD', '/workspaces'), ('HOME', '/home/USERNAME'), ('TERM_PROGRAM_VERSION', '1.84.2'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-4a01e2ed-990a-4728-9d36-3ddf8d7d7467.sock'), ('VSCODE_GIT_ASKPASS_MAIN', '/vscode/vscode-server/bin/linux-arm64/1a5daa3a0231a0fbba4f14db7ec463cf99d7768e/extensions/git/dist/askpass-main.js'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_NODE', '/vscode/vscode-server/bin/linux-arm64/1a5daa3a0231a0fbba4f14db7ec463cf99d7768e/node'), ('REMOTE_CONTAINERS', 'true'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/opt/ros/foxy/install'), ('ROS_DISTRO', 'foxy'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-40957e95-72ab-42a8-97cb-172fabd7d5d3.sock'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('PKG_CONFIG_PATH', '/opt/ros/foxy/install/lib/aarch64-linux-gnu/pkgconfig:/opt/ros/foxy/install/lib/pkgconfig'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/install/bin:/vscode/vscode-server/bin/linux-arm64/1a5daa3a0231a0fbba4f14db7ec463cf99d7768e/bin/remote-cli:/usr/local/cuda-10.2/bin:/usr/local/cuda/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':1'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/vscode-ssh-auth-40957e95-72ab-42a8-97cb-172fabd7d5d3.sock","/tmp/.X11-unix/X1","/home/USERNAME/.gnupg/S.gpg-agent"]'), ('LANG', 'en_US.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('TERM_PROGRAM', 'vscode'), ('ROS_ROOT', '/opt/ros/foxy'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/vscode-git-29bc7e2fd3.sock'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy/install'), ('SSH_AUTH_SOCK', '/tmp/vscode-ssh-auth-40957e95-72ab-42a8-97cb-172fabd7d5d3.sock'), ('REMOTE_CONTAINERS_DISPLAY_SOCK', '/tmp/.X11-unix/X1'), ('DEBIAN_FRONTEND', 'noninteractive'), ('SHELL', '/bin/bash'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/workspaces/ROS_PointCloud_AGV/build/cpp_pubsub'), ('PYTHONPATH', '/opt/ros/foxy/install/lib/python3.6/site-packages'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy/install')]), 'shell': False}
+[4.474556] (sensor_fusion) CommandEnded: {'returncode': 1}
+[4.531816] (-) TimerEvent: {}
+[4.601229] (cpp_pubsub) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[4.621583] (cpp_pubsub) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[4.625406] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date symlink: /workspaces/ROS_PointCloud_AGV/install/cpp_pubsub/lib/cpp_pubsub/talker\n'}
+[4.627945] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date symlink: /workspaces/ROS_PointCloud_AGV/install/cpp_pubsub/lib/cpp_pubsub/listener\n'}
+[4.628593] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date symlink: /workspaces/ROS_PointCloud_AGV/install/cpp_pubsub/share/ament_index/resource_index/package_run_dependencies/cpp_pubsub\n'}
+[4.629261] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date symlink: /workspaces/ROS_PointCloud_AGV/install/cpp_pubsub/share/ament_index/resource_index/parent_prefix_path/cpp_pubsub\n'}
+[4.629866] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date symlink: /workspaces/ROS_PointCloud_AGV/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.sh\n'}
+[4.630423] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date symlink: /workspaces/ROS_PointCloud_AGV/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.dsv\n'}
+[4.630956] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date symlink: /workspaces/ROS_PointCloud_AGV/install/cpp_pubsub/share/cpp_pubsub/environment/path.sh\n'}
+[4.631498] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date symlink: /workspaces/ROS_PointCloud_AGV/install/cpp_pubsub/share/cpp_pubsub/environment/path.dsv\n'}
+[4.632068] (-) TimerEvent: {}
+[4.632682] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date symlink: /workspaces/ROS_PointCloud_AGV/install/cpp_pubsub/share/cpp_pubsub/local_setup.bash\n'}
+[4.634331] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date symlink: /workspaces/ROS_PointCloud_AGV/install/cpp_pubsub/share/cpp_pubsub/local_setup.sh\n'}
+[4.634997] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date symlink: /workspaces/ROS_PointCloud_AGV/install/cpp_pubsub/share/cpp_pubsub/local_setup.zsh\n'}
+[4.635704] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date symlink: /workspaces/ROS_PointCloud_AGV/install/cpp_pubsub/share/cpp_pubsub/local_setup.dsv\n'}
+[4.636463] (cpp_pubsub) StdoutLine: {'line': b'-- Symlinking: /workspaces/ROS_PointCloud_AGV/install/cpp_pubsub/share/cpp_pubsub/package.dsv\n'}
+[4.637331] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date symlink: /workspaces/ROS_PointCloud_AGV/install/cpp_pubsub/share/ament_index/resource_index/packages/cpp_pubsub\n'}
+[4.638688] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date symlink: /workspaces/ROS_PointCloud_AGV/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig.cmake\n'}
+[4.639571] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date symlink: /workspaces/ROS_PointCloud_AGV/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig-version.cmake\n'}
+[4.642166] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date symlink: /workspaces/ROS_PointCloud_AGV/install/cpp_pubsub/share/cpp_pubsub/package.xml\n'}
+[4.702634] (sensor_fusion) JobEnded: {'identifier': 'sensor_fusion', 'rc': 1}
+[4.706046] (cpp_pubsub) JobEnded: {'identifier': 'cpp_pubsub', 'rc': 'SIGINT'}
+[4.716858] (-) EventReactorShutdown: {}

@@ -1,0 +1,2082 @@
+-- Generating new toolchain...
+-- Using toolchain file: /workspaces/ROS_PointCloud_AGV/build/depthai/generated/toolchain.cmake
+-- [hunter] Initializing Hunter workspace (cb0ea1f74f4a2c49a807de34885743495fccccbe)
+-- [hunter]   https://github.com/cpp-pm/hunter/archive/v0.23.322.tar.gz
+-- [hunter]   -> /home/USERNAME/.hunter/_Base/Download/Hunter/0.23.322/cb0ea1f
+-- The CXX compiler identification is GNU 7.5.0
+-- The C compiler identification is GNU 7.5.0
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Setting build type to 'Debug' as none was specified.
+-- Found Git: /usr/bin/git (found version "2.17.1") 
+-- [hunter] Calculating Toolchain-SHA1
+-- [hunter] Calculating Config-SHA1
+-- [hunter] HUNTER_ROOT: /home/USERNAME/.hunter
+-- [hunter] [ Hunter-ID: cb0ea1f | Toolchain-ID: 08f9145 | Config-ID: 15c0458 ]
+-- [hunter] NLOHMANN_JSON_ROOT: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Install (ver.: 3.9.1)
+-- [hunter] Building nlohmann_json
+loading initial cache file /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/cache.cmake
+loading initial cache file /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/nlohmann_json/args.cmake
+-- The C compiler identification is GNU 7.5.0
+-- The CXX compiler identification is GNU 7.5.0
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Configuring done (0.7s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/nlohmann_json/Build
+[ 12%] Creating directories for 'nlohmann_json-Release'
+[ 25%] Performing download step (download, verify and extract) for 'nlohmann_json-Release'
+-- Downloading...
+   dst='/home/USERNAME/.hunter/_Base/Download/nlohmann_json/3.9.1/f8a20a7/v3.9.1.tar.gz'
+   timeout='none'
+   inactivity timeout='none'
+-- Using src='https://github.com/nlohmann/json/archive/v3.9.1.tar.gz'
+-- [download 0% complete]
+-- [download 1% complete]
+-- [download 3% complete]
+-- [download 4% complete]
+-- [download 5% complete]
+-- [download 6% complete]
+-- [download 11% complete]
+-- [download 13% complete]
+-- [download 14% complete]
+-- [download 15% complete]
+-- [download 21% complete]
+-- [download 23% complete]
+-- [download 24% complete]
+-- [download 27% complete]
+-- [download 29% complete]
+-- [download 32% complete]
+-- [download 33% complete]
+-- [download 41% complete]
+-- [download 43% complete]
+-- [download 57% complete]
+-- [download 59% complete]
+-- [download 62% complete]
+-- [download 68% complete]
+-- [download 70% complete]
+-- [download 71% complete]
+-- [download 79% complete]
+-- [download 82% complete]
+-- [download 84% complete]
+-- [download 90% complete]
+-- [download 91% complete]
+-- [download 93% complete]
+-- [download 95% complete]
+-- [download 96% complete]
+-- [download 99% complete]
+-- [download 100% complete]
+-- verifying file...
+       file='/home/USERNAME/.hunter/_Base/Download/nlohmann_json/3.9.1/f8a20a7/v3.9.1.tar.gz'
+-- Downloading... done
+-- extracting...
+     src='/home/USERNAME/.hunter/_Base/Download/nlohmann_json/3.9.1/f8a20a7/v3.9.1.tar.gz'
+     dst='/home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/nlohmann_json/Source'
+-- extracting... [tar xfz]
+-- extracting... [analysis]
+-- extracting... [rename]
+-- extracting... [clean up]
+-- extracting... done
+[ 37%] No update step for 'nlohmann_json-Release'
+[ 50%] No patch step for 'nlohmann_json-Release'
+[ 62%] Performing configure step for 'nlohmann_json-Release'
+loading initial cache file /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/cache.cmake
+loading initial cache file /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/nlohmann_json/args.cmake
+-- The CXX compiler identification is GNU 7.5.0
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Using the single-header code from /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/nlohmann_json/Source/single_include/
+-- Configuring done (0.4s)
+-- Generating done (0.1s)
+-- Build files have been written to: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/nlohmann_json/Build/nlohmann_json-Release-prefix/src/nlohmann_json-Release-build
+[ 75%] Performing build step for 'nlohmann_json-Release'
+[ 87%] Performing install step for 'nlohmann_json-Release'
+Install the project...
+-- Install configuration: "Release"
+-- Installing: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/nlohmann_json/Install/include
+-- Installing: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/nlohmann_json/Install/include/nlohmann
+-- Installing: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/nlohmann_json/Install/include/nlohmann/json.hpp
+-- Installing: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/nlohmann_json/Install/lib/cmake/nlohmann_json/nlohmann_jsonConfig.cmake
+-- Installing: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/nlohmann_json/Install/lib/cmake/nlohmann_json/nlohmann_jsonConfigVersion.cmake
+-- Installing: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/nlohmann_json/Install/lib/cmake/nlohmann_json/nlohmann_jsonTargets.cmake
+-- Installing: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/nlohmann_json/Install/lib/pkgconfig/nlohmann_json.pc
+loading initial cache file /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/nlohmann_json/args.cmake
+[100%] Completed 'nlohmann_json-Release'
+[100%] Built target nlohmann_json-Release
+-- [hunter] Build step successful (dir: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/nlohmann_json)
+-- [hunter] Cache saved: /home/USERNAME/.hunter/_Base/Cache/raw/25d4110a6498278d3ad708b50f594a29c0195138.tar.bz2
+-- [hunter] XLINK_ROOT: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Install (ver.: luxonis-2021.4.2-develop)
+-- [hunter] Building XLink
+loading initial cache file /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/cache.cmake
+loading initial cache file /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/XLink/args.cmake
+-- The C compiler identification is GNU 7.5.0
+-- The CXX compiler identification is GNU 7.5.0
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Configuring done (0.6s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/XLink/Build
+[ 12%] Creating directories for 'XLink-Release'
+[ 25%] Performing download step (download, verify and extract) for 'XLink-Release'
+-- Downloading...
+   dst='/home/USERNAME/.hunter/_Base/Download/XLink/luxonis-2021.4.2-develop/52935b6/c940feaf9321f06a7d9660f28e686a9718135f38.tar.gz'
+   timeout='none'
+   inactivity timeout='none'
+-- Using src='https://github.com/luxonis/XLink/archive/c940feaf9321f06a7d9660f28e686a9718135f38.tar.gz'
+-- verifying file...
+       file='/home/USERNAME/.hunter/_Base/Download/XLink/luxonis-2021.4.2-develop/52935b6/c940feaf9321f06a7d9660f28e686a9718135f38.tar.gz'
+-- Downloading... done
+-- extracting...
+     src='/home/USERNAME/.hunter/_Base/Download/XLink/luxonis-2021.4.2-develop/52935b6/c940feaf9321f06a7d9660f28e686a9718135f38.tar.gz'
+     dst='/home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/XLink/Source'
+-- extracting... [tar xfz]
+-- extracting... [analysis]
+-- extracting... [rename]
+-- extracting... [clean up]
+-- extracting... done
+[ 37%] No update step for 'XLink-Release'
+[ 50%] No patch step for 'XLink-Release'
+[ 62%] Performing configure step for 'XLink-Release'
+loading initial cache file /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/cache.cmake
+loading initial cache file /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/XLink/args.cmake
+-- The C compiler identification is GNU 7.5.0
+-- The CXX compiler identification is GNU 7.5.0
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Configuring XLink with the following options:
+--   XLINK_BUILD_EXAMPLES: OFF
+--   XLINK_BUILD_TESTS: OFF
+--   XLINK_ENABLE_LIBUSB: ON
+--     XLINK_LIBUSB_LOCAL: 
+--     XLINK_LIBUSB_SYSTEM: OFF
+-- Performing Test FLAG_-Werror=switch-enum
+-- Performing Test FLAG_-Werror=switch-enum - Success
+-- [hunter] HUNTER_ROOT: /home/USERNAME/.hunter
+-- [hunter] [ Hunter-ID: cb0ea1f | Toolchain-ID: 08f9145 | Config-ID: 15c0458 ]
+-- [hunter] LIBUSB-LUXONIS_ROOT: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Install (ver.: 1.0.24-cmake)
+-- [hunter] Building libusb-luxonis
+loading initial cache file /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/cache.cmake
+loading initial cache file /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/libusb-luxonis/args.cmake
+-- The C compiler identification is GNU 7.5.0
+-- The CXX compiler identification is GNU 7.5.0
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Configuring done (0.6s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/libusb-luxonis/Build
+make[3]: Entering directory '/home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/libusb-luxonis/Build'
+make[4]: Entering directory '/home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/libusb-luxonis/Build'
+make[5]: Entering directory '/home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/libusb-luxonis/Build'
+make[5]: Leaving directory '/home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/libusb-luxonis/Build'
+make[5]: Entering directory '/home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/libusb-luxonis/Build'
+[ 12%] Creating directories for 'libusb-luxonis-Release'
+[ 25%] Performing download step (download, verify and extract) for 'libusb-luxonis-Release'
+-- Downloading...
+   dst='/home/USERNAME/.hunter/_Base/Download/libusb-luxonis/1.0.24-cmake/2d79573/b7e4548958325b18feb73977163ad44398099534.tar.gz'
+   timeout='none'
+   inactivity timeout='none'
+-- Using src='https://github.com/luxonis/libusb/archive/b7e4548958325b18feb73977163ad44398099534.tar.gz'
+-- verifying file...
+       file='/home/USERNAME/.hunter/_Base/Download/libusb-luxonis/1.0.24-cmake/2d79573/b7e4548958325b18feb73977163ad44398099534.tar.gz'
+-- Downloading... done
+-- extracting...
+     src='/home/USERNAME/.hunter/_Base/Download/libusb-luxonis/1.0.24-cmake/2d79573/b7e4548958325b18feb73977163ad44398099534.tar.gz'
+     dst='/home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/libusb-luxonis/Source'
+-- extracting... [tar xfz]
+-- extracting... [analysis]
+-- extracting... [rename]
+-- extracting... [clean up]
+-- extracting... done
+[ 37%] No update step for 'libusb-luxonis-Release'
+[ 50%] No patch step for 'libusb-luxonis-Release'
+[ 62%] Performing configure step for 'libusb-luxonis-Release'
+loading initial cache file /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/cache.cmake
+loading initial cache file /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/libusb-luxonis/args.cmake
+-- The C compiler identification is GNU 7.5.0
+-- The CXX compiler identification is GNU 7.5.0
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Performing Test HAVE_NFDS_T
+-- Performing Test HAVE_NFDS_T - Success
+-- Looking for pipe2
+-- Looking for pipe2 - found
+-- Looking for clock_gettime
+-- Looking for clock_gettime - found
+-- Looking for CLOCK_MONOTONIC
+-- Looking for CLOCK_MONOTONIC - found
+-- Looking for pthread_condattr_setclock
+-- Looking for pthread_condattr_setclock - not found
+-- Looking for pthread_setname_np
+-- Looking for pthread_setname_np - not found
+-- Looking for asm/types.h
+-- Looking for asm/types.h - found
+-- Looking for linux/netlink.h
+-- Looking for linux/netlink.h - found
+-- Looking for sys/socket.h
+-- Looking for sys/socket.h - found
+-- Performing Test HAVE_SYS_TIME_H
+-- Performing Test HAVE_SYS_TIME_H - Success
+-- Looking for sys/eventfd.h
+-- Looking for sys/eventfd.h - found
+-- Looking for EFD_NONBLOCK
+-- Looking for EFD_NONBLOCK - found
+-- Looking for EFD_CLOEXEC
+-- Looking for EFD_CLOEXEC - found
+-- Looking for eventfd
+-- Looking for eventfd - found
+-- Looking for sys/timerfd.h
+-- Looking for sys/timerfd.h - found
+-- Looking for TFD_NONBLOCK
+-- Looking for TFD_NONBLOCK - found
+-- Looking for TFD_CLOEXEC
+-- Looking for TFD_CLOEXEC - found
+-- Looking for timerfd_create
+-- Looking for timerfd_create - found
+-- Configuring done (4.1s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/libusb-luxonis/Build/libusb-luxonis-Release-prefix/src/libusb-luxonis-Release-build
+[ 75%] Performing build step for 'libusb-luxonis-Release'
+make[6]: Entering directory '/home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/libusb-luxonis/Build/libusb-luxonis-Release-prefix/src/libusb-luxonis-Release-build'
+make[7]: Entering directory '/home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/libusb-luxonis/Build/libusb-luxonis-Release-prefix/src/libusb-luxonis-Release-build'
+make[8]: Entering directory '/home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/libusb-luxonis/Build/libusb-luxonis-Release-prefix/src/libusb-luxonis-Release-build'
+make[8]: Leaving directory '/home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/libusb-luxonis/Build/libusb-luxonis-Release-prefix/src/libusb-luxonis-Release-build'
+make[8]: Entering directory '/home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/libusb-luxonis/Build/libusb-luxonis-Release-prefix/src/libusb-luxonis-Release-build'
+[ 18%] Building C object CMakeFiles/usb-1.0.dir/libusb/core.c.o
+[ 18%] Building C object CMakeFiles/usb-1.0.dir/libusb/descriptor.c.o
+[ 27%] Building C object CMakeFiles/usb-1.0.dir/libusb/hotplug.c.o
+[ 36%] Building C object CMakeFiles/usb-1.0.dir/libusb/io.c.o
+[ 45%] Building C object CMakeFiles/usb-1.0.dir/libusb/strerror.c.o
+[ 54%] Building C object CMakeFiles/usb-1.0.dir/libusb/sync.c.o
+[ 63%] Building C object CMakeFiles/usb-1.0.dir/libusb/os/events_posix.c.o
+[ 72%] Building C object CMakeFiles/usb-1.0.dir/libusb/os/threads_posix.c.o
+[ 81%] Building C object CMakeFiles/usb-1.0.dir/libusb/os/linux_netlink.c.o
+[ 90%] Building C object CMakeFiles/usb-1.0.dir/libusb/os/linux_usbfs.c.o
+[100%] Linking C shared library libusb-1.0.so
+make[8]: Leaving directory '/home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/libusb-luxonis/Build/libusb-luxonis-Release-prefix/src/libusb-luxonis-Release-build'
+[100%] Built target usb-1.0
+make[7]: Leaving directory '/home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/libusb-luxonis/Build/libusb-luxonis-Release-prefix/src/libusb-luxonis-Release-build'
+make[6]: Leaving directory '/home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/libusb-luxonis/Build/libusb-luxonis-Release-prefix/src/libusb-luxonis-Release-build'
+[ 87%] Performing install step for 'libusb-luxonis-Release'
+make[6]: Entering directory '/home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/libusb-luxonis/Build/libusb-luxonis-Release-prefix/src/libusb-luxonis-Release-build'
+make[7]: Entering directory '/home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/libusb-luxonis/Build/libusb-luxonis-Release-prefix/src/libusb-luxonis-Release-build'
+make[8]: Entering directory '/home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/libusb-luxonis/Build/libusb-luxonis-Release-prefix/src/libusb-luxonis-Release-build'
+make[8]: Leaving directory '/home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/libusb-luxonis/Build/libusb-luxonis-Release-prefix/src/libusb-luxonis-Release-build'
+[100%] Built target usb-1.0
+make[7]: Leaving directory '/home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/libusb-luxonis/Build/libusb-luxonis-Release-prefix/src/libusb-luxonis-Release-build'
+Install the project...
+-- Install configuration: "Release"
+-- Installing: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/libusb-luxonis/Install/lib/libusb-1.0.so
+-- Installing: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/libusb-luxonis/Install/include/libusb-1.0/libusb.h
+-- Installing: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/libusb-luxonis/Install/lib/cmake/usb-1.0/usb-1.0Config.cmake
+-- Installing: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/libusb-luxonis/Install/lib/cmake/usb-1.0/usb-1.0Config-release.cmake
+make[6]: Leaving directory '/home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/libusb-luxonis/Build/libusb-luxonis-Release-prefix/src/libusb-luxonis-Release-build'
+loading initial cache file /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/libusb-luxonis/args.cmake
+[100%] Completed 'libusb-luxonis-Release'
+make[5]: Leaving directory '/home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/libusb-luxonis/Build'
+[100%] Built target libusb-luxonis-Release
+make[4]: Leaving directory '/home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/libusb-luxonis/Build'
+make[3]: Leaving directory '/home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/libusb-luxonis/Build'
+-- [hunter] Build step successful (dir: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/libusb-luxonis)
+-- [hunter] Cache saved: /home/USERNAME/.hunter/_Base/Cache/raw/8ebbeeef9ccff724852872b4312d7423e827fa91.tar.bz2
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+-- Looking for pthread_create in pthreads
+-- Looking for pthread_create in pthreads - not found
+-- Looking for pthread_create in pthread
+-- Looking for pthread_create in pthread - found
+-- Found Threads: TRUE  
+-- Performing Test FLAG_-Wformat=2
+-- Performing Test FLAG_-Wformat=2 - Success
+-- Performing Test FLAG_-Wmisleading-indentation
+-- Performing Test FLAG_-Wmisleading-indentation - Success
+-- Performing Test FLAG_-Wduplicated-cond
+-- Performing Test FLAG_-Wduplicated-cond - Success
+-- Performing Test FLAG_-Wduplicated-branches
+-- Performing Test FLAG_-Wduplicated-branches - Success
+-- Performing Test FLAG_-Wnull-dereference
+-- Performing Test FLAG_-Wnull-dereference - Success
+-- Performing Test FLAG_-Wsign-compare
+-- Performing Test FLAG_-Wsign-compare - Success
+-- Performing Test FLAG_-Wtype-limits
+-- Performing Test FLAG_-Wtype-limits - Success
+-- Performing Test FLAG_-Wno-unused-command-line-argument
+-- Performing Test FLAG_-Wno-unused-command-line-argument - Failed
+-- Performing Test FLAG_-Wno-unused-parameter
+-- Performing Test FLAG_-Wno-unused-parameter - Success
+-- Performing Test FLAG_-Wno-format-nonliteral
+-- Performing Test FLAG_-Wno-format-nonliteral - Success
+-- Performing Test FLAG_-Wno-gnu-zero-variadic-macro-arguments
+-- Performing Test FLAG_-Wno-gnu-zero-variadic-macro-arguments - Failed
+-- Performing Test FLAG_-Werror=self-assign-field
+-- Performing Test FLAG_-Werror=self-assign-field - Failed
+-- Performing Test FLAG_-Werror=unused-lambda-capture
+-- Performing Test FLAG_-Werror=unused-lambda-capture - Failed
+-- Performing Test FLAG_-Werror=return-type
+-- Performing Test FLAG_-Werror=return-type - Success
+-- Performing Test FLAG_-Werror=sign-compare
+-- Performing Test FLAG_-Werror=sign-compare - Success
+-- Looking for pthread_getname_np
+-- Looking for pthread_getname_np - found
+-- Configuring done (19.5s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/XLink/Build/XLink-Release-prefix/src/XLink-Release-build
+[ 75%] Performing build step for 'XLink-Release'
+[  8%] Building C object CMakeFiles/XLink.dir/src/pc/PlatformData.c.o
+[  8%] Building C object CMakeFiles/XLink.dir/src/pc/PlatformDeviceControl.c.o
+[ 13%] Building C object CMakeFiles/XLink.dir/src/pc/PlatformDeviceSearch.c.o
+[ 17%] Building CXX object CMakeFiles/XLink.dir/src/pc/PlatformDeviceFd.cpp.o
+[ 21%] Building CXX object CMakeFiles/XLink.dir/src/pc/PlatformDeviceSearchDynamic.cpp.o
+[ 26%] Building CXX object CMakeFiles/XLink.dir/src/pc/ProtocolManager.cpp.o
+[ 30%] Building C object CMakeFiles/XLink.dir/src/pc/protocols/pcie_host.c.o
+[ 34%] Building CXX object CMakeFiles/XLink.dir/src/pc/protocols/tcpip_host.cpp.o
+[ 39%] Building CXX object CMakeFiles/XLink.dir/src/pc/protocols/usb_host.cpp.o
+[ 43%] Building CXX object CMakeFiles/XLink.dir/src/pc/protocols/usb_mx_id.cpp.o
+[ 47%] Building C object CMakeFiles/XLink.dir/src/shared/XLinkData.c.o
+[ 52%] Building C object CMakeFiles/XLink.dir/src/shared/XLinkDevice.c.o
+[ 56%] Building C object CMakeFiles/XLink.dir/src/shared/XLinkDispatcher.c.o
+[ 60%] Building C object CMakeFiles/XLink.dir/src/shared/XLinkDispatcherImpl.c.o
+[ 65%] Building C object CMakeFiles/XLink.dir/src/shared/XLinkLog.c.o
+[ 69%] Building C object CMakeFiles/XLink.dir/src/shared/XLinkPrivateDefines.c.o
+[ 73%] Building C object CMakeFiles/XLink.dir/src/shared/XLinkPrivateFields.c.o
+[ 78%] Building C object CMakeFiles/XLink.dir/src/shared/XLinkSemaphore.c.o
+[ 82%] Building C object CMakeFiles/XLink.dir/src/shared/XLinkStream.c.o
+[ 86%] Building C object CMakeFiles/XLink.dir/src/shared/XLinkStringUtils.c.o
+[ 91%] Building CXX object CMakeFiles/XLink.dir/src/shared/XLinkAssertions.cpp.o
+[ 95%] Building CXX object CMakeFiles/XLink.dir/src/shared/XLinkTime.cpp.o
+[100%] Linking CXX static library libXLink.a
+[100%] Built target XLink
+[ 87%] Performing install step for 'XLink-Release'
+[100%] Built target XLink
+Install the project...
+-- Install configuration: "Release"
+-- Installing: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/XLink/Install/lib/libXLink.a
+-- Installing: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/XLink/Install/include
+-- Installing: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/XLink/Install/include/XLink
+-- Installing: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/XLink/Install/include/XLink/XLinkVersion.h
+-- Installing: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/XLink/Install/include/XLink/XLinkDispatcherImpl.h
+-- Installing: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/XLink/Install/include/XLink/XLink.h
+-- Installing: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/XLink/Install/include/XLink/XLinkMacros.h
+-- Installing: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/XLink/Install/include/XLink/XLinkPrivateDefines.h
+-- Installing: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/XLink/Install/include/XLink/XLinkPlatform.h
+-- Installing: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/XLink/Install/include/XLink/XLinkStream.h
+-- Installing: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/XLink/Install/include/XLink/XLinkPrivateFields.h
+-- Installing: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/XLink/Install/include/XLink/XLinkPlatformErrorUtils.h
+-- Installing: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/XLink/Install/include/XLink/XLinkStringUtils.h
+-- Installing: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/XLink/Install/include/XLink/XLinkLog.h
+-- Installing: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/XLink/Install/include/XLink/XLinkErrorUtils.h
+-- Installing: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/XLink/Install/include/XLink/XLinkSemaphore.h
+-- Installing: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/XLink/Install/include/XLink/XLinkPublicDefines.h
+-- Installing: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/XLink/Install/include/XLink/XLinkDispatcher.h
+-- Installing: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/XLink/Install/include/XLink/XLinkTime.h
+-- Installing: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/XLink/Install/lib/cmake/XLink/dependencies
+-- Installing: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/XLink/Install/lib/cmake/XLink/dependencies/include
+-- Installing: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/XLink/Install/lib/cmake/XLink/dependencies/include/libusb-1.0
+-- Installing: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/XLink/Install/lib/cmake/XLink/dependencies/include/libusb-1.0/libusb.h
+-- Installing: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/XLink/Install/lib/cmake/XLink/dependencies/include/nlohmann
+-- Installing: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/XLink/Install/lib/cmake/XLink/dependencies/include/nlohmann/json.hpp
+-- Installing: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/XLink/Install/lib/cmake/XLink/dependencies/licenses
+-- Installing: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/XLink/Install/lib/cmake/XLink/dependencies/licenses/nlohmann_json
+-- Installing: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/XLink/Install/lib/cmake/XLink/dependencies/licenses/nlohmann_json/LICENSE.MIT
+-- Installing: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/XLink/Install/lib/cmake/XLink/dependencies/licenses/libusb-luxonis
+-- Installing: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/XLink/Install/lib/cmake/XLink/dependencies/licenses/libusb-luxonis/COPYING
+-- Installing: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/XLink/Install/lib/cmake/XLink/dependencies/lib
+-- Installing: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/XLink/Install/lib/cmake/XLink/dependencies/lib/libusb-1.0.so
+-- Installing: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/XLink/Install/lib/cmake/XLink/dependencies/lib/cmake
+-- Installing: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/XLink/Install/lib/cmake/XLink/dependencies/lib/cmake/nlohmann_json
+-- Installing: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/XLink/Install/lib/cmake/XLink/dependencies/lib/cmake/nlohmann_json/nlohmann_jsonConfig.cmake
+-- Installing: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/XLink/Install/lib/cmake/XLink/dependencies/lib/cmake/nlohmann_json/nlohmann_jsonConfigVersion.cmake
+-- Installing: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/XLink/Install/lib/cmake/XLink/dependencies/lib/cmake/nlohmann_json/nlohmann_jsonTargets.cmake
+-- Installing: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/XLink/Install/lib/cmake/XLink/dependencies/lib/cmake/usb-1.0
+-- Installing: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/XLink/Install/lib/cmake/XLink/dependencies/lib/cmake/usb-1.0/usb-1.0Config-release.cmake
+-- Installing: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/XLink/Install/lib/cmake/XLink/dependencies/lib/cmake/usb-1.0/usb-1.0Config.cmake
+-- Installing: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/XLink/Install/lib/cmake/XLink/dependencies/lib/pkgconfig
+-- Installing: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/XLink/Install/lib/cmake/XLink/dependencies/lib/pkgconfig/nlohmann_json.pc
+-- Installing: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/XLink/Install/lib/cmake/XLink/XLinkTargets.cmake
+-- Installing: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/XLink/Install/lib/cmake/XLink/XLinkTargets-release.cmake
+-- Installing: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/XLink/Install/lib/cmake/XLink/XLinkConfig.cmake
+-- Installing: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/XLink/Install/lib/cmake/XLink/XLinkDependencies.cmake
+loading initial cache file /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/XLink/args.cmake
+[100%] Completed 'XLink-Release'
+[100%] Built target XLink-Release
+-- [hunter] Build step successful (dir: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/XLink)
+-- [hunter] Cache saved: /home/USERNAME/.hunter/_Base/Cache/raw/6db990b151725fcff4b56bc0df1a465c25eb7664.tar.bz2
+-- [hunter] BZIP2_ROOT: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Install (ver.: 1.0.8-p0)
+-- [hunter] Building BZip2
+loading initial cache file /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/cache.cmake
+loading initial cache file /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/BZip2/args.cmake
+-- The C compiler identification is GNU 7.5.0
+-- The CXX compiler identification is GNU 7.5.0
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Configuring done (0.6s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/BZip2/Build
+[ 12%] Creating directories for 'BZip2-Release'
+[ 25%] Performing download step (download, verify and extract) for 'BZip2-Release'
+-- Downloading...
+   dst='/home/USERNAME/.hunter/_Base/Download/BZip2/1.0.8-p0/9125bd6/v1.0.8-p0.tar.gz'
+   timeout='none'
+   inactivity timeout='none'
+-- Using src='https://github.com/cpp-pm/bzip2/archive/v1.0.8-p0.tar.gz'
+-- verifying file...
+       file='/home/USERNAME/.hunter/_Base/Download/BZip2/1.0.8-p0/9125bd6/v1.0.8-p0.tar.gz'
+-- Downloading... done
+-- extracting...
+     src='/home/USERNAME/.hunter/_Base/Download/BZip2/1.0.8-p0/9125bd6/v1.0.8-p0.tar.gz'
+     dst='/home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/BZip2/Source'
+-- extracting... [tar xfz]
+-- extracting... [analysis]
+-- extracting... [rename]
+-- extracting... [clean up]
+-- extracting... done
+[ 37%] No update step for 'BZip2-Release'
+[ 50%] No patch step for 'BZip2-Release'
+[ 62%] Performing configure step for 'BZip2-Release'
+loading initial cache file /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/cache.cmake
+loading initial cache file /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/BZip2/args.cmake
+-- The C compiler identification is GNU 7.5.0
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Configuring done (0.3s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/BZip2/Build/BZip2-Release-prefix/src/BZip2-Release-build
+[ 75%] Performing build step for 'BZip2-Release'
+[  8%] Building C object CMakeFiles/bz2.dir/blocksort.c.o
+[ 16%] Building C object CMakeFiles/bz2.dir/huffman.c.o
+[ 33%] Building C object CMakeFiles/bz2.dir/crctable.c.o
+[ 33%] Building C object CMakeFiles/bz2.dir/randtable.c.o
+[ 41%] Building C object CMakeFiles/bz2.dir/compress.c.o
+[ 50%] Building C object CMakeFiles/bz2.dir/decompress.c.o
+[ 58%] Building C object CMakeFiles/bz2.dir/bzlib.c.o
+[ 66%] Linking C static library libbz2.a
+[ 66%] Built target bz2
+[ 83%] Building C object CMakeFiles/bzip2recover.dir/bzip2recover.c.o
+[ 83%] Building C object CMakeFiles/bzip2_bin.dir/bzip2.c.o
+[ 91%] Linking C executable bzip2recover
+[ 91%] Built target bzip2recover
+[100%] Linking C executable bzip2
+[100%] Built target bzip2_bin
+[ 87%] Performing install step for 'BZip2-Release'
+[ 66%] Built target bz2
+[ 83%] Built target bzip2recover
+[100%] Built target bzip2_bin
+Install the project...
+-- Install configuration: "Release"
+-- Installing: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/BZip2/Install/bin/bzdiff
+-- Installing: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/BZip2/Install/bin/bzgrep
+-- Installing: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/BZip2/Install/bin/bzmore
+-- Installing: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/BZip2/Install/lib/libbz2.a
+-- Installing: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/BZip2/Install/include/bzlib.h
+-- Installing: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/BZip2/Install/bin/bzip2recover
+-- Installing: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/BZip2/Install/bin/bzip2
+-- Installing: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/BZip2/Install/lib/cmake/BZip2/BZip2Config.cmake
+-- Installing: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/BZip2/Install/lib/cmake/BZip2/BZip2ConfigVersion.cmake
+-- Installing: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/BZip2/Install/lib/cmake/BZip2/BZip2Targets.cmake
+-- Installing: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/BZip2/Install/lib/cmake/BZip2/BZip2Targets-release.cmake
+loading initial cache file /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/BZip2/args.cmake
+[100%] Completed 'BZip2-Release'
+[100%] Built target BZip2-Release
+-- [hunter] Build step successful (dir: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/BZip2)
+-- [hunter] Cache saved: /home/USERNAME/.hunter/_Base/Cache/raw/4e69de356539d73575342e1b8d7f099f991a7115.tar.bz2
+-- [hunter] FP16_ROOT: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Install (ver.: luxonis-0.0.0)
+-- [hunter] Building FP16
+loading initial cache file /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/cache.cmake
+loading initial cache file /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/FP16/args.cmake
+-- The C compiler identification is GNU 7.5.0
+-- The CXX compiler identification is GNU 7.5.0
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Configuring done (0.6s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/FP16/Build
+[ 12%] Creating directories for 'FP16-Release'
+[ 25%] Performing download step (download, verify and extract) for 'FP16-Release'
+-- Downloading...
+   dst='/home/USERNAME/.hunter/_Base/Download/FP16/luxonis-0.0.0/40e9723/c911175d2717e562976e606c6e5f799bf40cf94e.tar.gz'
+   timeout='none'
+   inactivity timeout='none'
+-- Using src='https://github.com/luxonis/FP16/archive/c911175d2717e562976e606c6e5f799bf40cf94e.tar.gz'
+-- verifying file...
+       file='/home/USERNAME/.hunter/_Base/Download/FP16/luxonis-0.0.0/40e9723/c911175d2717e562976e606c6e5f799bf40cf94e.tar.gz'
+-- Downloading... done
+-- extracting...
+     src='/home/USERNAME/.hunter/_Base/Download/FP16/luxonis-0.0.0/40e9723/c911175d2717e562976e606c6e5f799bf40cf94e.tar.gz'
+     dst='/home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/FP16/Source'
+-- extracting... [tar xfz]
+-- extracting... [analysis]
+-- extracting... [rename]
+-- extracting... [clean up]
+-- extracting... done
+[ 37%] No update step for 'FP16-Release'
+[ 50%] No patch step for 'FP16-Release'
+[ 62%] Performing configure step for 'FP16-Release'
+loading initial cache file /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/cache.cmake
+loading initial cache file /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/FP16/args.cmake
+-- The C compiler identification is GNU 7.5.0
+-- The CXX compiler identification is GNU 7.5.0
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Downloading PSimd to /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/FP16/Build/FP16-Release-prefix/src/FP16-Release-build/psimd-source (define PSIMD_SOURCE_DIR to avoid it)
+-- Configuring done (0.1s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/FP16/Build/FP16-Release-prefix/src/FP16-Release-build/psimd-download
+make[3]: Entering directory '/home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/FP16/Build/FP16-Release-prefix/src/FP16-Release-build/psimd-download'
+make[4]: Entering directory '/home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/FP16/Build/FP16-Release-prefix/src/FP16-Release-build/psimd-download'
+make[5]: Entering directory '/home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/FP16/Build/FP16-Release-prefix/src/FP16-Release-build/psimd-download'
+make[5]: Leaving directory '/home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/FP16/Build/FP16-Release-prefix/src/FP16-Release-build/psimd-download'
+make[5]: Entering directory '/home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/FP16/Build/FP16-Release-prefix/src/FP16-Release-build/psimd-download'
+[ 11%] Creating directories for 'psimd'
+[ 22%] Performing download step (download, verify and extract) for 'psimd'
+-- Downloading...
+   dst='/home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/FP16/Build/FP16-Release-prefix/src/FP16-Release-build/psimd-download/psimd-prefix/src/072586a71b55b7f8c584153d223e95687148a900.tar.gz'
+   timeout='none'
+   inactivity timeout='none'
+-- Using src='https://github.com/Maratyszcza/psimd/archive/072586a71b55b7f8c584153d223e95687148a900.tar.gz'
+-- verifying file...
+       file='/home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/FP16/Build/FP16-Release-prefix/src/FP16-Release-build/psimd-download/psimd-prefix/src/072586a71b55b7f8c584153d223e95687148a900.tar.gz'
+-- Downloading... done
+-- extracting...
+     src='/home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/FP16/Build/FP16-Release-prefix/src/FP16-Release-build/psimd-download/psimd-prefix/src/072586a71b55b7f8c584153d223e95687148a900.tar.gz'
+     dst='/home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/FP16/Build/FP16-Release-prefix/src/FP16-Release-build/psimd-source'
+-- extracting... [tar xfz]
+-- extracting... [analysis]
+-- extracting... [rename]
+-- extracting... [clean up]
+-- extracting... done
+[ 33%] No update step for 'psimd'
+[ 44%] No patch step for 'psimd'
+[ 55%] No configure step for 'psimd'
+[ 66%] No build step for 'psimd'
+[ 77%] No install step for 'psimd'
+[ 88%] No test step for 'psimd'
+[100%] Completed 'psimd'
+make[5]: Leaving directory '/home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/FP16/Build/FP16-Release-prefix/src/FP16-Release-build/psimd-download'
+[100%] Built target psimd
+make[4]: Leaving directory '/home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/FP16/Build/FP16-Release-prefix/src/FP16-Release-build/psimd-download'
+make[3]: Leaving directory '/home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/FP16/Build/FP16-Release-prefix/src/FP16-Release-build/psimd-download'
+-- Configuring done (1.7s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/FP16/Build/FP16-Release-prefix/src/FP16-Release-build
+[ 75%] Performing build step for 'FP16-Release'
+[ 87%] Performing install step for 'FP16-Release'
+Install the project...
+-- Install configuration: "Release"
+-- Installing: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/FP16/Install/lib/cmake/FP16/FP16Config.cmake
+-- Installing: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/FP16/Install/lib/cmake/FP16/FP16Targets.cmake
+-- Installing: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/FP16/Install/include/fp16.h
+-- Installing: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/FP16/Install/include/fp16/bitcasts.h
+-- Installing: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/FP16/Install/include/fp16/fp16.h
+-- Installing: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/FP16/Install/include/fp16/psimd.h
+-- Installing: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/FP16/Install/include/fp16/__init__.py
+-- Installing: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/FP16/Install/include/fp16/avx.py
+-- Installing: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/FP16/Install/include/fp16/avx2.py
+-- Installing: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/FP16/Install/include/psimd.h
+loading initial cache file /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/FP16/args.cmake
+[100%] Completed 'FP16-Release'
+[100%] Built target FP16-Release
+-- [hunter] Build step successful (dir: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/FP16)
+-- [hunter] Cache saved: /home/USERNAME/.hunter/_Base/Cache/raw/541114eb9d84db4a5b43804bb10498c515aadff0.tar.bz2
+-- [hunter] LIBARCHIVE-LUXONIS_ROOT: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Install (ver.: hunter-3.5.2)
+-- [hunter] Building libarchive-luxonis
+loading initial cache file /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/cache.cmake
+loading initial cache file /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/libarchive-luxonis/args.cmake
+-- The C compiler identification is GNU 7.5.0
+-- The CXX compiler identification is GNU 7.5.0
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Configuring done (0.6s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/libarchive-luxonis/Build
+[ 12%] Creating directories for 'libarchive-luxonis-Release'
+[ 25%] Performing download step (download, verify and extract) for 'libarchive-luxonis-Release'
+-- Downloading...
+   dst='/home/USERNAME/.hunter/_Base/Download/libarchive-luxonis/hunter-3.5.2/ca5cd0f/45baa3a3e57104519e1165bcd5ac29c3bd8c9f3a.tar.gz'
+   timeout='none'
+   inactivity timeout='none'
+-- Using src='https://github.com/luxonis/libarchive/archive/45baa3a3e57104519e1165bcd5ac29c3bd8c9f3a.tar.gz'
+-- verifying file...
+       file='/home/USERNAME/.hunter/_Base/Download/libarchive-luxonis/hunter-3.5.2/ca5cd0f/45baa3a3e57104519e1165bcd5ac29c3bd8c9f3a.tar.gz'
+-- Downloading... done
+-- extracting...
+     src='/home/USERNAME/.hunter/_Base/Download/libarchive-luxonis/hunter-3.5.2/ca5cd0f/45baa3a3e57104519e1165bcd5ac29c3bd8c9f3a.tar.gz'
+     dst='/home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/libarchive-luxonis/Source'
+-- extracting... [tar xfz]
+-- extracting... [analysis]
+-- extracting... [rename]
+-- extracting... [clean up]
+-- extracting... done
+[ 37%] No update step for 'libarchive-luxonis-Release'
+[ 50%] No patch step for 'libarchive-luxonis-Release'
+[ 62%] Performing configure step for 'libarchive-luxonis-Release'
+loading initial cache file /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/cache.cmake
+loading initial cache file /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/libarchive-luxonis/args.cmake
+-- The C compiler identification is GNU 7.5.0
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- [hunter] HUNTER_ROOT: /home/USERNAME/.hunter
+-- [hunter] [ Hunter-ID: cb0ea1f | Toolchain-ID: 08f9145 | Config-ID: 15c0458 ]
+-- [hunter] LZMA_ROOT: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Install (ver.: 5.2.3-p4)
+-- [hunter] Building lzma
+loading initial cache file /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/cache.cmake
+loading initial cache file /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/lzma/args.cmake
+-- The C compiler identification is GNU 7.5.0
+-- The CXX compiler identification is GNU 7.5.0
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Configuring done (0.6s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/lzma/Build
+make[3]: Entering directory '/home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/lzma/Build'
+make[4]: Entering directory '/home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/lzma/Build'
+make[5]: Entering directory '/home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/lzma/Build'
+make[5]: Leaving directory '/home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/lzma/Build'
+make[5]: Entering directory '/home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/lzma/Build'
+[ 12%] Creating directories for 'lzma-Release'
+[ 25%] Performing download step (download, verify and extract) for 'lzma-Release'
+-- Downloading...
+   dst='/home/USERNAME/.hunter/_Base/Download/lzma/5.2.3-p4/09d7d8c/v5.2.3-p4.tar.gz'
+   timeout='none'
+   inactivity timeout='none'
+-- Using src='https://github.com/hunter-packages/lzma/archive/v5.2.3-p4.tar.gz'
+-- verifying file...
+       file='/home/USERNAME/.hunter/_Base/Download/lzma/5.2.3-p4/09d7d8c/v5.2.3-p4.tar.gz'
+-- Downloading... done
+-- extracting...
+     src='/home/USERNAME/.hunter/_Base/Download/lzma/5.2.3-p4/09d7d8c/v5.2.3-p4.tar.gz'
+     dst='/home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/lzma/Source'
+-- extracting... [tar xfz]
+-- extracting... [analysis]
+-- extracting... [rename]
+-- extracting... [clean up]
+-- extracting... done
+[ 37%] No update step for 'lzma-Release'
+[ 50%] No patch step for 'lzma-Release'
+[ 62%] Performing configure step for 'lzma-Release'
+loading initial cache file /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/cache.cmake
+loading initial cache file /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/lzma/args.cmake
+-- The C compiler identification is GNU 7.5.0
+-- The CXX compiler identification is GNU 7.5.0
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Performing Test HAVE_RESTRICT
+-- Performing Test HAVE_RESTRICT - Success
+-- Performing Test HAVE___RESTRICT
+-- Performing Test HAVE___RESTRICT - Success
+-- Performing Test HAVE_INLINE
+-- Performing Test HAVE_INLINE - Failed
+-- Performing Test HAVE___INLINE
+-- Performing Test HAVE___INLINE - Failed
+-- Looking for byteswap.h
+-- Looking for byteswap.h - found
+-- Looking for inttypes.h
+-- Looking for inttypes.h - found
+-- Looking for limits.h
+-- Looking for limits.h - found
+-- Looking for memory.h
+-- Looking for memory.h - found
+-- Looking for strings.h
+-- Looking for strings.h - found
+-- Looking for string.h
+-- Looking for string.h - found
+-- Looking for sys/sysctl.h
+-- Looking for sys/sysctl.h - found
+-- Looking for stdbool.h
+-- Looking for stdbool.h - found
+-- Performing Test HAVE_BSWAP_16
+-- Performing Test HAVE_BSWAP_16 - Success
+-- Performing Test HAVE_BSWAP_32
+-- Performing Test HAVE_BSWAP_32 - Success
+-- Performing Test HAVE_BSWAP_64
+-- Performing Test HAVE_BSWAP_64 - Success
+-- Check if the system is big endian
+-- Searching 16 bit integer
+-- Looking for sys/types.h
+-- Looking for sys/types.h - found
+-- Looking for stdint.h
+-- Looking for stdint.h - found
+-- Looking for stddef.h
+-- Looking for stddef.h - found
+-- Check size of unsigned short
+-- Check size of unsigned short - done
+-- Searching 16 bit integer - Using unsigned short
+-- Check if the system is big endian - little endian
+-- Check size of int16_t
+-- Check size of int16_t - done
+-- Check size of int32_t
+-- Check size of int32_t - done
+-- Check size of int64_t
+-- Check size of int64_t - done
+-- Check size of intmax_t
+-- Check size of intmax_t - done
+-- Check size of uint8_t
+-- Check size of uint8_t - done
+-- Check size of uint16_t
+-- Check size of uint16_t - done
+-- Check size of uint32_t
+-- Check size of uint32_t - done
+-- Check size of uint64_t
+-- Check size of uint64_t - done
+-- Check size of uintmax_t
+-- Check size of uintmax_t - done
+-- Check size of short
+-- Check size of short - done
+-- Check size of int
+-- Check size of int - done
+-- Check size of long
+-- Check size of long - done
+-- Check size of long long
+-- Check size of long long - done
+-- Check size of unsigned short
+-- Check size of unsigned short - done
+-- Check size of unsigned
+-- Check size of unsigned - done
+-- Check size of unsigned long
+-- Check size of unsigned long - done
+-- Check size of unsigned long long
+-- Check size of unsigned long long - done
+-- Check size of size_t
+-- Check size of size_t - done
+-- Check size of __int64
+-- Check size of __int64 - failed
+-- Check size of unsigned __int64
+-- Check size of unsigned __int64 - failed
+-- Check size of uintptr_t
+-- Check size of uintptr_t - done
+-- Configuring done (8.9s)
+-- Generating done (0.1s)
+-- Build files have been written to: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/lzma/Build/lzma-Release-prefix/src/lzma-Release-build
+[ 75%] Performing build step for 'lzma-Release'
+make[6]: Entering directory '/home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/lzma/Build/lzma-Release-prefix/src/lzma-Release-build'
+make[7]: Entering directory '/home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/lzma/Build/lzma-Release-prefix/src/lzma-Release-build'
+make[8]: Entering directory '/home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/lzma/Build/lzma-Release-prefix/src/lzma-Release-build'
+make[8]: Leaving directory '/home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/lzma/Build/lzma-Release-prefix/src/lzma-Release-build'
+make[8]: Entering directory '/home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/lzma/Build/lzma-Release-prefix/src/lzma-Release-build'
+[  2%] Building C object src/CMakeFiles/lzma.dir/liblzma/check/check.c.o
+[  4%] Building C object src/CMakeFiles/lzma.dir/liblzma/check/crc64_fast.c.o
+[  2%] Building C object src/CMakeFiles/lzma.dir/liblzma/check/crc32_fast.c.o
+[  5%] Building C object src/CMakeFiles/lzma.dir/liblzma/check/crc32_table.c.o
+[  7%] Building C object src/CMakeFiles/lzma.dir/liblzma/check/crc64_table.c.o
+[  8%] Building C object src/CMakeFiles/lzma.dir/liblzma/common/alone_decoder.c.o
+[ 10%] Building C object src/CMakeFiles/lzma.dir/liblzma/check/sha256.c.o
+[ 11%] Building C object src/CMakeFiles/lzma.dir/liblzma/common/alone_encoder.c.o
+[ 13%] Building C object src/CMakeFiles/lzma.dir/liblzma/common/auto_decoder.c.o
+[ 14%] Building C object src/CMakeFiles/lzma.dir/liblzma/common/block_buffer_decoder.c.o
+[ 16%] Building C object src/CMakeFiles/lzma.dir/liblzma/common/block_buffer_encoder.c.o
+[ 17%] Building C object src/CMakeFiles/lzma.dir/liblzma/common/block_decoder.c.o
+[ 19%] Building C object src/CMakeFiles/lzma.dir/liblzma/common/block_encoder.c.o
+[ 20%] Building C object src/CMakeFiles/lzma.dir/liblzma/common/block_header_decoder.c.o
+[ 22%] Building C object src/CMakeFiles/lzma.dir/liblzma/common/block_header_encoder.c.o
+[ 23%] Building C object src/CMakeFiles/lzma.dir/liblzma/common/block_util.c.o
+[ 25%] Building C object src/CMakeFiles/lzma.dir/liblzma/common/common.c.o
+[ 26%] Building C object src/CMakeFiles/lzma.dir/liblzma/common/easy_buffer_encoder.c.o
+[ 27%] Building C object src/CMakeFiles/lzma.dir/liblzma/common/easy_decoder_memusage.c.o
+[ 29%] Building C object src/CMakeFiles/lzma.dir/liblzma/common/easy_encoder.c.o
+[ 30%] Building C object src/CMakeFiles/lzma.dir/liblzma/common/easy_encoder_memusage.c.o
+[ 32%] Building C object src/CMakeFiles/lzma.dir/liblzma/common/easy_preset.c.o
+[ 33%] Building C object src/CMakeFiles/lzma.dir/liblzma/common/filter_buffer_decoder.c.o
+[ 35%] Building C object src/CMakeFiles/lzma.dir/liblzma/common/filter_buffer_encoder.c.o
+[ 36%] Building C object src/CMakeFiles/lzma.dir/liblzma/common/filter_common.c.o
+[ 38%] Building C object src/CMakeFiles/lzma.dir/liblzma/common/filter_decoder.c.o
+[ 41%] Building C object src/CMakeFiles/lzma.dir/liblzma/common/filter_encoder.c.o
+[ 41%] Building C object src/CMakeFiles/lzma.dir/liblzma/common/filter_flags_decoder.c.o
+[ 42%] Building C object src/CMakeFiles/lzma.dir/liblzma/common/filter_flags_encoder.c.o
+[ 44%] Building C object src/CMakeFiles/lzma.dir/liblzma/common/index.c.o
+[ 45%] Building C object src/CMakeFiles/lzma.dir/liblzma/common/index_decoder.c.o
+[ 47%] Building C object src/CMakeFiles/lzma.dir/liblzma/common/index_encoder.c.o
+[ 48%] Building C object src/CMakeFiles/lzma.dir/liblzma/common/index_hash.c.o
+[ 50%] Building C object src/CMakeFiles/lzma.dir/liblzma/common/stream_buffer_decoder.c.o
+[ 51%] Building C object src/CMakeFiles/lzma.dir/liblzma/common/stream_buffer_encoder.c.o
+[ 52%] Building C object src/CMakeFiles/lzma.dir/liblzma/common/stream_decoder.c.o
+[ 54%] Building C object src/CMakeFiles/lzma.dir/liblzma/common/stream_encoder.c.o
+[ 55%] Building C object src/CMakeFiles/lzma.dir/liblzma/common/stream_flags_common.c.o
+[ 57%] Building C object src/CMakeFiles/lzma.dir/liblzma/common/stream_flags_decoder.c.o
+[ 58%] Building C object src/CMakeFiles/lzma.dir/liblzma/common/stream_flags_encoder.c.o
+[ 60%] Building C object src/CMakeFiles/lzma.dir/liblzma/common/vli_decoder.c.o
+[ 61%] Building C object src/CMakeFiles/lzma.dir/liblzma/common/vli_encoder.c.o
+[ 63%] Building C object src/CMakeFiles/lzma.dir/liblzma/common/vli_size.c.o
+[ 64%] Building C object src/CMakeFiles/lzma.dir/liblzma/delta/delta_common.c.o
+[ 66%] Building C object src/CMakeFiles/lzma.dir/liblzma/delta/delta_decoder.c.o
+[ 67%] Building C object src/CMakeFiles/lzma.dir/liblzma/delta/delta_encoder.c.o
+[ 69%] Building C object src/CMakeFiles/lzma.dir/liblzma/lz/lz_decoder.c.o
+[ 70%] Building C object src/CMakeFiles/lzma.dir/liblzma/lz/lz_encoder.c.o
+[ 72%] Building C object src/CMakeFiles/lzma.dir/liblzma/lz/lz_encoder_mf.c.o
+[ 73%] Building C object src/CMakeFiles/lzma.dir/liblzma/lzma/fastpos_table.c.o
+[ 75%] Building C object src/CMakeFiles/lzma.dir/liblzma/lzma/lzma2_decoder.c.o
+[ 76%] Building C object src/CMakeFiles/lzma.dir/liblzma/lzma/lzma2_encoder.c.o
+[ 77%] Building C object src/CMakeFiles/lzma.dir/liblzma/lzma/lzma_decoder.c.o
+[ 79%] Building C object src/CMakeFiles/lzma.dir/liblzma/lzma/lzma_encoder.c.o
+[ 80%] Building C object src/CMakeFiles/lzma.dir/liblzma/lzma/lzma_encoder_optimum_fast.c.o
+[ 82%] Building C object src/CMakeFiles/lzma.dir/liblzma/lzma/lzma_encoder_optimum_normal.c.o
+[ 83%] Building C object src/CMakeFiles/lzma.dir/liblzma/lzma/lzma_encoder_presets.c.o
+[ 85%] Building C object src/CMakeFiles/lzma.dir/liblzma/rangecoder/price_table.c.o
+[ 86%] Building C object src/CMakeFiles/lzma.dir/liblzma/simple/arm.c.o
+[ 88%] Building C object src/CMakeFiles/lzma.dir/liblzma/simple/armthumb.c.o
+[ 89%] Building C object src/CMakeFiles/lzma.dir/liblzma/simple/ia64.c.o
+[ 91%] Building C object src/CMakeFiles/lzma.dir/liblzma/simple/powerpc.c.o
+[ 92%] Building C object src/CMakeFiles/lzma.dir/liblzma/simple/simple_coder.c.o
+[ 94%] Building C object src/CMakeFiles/lzma.dir/liblzma/simple/simple_decoder.c.o
+[ 95%] Building C object src/CMakeFiles/lzma.dir/liblzma/simple/simple_encoder.c.o
+[ 97%] Building C object src/CMakeFiles/lzma.dir/liblzma/simple/sparc.c.o
+[ 98%] Building C object src/CMakeFiles/lzma.dir/liblzma/simple/x86.c.o
+[100%] Linking C static library liblzma.a
+make[8]: Leaving directory '/home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/lzma/Build/lzma-Release-prefix/src/lzma-Release-build'
+[100%] Built target lzma
+make[7]: Leaving directory '/home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/lzma/Build/lzma-Release-prefix/src/lzma-Release-build'
+make[6]: Leaving directory '/home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/lzma/Build/lzma-Release-prefix/src/lzma-Release-build'
+[ 87%] Performing install step for 'lzma-Release'
+make[6]: Entering directory '/home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/lzma/Build/lzma-Release-prefix/src/lzma-Release-build'
+make[7]: Entering directory '/home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/lzma/Build/lzma-Release-prefix/src/lzma-Release-build'
+make[8]: Entering directory '/home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/lzma/Build/lzma-Release-prefix/src/lzma-Release-build'
+make[8]: Leaving directory '/home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/lzma/Build/lzma-Release-prefix/src/lzma-Release-build'
+[100%] Built target lzma
+make[7]: Leaving directory '/home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/lzma/Build/lzma-Release-prefix/src/lzma-Release-build'
+Install the project...
+-- Install configuration: "Release"
+-- Installing: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/lzma/Install/lib/cmake/lzma/lzmaConfig.cmake
+-- Installing: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/lzma/Install/lib/cmake/lzma/lzmaConfigVersion.cmake
+-- Installing: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/lzma/Install/lib/cmake/lzma/lzmaTargets.cmake
+-- Installing: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/lzma/Install/lib/cmake/lzma/lzmaTargets-release.cmake
+-- Installing: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/lzma/Install/lib/liblzma.a
+-- Installing: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/lzma/Install/include/lzma.h
+-- Installing: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/lzma/Install/include/lzma
+-- Installing: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/lzma/Install/include/lzma/delta.h
+-- Installing: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/lzma/Install/include/lzma/filter.h
+-- Installing: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/lzma/Install/include/lzma/check.h
+-- Installing: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/lzma/Install/include/lzma/index.h
+-- Installing: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/lzma/Install/include/lzma/bcj.h
+-- Installing: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/lzma/Install/include/lzma/vli.h
+-- Installing: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/lzma/Install/include/lzma/index_hash.h
+-- Installing: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/lzma/Install/include/lzma/base.h
+-- Installing: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/lzma/Install/include/lzma/block.h
+-- Installing: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/lzma/Install/include/lzma/stream_flags.h
+-- Installing: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/lzma/Install/include/lzma/hardware.h
+-- Installing: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/lzma/Install/include/lzma/lzma12.h
+-- Installing: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/lzma/Install/include/lzma/version.h
+-- Installing: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/lzma/Install/include/lzma/container.h
+make[6]: Leaving directory '/home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/lzma/Build/lzma-Release-prefix/src/lzma-Release-build'
+loading initial cache file /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/lzma/args.cmake
+[100%] Completed 'lzma-Release'
+make[5]: Leaving directory '/home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/lzma/Build'
+[100%] Built target lzma-Release
+make[4]: Leaving directory '/home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/lzma/Build'
+make[3]: Leaving directory '/home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/lzma/Build'
+-- [hunter] Build step successful (dir: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/lzma)
+-- [hunter] Cache saved: /home/USERNAME/.hunter/_Base/Cache/raw/a06392b30d0bd34c38b9e35093e7dad248cf9712.tar.bz2
+-- Performing Test HAVE_LZMA_STREAM_ENCODER_MT
+-- Performing Test HAVE_LZMA_STREAM_ENCODER_MT - Failed
+-- Performing Test HAVE_DIRENT_H
+-- Performing Test HAVE_DIRENT_H - Success
+-- Looking for include file sys/types.h
+-- Looking for include file sys/types.h - found
+-- Looking for include files sys/types.h, acl/libacl.h
+-- Looking for include files sys/types.h, acl/libacl.h - not found
+-- Looking for include files sys/types.h, attr/xattr.h
+-- Looking for include files sys/types.h, attr/xattr.h - not found
+-- Looking for include files sys/types.h, ctype.h
+-- Looking for include files sys/types.h, ctype.h - found
+-- Looking for 3 include files sys/types.h, ..., copyfile.h
+-- Looking for 3 include files sys/types.h, ..., copyfile.h - not found
+-- Looking for 3 include files sys/types.h, ..., direct.h
+-- Looking for 3 include files sys/types.h, ..., direct.h - not found
+-- Looking for 3 include files sys/types.h, ..., dlfcn.h
+-- Looking for 3 include files sys/types.h, ..., dlfcn.h - found
+-- Looking for 4 include files sys/types.h, ..., errno.h
+-- Looking for 4 include files sys/types.h, ..., errno.h - found
+-- Looking for 5 include files sys/types.h, ..., ext2fs/ext2_fs.h
+-- Looking for 5 include files sys/types.h, ..., ext2fs/ext2_fs.h - not found
+-- Performing Test HAVE_WORKING_EXT2_IOC_GETFLAGS
+-- Performing Test HAVE_WORKING_EXT2_IOC_GETFLAGS - Failed
+-- Looking for 5 include files sys/types.h, ..., fcntl.h
+-- Looking for 5 include files sys/types.h, ..., fcntl.h - found
+-- Looking for 6 include files sys/types.h, ..., grp.h
+-- Looking for 6 include files sys/types.h, ..., grp.h - found
+-- Looking for 7 include files sys/types.h, ..., inttypes.h
+-- Looking for 7 include files sys/types.h, ..., inttypes.h - found
+-- Looking for 8 include files sys/types.h, ..., io.h
+-- Looking for 8 include files sys/types.h, ..., io.h - not found
+-- Looking for 8 include files sys/types.h, ..., langinfo.h
+-- Looking for 8 include files sys/types.h, ..., langinfo.h - found
+-- Looking for 9 include files sys/types.h, ..., limits.h
+-- Looking for 9 include files sys/types.h, ..., limits.h - found
+-- Looking for 10 include files sys/types.h, ..., linux/types.h
+-- Looking for 10 include files sys/types.h, ..., linux/types.h - found
+-- Looking for 11 include files sys/types.h, ..., linux/fiemap.h
+-- Looking for 11 include files sys/types.h, ..., linux/fiemap.h - found
+-- Looking for 12 include files sys/types.h, ..., linux/fs.h
+-- Looking for 12 include files sys/types.h, ..., linux/fs.h - found
+-- Performing Test HAVE_WORKING_FS_IOC_GETFLAGS
+-- Performing Test HAVE_WORKING_FS_IOC_GETFLAGS - Success
+-- Looking for 13 include files sys/types.h, ..., linux/magic.h
+-- Looking for 13 include files sys/types.h, ..., linux/magic.h - found
+-- Looking for 14 include files sys/types.h, ..., locale.h
+-- Looking for 14 include files sys/types.h, ..., locale.h - found
+-- Looking for 15 include files sys/types.h, ..., membership.h
+-- Looking for 15 include files sys/types.h, ..., membership.h - not found
+-- Looking for 15 include files sys/types.h, ..., memory.h
+-- Looking for 15 include files sys/types.h, ..., memory.h - found
+-- Looking for 16 include files sys/types.h, ..., paths.h
+-- Looking for 16 include files sys/types.h, ..., paths.h - found
+-- Looking for 17 include files sys/types.h, ..., poll.h
+-- Looking for 17 include files sys/types.h, ..., poll.h - found
+-- Looking for 18 include files sys/types.h, ..., process.h
+-- Looking for 18 include files sys/types.h, ..., process.h - not found
+-- Looking for 18 include files sys/types.h, ..., pthread.h
+-- Looking for 18 include files sys/types.h, ..., pthread.h - found
+-- Looking for 19 include files sys/types.h, ..., pwd.h
+-- Looking for 19 include files sys/types.h, ..., pwd.h - found
+-- Looking for 20 include files sys/types.h, ..., readpassphrase.h
+-- Looking for 20 include files sys/types.h, ..., readpassphrase.h - not found
+-- Looking for 20 include files sys/types.h, ..., regex.h
+-- Looking for 20 include files sys/types.h, ..., regex.h - found
+-- Looking for 21 include files sys/types.h, ..., signal.h
+-- Looking for 21 include files sys/types.h, ..., signal.h - found
+-- Looking for 22 include files sys/types.h, ..., spawn.h
+-- Looking for 22 include files sys/types.h, ..., spawn.h - found
+-- Looking for 23 include files sys/types.h, ..., stdarg.h
+-- Looking for 23 include files sys/types.h, ..., stdarg.h - found
+-- Looking for 24 include files sys/types.h, ..., stdint.h
+-- Looking for 24 include files sys/types.h, ..., stdint.h - found
+-- Looking for 25 include files sys/types.h, ..., stdlib.h
+-- Looking for 25 include files sys/types.h, ..., stdlib.h - found
+-- Looking for 26 include files sys/types.h, ..., string.h
+-- Looking for 26 include files sys/types.h, ..., string.h - found
+-- Looking for 27 include files sys/types.h, ..., strings.h
+-- Looking for 27 include files sys/types.h, ..., strings.h - found
+-- Looking for 28 include files sys/types.h, ..., sys/acl.h
+-- Looking for 28 include files sys/types.h, ..., sys/acl.h - not found
+-- Looking for 28 include files sys/types.h, ..., sys/cdefs.h
+-- Looking for 28 include files sys/types.h, ..., sys/cdefs.h - found
+-- Looking for 29 include files sys/types.h, ..., sys/extattr.h
+-- Looking for 29 include files sys/types.h, ..., sys/extattr.h - not found
+-- Looking for 29 include files sys/types.h, ..., sys/ioctl.h
+-- Looking for 29 include files sys/types.h, ..., sys/ioctl.h - found
+-- Looking for 30 include files sys/types.h, ..., sys/mkdev.h
+-- Looking for 30 include files sys/types.h, ..., sys/mkdev.h - not found
+-- Looking for 30 include files sys/types.h, ..., sys/mount.h
+-- Looking for 30 include files sys/types.h, ..., sys/mount.h - not found
+-- Looking for 30 include files sys/types.h, ..., sys/param.h
+-- Looking for 30 include files sys/types.h, ..., sys/param.h - found
+-- Looking for 31 include files sys/types.h, ..., sys/poll.h
+-- Looking for 31 include files sys/types.h, ..., sys/poll.h - found
+-- Looking for 32 include files sys/types.h, ..., sys/richacl.h
+-- Looking for 32 include files sys/types.h, ..., sys/richacl.h - not found
+-- Looking for 32 include files sys/types.h, ..., sys/select.h
+-- Looking for 32 include files sys/types.h, ..., sys/select.h - found
+-- Looking for 33 include files sys/types.h, ..., sys/stat.h
+-- Looking for 33 include files sys/types.h, ..., sys/stat.h - found
+-- Looking for 34 include files sys/types.h, ..., sys/statfs.h
+-- Looking for 34 include files sys/types.h, ..., sys/statfs.h - found
+-- Looking for 35 include files sys/types.h, ..., sys/statvfs.h
+-- Looking for 35 include files sys/types.h, ..., sys/statvfs.h - found
+-- Looking for 36 include files sys/types.h, ..., sys/sysmacros.h
+-- Looking for 36 include files sys/types.h, ..., sys/sysmacros.h - found
+-- Looking for 37 include files sys/types.h, ..., sys/time.h
+-- Looking for 37 include files sys/types.h, ..., sys/time.h - found
+-- Looking for 38 include files sys/types.h, ..., sys/utime.h
+-- Looking for 38 include files sys/types.h, ..., sys/utime.h - not found
+-- Looking for 38 include files sys/types.h, ..., sys/utsname.h
+-- Looking for 38 include files sys/types.h, ..., sys/utsname.h - found
+-- Looking for 39 include files sys/types.h, ..., sys/vfs.h
+-- Looking for 39 include files sys/types.h, ..., sys/vfs.h - found
+-- Looking for 40 include files sys/types.h, ..., sys/wait.h
+-- Looking for 40 include files sys/types.h, ..., sys/wait.h - found
+-- Looking for 41 include files sys/types.h, ..., sys/xattr.h
+-- Looking for 41 include files sys/types.h, ..., sys/xattr.h - found
+-- Looking for 42 include files sys/types.h, ..., time.h
+-- Looking for 42 include files sys/types.h, ..., time.h - found
+-- Looking for 43 include files sys/types.h, ..., unistd.h
+-- Looking for 43 include files sys/types.h, ..., unistd.h - found
+-- Looking for 44 include files sys/types.h, ..., utime.h
+-- Looking for 44 include files sys/types.h, ..., utime.h - found
+-- Looking for 45 include files sys/types.h, ..., wchar.h
+-- Looking for 45 include files sys/types.h, ..., wchar.h - found
+-- Looking for 46 include files sys/types.h, ..., wctype.h
+-- Looking for 46 include files sys/types.h, ..., wctype.h - found
+-- Looking for 47 include files sys/types.h, ..., windows.h
+-- Looking for 47 include files sys/types.h, ..., windows.h - not found
+-- Looking for 47 include files sys/types.h, ..., wincrypt.h
+-- Looking for 47 include files sys/types.h, ..., wincrypt.h - not found
+-- Looking for 47 include files sys/types.h, ..., winioctl.h
+-- Looking for 47 include files sys/types.h, ..., winioctl.h - not found
+-- Performing Test SAFE_TO_DEFINE_EXTENSIONS
+-- Performing Test SAFE_TO_DEFINE_EXTENSIONS - Success
+-- Looking for MD5Init in md
+-- Looking for MD5Init in md - not found
+-- Looking for regcomp
+-- Looking for regcomp - found
+-- Looking for _CrtSetReportMode
+-- Looking for _CrtSetReportMode - not found
+-- Looking for arc4random_buf
+-- Looking for arc4random_buf - not found
+-- Looking for chown
+-- Looking for chown - found
+-- Looking for chroot
+-- Looking for chroot - found
+-- Looking for ctime_r
+-- Looking for ctime_r - found
+-- Looking for fchdir
+-- Looking for fchdir - found
+-- Looking for fchmod
+-- Looking for fchmod - found
+-- Looking for fchown
+-- Looking for fchown - found
+-- Looking for fcntl
+-- Looking for fcntl - found
+-- Looking for fdopendir
+-- Looking for fdopendir - found
+-- Looking for fork
+-- Looking for fork - found
+-- Looking for fstat
+-- Looking for fstat - found
+-- Looking for fstatat
+-- Looking for fstatat - found
+-- Looking for fstatfs
+-- Looking for fstatfs - found
+-- Looking for fstatvfs
+-- Looking for fstatvfs - found
+-- Looking for ftruncate
+-- Looking for ftruncate - found
+-- Looking for futimens
+-- Looking for futimens - found
+-- Looking for futimes
+-- Looking for futimes - found
+-- Looking for futimesat
+-- Looking for futimesat - found
+-- Looking for geteuid
+-- Looking for geteuid - found
+-- Looking for getgrgid_r
+-- Looking for getgrgid_r - found
+-- Looking for getgrnam_r
+-- Looking for getgrnam_r - found
+-- Looking for getpwnam_r
+-- Looking for getpwnam_r - found
+-- Looking for getpwuid_r
+-- Looking for getpwuid_r - found
+-- Looking for getpid
+-- Looking for getpid - found
+-- Looking for getvfsbyname
+-- Looking for getvfsbyname - not found
+-- Looking for gmtime_r
+-- Looking for gmtime_r - found
+-- Looking for lchflags
+-- Looking for lchflags - not found
+-- Looking for lchown
+-- Looking for lchown - found
+-- Looking for link
+-- Looking for link - found
+-- Looking for linkat
+-- Looking for linkat - found
+-- Looking for localtime_r
+-- Looking for localtime_r - found
+-- Looking for lstat
+-- Looking for lstat - found
+-- Looking for lutimes
+-- Looking for lutimes - found
+-- Looking for mbrtowc
+-- Looking for mbrtowc - found
+-- Looking for mkdir
+-- Looking for mkdir - found
+-- Looking for mkfifo
+-- Looking for mkfifo - found
+-- Looking for mknod
+-- Looking for mknod - found
+-- Looking for mkstemp
+-- Looking for mkstemp - found
+-- Looking for nl_langinfo
+-- Looking for nl_langinfo - found
+-- Looking for openat
+-- Looking for openat - found
+-- Looking for pipe
+-- Looking for pipe - found
+-- Looking for poll
+-- Looking for poll - found
+-- Looking for posix_spawnp
+-- Looking for posix_spawnp - found
+-- Looking for readlink
+-- Looking for readlink - found
+-- Looking for readpassphrase
+-- Looking for readpassphrase - not found
+-- Looking for select
+-- Looking for select - found
+-- Looking for setenv
+-- Looking for setenv - found
+-- Looking for setlocale
+-- Looking for setlocale - found
+-- Looking for sigaction
+-- Looking for sigaction - found
+-- Looking for statfs
+-- Looking for statfs - found
+-- Looking for statvfs
+-- Looking for statvfs - found
+-- Looking for strchr
+-- Looking for strchr - found
+-- Looking for strdup
+-- Looking for strdup - found
+-- Looking for strerror
+-- Looking for strerror - found
+-- Looking for strncpy_s
+-- Looking for strncpy_s - not found
+-- Looking for strnlen
+-- Looking for strnlen - found
+-- Looking for strrchr
+-- Looking for strrchr - found
+-- Looking for symlink
+-- Looking for symlink - found
+-- Looking for timegm
+-- Looking for timegm - found
+-- Looking for tzset
+-- Looking for tzset - found
+-- Looking for unlinkat
+-- Looking for unlinkat - found
+-- Looking for unsetenv
+-- Looking for unsetenv - found
+-- Looking for utime
+-- Looking for utime - found
+-- Looking for utimes
+-- Looking for utimes - found
+-- Looking for utimensat
+-- Looking for utimensat - found
+-- Looking for vfork
+-- Looking for vfork - found
+-- Looking for _ctime64_s
+-- Looking for _ctime64_s - not found
+-- Looking for _fseeki64
+-- Looking for _fseeki64 - not found
+-- Looking for _get_timezone
+-- Looking for _get_timezone - not found
+-- Looking for _gmtime64_s
+-- Looking for _gmtime64_s - not found
+-- Looking for _localtime64_s
+-- Looking for _localtime64_s - not found
+-- Looking for _mkgmtime64
+-- Looking for _mkgmtime64 - not found
+-- Looking for cygwin_conv_path
+-- Looking for cygwin_conv_path - not found
+-- Looking for fseeko
+-- Looking for fseeko - found
+-- Looking for strerror_r
+-- Looking for strerror_r - found
+-- Looking for strftime
+-- Looking for strftime - found
+-- Performing Test HAVE_STRUCT_VFSCONF
+-- Performing Test HAVE_STRUCT_VFSCONF - Failed
+-- Performing Test HAVE_STRUCT_XVFSCONF
+-- Performing Test HAVE_STRUCT_XVFSCONF - Failed
+-- Performing Test HAVE_STRUCT_STATFS
+-- Performing Test HAVE_STRUCT_STATFS - Failed
+-- Performing Test HAVE_READDIR_R
+-- Performing Test HAVE_READDIR_R - Success
+-- Performing Test HAVE_DIRFD
+-- Performing Test HAVE_DIRFD - Success
+-- Performing Test HAVE_READLINKAT
+-- Performing Test HAVE_READLINKAT - Success
+-- Performing Test MAJOR_IN_MKDEV
+-- Performing Test MAJOR_IN_MKDEV - Failed
+-- Performing Test MAJOR_IN_SYSMACROS
+-- Performing Test MAJOR_IN_SYSMACROS - Success
+-- Looking for EFTYPE
+-- Looking for EFTYPE - not found
+-- Looking for EILSEQ
+-- Looking for EILSEQ - found
+-- Looking for D_MD_ORDER
+-- Looking for D_MD_ORDER - not found
+-- Looking for INT32_MAX
+-- Looking for INT32_MAX - found
+-- Looking for INT32_MIN
+-- Looking for INT32_MIN - found
+-- Looking for INT64_MAX
+-- Looking for INT64_MAX - found
+-- Looking for INT64_MIN
+-- Looking for INT64_MIN - found
+-- Looking for INTMAX_MAX
+-- Looking for INTMAX_MAX - found
+-- Looking for INTMAX_MIN
+-- Looking for INTMAX_MIN - found
+-- Looking for UINT32_MAX
+-- Looking for UINT32_MAX - found
+-- Looking for UINT64_MAX
+-- Looking for UINT64_MAX - found
+-- Looking for UINTMAX_MAX
+-- Looking for UINTMAX_MAX - found
+-- Looking for SIZE_MAX
+-- Looking for SIZE_MAX - found
+-- Looking for SSIZE_MAX
+-- Looking for SSIZE_MAX - found
+-- Performing Test HAVE_STRUCT_TM_TM_GMTOFF
+-- Performing Test HAVE_STRUCT_TM_TM_GMTOFF - Success
+-- Performing Test HAVE_STRUCT_TM___TM_GMTOFF
+-- Performing Test HAVE_STRUCT_TM___TM_GMTOFF - Failed
+-- Performing Test HAVE_STRUCT_STAT_ST_BIRTHTIME
+-- Performing Test HAVE_STRUCT_STAT_ST_BIRTHTIME - Failed
+-- Performing Test HAVE_STRUCT_STAT_ST_BIRTHTIMESPEC_TV_NSEC
+-- Performing Test HAVE_STRUCT_STAT_ST_BIRTHTIMESPEC_TV_NSEC - Failed
+-- Performing Test HAVE_STRUCT_STAT_ST_MTIMESPEC_TV_NSEC
+-- Performing Test HAVE_STRUCT_STAT_ST_MTIMESPEC_TV_NSEC - Failed
+-- Performing Test HAVE_STRUCT_STAT_ST_MTIM_TV_NSEC
+-- Performing Test HAVE_STRUCT_STAT_ST_MTIM_TV_NSEC - Success
+-- Performing Test HAVE_STRUCT_STAT_ST_MTIME_N
+-- Performing Test HAVE_STRUCT_STAT_ST_MTIME_N - Failed
+-- Performing Test HAVE_STRUCT_STAT_ST_UMTIME
+-- Performing Test HAVE_STRUCT_STAT_ST_UMTIME - Failed
+-- Performing Test HAVE_STRUCT_STAT_ST_MTIME_USEC
+-- Performing Test HAVE_STRUCT_STAT_ST_MTIME_USEC - Failed
+-- Performing Test HAVE_STRUCT_STAT_ST_BLKSIZE
+-- Performing Test HAVE_STRUCT_STAT_ST_BLKSIZE - Success
+-- Performing Test HAVE_STRUCT_STAT_ST_FLAGS
+-- Performing Test HAVE_STRUCT_STAT_ST_FLAGS - Failed
+-- Performing Test HAVE_STRUCT_STATVFS_F_IOSIZE
+-- Performing Test HAVE_STRUCT_STATVFS_F_IOSIZE - Failed
+-- Performing Test TIME_WITH_SYS_TIME
+-- Performing Test TIME_WITH_SYS_TIME - Success
+-- Looking for stddef.h
+-- Looking for stddef.h - found
+-- Check size of short
+-- Check size of short - done
+-- Check size of int
+-- Check size of int - done
+-- Check size of long
+-- Check size of long - done
+-- Check size of long long
+-- Check size of long long - done
+-- Check size of unsigned short
+-- Check size of unsigned short - done
+-- Check size of unsigned
+-- Check size of unsigned - done
+-- Check size of unsigned long
+-- Check size of unsigned long - done
+-- Check size of unsigned long long
+-- Check size of unsigned long long - done
+-- Check size of __int64
+-- Check size of __int64 - failed
+-- Check size of unsigned __int64
+-- Check size of unsigned __int64 - failed
+-- Check size of int16_t
+-- Check size of int16_t - done
+-- Check size of int32_t
+-- Check size of int32_t - done
+-- Check size of int64_t
+-- Check size of int64_t - done
+-- Check size of intmax_t
+-- Check size of intmax_t - done
+-- Check size of uint8_t
+-- Check size of uint8_t - done
+-- Check size of uint16_t
+-- Check size of uint16_t - done
+-- Check size of uint32_t
+-- Check size of uint32_t - done
+-- Check size of uint64_t
+-- Check size of uint64_t - done
+-- Check size of uintmax_t
+-- Check size of uintmax_t - done
+-- Check size of dev_t
+-- Check size of dev_t - done
+-- Check size of gid_t
+-- Check size of gid_t - done
+-- Check size of id_t
+-- Check size of id_t - done
+-- Check size of mode_t
+-- Check size of mode_t - done
+-- Check size of off_t
+-- Check size of off_t - done
+-- Check size of size_t
+-- Check size of size_t - done
+-- Check size of ssize_t
+-- Check size of ssize_t - done
+-- Check size of uid_t
+-- Check size of uid_t - done
+-- Check size of pid_t
+-- Check size of pid_t - done
+-- Check size of intptr_t
+-- Check size of intptr_t - done
+-- Check size of uintptr_t
+-- Check size of uintptr_t - done
+-- Check size of wchar_t
+-- Check size of wchar_t - done
+-- Checking _FILE_OFFSET_BITS for large files
+-- Checking _FILE_OFFSET_BITS for large files - not needed
+-- Checking support for ARCHIVE_CRYPTO_MD5_LIBC
+-- Checking support for ARCHIVE_CRYPTO_MD5_LIBC -- not found
+-- Checking support for ARCHIVE_CRYPTO_RMD160_LIBC
+-- Checking support for ARCHIVE_CRYPTO_RMD160_LIBC -- not found
+-- Checking support for ARCHIVE_CRYPTO_SHA1_LIBC
+-- Checking support for ARCHIVE_CRYPTO_SHA1_LIBC -- not found
+-- Checking support for ARCHIVE_CRYPTO_SHA256_LIBC
+-- Checking support for ARCHIVE_CRYPTO_SHA256_LIBC -- not found
+-- Checking support for ARCHIVE_CRYPTO_SHA384_LIBC
+-- Checking support for ARCHIVE_CRYPTO_SHA384_LIBC -- not found
+-- Checking support for ARCHIVE_CRYPTO_SHA512_LIBC
+-- Checking support for ARCHIVE_CRYPTO_SHA512_LIBC -- not found
+-- Checking support for ARCHIVE_CRYPTO_SHA256_LIBC2
+-- Checking support for ARCHIVE_CRYPTO_SHA256_LIBC2 -- not found
+-- Checking support for ARCHIVE_CRYPTO_SHA384_LIBC2
+-- Checking support for ARCHIVE_CRYPTO_SHA384_LIBC2 -- not found
+-- Checking support for ARCHIVE_CRYPTO_SHA512_LIBC2
+-- Checking support for ARCHIVE_CRYPTO_SHA512_LIBC2 -- not found
+-- Checking support for ARCHIVE_CRYPTO_SHA256_LIBC3
+-- Checking support for ARCHIVE_CRYPTO_SHA256_LIBC3 -- not found
+-- Checking support for ARCHIVE_CRYPTO_SHA384_LIBC3
+-- Checking support for ARCHIVE_CRYPTO_SHA384_LIBC3 -- not found
+-- Checking support for ARCHIVE_CRYPTO_SHA512_LIBC3
+-- Checking support for ARCHIVE_CRYPTO_SHA512_LIBC3 -- not found
+-- Checking support for ARCHIVE_CRYPTO_MD5_LIBSYSTEM
+-- Checking support for ARCHIVE_CRYPTO_MD5_LIBSYSTEM -- not found
+-- Checking support for ARCHIVE_CRYPTO_SHA1_LIBSYSTEM
+-- Checking support for ARCHIVE_CRYPTO_SHA1_LIBSYSTEM -- not found
+-- Checking support for ARCHIVE_CRYPTO_SHA256_LIBSYSTEM
+-- Checking support for ARCHIVE_CRYPTO_SHA256_LIBSYSTEM -- not found
+-- Checking support for ARCHIVE_CRYPTO_SHA384_LIBSYSTEM
+-- Checking support for ARCHIVE_CRYPTO_SHA384_LIBSYSTEM -- not found
+-- Checking support for ARCHIVE_CRYPTO_SHA512_LIBSYSTEM
+-- Checking support for ARCHIVE_CRYPTO_SHA512_LIBSYSTEM -- not found
+-- Checking support for ARCHIVE_CRYPTO_MD5_LIBMD
+-- Checking support for ARCHIVE_CRYPTO_MD5_LIBMD -- not found
+-- Checking support for ARCHIVE_CRYPTO_RMD160_LIBMD
+-- Checking support for ARCHIVE_CRYPTO_RMD160_LIBMD -- not found
+-- Checking support for ARCHIVE_CRYPTO_SHA1_LIBMD
+-- Checking support for ARCHIVE_CRYPTO_SHA1_LIBMD -- not found
+-- Checking support for ARCHIVE_CRYPTO_SHA256_LIBMD
+-- Checking support for ARCHIVE_CRYPTO_SHA256_LIBMD -- not found
+-- Checking support for ARCHIVE_CRYPTO_SHA512_LIBMD
+-- Checking support for ARCHIVE_CRYPTO_SHA512_LIBMD -- not found
+-- Configuring done (77.4s)
+-- Generating done (0.2s)
+-- Build files have been written to: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/libarchive-luxonis/Build/libarchive-luxonis-Release-prefix/src/libarchive-luxonis-Release-build
+[ 75%] Performing build step for 'libarchive-luxonis-Release'
+[  1%] Building C object libarchive/CMakeFiles/archive_static.dir/archive_acl.c.o
+[  1%] Building C object libarchive/CMakeFiles/archive_static.dir/archive_check_magic.c.o
+[  2%] Building C object libarchive/CMakeFiles/archive_static.dir/archive_cmdline.c.o
+[  3%] Building C object libarchive/CMakeFiles/archive_static.dir/archive_cryptor.c.o
+[  4%] Building C object libarchive/CMakeFiles/archive_static.dir/archive_digest.c.o
+[  5%] Building C object libarchive/CMakeFiles/archive_static.dir/archive_entry_copy_stat.c.o
+[  5%] Building C object libarchive/CMakeFiles/archive_static.dir/archive_entry.c.o
+[  6%] Building C object libarchive/CMakeFiles/archive_static.dir/archive_entry_link_resolver.c.o
+[  7%] Building C object libarchive/CMakeFiles/archive_static.dir/archive_entry_sparse.c.o
+[  8%] Building C object libarchive/CMakeFiles/archive_static.dir/archive_entry_stat.c.o
+[  9%] Building C object libarchive/CMakeFiles/archive_static.dir/archive_entry_strmode.c.o
+[  9%] Building C object libarchive/CMakeFiles/archive_static.dir/archive_entry_xattr.c.o
+[ 10%] Building C object libarchive/CMakeFiles/archive_static.dir/archive_getdate.c.o
+[ 11%] Building C object libarchive/CMakeFiles/archive_static.dir/archive_hmac.c.o
+[ 12%] Building C object libarchive/CMakeFiles/archive_static.dir/archive_match.c.o
+[ 13%] Building C object libarchive/CMakeFiles/archive_static.dir/archive_options.c.o
+[ 13%] Building C object libarchive/CMakeFiles/archive_static.dir/archive_pack_dev.c.o
+[ 14%] Building C object libarchive/CMakeFiles/archive_static.dir/archive_pathmatch.c.o
+[ 15%] Building C object libarchive/CMakeFiles/archive_static.dir/archive_ppmd8.c.o
+[ 16%] Building C object libarchive/CMakeFiles/archive_static.dir/archive_ppmd7.c.o
+[ 17%] Building C object libarchive/CMakeFiles/archive_static.dir/archive_random.c.o
+[ 18%] Building C object libarchive/CMakeFiles/archive_static.dir/archive_rb.c.o
+[ 18%] Building C object libarchive/CMakeFiles/archive_static.dir/archive_read.c.o
+[ 19%] Building C object libarchive/CMakeFiles/archive_static.dir/archive_read_add_passphrase.c.o
+[ 20%] Building C object libarchive/CMakeFiles/archive_static.dir/archive_read_append_filter.c.o
+[ 21%] Building C object libarchive/CMakeFiles/archive_static.dir/archive_read_data_into_fd.c.o
+[ 22%] Building C object libarchive/CMakeFiles/archive_static.dir/archive_read_disk_entry_from_file.c.o
+[ 22%] Building C object libarchive/CMakeFiles/archive_static.dir/archive_read_disk_posix.c.o
+[ 23%] Building C object libarchive/CMakeFiles/archive_static.dir/archive_read_disk_set_standard_lookup.c.o
+[ 24%] Building C object libarchive/CMakeFiles/archive_static.dir/archive_read_extract.c.o
+[ 25%] Building C object libarchive/CMakeFiles/archive_static.dir/archive_read_extract2.c.o
+[ 26%] Building C object libarchive/CMakeFiles/archive_static.dir/archive_read_open_fd.c.o
+[ 27%] Building C object libarchive/CMakeFiles/archive_static.dir/archive_read_open_file.c.o
+[ 27%] Building C object libarchive/CMakeFiles/archive_static.dir/archive_read_open_filename.c.o
+[ 28%] Building C object libarchive/CMakeFiles/archive_static.dir/archive_read_open_memory.c.o
+[ 29%] Building C object libarchive/CMakeFiles/archive_static.dir/archive_read_set_format.c.o
+[ 30%] Building C object libarchive/CMakeFiles/archive_static.dir/archive_read_set_options.c.o
+[ 31%] Building C object libarchive/CMakeFiles/archive_static.dir/archive_read_support_filter_all.c.o
+[ 31%] Building C object libarchive/CMakeFiles/archive_static.dir/archive_read_support_filter_bzip2.c.o
+[ 32%] Building C object libarchive/CMakeFiles/archive_static.dir/archive_read_support_filter_compress.c.o
+[ 33%] Building C object libarchive/CMakeFiles/archive_static.dir/archive_read_support_filter_gzip.c.o
+[ 34%] Building C object libarchive/CMakeFiles/archive_static.dir/archive_read_support_filter_grzip.c.o
+[ 35%] Building C object libarchive/CMakeFiles/archive_static.dir/archive_read_support_filter_lz4.c.o
+[ 36%] Building C object libarchive/CMakeFiles/archive_static.dir/archive_read_support_filter_lrzip.c.o
+[ 36%] Building C object libarchive/CMakeFiles/archive_static.dir/archive_read_support_filter_lzop.c.o
+[ 37%] Building C object libarchive/CMakeFiles/archive_static.dir/archive_read_support_filter_none.c.o
+[ 38%] Building C object libarchive/CMakeFiles/archive_static.dir/archive_read_support_filter_program.c.o
+[ 39%] Building C object libarchive/CMakeFiles/archive_static.dir/archive_read_support_filter_rpm.c.o
+[ 40%] Building C object libarchive/CMakeFiles/archive_static.dir/archive_read_support_filter_uu.c.o
+[ 40%] Building C object libarchive/CMakeFiles/archive_static.dir/archive_read_support_filter_xz.c.o
+[ 41%] Building C object libarchive/CMakeFiles/archive_static.dir/archive_read_support_filter_zstd.c.o
+[ 42%] Building C object libarchive/CMakeFiles/archive_static.dir/archive_read_support_format_7zip.c.o
+[ 43%] Building C object libarchive/CMakeFiles/archive_static.dir/archive_read_support_format_all.c.o
+[ 44%] Building C object libarchive/CMakeFiles/archive_static.dir/archive_read_support_format_ar.c.o
+[ 45%] Building C object libarchive/CMakeFiles/archive_static.dir/archive_read_support_format_by_code.c.o
+[ 45%] Building C object libarchive/CMakeFiles/archive_static.dir/archive_read_support_format_cab.c.o
+[ 46%] Building C object libarchive/CMakeFiles/archive_static.dir/archive_read_support_format_cpio.c.o
+[ 47%] Building C object libarchive/CMakeFiles/archive_static.dir/archive_read_support_format_empty.c.o
+[ 48%] Building C object libarchive/CMakeFiles/archive_static.dir/archive_read_support_format_iso9660.c.o
+[ 49%] Building C object libarchive/CMakeFiles/archive_static.dir/archive_read_support_format_lha.c.o
+[ 50%] Building C object libarchive/CMakeFiles/archive_static.dir/archive_read_support_format_mtree.c.o
+[ 50%] Building C object libarchive/CMakeFiles/archive_static.dir/archive_read_support_format_rar.c.o
+[ 51%] Building C object libarchive/CMakeFiles/archive_static.dir/archive_read_support_format_rar5.c.o
+[ 52%] Building C object libarchive/CMakeFiles/archive_static.dir/archive_read_support_format_raw.c.o
+[ 53%] Building C object libarchive/CMakeFiles/archive_static.dir/archive_read_support_format_tar.c.o
+[ 54%] Building C object libarchive/CMakeFiles/archive_static.dir/archive_read_support_format_warc.c.o
+[ 54%] Building C object libarchive/CMakeFiles/archive_static.dir/archive_read_support_format_xar.c.o
+[ 55%] Building C object libarchive/CMakeFiles/archive_static.dir/archive_read_support_format_zip.c.o
+[ 56%] Building C object libarchive/CMakeFiles/archive_static.dir/archive_string.c.o
+[ 57%] Building C object libarchive/CMakeFiles/archive_static.dir/archive_string_sprintf.c.o
+[ 58%] Building C object libarchive/CMakeFiles/archive_static.dir/archive_util.c.o
+[ 59%] Building C object libarchive/CMakeFiles/archive_static.dir/archive_version_details.c.o
+[ 59%] Building C object libarchive/CMakeFiles/archive_static.dir/archive_virtual.c.o
+[ 60%] Building C object libarchive/CMakeFiles/archive_static.dir/archive_write.c.o
+[ 61%] Building C object libarchive/CMakeFiles/archive_static.dir/archive_write_disk_posix.c.o
+[ 62%] Building C object libarchive/CMakeFiles/archive_static.dir/archive_write_disk_set_standard_lookup.c.o
+[ 63%] Building C object libarchive/CMakeFiles/archive_static.dir/archive_write_open_fd.c.o
+[ 63%] Building C object libarchive/CMakeFiles/archive_static.dir/archive_write_open_file.c.o
+[ 64%] Building C object libarchive/CMakeFiles/archive_static.dir/archive_write_open_filename.c.o
+[ 65%] Building C object libarchive/CMakeFiles/archive_static.dir/archive_write_open_memory.c.o
+[ 66%] Building C object libarchive/CMakeFiles/archive_static.dir/archive_write_add_filter.c.o
+[ 67%] Building C object libarchive/CMakeFiles/archive_static.dir/archive_write_add_filter_b64encode.c.o
+[ 68%] Building C object libarchive/CMakeFiles/archive_static.dir/archive_write_add_filter_by_name.c.o
+[ 68%] Building C object libarchive/CMakeFiles/archive_static.dir/archive_write_add_filter_bzip2.c.o
+[ 69%] Building C object libarchive/CMakeFiles/archive_static.dir/archive_write_add_filter_compress.c.o
+[ 70%] Building C object libarchive/CMakeFiles/archive_static.dir/archive_write_add_filter_grzip.c.o
+[ 71%] Building C object libarchive/CMakeFiles/archive_static.dir/archive_write_add_filter_gzip.c.o
+[ 72%] Building C object libarchive/CMakeFiles/archive_static.dir/archive_write_add_filter_lrzip.c.o
+[ 72%] Building C object libarchive/CMakeFiles/archive_static.dir/archive_write_add_filter_lz4.c.o
+[ 73%] Building C object libarchive/CMakeFiles/archive_static.dir/archive_write_add_filter_lzop.c.o
+[ 74%] Building C object libarchive/CMakeFiles/archive_static.dir/archive_write_add_filter_none.c.o
+[ 75%] Building C object libarchive/CMakeFiles/archive_static.dir/archive_write_add_filter_program.c.o
+[ 76%] Building C object libarchive/CMakeFiles/archive_static.dir/archive_write_add_filter_uuencode.c.o
+[ 77%] Building C object libarchive/CMakeFiles/archive_static.dir/archive_write_add_filter_xz.c.o
+[ 77%] Building C object libarchive/CMakeFiles/archive_static.dir/archive_write_add_filter_zstd.c.o
+[ 78%] Building C object libarchive/CMakeFiles/archive_static.dir/archive_write_set_format.c.o
+[ 79%] Building C object libarchive/CMakeFiles/archive_static.dir/archive_write_set_format_7zip.c.o
+[ 80%] Building C object libarchive/CMakeFiles/archive_static.dir/archive_write_set_format_ar.c.o
+[ 81%] Building C object libarchive/CMakeFiles/archive_static.dir/archive_write_set_format_by_name.c.o
+[ 81%] Building C object libarchive/CMakeFiles/archive_static.dir/archive_write_set_format_cpio.c.o
+[ 82%] Building C object libarchive/CMakeFiles/archive_static.dir/archive_write_set_format_cpio_binary.c.o
+[ 83%] Building C object libarchive/CMakeFiles/archive_static.dir/archive_write_set_format_cpio_newc.c.o
+[ 84%] Building C object libarchive/CMakeFiles/archive_static.dir/archive_write_set_format_cpio_odc.c.o
+[ 85%] Building C object libarchive/CMakeFiles/archive_static.dir/archive_write_set_format_filter_by_ext.c.o
+[ 86%] Building C object libarchive/CMakeFiles/archive_static.dir/archive_write_set_format_gnutar.c.o
+[ 86%] Building C object libarchive/CMakeFiles/archive_static.dir/archive_write_set_format_iso9660.c.o
+[ 87%] Building C object libarchive/CMakeFiles/archive_static.dir/archive_write_set_format_mtree.c.o
+[ 88%] Building C object libarchive/CMakeFiles/archive_static.dir/archive_write_set_format_pax.c.o
+[ 89%] Building C object libarchive/CMakeFiles/archive_static.dir/archive_write_set_format_raw.c.o
+[ 90%] Building C object libarchive/CMakeFiles/archive_static.dir/archive_write_set_format_shar.c.o
+[ 90%] Building C object libarchive/CMakeFiles/archive_static.dir/archive_write_set_format_ustar.c.o
+[ 91%] Building C object libarchive/CMakeFiles/archive_static.dir/archive_write_set_format_v7tar.c.o
+[ 92%] Building C object libarchive/CMakeFiles/archive_static.dir/archive_write_set_format_warc.c.o
+[ 93%] Building C object libarchive/CMakeFiles/archive_static.dir/archive_write_set_format_xar.c.o
+[ 94%] Building C object libarchive/CMakeFiles/archive_static.dir/archive_write_set_format_zip.c.o
+[ 95%] Building C object libarchive/CMakeFiles/archive_static.dir/archive_write_set_options.c.o
+[ 95%] Building C object libarchive/CMakeFiles/archive_static.dir/archive_write_set_passphrase.c.o
+[ 96%] Building C object libarchive/CMakeFiles/archive_static.dir/filter_fork_posix.c.o
+[ 97%] Building C object libarchive/CMakeFiles/archive_static.dir/xxhash.c.o
+[ 98%] Building C object libarchive/CMakeFiles/archive_static.dir/archive_blake2sp_ref.c.o
+[ 99%] Building C object libarchive/CMakeFiles/archive_static.dir/archive_blake2s_ref.c.o
+[100%] Linking C static library libarchive_static.a
+[100%] Built target archive_static
+[ 87%] Performing install step for 'libarchive-luxonis-Release'
+[100%] Built target archive_static
+Install the project...
+-- Install configuration: "Release"
+-- Installing: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/libarchive-luxonis/Install/lib/libarchive_static.a
+-- Installing: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/libarchive-luxonis/Install/share/man/man3/archive_entry.3
+-- Installing: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/libarchive-luxonis/Install/share/man/man3/archive_entry_acl.3
+-- Installing: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/libarchive-luxonis/Install/share/man/man3/archive_entry_linkify.3
+-- Installing: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/libarchive-luxonis/Install/share/man/man3/archive_entry_misc.3
+-- Installing: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/libarchive-luxonis/Install/share/man/man3/archive_entry_paths.3
+-- Installing: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/libarchive-luxonis/Install/share/man/man3/archive_entry_perms.3
+-- Installing: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/libarchive-luxonis/Install/share/man/man3/archive_entry_stat.3
+-- Installing: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/libarchive-luxonis/Install/share/man/man3/archive_entry_time.3
+-- Installing: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/libarchive-luxonis/Install/share/man/man3/archive_read.3
+-- Installing: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/libarchive-luxonis/Install/share/man/man3/archive_read_add_passphrase.3
+-- Installing: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/libarchive-luxonis/Install/share/man/man3/archive_read_data.3
+-- Installing: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/libarchive-luxonis/Install/share/man/man3/archive_read_disk.3
+-- Installing: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/libarchive-luxonis/Install/share/man/man3/archive_read_extract.3
+-- Installing: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/libarchive-luxonis/Install/share/man/man3/archive_read_filter.3
+-- Installing: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/libarchive-luxonis/Install/share/man/man3/archive_read_format.3
+-- Installing: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/libarchive-luxonis/Install/share/man/man3/archive_read_free.3
+-- Installing: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/libarchive-luxonis/Install/share/man/man3/archive_read_header.3
+-- Installing: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/libarchive-luxonis/Install/share/man/man3/archive_read_new.3
+-- Installing: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/libarchive-luxonis/Install/share/man/man3/archive_read_open.3
+-- Installing: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/libarchive-luxonis/Install/share/man/man3/archive_read_set_options.3
+-- Installing: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/libarchive-luxonis/Install/share/man/man3/archive_util.3
+-- Installing: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/libarchive-luxonis/Install/share/man/man3/archive_write.3
+-- Installing: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/libarchive-luxonis/Install/share/man/man3/archive_write_blocksize.3
+-- Installing: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/libarchive-luxonis/Install/share/man/man3/archive_write_data.3
+-- Installing: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/libarchive-luxonis/Install/share/man/man3/archive_write_disk.3
+-- Installing: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/libarchive-luxonis/Install/share/man/man3/archive_write_filter.3
+-- Installing: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/libarchive-luxonis/Install/share/man/man3/archive_write_finish_entry.3
+-- Installing: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/libarchive-luxonis/Install/share/man/man3/archive_write_format.3
+-- Installing: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/libarchive-luxonis/Install/share/man/man3/archive_write_free.3
+-- Installing: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/libarchive-luxonis/Install/share/man/man3/archive_write_header.3
+-- Installing: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/libarchive-luxonis/Install/share/man/man3/archive_write_new.3
+-- Installing: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/libarchive-luxonis/Install/share/man/man3/archive_write_open.3
+-- Installing: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/libarchive-luxonis/Install/share/man/man3/archive_write_set_options.3
+-- Installing: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/libarchive-luxonis/Install/share/man/man3/archive_write_set_passphrase.3
+-- Installing: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/libarchive-luxonis/Install/share/man/man5/cpio.5
+-- Installing: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/libarchive-luxonis/Install/share/man/man3/libarchive.3
+-- Installing: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/libarchive-luxonis/Install/share/man/man3/libarchive_changes.3
+-- Installing: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/libarchive-luxonis/Install/share/man/man3/libarchive_internals.3
+-- Installing: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/libarchive-luxonis/Install/share/man/man5/libarchive-formats.5
+-- Installing: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/libarchive-luxonis/Install/share/man/man5/mtree.5
+-- Installing: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/libarchive-luxonis/Install/share/man/man5/tar.5
+-- Installing: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/libarchive-luxonis/Install/include/archive.h
+-- Installing: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/libarchive-luxonis/Install/include/archive_entry.h
+-- Installing: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/libarchive-luxonis/Install/lib/cmake/archive_static/archive_staticConfig.cmake
+-- Installing: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/libarchive-luxonis/Install/lib/cmake/archive_static/archive_staticConfig-release.cmake
+loading initial cache file /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/libarchive-luxonis/args.cmake
+[100%] Completed 'libarchive-luxonis-Release'
+[100%] Built target libarchive-luxonis-Release
+-- [hunter] Build step successful (dir: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/libarchive-luxonis)
+-- [hunter] Cache saved: /home/USERNAME/.hunter/_Base/Cache/raw/f2a655d85c185bde4890e0dd724accfe1b40e8e1.tar.bz2
+-- [hunter] SPDLOG_ROOT: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Install (ver.: 1.8.2)
+-- [hunter] Building spdlog
+loading initial cache file /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/cache.cmake
+loading initial cache file /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/spdlog/args.cmake
+-- The C compiler identification is GNU 7.5.0
+-- The CXX compiler identification is GNU 7.5.0
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Configuring done (0.6s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/spdlog/Build
+[ 12%] Creating directories for 'spdlog-Release'
+[ 25%] Performing download step (download, verify and extract) for 'spdlog-Release'
+-- Downloading...
+   dst='/home/USERNAME/.hunter/_Base/Download/spdlog/1.8.2/4437f35/v1.8.2.tar.gz'
+   timeout='none'
+   inactivity timeout='none'
+-- Using src='https://github.com/gabime/spdlog/archive/v1.8.2.tar.gz'
+-- [download 4% complete]
+-- [download 13% complete]
+-- [download 30% complete]
+-- [download 65% complete]
+-- [download 100% complete]
+-- verifying file...
+       file='/home/USERNAME/.hunter/_Base/Download/spdlog/1.8.2/4437f35/v1.8.2.tar.gz'
+-- Downloading... done
+-- extracting...
+     src='/home/USERNAME/.hunter/_Base/Download/spdlog/1.8.2/4437f35/v1.8.2.tar.gz'
+     dst='/home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/spdlog/Source'
+-- extracting... [tar xfz]
+-- extracting... [analysis]
+-- extracting... [rename]
+-- extracting... [clean up]
+-- extracting... done
+[ 37%] No update step for 'spdlog-Release'
+[ 50%] No patch step for 'spdlog-Release'
+[ 62%] Performing configure step for 'spdlog-Release'
+loading initial cache file /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/cache.cmake
+loading initial cache file /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/spdlog/args.cmake
+-- The CXX compiler identification is GNU 7.5.0
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Build spdlog: 1.8.2
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+-- Looking for pthread_create in pthreads
+-- Looking for pthread_create in pthreads - not found
+-- Looking for pthread_create in pthread
+-- Looking for pthread_create in pthread - found
+-- Found Threads: TRUE  
+-- Build type: Release
+-- Generating install
+-- Configuring done (1.0s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/spdlog/Build/spdlog-Release-prefix/src/spdlog-Release-build
+[ 75%] Performing build step for 'spdlog-Release'
+[ 25%] Building CXX object CMakeFiles/spdlog.dir/src/stdout_sinks.cpp.o
+[ 25%] Building CXX object CMakeFiles/spdlog.dir/src/spdlog.cpp.o
+[ 37%] Building CXX object CMakeFiles/spdlog.dir/src/color_sinks.cpp.o
+[ 50%] Building CXX object CMakeFiles/spdlog.dir/src/file_sinks.cpp.o
+[ 62%] Building CXX object CMakeFiles/spdlog.dir/src/async.cpp.o
+[ 75%] Building CXX object CMakeFiles/spdlog.dir/src/cfg.cpp.o
+[ 87%] Building CXX object CMakeFiles/spdlog.dir/src/fmt.cpp.o
+[100%] Linking CXX static library libspdlog.a
+[100%] Built target spdlog
+[ 87%] Performing install step for 'spdlog-Release'
+[100%] Built target spdlog
+Install the project...
+-- Install configuration: "Release"
+-- Installing: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/spdlog/Install/include
+-- Installing: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/spdlog/Install/include/spdlog
+-- Installing: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/spdlog/Install/include/spdlog/formatter.h
+-- Installing: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/spdlog/Install/include/spdlog/logger-inl.h
+-- Installing: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/spdlog/Install/include/spdlog/fmt
+-- Installing: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/spdlog/Install/include/spdlog/fmt/ostr.h
+-- Installing: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/spdlog/Install/include/spdlog/fmt/fmt.h
+-- Installing: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/spdlog/Install/include/spdlog/fmt/bin_to_hex.h
+-- Installing: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/spdlog/Install/include/spdlog/fmt/chrono.h
+-- Installing: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/spdlog/Install/include/spdlog/pattern_formatter.h
+-- Installing: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/spdlog/Install/include/spdlog/async_logger-inl.h
+-- Installing: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/spdlog/Install/include/spdlog/sinks
+-- Installing: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/spdlog/Install/include/spdlog/sinks/ringbuffer_sink.h
+-- Installing: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/spdlog/Install/include/spdlog/sinks/base_sink-inl.h
+-- Installing: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/spdlog/Install/include/spdlog/sinks/null_sink.h
+-- Installing: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/spdlog/Install/include/spdlog/sinks/msvc_sink.h
+-- Installing: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/spdlog/Install/include/spdlog/sinks/dist_sink.h
+-- Installing: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/spdlog/Install/include/spdlog/sinks/daily_file_sink.h
+-- Installing: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/spdlog/Install/include/spdlog/sinks/sink-inl.h
+-- Installing: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/spdlog/Install/include/spdlog/sinks/rotating_file_sink-inl.h
+-- Installing: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/spdlog/Install/include/spdlog/sinks/ansicolor_sink-inl.h
+-- Installing: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/spdlog/Install/include/spdlog/sinks/win_eventlog_sink.h
+-- Installing: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/spdlog/Install/include/spdlog/sinks/systemd_sink.h
+-- Installing: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/spdlog/Install/include/spdlog/sinks/wincolor_sink.h
+-- Installing: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/spdlog/Install/include/spdlog/sinks/basic_file_sink.h
+-- Installing: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/spdlog/Install/include/spdlog/sinks/stdout_color_sinks-inl.h
+-- Installing: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/spdlog/Install/include/spdlog/sinks/basic_file_sink-inl.h
+-- Installing: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/spdlog/Install/include/spdlog/sinks/wincolor_sink-inl.h
+-- Installing: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/spdlog/Install/include/spdlog/sinks/ansicolor_sink.h
+-- Installing: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/spdlog/Install/include/spdlog/sinks/tcp_sink.h
+-- Installing: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/spdlog/Install/include/spdlog/sinks/sink.h
+-- Installing: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/spdlog/Install/include/spdlog/sinks/android_sink.h
+-- Installing: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/spdlog/Install/include/spdlog/sinks/rotating_file_sink.h
+-- Installing: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/spdlog/Install/include/spdlog/sinks/syslog_sink.h
+-- Installing: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/spdlog/Install/include/spdlog/sinks/ostream_sink.h
+-- Installing: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/spdlog/Install/include/spdlog/sinks/stdout_color_sinks.h
+-- Installing: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/spdlog/Install/include/spdlog/sinks/stdout_sinks-inl.h
+-- Installing: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/spdlog/Install/include/spdlog/sinks/dup_filter_sink.h
+-- Installing: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/spdlog/Install/include/spdlog/sinks/stdout_sinks.h
+-- Installing: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/spdlog/Install/include/spdlog/sinks/base_sink.h
+-- Installing: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/spdlog/Install/include/spdlog/logger.h
+-- Installing: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/spdlog/Install/include/spdlog/async_logger.h
+-- Installing: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/spdlog/Install/include/spdlog/tweakme.h
+-- Installing: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/spdlog/Install/include/spdlog/fwd.h
+-- Installing: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/spdlog/Install/include/spdlog/spdlog-inl.h
+-- Installing: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/spdlog/Install/include/spdlog/spdlog.h
+-- Installing: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/spdlog/Install/include/spdlog/cfg
+-- Installing: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/spdlog/Install/include/spdlog/cfg/helpers-inl.h
+-- Installing: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/spdlog/Install/include/spdlog/cfg/argv.h
+-- Installing: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/spdlog/Install/include/spdlog/cfg/helpers.h
+-- Installing: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/spdlog/Install/include/spdlog/cfg/env.h
+-- Installing: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/spdlog/Install/include/spdlog/details
+-- Installing: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/spdlog/Install/include/spdlog/details/log_msg-inl.h
+-- Installing: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/spdlog/Install/include/spdlog/details/thread_pool.h
+-- Installing: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/spdlog/Install/include/spdlog/details/tcp_client-windows.h
+-- Installing: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/spdlog/Install/include/spdlog/details/console_globals.h
+-- Installing: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/spdlog/Install/include/spdlog/details/os.h
+-- Installing: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/spdlog/Install/include/spdlog/details/backtracer-inl.h
+-- Installing: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/spdlog/Install/include/spdlog/details/log_msg_buffer.h
+-- Installing: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/spdlog/Install/include/spdlog/details/synchronous_factory.h
+-- Installing: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/spdlog/Install/include/spdlog/details/registry-inl.h
+-- Installing: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/spdlog/Install/include/spdlog/details/log_msg_buffer-inl.h
+-- Installing: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/spdlog/Install/include/spdlog/details/registry.h
+-- Installing: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/spdlog/Install/include/spdlog/details/tcp_client.h
+-- Installing: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/spdlog/Install/include/spdlog/details/circular_q.h
+-- Installing: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/spdlog/Install/include/spdlog/details/mpmc_blocking_q.h
+-- Installing: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/spdlog/Install/include/spdlog/details/periodic_worker-inl.h
+-- Installing: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/spdlog/Install/include/spdlog/details/log_msg.h
+-- Installing: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/spdlog/Install/include/spdlog/details/file_helper.h
+-- Installing: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/spdlog/Install/include/spdlog/details/os-inl.h
+-- Installing: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/spdlog/Install/include/spdlog/details/thread_pool-inl.h
+-- Installing: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/spdlog/Install/include/spdlog/details/fmt_helper.h
+-- Installing: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/spdlog/Install/include/spdlog/details/periodic_worker.h
+-- Installing: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/spdlog/Install/include/spdlog/details/null_mutex.h
+-- Installing: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/spdlog/Install/include/spdlog/details/backtracer.h
+-- Installing: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/spdlog/Install/include/spdlog/details/file_helper-inl.h
+-- Installing: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/spdlog/Install/include/spdlog/details/windows_include.h
+-- Installing: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/spdlog/Install/include/spdlog/common.h
+-- Installing: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/spdlog/Install/include/spdlog/stopwatch.h
+-- Installing: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/spdlog/Install/include/spdlog/pattern_formatter-inl.h
+-- Installing: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/spdlog/Install/include/spdlog/version.h
+-- Installing: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/spdlog/Install/include/spdlog/common-inl.h
+-- Installing: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/spdlog/Install/include/spdlog/async.h
+-- Installing: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/spdlog/Install/lib/libspdlog.a
+-- Installing: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/spdlog/Install/include/spdlog/fmt/bundled/
+-- Installing: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/spdlog/Install/include/spdlog/fmt/bundled//core.h
+-- Installing: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/spdlog/Install/include/spdlog/fmt/bundled//os.h
+-- Installing: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/spdlog/Install/include/spdlog/fmt/bundled//ranges.h
+-- Installing: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/spdlog/Install/include/spdlog/fmt/bundled//format.h
+-- Installing: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/spdlog/Install/include/spdlog/fmt/bundled//posix.h
+-- Installing: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/spdlog/Install/include/spdlog/fmt/bundled//format-inl.h
+-- Installing: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/spdlog/Install/include/spdlog/fmt/bundled//color.h
+-- Installing: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/spdlog/Install/include/spdlog/fmt/bundled//ostream.h
+-- Installing: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/spdlog/Install/include/spdlog/fmt/bundled//compile.h
+-- Installing: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/spdlog/Install/include/spdlog/fmt/bundled//printf.h
+-- Installing: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/spdlog/Install/include/spdlog/fmt/bundled//chrono.h
+-- Installing: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/spdlog/Install/include/spdlog/fmt/bundled//LICENSE.rst
+-- Installing: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/spdlog/Install/include/spdlog/fmt/bundled//locale.h
+-- Installing: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/spdlog/Install/lib/pkgconfig/spdlog.pc
+-- Installing: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/spdlog/Install/lib/cmake/spdlog/spdlogConfigTargets.cmake
+-- Installing: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/spdlog/Install/lib/cmake/spdlog/spdlogConfigTargets-release.cmake
+-- Installing: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/spdlog/Install/lib/cmake/spdlog/spdlogConfig.cmake
+-- Installing: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/spdlog/Install/lib/cmake/spdlog/spdlogConfigVersion.cmake
+loading initial cache file /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/spdlog/args.cmake
+[100%] Completed 'spdlog-Release'
+[100%] Built target spdlog-Release
+-- [hunter] Build step successful (dir: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/spdlog)
+-- [hunter] Cache saved: /home/USERNAME/.hunter/_Base/Cache/raw/00870bfbb002f74e77460c39c6d0da3d15fe3667.tar.bz2
+-- [hunter] ZLIB_ROOT: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Install (ver.: 1.2.11-p2)
+-- [hunter] Building ZLIB
+loading initial cache file /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/cache.cmake
+loading initial cache file /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/ZLIB/args.cmake
+-- The C compiler identification is GNU 7.5.0
+-- The CXX compiler identification is GNU 7.5.0
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Configuring done (0.7s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/ZLIB/Build
+[ 12%] Creating directories for 'ZLIB-Release'
+[ 25%] Performing download step (download, verify and extract) for 'ZLIB-Release'
+-- Downloading...
+   dst='/home/USERNAME/.hunter/_Base/Download/ZLIB/1.2.11-p2/fb8b648/v1.2.11-p2.tar.gz'
+   timeout='none'
+   inactivity timeout='none'
+-- Using src='https://github.com/luxonis/zlib/archive/refs/tags/v1.2.11-p2.tar.gz'
+-- verifying file...
+       file='/home/USERNAME/.hunter/_Base/Download/ZLIB/1.2.11-p2/fb8b648/v1.2.11-p2.tar.gz'
+-- Downloading... done
+-- extracting...
+     src='/home/USERNAME/.hunter/_Base/Download/ZLIB/1.2.11-p2/fb8b648/v1.2.11-p2.tar.gz'
+     dst='/home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/ZLIB/Source'
+-- extracting... [tar xfz]
+-- extracting... [analysis]
+-- extracting... [rename]
+-- extracting... [clean up]
+-- extracting... done
+[ 37%] No update step for 'ZLIB-Release'
+[ 50%] No patch step for 'ZLIB-Release'
+[ 62%] Performing configure step for 'ZLIB-Release'
+loading initial cache file /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/cache.cmake
+loading initial cache file /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/ZLIB/args.cmake
+-- The C compiler identification is GNU 7.5.0
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Looking for sys/types.h
+-- Looking for sys/types.h - found
+-- Looking for stdint.h
+-- Looking for stdint.h - found
+-- Looking for stddef.h
+-- Looking for stddef.h - found
+-- Check size of off64_t
+-- Check size of off64_t - done
+-- Looking for fseeko
+-- Looking for fseeko - found
+-- Looking for unistd.h
+-- Looking for unistd.h - found
+-- Renaming
+--     /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/ZLIB/Source/zconf.h
+-- to 'zconf.h.included' because this file is included with zlib
+-- but CMake generates it automatically in the build directory.
+-- Configuring done (1.5s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/ZLIB/Build/ZLIB-Release-prefix/src/ZLIB-Release-build
+[ 75%] Performing build step for 'ZLIB-Release'
+[  8%] Building C object CMakeFiles/zlib.dir/compress.c.o
+[  8%] Building C object CMakeFiles/zlib.dir/adler32.c.o
+[ 16%] Building C object CMakeFiles/zlib.dir/crc32.c.o
+[ 16%] Building C object CMakeFiles/zlib.dir/deflate.c.o
+[ 20%] Building C object CMakeFiles/zlib.dir/gzclose.c.o
+[ 25%] Building C object CMakeFiles/zlib.dir/gzlib.c.o
+[ 29%] Building C object CMakeFiles/zlib.dir/gzread.c.o
+[ 33%] Building C object CMakeFiles/zlib.dir/gzwrite.c.o
+[ 37%] Building C object CMakeFiles/zlib.dir/inflate.c.o
+[ 41%] Building C object CMakeFiles/zlib.dir/infback.c.o
+[ 45%] Building C object CMakeFiles/zlib.dir/inftrees.c.o
+[ 50%] Building C object CMakeFiles/zlib.dir/inffast.c.o
+[ 54%] Building C object CMakeFiles/zlib.dir/trees.c.o
+[ 58%] Building C object CMakeFiles/zlib.dir/uncompr.c.o
+[ 62%] Building C object CMakeFiles/zlib.dir/zutil.c.o
+[ 66%] Linking C static library libz.a
+[ 66%] Built target zlib
+[ 70%] Building C object CMakeFiles/example.dir/test/example.c.o
+[ 75%] Building C object CMakeFiles/example64.dir/test/example.c.o
+[ 79%] Building C object CMakeFiles/minigzip.dir/test/minigzip.c.o
+[ 83%] Building C object CMakeFiles/minigzip64.dir/test/minigzip.c.o
+[ 87%] Linking C executable minigzip
+[ 91%] Linking C executable minigzip64
+[ 91%] Built target minigzip
+[ 91%] Built target minigzip64
+[ 95%] Linking C executable example64
+[100%] Linking C executable example
+[100%] Built target example64
+[100%] Built target example
+[ 87%] Performing install step for 'ZLIB-Release'
+[ 66%] Built target zlib
+[ 75%] Built target example
+[ 83%] Built target minigzip
+[ 91%] Built target example64
+[100%] Built target minigzip64
+Install the project...
+-- Install configuration: "Release"
+-- Installing: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/ZLIB/Install/lib/libz.a
+-- Installing: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/ZLIB/Install/lib/cmake/ZLIB/ZLIBConfig.cmake
+-- Installing: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/ZLIB/Install/lib/cmake/ZLIB/ZLIBConfigVersion.cmake
+-- Installing: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/ZLIB/Install/lib/cmake/ZLIB/ZLIBTargets.cmake
+-- Installing: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/ZLIB/Install/lib/cmake/ZLIB/ZLIBTargets-release.cmake
+-- Installing: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/ZLIB/Install/include/zconf.h
+-- Installing: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/ZLIB/Install/include/zlib.h
+-- Installing: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/ZLIB/Install/share/man/man3/zlib.3
+-- Installing: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/ZLIB/Install/share/pkgconfig/zlib.pc
+loading initial cache file /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/ZLIB/args.cmake
+[100%] Completed 'ZLIB-Release'
+[100%] Built target ZLIB-Release
+-- [hunter] Build step successful (dir: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/ZLIB)
+-- [hunter] Cache saved: /home/USERNAME/.hunter/_Base/Cache/raw/2472c7d2b1ba23d725139f98ac9457982a5ef4b6.tar.bz2
+-- [hunter] BACKWARD_ROOT: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Install (ver.: 1.6)
+-- [hunter] Building Backward
+loading initial cache file /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/cache.cmake
+loading initial cache file /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/Backward/args.cmake
+-- The C compiler identification is GNU 7.5.0
+-- The CXX compiler identification is GNU 7.5.0
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Configuring done (0.6s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/Backward/Build
+[ 12%] Creating directories for 'Backward-Release'
+[ 25%] Performing download step (download, verify and extract) for 'Backward-Release'
+-- Downloading...
+   dst='/home/USERNAME/.hunter/_Base/Download/Backward/1.6/4ecb711/v1.6.tar.gz'
+   timeout='none'
+   inactivity timeout='none'
+-- Using src='https://github.com/bombela/backward-cpp/archive/refs/tags/v1.6.tar.gz'
+-- [download 6% complete]
+-- [download 17% complete]
+-- [download 20% complete]
+-- [download 42% complete]
+-- [download 48% complete]
+-- [download 92% complete]
+-- [download 100% complete]
+-- verifying file...
+       file='/home/USERNAME/.hunter/_Base/Download/Backward/1.6/4ecb711/v1.6.tar.gz'
+-- Downloading... done
+-- extracting...
+     src='/home/USERNAME/.hunter/_Base/Download/Backward/1.6/4ecb711/v1.6.tar.gz'
+     dst='/home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/Backward/Source'
+-- extracting... [tar xfz]
+-- extracting... [analysis]
+-- extracting... [rename]
+-- extracting... [clean up]
+-- extracting... done
+[ 37%] No update step for 'Backward-Release'
+[ 50%] No patch step for 'Backward-Release'
+[ 62%] Performing configure step for 'Backward-Release'
+loading initial cache file /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/cache.cmake
+loading initial cache file /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/Backward/args.cmake
+-- The CXX compiler identification is GNU 7.5.0
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Could NOT find libdw (missing: LIBDW_LIBRARY LIBDW_INCLUDE_DIR) 
+-- Could NOT find libbfd (missing: LIBBFD_LIBRARY LIBBFD_INCLUDE_DIR) 
+-- Could NOT find libdwarf (missing: LIBDWARF_LIBRARY LIBDWARF_INCLUDE_DIR LIBELF_LIBRARY LIBELF_INCLUDE_DIR) 
+-- Found Backward: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/Backward/Source  
+-- Configuring done (0.4s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/Backward/Build/Backward-Release-prefix/src/Backward-Release-build
+[ 75%] Performing build step for 'Backward-Release'
+[ 66%] Building CXX object CMakeFiles/backward_object.dir/backward.cpp.o
+[ 66%] Building CXX object CMakeFiles/backward.dir/backward.cpp.o
+[100%] Linking CXX static library libbackward.a
+[100%] Built target backward_object
+[100%] Built target backward
+[ 87%] Performing install step for 'Backward-Release'
+[ 33%] Built target backward_object
+[100%] Built target backward
+Install the project...
+-- Install configuration: "Release"
+-- Installing: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/Backward/Install/include/backward.hpp
+-- Installing: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/Backward/Install/lib/backward/BackwardConfig.cmake
+loading initial cache file /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/Backward/args.cmake
+[100%] Completed 'Backward-Release'
+[100%] Built target Backward-Release
+-- [hunter] Build step successful (dir: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/Backward)
+-- [hunter] Cache saved: /home/USERNAME/.hunter/_Base/Cache/raw/14628293c4e047d230093ca454ed96b8bfdb4b6c.tar.bz2
+-- [hunter] LIBNOP_ROOT: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Install (ver.: 1.0-ec8f75a)
+-- [hunter] Building libnop
+loading initial cache file /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/cache.cmake
+loading initial cache file /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/libnop/args.cmake
+-- The C compiler identification is GNU 7.5.0
+-- The CXX compiler identification is GNU 7.5.0
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Configuring done (0.6s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/libnop/Build
+[ 12%] Creating directories for 'libnop-Release'
+[ 25%] Performing download step (download, verify and extract) for 'libnop-Release'
+-- Downloading...
+   dst='/home/USERNAME/.hunter/_Base/Download/libnop/1.0-ec8f75a/32f40f0/ab842f51dc2eb13916dc98417c2186b78320ed10.tar.gz'
+   timeout='none'
+   inactivity timeout='none'
+-- Using src='https://github.com/luxonis/libnop/archive/ab842f51dc2eb13916dc98417c2186b78320ed10.tar.gz'
+-- verifying file...
+       file='/home/USERNAME/.hunter/_Base/Download/libnop/1.0-ec8f75a/32f40f0/ab842f51dc2eb13916dc98417c2186b78320ed10.tar.gz'
+-- Downloading... done
+-- extracting...
+     src='/home/USERNAME/.hunter/_Base/Download/libnop/1.0-ec8f75a/32f40f0/ab842f51dc2eb13916dc98417c2186b78320ed10.tar.gz'
+     dst='/home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/libnop/Source'
+-- extracting... [tar xfz]
+-- extracting... [analysis]
+-- extracting... [rename]
+-- extracting... [clean up]
+-- extracting... done
+[ 37%] No update step for 'libnop-Release'
+[ 50%] No patch step for 'libnop-Release'
+[ 62%] Performing configure step for 'libnop-Release'
+loading initial cache file /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/cache.cmake
+loading initial cache file /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/libnop/args.cmake
+-- The CXX compiler identification is GNU 7.5.0
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Configuring done (0.3s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/libnop/Build/libnop-Release-prefix/src/libnop-Release-build
+[ 75%] Performing build step for 'libnop-Release'
+[ 87%] Performing install step for 'libnop-Release'
+Install the project...
+-- Install configuration: "Release"
+-- Installing: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/libnop/Install/include
+-- Installing: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/libnop/Install/include/nop
+-- Installing: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/libnop/Install/include/nop/value.h
+-- Installing: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/libnop/Install/include/nop/base
+-- Installing: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/libnop/Install/include/nop/base/encoding.h
+-- Installing: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/libnop/Install/include/nop/base/logical_buffer.h
+-- Installing: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/libnop/Install/include/nop/base/vector.h
+-- Installing: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/libnop/Install/include/nop/base/optional.h
+-- Installing: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/libnop/Install/include/nop/base/value.h
+-- Installing: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/libnop/Install/include/nop/base/pair.h
+-- Installing: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/libnop/Install/include/nop/base/string.h
+-- Installing: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/libnop/Install/include/nop/base/members.h
+-- Installing: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/libnop/Install/include/nop/base/encoding_byte.h
+-- Installing: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/libnop/Install/include/nop/base/serializer.h
+-- Installing: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/libnop/Install/include/nop/base/table.h
+-- Installing: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/libnop/Install/include/nop/base/result.h
+-- Installing: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/libnop/Install/include/nop/base/reference_wrapper.h
+-- Installing: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/libnop/Install/include/nop/base/macros.h
+-- Installing: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/libnop/Install/include/nop/base/variant.h
+-- Installing: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/libnop/Install/include/nop/base/utility.h
+-- Installing: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/libnop/Install/include/nop/base/handle.h
+-- Installing: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/libnop/Install/include/nop/base/enum.h
+-- Installing: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/libnop/Install/include/nop/base/map.h
+-- Installing: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/libnop/Install/include/nop/base/tuple.h
+-- Installing: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/libnop/Install/include/nop/base/array.h
+-- Installing: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/libnop/Install/include/nop/serializer.h
+-- Installing: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/libnop/Install/include/nop/structure.h
+-- Installing: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/libnop/Install/include/nop/status.h
+-- Installing: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/libnop/Install/include/nop/table.h
+-- Installing: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/libnop/Install/include/nop/protocol.h
+-- Installing: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/libnop/Install/include/nop/traits
+-- Installing: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/libnop/Install/include/nop/traits/function_traits.h
+-- Installing: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/libnop/Install/include/nop/traits/is_fungible.h
+-- Installing: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/libnop/Install/include/nop/traits/is_comparable.h
+-- Installing: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/libnop/Install/include/nop/traits/void.h
+-- Installing: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/libnop/Install/include/nop/traits/is_detected.h
+-- Installing: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/libnop/Install/include/nop/traits/is_template_base_of.h
+-- Installing: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/libnop/Install/include/nop/rpc
+-- Installing: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/libnop/Install/include/nop/rpc/interface.h
+-- Installing: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/libnop/Install/include/nop/rpc/simple_method_sender.h
+-- Installing: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/libnop/Install/include/nop/rpc/simple_method_receiver.h
+-- Installing: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/libnop/Install/include/nop/utility
+-- Installing: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/libnop/Install/include/nop/utility/bounded_writer.h
+-- Installing: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/libnop/Install/include/nop/utility/pedantic_buffer_reader.h
+-- Installing: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/libnop/Install/include/nop/utility/die.h
+-- Installing: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/libnop/Install/include/nop/utility/endian.h
+-- Installing: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/libnop/Install/include/nop/utility/buffer_writer.h
+-- Installing: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/libnop/Install/include/nop/utility/sip_hash.h
+-- Installing: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/libnop/Install/include/nop/utility/backtrace.h
+-- Installing: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/libnop/Install/include/nop/utility/compiler.h
+-- Installing: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/libnop/Install/include/nop/utility/constexpr_buffer_writer.h
+-- Installing: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/libnop/Install/include/nop/utility/bounded_reader.h
+-- Installing: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/libnop/Install/include/nop/utility/stream_writer.h
+-- Installing: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/libnop/Install/include/nop/utility/fd_reader.h
+-- Installing: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/libnop/Install/include/nop/utility/buffer_reader.h
+-- Installing: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/libnop/Install/include/nop/utility/stream_reader.h
+-- Installing: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/libnop/Install/include/nop/utility/pedantic_buffer_writer.h
+-- Installing: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/libnop/Install/include/nop/utility/fd_writer.h
+-- Installing: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/libnop/Install/include/nop/types
+-- Installing: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/libnop/Install/include/nop/types/enum_flags.h
+-- Installing: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/libnop/Install/include/nop/types/optional.h
+-- Installing: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/libnop/Install/include/nop/types/file_handle.h
+-- Installing: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/libnop/Install/include/nop/types/result.h
+-- Installing: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/libnop/Install/include/nop/types/thread_local.h
+-- Installing: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/libnop/Install/include/nop/types/variant.h
+-- Installing: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/libnop/Install/include/nop/types/handle.h
+-- Installing: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/libnop/Install/include/nop/types/detail
+-- Installing: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/libnop/Install/include/nop/types/detail/logical_buffer.h
+-- Installing: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/libnop/Install/include/nop/types/detail/member_pointer.h
+-- Installing: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/libnop/Install/include/nop/types/detail/variant.h
+-- Installing: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/libnop/Install/lib/cmake/libnop/libnopConfig.cmake
+loading initial cache file /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/libnop/args.cmake
+[100%] Completed 'libnop-Release'
+[100%] Built target libnop-Release
+-- [hunter] Build step successful (dir: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Build/libnop)
+-- [hunter] Cache saved: /home/USERNAME/.hunter/_Base/Cache/raw/96371fd3c70bdf5ccf18074aec6194de8c8e5391.tar.bz2
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+-- Looking for pthread_create in pthreads
+-- Looking for pthread_create in pthreads - not found
+-- Looking for pthread_create in pthread
+-- Looking for pthread_create in pthread - found
+-- Found Threads: TRUE  
+-- Found Backward: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Install/lib/backward  
+-- Found nlohmann_json: /home/USERNAME/.hunter/_Base/cb0ea1f/08f9145/15c0458/Install/lib/cmake/nlohmann_json/nlohmann_jsonConfig.cmake (found suitable version "3.9.1", minimum required is "3.6.0") 
+-- Found CUDA: /usr/local/cuda-10.2 (found suitable exact version "10.2") 
+-- Configuring incomplete, errors occurred!

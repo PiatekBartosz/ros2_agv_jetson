@@ -1,0 +1,287 @@
+[0.068s] Invoking command in '/workspaces/ROS_PointCloud_AGV/build/depthai_ros_msgs': /usr/local/bin/cmake /workspaces/ROS_PointCloud_AGV/dai_ws/src/depthai-ros/depthai_ros_msgs -DBUILD_SHARED_LIBS=ON -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/workspaces/ROS_PointCloud_AGV/install/depthai_ros_msgs
+[0.240s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/install/share/ament_cmake/cmake)
+[0.248s] [33mCMake Warning (dev) at /opt/ros/foxy/install/share/ament_cmake_core/cmake/core/python.cmake:22 (find_package):
+[0.249s]   Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+[0.249s]   are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+[0.250s]   the cmake_policy command to set the policy and suppress this warning.
+[0.254s] 
+[0.256s] Call Stack (most recent call first):
+[0.257s]   /opt/ros/foxy/install/share/ament_cmake_core/cmake/core/all.cmake:53 (include)
+[0.257s]   /opt/ros/foxy/install/share/ament_cmake_core/cmake/ament_cmake_core-extras.cmake:17 (include)
+[0.261s]   /opt/ros/foxy/install/share/ament_cmake_core/cmake/ament_cmake_coreConfig.cmake:41 (include)
+[0.262s]   /opt/ros/foxy/install/share/ament_cmake/cmake/ament_cmake_export_dependencies-extras.cmake:15 (find_package)
+[0.262s]   /opt/ros/foxy/install/share/ament_cmake/cmake/ament_cmakeConfig.cmake:41 (include)
+[0.263s]   CMakeLists.txt:9 (find_package)
+[0.263s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.264s] [0m
+[0.326s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.6.9", minimum required is "3") 
+[0.327s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.290s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.323s] -- ------------------------------------------
+[1.324s] -- Depthai ROS MSGS/INTERFACES is being built using AMENT.
+[1.324s] -- ------------------------------------------
+[1.325s] -- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/install/share/geometry_msgs/cmake)
+[1.416s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.433s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/install/share/rosidl_adapter/cmake)
+[1.965s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.376s] -- Found vision_msgs: 2.0.0 (/opt/ros/foxy/install/share/vision_msgs/cmake)
+[3.349s] -- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/install/share/rosidl_default_generators/cmake)
+[3.408s] [33mCMake Warning (dev) at /opt/ros/foxy/install/share/rosidl_adapter/cmake/rosidl_adapt_interfaces.cmake:40 (find_package):
+[3.409s]   Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+[3.409s]   are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+[3.410s]   the cmake_policy command to set the policy and suppress this warning.
+[3.410s] 
+[3.411s] Call Stack (most recent call first):
+[3.411s]   /opt/ros/foxy/install/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:130 (rosidl_adapt_interfaces)
+[3.412s]   CMakeLists.txt:22 (rosidl_generate_interfaces)
+[3.412s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[3.412s] [0m
+[3.485s] -- Found PythonInterp: /usr/bin/python3 (found version "3.6.9") 
+[5.166s] -- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/install/share/ament_cmake_ros/cmake)
+[7.004s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[8.053s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[8.081s] [33mCMake Warning (dev) at /opt/ros/foxy/install/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:20 (find_package):
+[8.081s]   Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+[8.082s]   are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+[8.082s]   the cmake_policy command to set the policy and suppress this warning.
+[8.083s] 
+[8.083s] Call Stack (most recent call first):
+[8.084s]   /opt/ros/foxy/install/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[8.084s]   /opt/ros/foxy/install/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)
+[8.085s]   CMakeLists.txt:22 (rosidl_generate_interfaces)
+[8.085s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[8.086s] [0m
+[8.153s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.6.9", minimum required is "3.5") 
+[8.154s] -- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/install/share/python_cmake_module/cmake)
+[8.174s] [33mCMake Warning (dev) at /opt/ros/foxy/install/share/python_cmake_module/cmake/Modules/FindPythonExtra.cmake:45 (find_package):
+[8.175s]   Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+[8.175s]   are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+[8.176s]   the cmake_policy command to set the policy and suppress this warning.
+[8.176s] 
+[8.177s] Call Stack (most recent call first):
+[8.177s]   /opt/ros/foxy/install/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:23 (find_package)
+[8.178s]   /opt/ros/foxy/install/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[8.178s]   /opt/ros/foxy/install/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)
+[8.179s]   CMakeLists.txt:22 (rosidl_generate_interfaces)
+[8.179s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[8.180s] [0m
+[8.248s] [33mCMake Warning (dev) at /opt/ros/foxy/install/share/python_cmake_module/cmake/Modules/FindPythonExtra.cmake:133 (find_package):
+[8.248s]   Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+[8.249s]   are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+[8.249s]   the cmake_policy command to set the policy and suppress this warning.
+[8.250s] 
+[8.250s] Call Stack (most recent call first):
+[8.251s]   /opt/ros/foxy/install/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:23 (find_package)
+[8.251s]   /opt/ros/foxy/install/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[8.252s]   /opt/ros/foxy/install/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)
+[8.252s]   CMakeLists.txt:22 (rosidl_generate_interfaces)
+[8.252s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[8.253s] [0m
+[8.285s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[8.286s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.6m
+[8.286s] -- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.6m.so
+[9.267s] -- Using numpy include directory: /usr/local/lib/python3.6/dist-packages/numpy/core/include
+[9.404s] -- Configuring done (9.2s)
+[9.816s] -- Generating done (0.3s)
+[9.833s] -- Build files have been written to: /workspaces/ROS_PointCloud_AGV/build/depthai_ros_msgs
+[9.877s] Invoked command in '/workspaces/ROS_PointCloud_AGV/build/depthai_ros_msgs' returned '0': /usr/local/bin/cmake /workspaces/ROS_PointCloud_AGV/dai_ws/src/depthai-ros/depthai_ros_msgs -DBUILD_SHARED_LIBS=ON -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/workspaces/ROS_PointCloud_AGV/install/depthai_ros_msgs
+[9.885s] Invoking command in '/workspaces/ROS_PointCloud_AGV/build/depthai_ros_msgs': /usr/local/bin/cmake --build /workspaces/ROS_PointCloud_AGV/build/depthai_ros_msgs
+[10.121s] [  1%] Built target depthai_ros_msgs__cpp
+[10.204s] [ 12%] Built target depthai_ros_msgs__rosidl_typesupport_cpp
+[10.267s] [ 24%] Built target depthai_ros_msgs__rosidl_generator_c
+[10.353s] [ 25%] [32m[1mLinking CXX shared library libdepthai_ros_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[10.645s] [ 35%] Built target depthai_ros_msgs__rosidl_typesupport_fastrtps_cpp
+[10.731s] [ 36%] [32m[1mLinking CXX shared library libdepthai_ros_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[10.999s] [ 46%] Built target depthai_ros_msgs__rosidl_typesupport_fastrtps_c
+[11.061s] [ 58%] Built target depthai_ros_msgs__rosidl_typesupport_introspection_c
+[11.108s] [ 69%] Built target depthai_ros_msgs__rosidl_typesupport_c
+[11.189s] [ 81%] Built target depthai_ros_msgs__rosidl_typesupport_introspection_cpp
+[11.219s] [ 81%] Built target depthai_ros_msgs
+[11.255s] [ 82%] Built target depthai_ros_msgs__py
+[11.323s] [ 83%] [32m[1mLinking C shared library rosidl_generator_py/depthai_ros_msgs/libdepthai_ros_msgs__python.so[0m
+[11.470s] [ 92%] Built target depthai_ros_msgs__python
+[11.515s] [ 93%] [32m[1mLinking CXX shared library rosidl_generator_py/depthai_ros_msgs/depthai_ros_msgs_s__rosidl_typesupport_fastrtps_c.cpython-36m-aarch64-linux-gnu.so[0m
+[11.746s] [ 94%] Built target depthai_ros_msgs__rosidl_typesupport_fastrtps_c__pyext
+[11.791s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/depthai_ros_msgs/depthai_ros_msgs_s__rosidl_typesupport_introspection_c.cpython-36m-aarch64-linux-gnu.so[0m
+[11.903s] [ 97%] Built target depthai_ros_msgs__rosidl_typesupport_introspection_c__pyext
+[11.945s] [ 98%] [32m[1mLinking C shared library rosidl_generator_py/depthai_ros_msgs/depthai_ros_msgs_s__rosidl_typesupport_c.cpython-36m-aarch64-linux-gnu.so[0m
+[12.059s] [100%] Built target depthai_ros_msgs__rosidl_typesupport_c__pyext
+[12.095s] Invoked command in '/workspaces/ROS_PointCloud_AGV/build/depthai_ros_msgs' returned '0': /usr/local/bin/cmake --build /workspaces/ROS_PointCloud_AGV/build/depthai_ros_msgs
+[12.790s] Invoking command in '/workspaces/ROS_PointCloud_AGV/build/depthai_ros_msgs': /usr/local/bin/cmake --install /workspaces/ROS_PointCloud_AGV/build/depthai_ros_msgs
+[12.926s] -- Install configuration: ""
+[12.927s] -- Execute custom install script
+[12.928s] -- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_ros_msgs/share/ament_index/resource_index/rosidl_interfaces/depthai_ros_msgs
+[12.942s] -- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_ros_msgs/include/depthai_ros_msgs/msg/auto_focus_ctrl.h
+[12.951s] -- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_ros_msgs/include/depthai_ros_msgs/msg/detail/auto_focus_ctrl__functions.h
+[12.960s] -- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_ros_msgs/include/depthai_ros_msgs/msg/detail/auto_focus_ctrl__struct.h
+[12.972s] -- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_ros_msgs/include/depthai_ros_msgs/msg/detail/auto_focus_ctrl__type_support.h
+[12.978s] -- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_ros_msgs/include/depthai_ros_msgs/msg/detail/hand_landmark__functions.h
+[12.985s] -- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_ros_msgs/include/depthai_ros_msgs/msg/detail/hand_landmark__struct.h
+[12.994s] -- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_ros_msgs/include/depthai_ros_msgs/msg/detail/hand_landmark__type_support.h
+[13.003s] -- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_ros_msgs/include/depthai_ros_msgs/msg/detail/hand_landmark_array__functions.h
+[13.012s] -- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_ros_msgs/include/depthai_ros_msgs/msg/detail/hand_landmark_array__struct.h
+[13.021s] -- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_ros_msgs/include/depthai_ros_msgs/msg/detail/hand_landmark_array__type_support.h
+[13.029s] -- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_ros_msgs/include/depthai_ros_msgs/msg/detail/spatial_detection__functions.h
+[13.039s] -- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_ros_msgs/include/depthai_ros_msgs/msg/detail/spatial_detection__struct.h
+[13.048s] -- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_ros_msgs/include/depthai_ros_msgs/msg/detail/spatial_detection__type_support.h
+[13.057s] -- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_ros_msgs/include/depthai_ros_msgs/msg/detail/spatial_detection_array__functions.h
+[13.066s] -- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_ros_msgs/include/depthai_ros_msgs/msg/detail/spatial_detection_array__struct.h
+[13.075s] -- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_ros_msgs/include/depthai_ros_msgs/msg/detail/spatial_detection_array__type_support.h
+[13.084s] -- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_ros_msgs/include/depthai_ros_msgs/msg/hand_landmark.h
+[13.092s] -- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_ros_msgs/include/depthai_ros_msgs/msg/hand_landmark_array.h
+[13.101s] -- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_ros_msgs/include/depthai_ros_msgs/msg/rosidl_generator_c__visibility_control.h
+[13.110s] -- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_ros_msgs/include/depthai_ros_msgs/msg/spatial_detection.h
+[13.118s] -- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_ros_msgs/include/depthai_ros_msgs/msg/spatial_detection_array.h
+[13.127s] -- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_ros_msgs/include/depthai_ros_msgs/srv/detail/normalized_image_crop__functions.h
+[13.136s] -- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_ros_msgs/include/depthai_ros_msgs/srv/detail/normalized_image_crop__struct.h
+[13.145s] -- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_ros_msgs/include/depthai_ros_msgs/srv/detail/normalized_image_crop__type_support.h
+[13.153s] -- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_ros_msgs/include/depthai_ros_msgs/srv/detail/trigger_named__functions.h
+[13.162s] -- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_ros_msgs/include/depthai_ros_msgs/srv/detail/trigger_named__struct.h
+[13.172s] -- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_ros_msgs/include/depthai_ros_msgs/srv/detail/trigger_named__type_support.h
+[13.180s] -- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_ros_msgs/include/depthai_ros_msgs/srv/normalized_image_crop.h
+[13.188s] -- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_ros_msgs/include/depthai_ros_msgs/srv/trigger_named.h
+[13.198s] -- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_ros_msgs/share/depthai_ros_msgs/environment/library_path.sh
+[13.207s] -- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_ros_msgs/share/depthai_ros_msgs/environment/library_path.dsv
+[13.218s] -- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_ros_msgs/include/depthai_ros_msgs/msg/detail/auto_focus_ctrl__rosidl_typesupport_fastrtps_c.h
+[13.228s] -- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_ros_msgs/include/depthai_ros_msgs/msg/detail/hand_landmark__rosidl_typesupport_fastrtps_c.h
+[13.236s] -- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_ros_msgs/include/depthai_ros_msgs/msg/detail/hand_landmark_array__rosidl_typesupport_fastrtps_c.h
+[13.245s] -- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_ros_msgs/include/depthai_ros_msgs/msg/detail/spatial_detection__rosidl_typesupport_fastrtps_c.h
+[13.254s] -- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_ros_msgs/include/depthai_ros_msgs/msg/detail/spatial_detection_array__rosidl_typesupport_fastrtps_c.h
+[13.263s] -- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_ros_msgs/include/depthai_ros_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[13.272s] -- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_ros_msgs/include/depthai_ros_msgs/srv/detail/normalized_image_crop__rosidl_typesupport_fastrtps_c.h
+[13.281s] -- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_ros_msgs/include/depthai_ros_msgs/srv/detail/trigger_named__rosidl_typesupport_fastrtps_c.h
+[13.291s] -- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_ros_msgs/lib/libdepthai_ros_msgs__rosidl_typesupport_fastrtps_c.so
+[13.304s] -- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_ros_msgs/include/depthai_ros_msgs/msg/detail/auto_focus_ctrl__rosidl_typesupport_fastrtps_cpp.hpp
+[13.312s] -- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_ros_msgs/include/depthai_ros_msgs/msg/detail/hand_landmark__rosidl_typesupport_fastrtps_cpp.hpp
+[13.321s] -- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_ros_msgs/include/depthai_ros_msgs/msg/detail/hand_landmark_array__rosidl_typesupport_fastrtps_cpp.hpp
+[13.330s] -- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_ros_msgs/include/depthai_ros_msgs/msg/detail/spatial_detection__rosidl_typesupport_fastrtps_cpp.hpp
+[13.338s] -- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_ros_msgs/include/depthai_ros_msgs/msg/detail/spatial_detection_array__rosidl_typesupport_fastrtps_cpp.hpp
+[13.348s] -- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_ros_msgs/include/depthai_ros_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[13.356s] -- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_ros_msgs/include/depthai_ros_msgs/srv/detail/normalized_image_crop__rosidl_typesupport_fastrtps_cpp.hpp
+[13.365s] -- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_ros_msgs/include/depthai_ros_msgs/srv/detail/trigger_named__rosidl_typesupport_fastrtps_cpp.hpp
+[13.374s] -- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_ros_msgs/lib/libdepthai_ros_msgs__rosidl_typesupport_fastrtps_cpp.so
+[13.385s] -- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_ros_msgs/include/depthai_ros_msgs/msg/detail/auto_focus_ctrl__rosidl_typesupport_introspection_c.h
+[13.394s] -- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_ros_msgs/include/depthai_ros_msgs/msg/detail/hand_landmark__rosidl_typesupport_introspection_c.h
+[13.403s] -- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_ros_msgs/include/depthai_ros_msgs/msg/detail/hand_landmark_array__rosidl_typesupport_introspection_c.h
+[13.412s] -- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_ros_msgs/include/depthai_ros_msgs/msg/detail/spatial_detection__rosidl_typesupport_introspection_c.h
+[13.421s] -- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_ros_msgs/include/depthai_ros_msgs/msg/detail/spatial_detection_array__rosidl_typesupport_introspection_c.h
+[13.430s] -- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_ros_msgs/include/depthai_ros_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[13.439s] -- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_ros_msgs/include/depthai_ros_msgs/srv/detail/normalized_image_crop__rosidl_typesupport_introspection_c.h
+[13.448s] -- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_ros_msgs/include/depthai_ros_msgs/srv/detail/trigger_named__rosidl_typesupport_introspection_c.h
+[13.460s] -- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_ros_msgs/include/depthai_ros_msgs/msg/auto_focus_ctrl.hpp
+[13.469s] -- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_ros_msgs/include/depthai_ros_msgs/msg/detail/auto_focus_ctrl__builder.hpp
+[13.479s] -- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_ros_msgs/include/depthai_ros_msgs/msg/detail/auto_focus_ctrl__struct.hpp
+[13.488s] -- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_ros_msgs/include/depthai_ros_msgs/msg/detail/auto_focus_ctrl__traits.hpp
+[13.497s] -- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_ros_msgs/include/depthai_ros_msgs/msg/detail/auto_focus_ctrl__type_support.hpp
+[13.506s] -- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_ros_msgs/include/depthai_ros_msgs/msg/detail/hand_landmark__builder.hpp
+[13.514s] -- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_ros_msgs/include/depthai_ros_msgs/msg/detail/hand_landmark__struct.hpp
+[13.523s] -- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_ros_msgs/include/depthai_ros_msgs/msg/detail/hand_landmark__traits.hpp
+[13.532s] -- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_ros_msgs/include/depthai_ros_msgs/msg/detail/hand_landmark__type_support.hpp
+[13.540s] -- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_ros_msgs/include/depthai_ros_msgs/msg/detail/hand_landmark_array__builder.hpp
+[13.550s] -- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_ros_msgs/include/depthai_ros_msgs/msg/detail/hand_landmark_array__struct.hpp
+[13.559s] -- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_ros_msgs/include/depthai_ros_msgs/msg/detail/hand_landmark_array__traits.hpp
+[13.568s] -- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_ros_msgs/include/depthai_ros_msgs/msg/detail/hand_landmark_array__type_support.hpp
+[13.576s] -- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_ros_msgs/include/depthai_ros_msgs/msg/detail/spatial_detection__builder.hpp
+[13.585s] -- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_ros_msgs/include/depthai_ros_msgs/msg/detail/spatial_detection__struct.hpp
+[13.594s] -- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_ros_msgs/include/depthai_ros_msgs/msg/detail/spatial_detection__traits.hpp
+[13.602s] -- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_ros_msgs/include/depthai_ros_msgs/msg/detail/spatial_detection__type_support.hpp
+[13.611s] -- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_ros_msgs/include/depthai_ros_msgs/msg/detail/spatial_detection_array__builder.hpp
+[13.620s] -- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_ros_msgs/include/depthai_ros_msgs/msg/detail/spatial_detection_array__struct.hpp
+[13.628s] -- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_ros_msgs/include/depthai_ros_msgs/msg/detail/spatial_detection_array__traits.hpp
+[13.638s] -- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_ros_msgs/include/depthai_ros_msgs/msg/detail/spatial_detection_array__type_support.hpp
+[13.647s] -- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_ros_msgs/include/depthai_ros_msgs/msg/hand_landmark.hpp
+[13.656s] -- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_ros_msgs/include/depthai_ros_msgs/msg/hand_landmark_array.hpp
+[13.665s] -- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_ros_msgs/include/depthai_ros_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[13.673s] -- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_ros_msgs/include/depthai_ros_msgs/msg/spatial_detection.hpp
+[13.683s] -- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_ros_msgs/include/depthai_ros_msgs/msg/spatial_detection_array.hpp
+[13.692s] -- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_ros_msgs/include/depthai_ros_msgs/srv/detail/normalized_image_crop__builder.hpp
+[13.701s] -- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_ros_msgs/include/depthai_ros_msgs/srv/detail/normalized_image_crop__struct.hpp
+[13.709s] -- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_ros_msgs/include/depthai_ros_msgs/srv/detail/normalized_image_crop__traits.hpp
+[13.718s] -- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_ros_msgs/include/depthai_ros_msgs/srv/detail/normalized_image_crop__type_support.hpp
+[13.726s] -- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_ros_msgs/include/depthai_ros_msgs/srv/detail/trigger_named__builder.hpp
+[13.735s] -- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_ros_msgs/include/depthai_ros_msgs/srv/detail/trigger_named__struct.hpp
+[13.744s] -- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_ros_msgs/include/depthai_ros_msgs/srv/detail/trigger_named__traits.hpp
+[13.753s] -- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_ros_msgs/include/depthai_ros_msgs/srv/detail/trigger_named__type_support.hpp
+[13.762s] -- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_ros_msgs/include/depthai_ros_msgs/srv/normalized_image_crop.hpp
+[13.770s] -- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_ros_msgs/include/depthai_ros_msgs/srv/trigger_named.hpp
+[13.782s] -- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_ros_msgs/include/depthai_ros_msgs/msg/detail/auto_focus_ctrl__rosidl_typesupport_introspection_cpp.hpp
+[13.791s] -- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_ros_msgs/include/depthai_ros_msgs/msg/detail/hand_landmark__rosidl_typesupport_introspection_cpp.hpp
+[13.800s] -- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_ros_msgs/include/depthai_ros_msgs/msg/detail/hand_landmark_array__rosidl_typesupport_introspection_cpp.hpp
+[13.809s] -- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_ros_msgs/include/depthai_ros_msgs/msg/detail/spatial_detection__rosidl_typesupport_introspection_cpp.hpp
+[13.818s] -- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_ros_msgs/include/depthai_ros_msgs/msg/detail/spatial_detection_array__rosidl_typesupport_introspection_cpp.hpp
+[13.827s] -- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_ros_msgs/include/depthai_ros_msgs/srv/detail/normalized_image_crop__rosidl_typesupport_introspection_cpp.hpp
+[13.836s] -- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_ros_msgs/include/depthai_ros_msgs/srv/detail/trigger_named__rosidl_typesupport_introspection_cpp.hpp
+[13.845s] -- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_ros_msgs/share/depthai_ros_msgs/environment/pythonpath.sh
+[13.855s] -- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_ros_msgs/share/depthai_ros_msgs/environment/pythonpath.dsv
+[13.864s] -- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_ros_msgs/lib/python3.6/site-packages/depthai_ros_msgs/__init__.py
+[13.874s] -- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_ros_msgs/lib/python3.6/site-packages/depthai_ros_msgs/msg/__init__.py
+[13.883s] -- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_ros_msgs/lib/python3.6/site-packages/depthai_ros_msgs/msg/_auto_focus_ctrl.py
+[13.892s] -- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_ros_msgs/lib/python3.6/site-packages/depthai_ros_msgs/msg/_hand_landmark.py
+[13.901s] -- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_ros_msgs/lib/python3.6/site-packages/depthai_ros_msgs/msg/_hand_landmark_array.py
+[13.909s] -- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_ros_msgs/lib/python3.6/site-packages/depthai_ros_msgs/msg/_spatial_detection.py
+[13.919s] -- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_ros_msgs/lib/python3.6/site-packages/depthai_ros_msgs/msg/_spatial_detection_array.py
+[13.929s] -- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_ros_msgs/lib/python3.6/site-packages/depthai_ros_msgs/srv/__init__.py
+[13.938s] -- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_ros_msgs/lib/python3.6/site-packages/depthai_ros_msgs/srv/_normalized_image_crop.py
+[13.946s] -- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_ros_msgs/lib/python3.6/site-packages/depthai_ros_msgs/srv/_trigger_named.py
+[13.957s] -- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_ros_msgs/lib/python3.6/site-packages/depthai_ros_msgs/depthai_ros_msgs_s__rosidl_typesupport_fastrtps_c.cpython-36m-aarch64-linux-gnu.so
+[13.966s] -- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_ros_msgs/lib/python3.6/site-packages/depthai_ros_msgs/depthai_ros_msgs_s__rosidl_typesupport_introspection_c.cpython-36m-aarch64-linux-gnu.so
+[13.976s] -- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_ros_msgs/lib/python3.6/site-packages/depthai_ros_msgs/depthai_ros_msgs_s__rosidl_typesupport_c.cpython-36m-aarch64-linux-gnu.so
+[13.986s] -- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_ros_msgs/lib/libdepthai_ros_msgs__python.so
+[13.995s] -- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_ros_msgs/share/depthai_ros_msgs/msg/AutoFocusCtrl.idl
+[14.004s] -- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_ros_msgs/share/depthai_ros_msgs/msg/HandLandmark.idl
+[14.014s] -- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_ros_msgs/share/depthai_ros_msgs/msg/HandLandmarkArray.idl
+[14.024s] -- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_ros_msgs/share/depthai_ros_msgs/msg/SpatialDetection.idl
+[14.034s] -- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_ros_msgs/share/depthai_ros_msgs/msg/SpatialDetectionArray.idl
+[14.045s] -- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_ros_msgs/share/depthai_ros_msgs/srv/TriggerNamed.idl
+[14.054s] -- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_ros_msgs/share/depthai_ros_msgs/srv/NormalizedImageCrop.idl
+[14.064s] -- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_ros_msgs/share/depthai_ros_msgs/msg/AutoFocusCtrl.msg
+[14.073s] -- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_ros_msgs/share/depthai_ros_msgs/msg/HandLandmark.msg
+[14.082s] -- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_ros_msgs/share/depthai_ros_msgs/msg/HandLandmarkArray.msg
+[14.091s] -- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_ros_msgs/share/depthai_ros_msgs/msg/SpatialDetection.msg
+[14.100s] -- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_ros_msgs/share/depthai_ros_msgs/msg/SpatialDetectionArray.msg
+[14.109s] -- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_ros_msgs/share/depthai_ros_msgs/srv/TriggerNamed.srv
+[14.118s] -- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_ros_msgs/share/depthai_ros_msgs/srv/TriggerNamed_Request.msg
+[14.127s] -- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_ros_msgs/share/depthai_ros_msgs/srv/TriggerNamed_Response.msg
+[14.136s] -- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_ros_msgs/share/depthai_ros_msgs/srv/NormalizedImageCrop.srv
+[14.145s] -- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_ros_msgs/share/depthai_ros_msgs/srv/NormalizedImageCrop_Request.msg
+[14.154s] -- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_ros_msgs/share/depthai_ros_msgs/srv/NormalizedImageCrop_Response.msg
+[14.163s] -- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_ros_msgs/share/ament_index/resource_index/package_run_dependencies/depthai_ros_msgs
+[14.172s] -- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_ros_msgs/share/ament_index/resource_index/parent_prefix_path/depthai_ros_msgs
+[14.182s] -- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_ros_msgs/share/depthai_ros_msgs/environment/ament_prefix_path.sh
+[14.191s] -- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_ros_msgs/share/depthai_ros_msgs/environment/ament_prefix_path.dsv
+[14.201s] -- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_ros_msgs/share/depthai_ros_msgs/environment/path.sh
+[14.210s] -- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_ros_msgs/share/depthai_ros_msgs/environment/path.dsv
+[14.219s] -- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_ros_msgs/share/depthai_ros_msgs/local_setup.bash
+[14.231s] -- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_ros_msgs/share/depthai_ros_msgs/local_setup.sh
+[14.237s] -- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_ros_msgs/share/depthai_ros_msgs/local_setup.zsh
+[14.247s] -- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_ros_msgs/share/depthai_ros_msgs/local_setup.dsv
+[14.255s] -- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_ros_msgs/share/depthai_ros_msgs/package.dsv
+[14.265s] -- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_ros_msgs/share/ament_index/resource_index/packages/depthai_ros_msgs
+[14.274s] -- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_ros_msgs/share/depthai_ros_msgs/cmake/rosidl_cmake-extras.cmake
+[14.283s] -- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_ros_msgs/share/depthai_ros_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[14.292s] -- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_ros_msgs/share/depthai_ros_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[14.301s] -- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_ros_msgs/share/depthai_ros_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[14.310s] -- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_ros_msgs/share/depthai_ros_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[14.319s] -- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_ros_msgs/share/depthai_ros_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[14.328s] -- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_ros_msgs/share/depthai_ros_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[14.337s] -- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_ros_msgs/share/depthai_ros_msgs/cmake/depthai_ros_msgsConfig.cmake
+[14.346s] -- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_ros_msgs/share/depthai_ros_msgs/cmake/depthai_ros_msgsConfig-version.cmake
+[14.355s] -- Symlinking: /workspaces/ROS_PointCloud_AGV/install/depthai_ros_msgs/share/depthai_ros_msgs/package.xml
+[14.364s] -- Up-to-date: /workspaces/ROS_PointCloud_AGV/install/depthai_ros_msgs/lib/libdepthai_ros_msgs__rosidl_generator_c.so
+[14.365s] -- Up-to-date: /workspaces/ROS_PointCloud_AGV/install/depthai_ros_msgs/lib/libdepthai_ros_msgs__rosidl_typesupport_introspection_c.so
+[14.367s] -- Up-to-date: /workspaces/ROS_PointCloud_AGV/install/depthai_ros_msgs/lib/libdepthai_ros_msgs__rosidl_typesupport_c.so
+[14.368s] -- Up-to-date: /workspaces/ROS_PointCloud_AGV/install/depthai_ros_msgs/lib/libdepthai_ros_msgs__rosidl_typesupport_introspection_cpp.so
+[14.369s] -- Up-to-date: /workspaces/ROS_PointCloud_AGV/install/depthai_ros_msgs/lib/libdepthai_ros_msgs__rosidl_typesupport_cpp.so
+[14.511s] Compiling '/workspaces/ROS_PointCloud_AGV/install/depthai_ros_msgs/lib/python3.6/site-packages/depthai_ros_msgs/__init__.py'...
+[14.532s] -- Up-to-date: /workspaces/ROS_PointCloud_AGV/install/depthai_ros_msgs/share/depthai_ros_msgs/cmake/depthai_ros_msgs__rosidl_generator_cExport.cmake
+[14.533s] -- Up-to-date: /workspaces/ROS_PointCloud_AGV/install/depthai_ros_msgs/share/depthai_ros_msgs/cmake/depthai_ros_msgs__rosidl_generator_cExport-noconfig.cmake
+[14.534s] -- Up-to-date: /workspaces/ROS_PointCloud_AGV/install/depthai_ros_msgs/share/depthai_ros_msgs/cmake/depthai_ros_msgs__rosidl_typesupport_introspection_cExport.cmake
+[14.534s] -- Up-to-date: /workspaces/ROS_PointCloud_AGV/install/depthai_ros_msgs/share/depthai_ros_msgs/cmake/depthai_ros_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[14.535s] -- Up-to-date: /workspaces/ROS_PointCloud_AGV/install/depthai_ros_msgs/share/depthai_ros_msgs/cmake/depthai_ros_msgs__rosidl_typesupport_cExport.cmake
+[14.535s] -- Up-to-date: /workspaces/ROS_PointCloud_AGV/install/depthai_ros_msgs/share/depthai_ros_msgs/cmake/depthai_ros_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[14.536s] -- Up-to-date: /workspaces/ROS_PointCloud_AGV/install/depthai_ros_msgs/share/depthai_ros_msgs/cmake/depthai_ros_msgs__rosidl_generator_cppExport.cmake
+[14.536s] -- Up-to-date: /workspaces/ROS_PointCloud_AGV/install/depthai_ros_msgs/share/depthai_ros_msgs/cmake/depthai_ros_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[14.537s] -- Up-to-date: /workspaces/ROS_PointCloud_AGV/install/depthai_ros_msgs/share/depthai_ros_msgs/cmake/depthai_ros_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[14.538s] -- Up-to-date: /workspaces/ROS_PointCloud_AGV/install/depthai_ros_msgs/share/depthai_ros_msgs/cmake/depthai_ros_msgs__rosidl_typesupport_cppExport.cmake
+[14.538s] -- Up-to-date: /workspaces/ROS_PointCloud_AGV/install/depthai_ros_msgs/share/depthai_ros_msgs/cmake/depthai_ros_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[14.564s] Invoked command in '/workspaces/ROS_PointCloud_AGV/build/depthai_ros_msgs' returned '0': /usr/local/bin/cmake --install /workspaces/ROS_PointCloud_AGV/build/depthai_ros_msgs

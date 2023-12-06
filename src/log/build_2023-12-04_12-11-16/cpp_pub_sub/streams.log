@@ -1,0 +1,79 @@
+[0.135s] Invoking command in '/workspaces/ROS_PointCloud_AGV/src/build/cpp_pub_sub': /usr/local/bin/cmake /workspaces/ROS_PointCloud_AGV/src/cpp_pub_sub -DCMAKE_INSTALL_PREFIX=/workspaces/ROS_PointCloud_AGV/src/install/cpp_pub_sub
+[0.498s] -- The C compiler identification is GNU 7.5.0
+[0.714s] -- The CXX compiler identification is GNU 7.5.0
+[0.778s] -- Detecting C compiler ABI info
+[1.053s] -- Detecting C compiler ABI info - done
+[1.106s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.112s] -- Detecting C compile features
+[1.114s] -- Detecting C compile features - done
+[1.154s] -- Detecting CXX compiler ABI info
+[1.423s] -- Detecting CXX compiler ABI info - done
+[1.470s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.472s] -- Detecting CXX compile features
+[1.476s] -- Detecting CXX compile features - done
+[1.500s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/install/share/ament_cmake/cmake)
+[1.525s] [33mCMake Warning (dev) at /opt/ros/foxy/install/share/ament_cmake_core/cmake/core/python.cmake:22 (find_package):
+[1.528s]   Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+[1.528s]   are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+[1.529s]   the cmake_policy command to set the policy and suppress this warning.
+[1.529s] 
+[1.530s] Call Stack (most recent call first):
+[1.530s]   /opt/ros/foxy/install/share/ament_cmake_core/cmake/core/all.cmake:53 (include)
+[1.531s]   /opt/ros/foxy/install/share/ament_cmake_core/cmake/ament_cmake_core-extras.cmake:17 (include)
+[1.531s]   /opt/ros/foxy/install/share/ament_cmake_core/cmake/ament_cmake_coreConfig.cmake:41 (include)
+[1.532s]   /opt/ros/foxy/install/share/ament_cmake/cmake/ament_cmake_export_dependencies-extras.cmake:15 (find_package)
+[1.532s]   /opt/ros/foxy/install/share/ament_cmake/cmake/ament_cmakeConfig.cmake:41 (include)
+[1.533s]   CMakeLists.txt:18 (find_package)
+[1.533s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[1.534s] [0m
+[1.626s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.6.9", minimum required is "3") 
+[1.627s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.783s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/install/share/rclcpp/cmake)
+[2.993s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.031s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/install/share/rosidl_adapter/cmake)
+[3.288s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "1.1.1")  
+[3.380s] -- Found FastRTPS: /opt/ros/foxy/install/include  
+[3.743s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.046s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/install/share/rmw_implementation_cmake/cmake)
+[4.052s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[4.056s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[4.299s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[4.300s] -- Looking for pthread_create in pthreads
+[4.486s] -- Looking for pthread_create in pthreads - not found
+[4.487s] -- Looking for pthread_create in pthread
+[4.715s] -- Looking for pthread_create in pthread - found
+[4.720s] -- Found Threads: TRUE  
+[5.978s] -- Configuring done (5.7s)
+[6.032s] -- Generating done (0.0s)
+[6.038s] -- Build files have been written to: /workspaces/ROS_PointCloud_AGV/src/build/cpp_pub_sub
+[6.085s] Invoked command in '/workspaces/ROS_PointCloud_AGV/src/build/cpp_pub_sub' returned '0': /usr/local/bin/cmake /workspaces/ROS_PointCloud_AGV/src/cpp_pub_sub -DCMAKE_INSTALL_PREFIX=/workspaces/ROS_PointCloud_AGV/src/install/cpp_pub_sub
+[6.097s] Invoking command in '/workspaces/ROS_PointCloud_AGV/src/build/cpp_pub_sub': /usr/local/bin/cmake --build /workspaces/ROS_PointCloud_AGV/src/build/cpp_pub_sub -- -j4 -l4
+[6.307s] [ 25%] [32mBuilding CXX object CMakeFiles/listener.dir/src/subscriber_member_function.cpp.o[0m
+[6.318s] [ 50%] [32mBuilding CXX object CMakeFiles/talker.dir/src/publisher_member_function.cpp.o[0m
+[17.927s] [ 75%] [32m[1mLinking CXX executable talker[0m
+[18.530s] [ 75%] Built target talker
+[25.250s] [100%] [32m[1mLinking CXX executable listener[0m
+[26.166s] [100%] Built target listener
+[26.200s] Invoked command in '/workspaces/ROS_PointCloud_AGV/src/build/cpp_pub_sub' returned '0': /usr/local/bin/cmake --build /workspaces/ROS_PointCloud_AGV/src/build/cpp_pub_sub -- -j4 -l4
+[26.435s] Invoking command in '/workspaces/ROS_PointCloud_AGV/src/build/cpp_pub_sub': /usr/local/bin/cmake --install /workspaces/ROS_PointCloud_AGV/src/build/cpp_pub_sub
+[26.569s] -- Install configuration: ""
+[26.570s] -- Installing: /workspaces/ROS_PointCloud_AGV/src/install/cpp_pub_sub/lib/cpp_pub_sub/talker
+[26.574s] -- Set runtime path of "/workspaces/ROS_PointCloud_AGV/src/install/cpp_pub_sub/lib/cpp_pub_sub/talker" to ""
+[26.574s] -- Installing: /workspaces/ROS_PointCloud_AGV/src/install/cpp_pub_sub/lib/cpp_pub_sub/listener
+[26.582s] -- Set runtime path of "/workspaces/ROS_PointCloud_AGV/src/install/cpp_pub_sub/lib/cpp_pub_sub/listener" to ""
+[26.583s] -- Installing: /workspaces/ROS_PointCloud_AGV/src/install/cpp_pub_sub/share/ament_index/resource_index/package_run_dependencies/cpp_pub_sub
+[26.584s] -- Installing: /workspaces/ROS_PointCloud_AGV/src/install/cpp_pub_sub/share/ament_index/resource_index/parent_prefix_path/cpp_pub_sub
+[26.585s] -- Installing: /workspaces/ROS_PointCloud_AGV/src/install/cpp_pub_sub/share/cpp_pub_sub/environment/ament_prefix_path.sh
+[26.586s] -- Installing: /workspaces/ROS_PointCloud_AGV/src/install/cpp_pub_sub/share/cpp_pub_sub/environment/ament_prefix_path.dsv
+[26.587s] -- Installing: /workspaces/ROS_PointCloud_AGV/src/install/cpp_pub_sub/share/cpp_pub_sub/environment/path.sh
+[26.588s] -- Installing: /workspaces/ROS_PointCloud_AGV/src/install/cpp_pub_sub/share/cpp_pub_sub/environment/path.dsv
+[26.588s] -- Installing: /workspaces/ROS_PointCloud_AGV/src/install/cpp_pub_sub/share/cpp_pub_sub/local_setup.bash
+[26.589s] -- Installing: /workspaces/ROS_PointCloud_AGV/src/install/cpp_pub_sub/share/cpp_pub_sub/local_setup.sh
+[26.589s] -- Installing: /workspaces/ROS_PointCloud_AGV/src/install/cpp_pub_sub/share/cpp_pub_sub/local_setup.zsh
+[26.590s] -- Installing: /workspaces/ROS_PointCloud_AGV/src/install/cpp_pub_sub/share/cpp_pub_sub/local_setup.dsv
+[26.592s] -- Installing: /workspaces/ROS_PointCloud_AGV/src/install/cpp_pub_sub/share/cpp_pub_sub/package.dsv
+[26.592s] -- Installing: /workspaces/ROS_PointCloud_AGV/src/install/cpp_pub_sub/share/ament_index/resource_index/packages/cpp_pub_sub
+[26.593s] -- Installing: /workspaces/ROS_PointCloud_AGV/src/install/cpp_pub_sub/share/cpp_pub_sub/cmake/cpp_pub_subConfig.cmake
+[26.594s] -- Installing: /workspaces/ROS_PointCloud_AGV/src/install/cpp_pub_sub/share/cpp_pub_sub/cmake/cpp_pub_subConfig-version.cmake
+[26.594s] -- Installing: /workspaces/ROS_PointCloud_AGV/src/install/cpp_pub_sub/share/cpp_pub_sub/package.xml
+[26.618s] Invoked command in '/workspaces/ROS_PointCloud_AGV/src/build/cpp_pub_sub' returned '0': /usr/local/bin/cmake --install /workspaces/ROS_PointCloud_AGV/src/build/cpp_pub_sub

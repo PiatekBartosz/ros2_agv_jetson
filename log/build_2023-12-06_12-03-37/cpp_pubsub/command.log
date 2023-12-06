@@ -1,0 +1,2 @@
+Invoking command in '/workspaces/ROS_PointCloud_AGV/build/cpp_pubsub': /usr/local/bin/cmake /workspaces/ROS_PointCloud_AGV/src/cpp_pubsub -DCMAKE_INSTALL_PREFIX=/workspaces/ROS_PointCloud_AGV/install/cpp_pubsub
+Invoked command in '/workspaces/ROS_PointCloud_AGV/build/cpp_pubsub' returned '1': /usr/local/bin/cmake /workspaces/ROS_PointCloud_AGV/src/cpp_pubsub -DCMAKE_INSTALL_PREFIX=/workspaces/ROS_PointCloud_AGV/install/cpp_pubsub
