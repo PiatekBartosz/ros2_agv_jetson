@@ -1,3 +1,0 @@
-depthai_filters::Detection2DOverlay;lib/libdepthai_filters.so
-depthai_filters::SegmentationOverlay;lib/libdepthai_filters.so
-depthai_filters::WLSFilter;lib/libdepthai_filters.so

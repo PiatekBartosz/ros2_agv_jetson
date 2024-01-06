@@ -1,1 +1,0 @@
-ament_cmake_symlink_install_targets("TARGET_FILES" "/workspaces/ROS_PointCloud_AGV/build/cpp_pubsub/talker" "/workspaces/ROS_PointCloud_AGV/build/cpp_pubsub/listener" "TARGETS" "talker" "listener" "DESTINATION" "lib/cpp_pubsub")

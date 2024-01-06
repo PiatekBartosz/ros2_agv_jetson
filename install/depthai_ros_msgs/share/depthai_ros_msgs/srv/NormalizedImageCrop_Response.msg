@@ -1,1 +1,0 @@
-/workspaces/ROS_PointCloud_AGV/build/depthai_ros_msgs/rosidl_cmake/srv/NormalizedImageCrop_Response.msg

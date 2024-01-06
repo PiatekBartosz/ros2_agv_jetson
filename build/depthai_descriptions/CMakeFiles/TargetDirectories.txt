@@ -1,9 +1,0 @@
-/workspaces/ROS_PointCloud_AGV/build/depthai_descriptions/CMakeFiles/uninstall.dir
-/workspaces/ROS_PointCloud_AGV/build/depthai_descriptions/CMakeFiles/depthai_descriptions_uninstall.dir
-/workspaces/ROS_PointCloud_AGV/build/depthai_descriptions/CMakeFiles/test.dir
-/workspaces/ROS_PointCloud_AGV/build/depthai_descriptions/CMakeFiles/edit_cache.dir
-/workspaces/ROS_PointCloud_AGV/build/depthai_descriptions/CMakeFiles/rebuild_cache.dir
-/workspaces/ROS_PointCloud_AGV/build/depthai_descriptions/CMakeFiles/list_install_components.dir
-/workspaces/ROS_PointCloud_AGV/build/depthai_descriptions/CMakeFiles/install.dir
-/workspaces/ROS_PointCloud_AGV/build/depthai_descriptions/CMakeFiles/install/local.dir
-/workspaces/ROS_PointCloud_AGV/build/depthai_descriptions/CMakeFiles/install/strip.dir

@@ -1,3 +1,0 @@
-[console_scripts]
-oakd_publisher = sensor_package.oakd_publisher:main
-

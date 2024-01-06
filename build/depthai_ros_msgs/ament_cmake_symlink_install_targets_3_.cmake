@@ -1,1 +1,0 @@
-ament_cmake_symlink_install_targets("TARGET_FILES" "/workspaces/ROS_PointCloud_AGV/build/depthai_ros_msgs/rosidl_generator_py/depthai_ros_msgs/depthai_ros_msgs_s__rosidl_typesupport_introspection_c.cpython-36m-aarch64-linux-gnu.so" "TARGETS" "depthai_ros_msgs__rosidl_typesupport_introspection_c__pyext" "DESTINATION" "lib/python3.6/site-packages/depthai_ros_msgs")

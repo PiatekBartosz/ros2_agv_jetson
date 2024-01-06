@@ -1,50 +1,51 @@
 {
     "name": "agvcore",
-    "dockerFile": "./Dockerfile",
-    "remoteUser": "USERNAME",
-
-    "build": {
-        "args": {"BUILD_SEQUENTIAL": "1",
-        }
-    },
+    // "remoteUser": "agv", keeps crashing?
+    // "build": {
+		// "args": {"BUILD_SEQUENTIAL": "1", crashing?
+		// 		 "USE_RVIZ": "1"}
+    // },
+    "dockerFile": "../Dockerfile",
 
     "runArgs": [
-		"--device=/dev/ttyUSB0",
-		"--privileged",
-		"--network=host",
-		"--cap-add=SYS_PTRACE",
-		"--security-opt=seccomp:unconfined",
-		"--security-opt=apparmor:unconfined",
-		"--volume=/dev:/dev",
-		// "--volume=/tmp/.X11-unix:/tmp/.X11-unix"
+      "--device=/dev/ttyUSB0",
+      "--privileged",
+      "--network=host",
+      // "--cap", crashing?
+      "--security-opt=seccomp:unconfined",
+      "--security-opt=apparmor:unconfined",
+      "--volume=/dev:/dev",
+      "--volume=/tmp/.X11-unix:/tmp/.X11-unix",
+      "--runtime=nvidia" // TODO check if viable
     ],
 
     // used for GUI programs like RVIZ / QT
-    // "containerEnv": {"DISLAY": "${localEnv:DISPLAY"},
+    "containerEnv": { "DISPLAY": "${localEnv:DISPLAY}" },
 
     "customizations": {
         "vscode": {
-            "extensions":[
-                "ms-vscode.cpptools",
-                "ms-vscode.cpptools-themes",
-                "ms-iot.vscode-ros",
+            "extensions": [
                 "dotjoshjohnson.xml",
                 "ms-azuretools.vscode-docker",
+                "ms-iot.vscode-ros",
                 "ms-python.python",
+                "ms-vscode.cpptools",
                 "redhat.vscode-yaml",
                 "smilerobotics.urdf",
                 "streetsidesoftware.code-spell-checker",
                 "twxs.cmake",
                 "yzhang.markdown-all-in-one",
-                "augustocdias.tasks-shell-input"
+                "augustocdias.tasks-shell-input",
+                "eamodio.gitlens"
             ],
             "settings":{
                 "terminal.integrated.profiles.linux": {
                     "bash": {
-                        "path": "bash"
+                        "path": "zsh"
                     }
                 }
             }
         }
     }
 }
+

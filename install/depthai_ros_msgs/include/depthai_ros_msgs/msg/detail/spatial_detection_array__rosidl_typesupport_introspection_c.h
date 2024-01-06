@@ -1,1 +1,0 @@
-/workspaces/ROS_PointCloud_AGV/build/depthai_ros_msgs/rosidl_typesupport_introspection_c/depthai_ros_msgs/msg/detail/spatial_detection_array__rosidl_typesupport_introspection_c.h

@@ -1,1 +1,0 @@
-/workspaces/ROS_PointCloud_AGV/dai_ws/src/depthai-ros/depthai_ros_msgs/msg/HandLandmark.msg

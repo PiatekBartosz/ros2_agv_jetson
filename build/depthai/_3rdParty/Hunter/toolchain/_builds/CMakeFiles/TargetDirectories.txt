@@ -1,2 +1,0 @@
-/workspaces/ROS_PointCloud_AGV/build/depthai/_3rdParty/Hunter/toolchain/_builds/CMakeFiles/edit_cache.dir
-/workspaces/ROS_PointCloud_AGV/build/depthai/_3rdParty/Hunter/toolchain/_builds/CMakeFiles/rebuild_cache.dir
