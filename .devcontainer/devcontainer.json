@@ -1,5 +1,6 @@
 {
     "name": "agvcore",
+    // "containerUser": "agv", keeps crashing?
     // "remoteUser": "agv", keeps crashing?
     // "build": {
 		// "args": {"BUILD_SEQUENTIAL": "1", crashing?
@@ -27,8 +28,8 @@
             "extensions": [
                 "dotjoshjohnson.xml",
                 "ms-azuretools.vscode-docker",
-                "ms-iot.vscode-ros",
                 "ms-python.python",
+                "ms-iot.vscode-ros",
                 "ms-vscode.cpptools",
                 "redhat.vscode-yaml",
                 "smilerobotics.urdf",

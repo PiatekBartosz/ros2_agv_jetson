@@ -4,9 +4,9 @@ ARG ROS_DISTRO=foxy
 FROM dustynv/ros:foxy-ros-base-l4t-r32.7.1
 # FROM dustynv/ros:humble-pytorch-l4t-r32.7.1
 
-# ARG BUILD_TYPE="RelWithDebInfo"
-# ARG SIM=0
-# ENV DEBIAN_FRONTEND=noninteractive
+ARG BUILD_TYPE="RelWithDebInfo"
+ARG SIM=0
+ENV DEBIAN_FRONTEND=noninteractive
 
 RUN apt-get update && apt-get -y install --no-install-recommends \
     zsh \
@@ -47,9 +47,12 @@ COPY ./ .$WS/src/ROS_PointCloud_AGV
 # depthai-ros copy and build
 RUN cd ${WS}/src && git clone --branch foxy https://github.com/luxonis/depthai-ros.git
 
+# TODO for now skipping dependencies
 # RUN cd .$WS/ && rosdep install --from-paths src --ignore-src  -y --skip-keys depthai --skip-keys depthai_bridge --skip-keys depthai_ros_driver --skip-keys audio_msgs --skip-keys laserscan_kinect --skip-keys ira_laser_tools
-# RUN cd .$WS/ && . /opt/ros/${ROS_DISTRO}/setup.sh && . /sai_ros/spectacularai_ros2/install/setup.sh && colcon build --symlink-install --cmake-args -DCMAKE_BUILD_TYPE=${BUILD_TYPE}
 
+
+# TODO for now build manualy
+# RUN cd .$WS/ && . /opt/ros/foxy/install/setup.sh && colcon build --symlink-install --cmake-args -DCMAKE_BUILD_TYPE=${BUILD_TYPE}
 # #  setup env variables for ROS2 and colcon
 # RUN echo "if [ -f ${WS}/install/setup.zsh ]; then source ${WS}/install/setup.zsh; fi" >> $HOME/.zshrc
 # RUN echo 'eval "$(register-python-argcomplete3 ros2)"' >> $HOME/.zshrc
@@ -57,6 +60,6 @@ RUN cd ${WS}/src && git clone --branch foxy https://github.com/luxonis/depthai-r
 # RUN echo "if [ -f ${WS}/install/setup.bash ]; then source ${WS}/install/setup.bash; fi" >> $HOME/.bashrc 
 
 # set entry point executable
-RUN chmod +x /ws/src/ROS_PointCloud_AGV/entrypoint.sh
-ENTRYPOINT [ "/ws/ROS_PointCloud_AGV/entrypoint.sh" ]
+# RUN chmod +x /ws/src/ROS_PointCloud_AGV/entrypoint.sh
+# ENTRYPOINT [ "/ws/ROS_PointCloud_AGV/entrypoint.sh" ]
 CMD ["bash"]
