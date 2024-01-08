@@ -8,6 +8,10 @@
     // },
     "dockerFile": "../Dockerfile",
 
+    "build": {
+        "args": {"USE_RVIZ": "1"}
+    },
+
     "runArgs": [
       "--device=/dev/ttyUSB0",
       "--privileged",
@@ -18,7 +22,7 @@
       "--volume=/dev:/dev",
       "--volume=/tmp/.X11-unix:/tmp/.X11-unix",
       "--runtime=nvidia" // TODO check if viable
-    ],
+    ], 
 
     // used for GUI programs like RVIZ / QT
     "containerEnv": { "DISPLAY": "${localEnv:DISPLAY}" },

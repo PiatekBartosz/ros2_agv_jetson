@@ -1,0 +1,85 @@
+[1.472s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'list', '-p', '--base-paths', '/workspaces/ROS_PointCloud_AGV']
+[1.472s] DEBUG:colcon:Parsed command line arguments: Namespace(base_paths=['/workspaces/ROS_PointCloud_AGV'], build_base='build', ignore_user_meta=False, log_base=None, log_level=None, main=<bound method ListVerb.main of <colcon_package_information.verb.list.ListVerb object at 0x7fa800c7f0>>, metas=['./colcon.meta'], mixin=None, mixin_files=None, mixin_verb=('list',), names_only=False, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, paths=None, paths_only=True, topological_graph=False, topological_graph_density=False, topological_graph_dot=False, topological_graph_dot_cluster=False, topological_graph_dot_include_skipped=False, topological_graph_legend=False, topological_order=False, verb_extension=<colcon_package_information.verb.list.ListVerb object at 0x7fa800c7f0>, verb_name='list', verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7fa7ef04c0>)
+[1.648s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[1.652s] INFO:colcon.colcon_metadata.package_discovery.colcon_meta:Using configuration from '/root/.colcon/metadata/default/Gazebo.meta'
+[1.655s] INFO:colcon.colcon_metadata.package_discovery.colcon_meta:Using configuration from '/root/.colcon/metadata/default/fastrtps.meta'
+[1.656s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[1.656s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[1.657s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[1.657s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[1.658s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/workspaces/ROS_PointCloud_AGV'
+[1.659s] Level 1:colcon.colcon_core.package_identification:_identify(/workspaces/ROS_PointCloud_AGV) by extensions ['ignore', 'ignore_ament_install']
+[1.660s] Level 1:colcon.colcon_core.package_identification:_identify(/workspaces/ROS_PointCloud_AGV) by extension 'ignore'
+[1.660s] Level 1:colcon.colcon_core.package_identification:_identify(/workspaces/ROS_PointCloud_AGV) by extension 'ignore_ament_install'
+[1.661s] Level 1:colcon.colcon_core.package_identification:_identify(/workspaces/ROS_PointCloud_AGV) by extensions ['colcon_pkg']
+[1.661s] Level 1:colcon.colcon_core.package_identification:_identify(/workspaces/ROS_PointCloud_AGV) by extension 'colcon_pkg'
+[1.662s] Level 1:colcon.colcon_core.package_identification:_identify(/workspaces/ROS_PointCloud_AGV) by extensions ['colcon_meta']
+[1.663s] Level 1:colcon.colcon_core.package_identification:_identify(/workspaces/ROS_PointCloud_AGV) by extension 'colcon_meta'
+[1.663s] Level 1:colcon.colcon_core.package_identification:_identify(/workspaces/ROS_PointCloud_AGV) by extensions ['ros']
+[1.664s] Level 1:colcon.colcon_core.package_identification:_identify(/workspaces/ROS_PointCloud_AGV) by extension 'ros'
+[1.724s] Level 1:colcon.colcon_core.package_identification:_identify(/workspaces/ROS_PointCloud_AGV) by extensions ['cmake', 'python']
+[1.725s] Level 1:colcon.colcon_core.package_identification:_identify(/workspaces/ROS_PointCloud_AGV) by extension 'cmake'
+[1.726s] Level 1:colcon.colcon_core.package_identification:_identify(/workspaces/ROS_PointCloud_AGV) by extension 'python'
+[1.727s] Level 1:colcon.colcon_core.package_identification:_identify(/workspaces/ROS_PointCloud_AGV) by extensions ['python_setup_py']
+[1.727s] Level 1:colcon.colcon_core.package_identification:_identify(/workspaces/ROS_PointCloud_AGV) by extension 'python_setup_py'
+[1.729s] Level 1:colcon.colcon_core.package_identification:_identify(/workspaces/ROS_PointCloud_AGV/log) by extensions ['ignore', 'ignore_ament_install']
+[1.730s] Level 1:colcon.colcon_core.package_identification:_identify(/workspaces/ROS_PointCloud_AGV/log) by extension 'ignore'
+[1.731s] Level 1:colcon.colcon_core.package_identification:_identify(/workspaces/ROS_PointCloud_AGV/log) ignored
+[1.732s] Level 1:colcon.colcon_core.package_identification:_identify(/workspaces/ROS_PointCloud_AGV/src) by extensions ['ignore', 'ignore_ament_install']
+[1.734s] Level 1:colcon.colcon_core.package_identification:_identify(/workspaces/ROS_PointCloud_AGV/src) by extension 'ignore'
+[1.735s] Level 1:colcon.colcon_core.package_identification:_identify(/workspaces/ROS_PointCloud_AGV/src) by extension 'ignore_ament_install'
+[1.736s] Level 1:colcon.colcon_core.package_identification:_identify(/workspaces/ROS_PointCloud_AGV/src) by extensions ['colcon_pkg']
+[1.744s] Level 1:colcon.colcon_core.package_identification:_identify(/workspaces/ROS_PointCloud_AGV/src) by extension 'colcon_pkg'
+[1.745s] Level 1:colcon.colcon_core.package_identification:_identify(/workspaces/ROS_PointCloud_AGV/src) by extensions ['colcon_meta']
+[1.745s] Level 1:colcon.colcon_core.package_identification:_identify(/workspaces/ROS_PointCloud_AGV/src) by extension 'colcon_meta'
+[1.750s] Level 1:colcon.colcon_core.package_identification:_identify(/workspaces/ROS_PointCloud_AGV/src) by extensions ['ros']
+[1.753s] Level 1:colcon.colcon_core.package_identification:_identify(/workspaces/ROS_PointCloud_AGV/src) by extension 'ros'
+[1.754s] Level 1:colcon.colcon_core.package_identification:_identify(/workspaces/ROS_PointCloud_AGV/src) by extensions ['cmake', 'python']
+[1.754s] Level 1:colcon.colcon_core.package_identification:_identify(/workspaces/ROS_PointCloud_AGV/src) by extension 'cmake'
+[1.754s] Level 1:colcon.colcon_core.package_identification:_identify(/workspaces/ROS_PointCloud_AGV/src) by extension 'python'
+[1.755s] Level 1:colcon.colcon_core.package_identification:_identify(/workspaces/ROS_PointCloud_AGV/src) by extensions ['python_setup_py']
+[1.755s] Level 1:colcon.colcon_core.package_identification:_identify(/workspaces/ROS_PointCloud_AGV/src) by extension 'python_setup_py'
+[1.755s] Level 1:colcon.colcon_core.package_identification:_identify(/workspaces/ROS_PointCloud_AGV/src/build) by extensions ['ignore', 'ignore_ament_install']
+[1.756s] Level 1:colcon.colcon_core.package_identification:_identify(/workspaces/ROS_PointCloud_AGV/src/build) by extension 'ignore'
+[1.756s] Level 1:colcon.colcon_core.package_identification:_identify(/workspaces/ROS_PointCloud_AGV/src/build) ignored
+[1.757s] Level 1:colcon.colcon_core.package_identification:_identify(/workspaces/ROS_PointCloud_AGV/src/cpp_pubsub) by extensions ['ignore', 'ignore_ament_install']
+[1.758s] Level 1:colcon.colcon_core.package_identification:_identify(/workspaces/ROS_PointCloud_AGV/src/cpp_pubsub) by extension 'ignore'
+[1.758s] Level 1:colcon.colcon_core.package_identification:_identify(/workspaces/ROS_PointCloud_AGV/src/cpp_pubsub) by extension 'ignore_ament_install'
+[1.759s] Level 1:colcon.colcon_core.package_identification:_identify(/workspaces/ROS_PointCloud_AGV/src/cpp_pubsub) by extensions ['colcon_pkg']
+[1.759s] Level 1:colcon.colcon_core.package_identification:_identify(/workspaces/ROS_PointCloud_AGV/src/cpp_pubsub) by extension 'colcon_pkg'
+[1.760s] Level 1:colcon.colcon_core.package_identification:_identify(/workspaces/ROS_PointCloud_AGV/src/cpp_pubsub) by extensions ['colcon_meta']
+[1.760s] Level 1:colcon.colcon_core.package_identification:_identify(/workspaces/ROS_PointCloud_AGV/src/cpp_pubsub) by extension 'colcon_meta'
+[1.761s] Level 1:colcon.colcon_core.package_identification:_identify(/workspaces/ROS_PointCloud_AGV/src/cpp_pubsub) by extensions ['ros']
+[1.762s] Level 1:colcon.colcon_core.package_identification:_identify(/workspaces/ROS_PointCloud_AGV/src/cpp_pubsub) by extension 'ros'
+[1.778s] DEBUG:colcon.colcon_core.package_identification:Package '/workspaces/ROS_PointCloud_AGV/src/cpp_pubsub' with type 'ros.ament_cmake' and name 'cpp_pubsub'
+[1.778s] Level 1:colcon.colcon_core.package_identification:_identify(/workspaces/ROS_PointCloud_AGV/src/depthai-ros) by extensions ['ignore', 'ignore_ament_install']
+[1.779s] Level 1:colcon.colcon_core.package_identification:_identify(/workspaces/ROS_PointCloud_AGV/src/depthai-ros) by extension 'ignore'
+[1.779s] Level 1:colcon.colcon_core.package_identification:_identify(/workspaces/ROS_PointCloud_AGV/src/depthai-ros) by extension 'ignore_ament_install'
+[1.780s] Level 1:colcon.colcon_core.package_identification:_identify(/workspaces/ROS_PointCloud_AGV/src/depthai-ros) by extensions ['colcon_pkg']
+[1.780s] Level 1:colcon.colcon_core.package_identification:_identify(/workspaces/ROS_PointCloud_AGV/src/depthai-ros) by extension 'colcon_pkg'
+[1.780s] Level 1:colcon.colcon_core.package_identification:_identify(/workspaces/ROS_PointCloud_AGV/src/depthai-ros) by extensions ['colcon_meta']
+[1.780s] Level 1:colcon.colcon_core.package_identification:_identify(/workspaces/ROS_PointCloud_AGV/src/depthai-ros) by extension 'colcon_meta'
+[1.781s] Level 1:colcon.colcon_core.package_identification:_identify(/workspaces/ROS_PointCloud_AGV/src/depthai-ros) by extensions ['ros']
+[1.781s] Level 1:colcon.colcon_core.package_identification:_identify(/workspaces/ROS_PointCloud_AGV/src/depthai-ros) by extension 'ros'
+[1.781s] Level 1:colcon.colcon_core.package_identification:_identify(/workspaces/ROS_PointCloud_AGV/src/depthai-ros) by extensions ['cmake', 'python']
+[1.782s] Level 1:colcon.colcon_core.package_identification:_identify(/workspaces/ROS_PointCloud_AGV/src/depthai-ros) by extension 'cmake'
+[1.782s] Level 1:colcon.colcon_core.package_identification:_identify(/workspaces/ROS_PointCloud_AGV/src/depthai-ros) by extension 'python'
+[1.782s] Level 1:colcon.colcon_core.package_identification:_identify(/workspaces/ROS_PointCloud_AGV/src/depthai-ros) by extensions ['python_setup_py']
+[1.783s] Level 1:colcon.colcon_core.package_identification:_identify(/workspaces/ROS_PointCloud_AGV/src/depthai-ros) by extension 'python_setup_py'
+[1.783s] Level 1:colcon.colcon_core.package_identification:_identify(/workspaces/ROS_PointCloud_AGV/src/install) by extensions ['ignore', 'ignore_ament_install']
+[1.784s] Level 1:colcon.colcon_core.package_identification:_identify(/workspaces/ROS_PointCloud_AGV/src/install) by extension 'ignore'
+[1.784s] Level 1:colcon.colcon_core.package_identification:_identify(/workspaces/ROS_PointCloud_AGV/src/install) ignored
+[1.785s] Level 1:colcon.colcon_core.package_identification:_identify(/workspaces/ROS_PointCloud_AGV/src/log) by extensions ['ignore', 'ignore_ament_install']
+[1.785s] Level 1:colcon.colcon_core.package_identification:_identify(/workspaces/ROS_PointCloud_AGV/src/log) by extension 'ignore'
+[1.786s] Level 1:colcon.colcon_core.package_identification:_identify(/workspaces/ROS_PointCloud_AGV/src/log) ignored
+[1.786s] Level 1:colcon.colcon_core.package_identification:_identify(/workspaces/ROS_PointCloud_AGV/src/sensor_fusion) by extensions ['ignore', 'ignore_ament_install']
+[1.787s] Level 1:colcon.colcon_core.package_identification:_identify(/workspaces/ROS_PointCloud_AGV/src/sensor_fusion) by extension 'ignore'
+[1.787s] Level 1:colcon.colcon_core.package_identification:_identify(/workspaces/ROS_PointCloud_AGV/src/sensor_fusion) by extension 'ignore_ament_install'
+[1.788s] Level 1:colcon.colcon_core.package_identification:_identify(/workspaces/ROS_PointCloud_AGV/src/sensor_fusion) by extensions ['colcon_pkg']
+[1.788s] Level 1:colcon.colcon_core.package_identification:_identify(/workspaces/ROS_PointCloud_AGV/src/sensor_fusion) by extension 'colcon_pkg'
+[1.788s] Level 1:colcon.colcon_core.package_identification:_identify(/workspaces/ROS_PointCloud_AGV/src/sensor_fusion) by extensions ['colcon_meta']
+[1.788s] Level 1:colcon.colcon_core.package_identification:_identify(/workspaces/ROS_PointCloud_AGV/src/sensor_fusion) by extension 'colcon_meta'
+[1.789s] Level 1:colcon.colcon_core.package_identification:_identify(/workspaces/ROS_PointCloud_AGV/src/sensor_fusion) by extensions ['ros']
+[1.789s] Level 1:colcon.colcon_core.package_identification:_identify(/workspaces/ROS_PointCloud_AGV/src/sensor_fusion) by extension 'ros'
+[1.799s] DEBUG:colcon.colcon_core.package_identification:Package '/workspaces/ROS_PointCloud_AGV/src/sensor_fusion' with type 'ros.ament_cmake' and name 'sensor_fusion'
+[1.800s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults

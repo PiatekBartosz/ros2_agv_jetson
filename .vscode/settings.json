@@ -1,4 +1,12 @@
 {
   "ros.rosSetupScript": "source /opt/ros/foxy/install/setup.bash",
-  "ros.distro": ""
+  "ros.distro": "",
+  "python.autoComplete.extraPaths": [
+    "/ws/install/lib/python3.8/site-packages",
+    "/opt/ros/foxy/lib/python3.8/site-packages"
+  ],
+  "python.analysis.extraPaths": [
+    "/ws/install/lib/python3.8/site-packages",
+    "/opt/ros/foxy/lib/python3.8/site-packages"
+  ]
 }
